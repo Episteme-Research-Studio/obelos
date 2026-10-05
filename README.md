@@ -13,7 +13,7 @@
 [![licence: MIT](https://img.shields.io/badge/licence-MIT-1F2A44)](LICENSE)
 [![node](https://img.shields.io/badge/node-%E2%89%A520-1F2A44)](package.json)
 
-[Quick start](#quick-start) · [What it checks](#what-it-checks) · [Use in CI](#use-in-ci) · [Why the name](#why-the-name) · [Documentation](docs/)
+[Installation](#installation) · [Quick start](#quick-start) · [What it checks](#what-it-checks) · [Use in CI](#use-in-ci) · [Why the name](#why-the-name) · [Documentation](docs/)
 
 </div>
 
@@ -29,6 +29,34 @@ Teams have started to call this discipline *ContextOps*: treating the context an
 - **Open core.** The linter is MIT-licensed and will stay so.
 
 > **Status: alpha** (`0.1.0-alpha.0`). Checked against 150 public repositories with no crashes; see [Honest limits](#honest-limits) for what that does and does not establish.
+
+## Installation
+
+Obelos needs **Node.js 20 or newer** (check with `node -v`). It has no other prerequisites and makes no network calls when it runs. It is tested in CI on Linux, macOS and Windows with Node 20 and 22.
+
+**Try it without installing:**
+
+```bash
+npx obelos@alpha lint .
+```
+
+**Add it to a project** (recommended, so everyone and CI use the same version):
+
+```bash
+npm install --save-dev --save-exact obelos@alpha     # or: pnpm add -D obelos@alpha / yarn add -D obelos@alpha / bun add -d obelos@alpha
+npx obelos lint .
+```
+
+**Install it globally:**
+
+```bash
+npm install --global obelos@alpha
+obelos --version
+```
+
+While Obelos is in alpha, rules and scores may change between releases, so pin an exact version in CI (for example `obelos@0.1.0-alpha.0`) and read the [CHANGELOG](CHANGELOG.md) before upgrading. To upgrade, run the install command again; to remove it, `npm uninstall obelos` (or `npm uninstall --global obelos`).
+
+Releases are published from GitHub Actions with npm provenance; `npm audit signatures` verifies the signature and provenance of what you installed. To run from source instead: `git clone https://github.com/Episteme-Research-Studio/obelos`, then `npm install && npm run build && node dist/cli.js lint .`.
 
 ## Quick start
 

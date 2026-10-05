@@ -1,0 +1,44 @@
+name: False positive or missed problem
+description: A rule flagged something that is fine, or missed something that is wrong.
+title: "[OBLnnn] "
+labels: ["accuracy"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Reports like this are the most useful thing an alpha user can send. Thank you.
+        Please do not paste secrets or private content; a small made-up example is enough.
+  - type: input
+    id: rule
+    attributes:
+      label: Rule ID
+      description: For example OBL004. Leave blank for a missed problem.
+  - type: dropdown
+    id: kind
+    attributes:
+      label: What happened?
+      options:
+        - False positive (flagged, but it is fine)
+        - Missed problem (not flagged, but it is wrong)
+        - Wrong message or fix hint
+        - Crash or error
+    validations:
+      required: true
+  - type: textarea
+    id: snippet
+    attributes:
+      label: Minimal example
+      description: The smallest instruction file (and file tree, if relevant) that reproduces it.
+      render: markdown
+    validations:
+      required: true
+  - type: textarea
+    id: expected
+    attributes:
+      label: What did you expect?
+    validations:
+      required: true
+  - type: input
+    id: version
+    attributes:
+      label: Output of `npx obelos@alpha --version` and your Node version
