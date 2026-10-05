@@ -138,7 +138,7 @@ After the `until` date the suppression lapses and is reported, so a deferred dec
 
 The *obelos* (ὀβελός, "spit") was the mark that Alexandrian editors, from Zenodotus to Aristarchus, set in the margin beside a line of Homer they suspected was not genuine. It did not delete the line. It flagged it, left the text intact, and let the reader judge.
 
-Obelos treats your agent instructions the same way: it checks them against the repository, marks what is broken, stale or contradictory, and never rewrites your files. The package uses the Greek spelling; English books write *obelus*. Built by [Episteme Research Studio](https://github.com/Episteme-Research-Studio).
+Obelos treats your agent instructions the same way: it checks them against the repository, marks what is broken, stale or contradictory, and never rewrites your files. The package uses the Greek spelling; English books write *obelus*. Built by [Denis Hakszer](https://orcid.org/0000-0002-3354-7315) at [Episteme Research Studio](https://github.com/Episteme-Research-Studio).
 
 ## Development
 
@@ -149,6 +149,21 @@ npm run self-lint    # lint this repo's own instruction files
 ```
 
 Specification, architecture, rules and roadmap live in [docs/](docs/). Please read [CONTRIBUTING.md](CONTRIBUTING.md) before opening a pull request, and report vulnerabilities as described in [SECURITY.md](SECURITY.md).
+
+## Cite
+
+If Obelos is useful in your work, please cite it. GitHub's "Cite this repository" button reads [CITATION.cff](CITATION.cff); a DOI for each release is archived on Zenodo.
+
+```bibtex
+@software{hakszer_obelos_2026,
+  author  = {Hakszer, Denis},
+  title   = {Obelos: CI for agent context},
+  year    = {2026},
+  version = {0.1.0-alpha.0},
+  url     = {https://github.com/Episteme-Research-Studio/obelos},
+  license = {MIT}
+}
+```
 
 ## Licence
 

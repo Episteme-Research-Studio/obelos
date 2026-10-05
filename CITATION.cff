@@ -1,0 +1,26 @@
+cff-version: 1.2.0
+message: "If you use Obelos in your work, please cite it as below."
+title: "Obelos: CI for agent context"
+type: software
+version: 0.1.0-alpha.0
+date-released: 2026-10-05
+license: MIT
+repository-code: "https://github.com/Episteme-Research-Studio/obelos"
+url: "https://github.com/Episteme-Research-Studio/obelos"
+abstract: >-
+  Obelos is a deterministic, offline command-line tool that lints and scores
+  the instruction files that AI coding agents read (CLAUDE.md, AGENTS.md,
+  Cursor rules, Copilot instructions, GEMINI.md), checking their claims against
+  the repository they describe.
+keywords:
+  - agent instructions
+  - AGENTS.md
+  - CLAUDE.md
+  - linter
+  - continuous integration
+  - ContextOps
+authors:
+  - family-names: Hakszer
+    given-names: Denis
+    orcid: "https://orcid.org/0000-0002-3354-7315"
+    affiliation: "Episteme Research Studio"
