@@ -1,20 +1,42 @@
+<div align="center">
+
+<img src="docs/assets/obelos-mark.svg" alt="Obelos" width="96" height="96">
+
 # Obelos
 
-**CI for agent context.** Obelos checks the files your AI coding agents run on (`CLAUDE.md`, `AGENTS.md`, Cursor rules, Copilot instructions, `GEMINI.md`) so they are not silently ignored, stale, oversized or leaking secrets.
+### CI for agent context
 
-Local and offline. Deterministic: the same files give the same result every time. No model calls, no telemetry. MIT licence.
+*Verify the instructions your coding agents run on, before they run on them.*
 
-> Status: **alpha** (0.1.0-alpha.0). Rules cite vendor documentation; vendor behaviour changes, so every rule carries a verification date in [docs/RULES.md](docs/RULES.md).
+[![CI](https://github.com/Episteme-Research-Studio/obelos/actions/workflows/ci.yml/badge.svg)](https://github.com/Episteme-Research-Studio/obelos/actions/workflows/ci.yml)
+[![npm](https://img.shields.io/npm/v/obelos/alpha?label=npm%20%40alpha&color=B08D3C)](https://www.npmjs.com/package/obelos)
+[![licence: MIT](https://img.shields.io/badge/licence-MIT-1F2A44)](LICENSE)
+[![node](https://img.shields.io/badge/node-%E2%89%A520-1F2A44)](package.json)
+
+[Quick start](#quick-start) · [What it checks](#what-it-checks) · [Use in CI](#use-in-ci) · [Why the name](#why-the-name) · [Documentation](docs/)
+
+</div>
+
+---
+
+Obelos reads the files your AI coding agents are briefed by (`CLAUDE.md`, `AGENTS.md`, Cursor rules, Copilot instructions, `GEMINI.md`), checks every claim they make against the repository itself, and gives the set a score. It finds the instructions that are silently ignored, point at paths and scripts that no longer exist, contradict each other, outgrow what a tool will read, or leak a secret.
+
+Teams have started to call this discipline *ContextOps*: treating the context an agent receives as a maintained artefact, with the same care as the code. Obelos is the continuous-integration step of that practice.
+
+- **Offline and deterministic.** The same files always give the same result. No model calls, no telemetry, no network.
+- **It marks; it never rewrites.** Findings carry the reason and the fix. Your files stay yours.
+- **Sourced.** Each rule cites vendor documentation and carries a verification date, because vendor behaviour changes.
+- **Open core.** The linter is MIT-licensed and will stay so.
+
+> **Status: alpha** (`0.1.0-alpha.0`). Checked against 150 public repositories with no crashes; see [Honest limits](#honest-limits) for what that does and does not establish.
 
 ## Quick start
 
 ```bash
-npx obelos lint .
+npx obelos@alpha lint .
 ```
 
-Example output:
-
-```
+```text
 CLAUDE.md (31 lines, ~290 tokens)
   warn  OBL006  AGENTS.md exists next to this file but is not imported; Claude Code reads only CLAUDE.md when both are present.
         Add `@AGENTS.md` to CLAUDE.md (then keep shared rules in AGENTS.md), or symlink one to the other.
@@ -25,6 +47,30 @@ AGENTS.md (212 lines, ~2400 tokens)
 
 2 files, 0 errors, 3 warnings, 0 notes. Context health: 88/100 (B)
 ```
+
+Start a new repository from what is already there with `npx obelos@alpha init` (a dry run unless you pass `--write`), and ask any finding to justify itself with `obelos explain OBL004`.
+
+## How it works
+
+1. **Discover.** Find every instruction file in the tree and work out which tool reads it, and when.
+2. **Parse.** Read frontmatter, `@imports`, path mentions, script mentions and commands.
+3. **Compare with the repository.** Ask the real file tree and the real `package.json` files whether what the instructions say is true.
+4. **Apply the rules.** Twenty-one small, pure rules plus an optional policy engine. Heuristic rules are never allowed to be errors.
+5. **Score and report.** Findings are weighted (error 12, warning 4, note 1), averaged per file, and rendered as text, JSON, SARIF, JUnit and other formats. Exit codes let CI pass or fail the build.
+
+## What it checks
+
+| Concern | Examples |
+|---|---|
+| **Will the agent even read it?** | Cursor `.md` files that Cursor ignores; frontmatter that does not parse; scoped rules with a `paths`, `globs` or `applyTo` that matches nothing; a `CLAUDE.md` that never imports the neighbouring `AGENTS.md` |
+| **Is it true?** | `@imports`, file paths and package scripts that do not exist in the repository |
+| **Is it the right size?** | Per-file and combined budgets (including the 32 KiB limit on a Codex `AGENTS.md` chain); walls of text |
+| **Is it coherent?** | Duplicated and contradictory instructions, conflicting package managers, vague wording, shouting |
+| **Is it safe?** | Secrets in many credential formats (entropy-filtered), a personal `CLAUDE.local.md` that is not gitignored |
+| **Is it complete and maintained?** | Placeholders and near-empty files, a missing build or test command, expired suppressions |
+| **Does it meet your own rules?** | Organisation policies: `require`, `forbid`, `requireHeading` |
+
+The full table, with sources and false-positive notes, is in [docs/RULES.md](docs/RULES.md).
 
 ## Commands
 
@@ -43,10 +89,6 @@ AGENTS.md (212 lines, ~2400 tokens)
 
 Exit codes: `0` clean at the chosen threshold, `1` findings at or above it, `2` usage or configuration error, `3` internal error or limit.
 
-## What it checks
-
-Twenty-two rules plus your own policies. File and combined size budgets, broken `@imports`, references to paths and package scripts that do not exist, the Claude Code case where `AGENTS.md` is ignored because `CLAUDE.md` does not import it, Cursor `.md` files that Cursor ignores, missing frontmatter and `applyTo`, scoped globs that match nothing, duplicate and contradictory instructions, vague wording, secrets (many credential formats, entropy-filtered), placeholders, a personal `CLAUDE.local.md` that is not gitignored, expired suppressions, missing build and test commands, walls of text and shouting. Full table with sources and false-positive notes: [docs/RULES.md](docs/RULES.md).
-
 ## Configuration
 
 `obelos.config.json` in the repository root (JSON Schema in `schema/`):
@@ -63,29 +105,55 @@ Twenty-two rules plus your own policies. File and combined size budgets, broken 
 }
 ```
 
-Presets `obelos:recommended`, `obelos:strict`, `obelos:minimal`, or a shared file path. A `obelos.config.json` in a subdirectory overrides its subtree in a monorepo. Policies (your own `require` / `forbid` / `requireHeading` rules) are explained in [docs/POLICY.md](docs/POLICY.md).
+Presets are `obelos:recommended`, `obelos:strict` and `obelos:minimal`, or a shared file path. A `obelos.config.json` in a subdirectory overrides its subtree in a monorepo. Policies are explained in [docs/POLICY.md](docs/POLICY.md).
 
-## Silencing and adopting
+### Silencing and adopting
 
-Inline: `<!-- obelos-disable-next-line OBL012 until=2026-12-31 reason="rewrite after v2" -->` or `<!-- obelos-disable-file OBL011 -->`; after the `until` date the suppression stops applying and is reported. Existing repository with many findings? `obelos baseline` then `obelos lint --baseline obelos.baseline.json` reports only new ones.
+Doubt can be recorded without being resolved. Inline:
+
+```markdown
+<!-- obelos-disable-next-line OBL012 until=2026-12-31 reason="rewrite after v2" -->
+```
+
+After the `until` date the suppression lapses and is reported, so a deferred decision cannot quietly become permanent. For a repository that already has many findings, `obelos baseline` records them, and `obelos lint --baseline obelos.baseline.json` reports only what is new.
 
 ## Use in CI
 
 ```yaml
-- run: npx obelos@latest lint . --since origin/main --fail-on warn --format github
+- run: npx obelos@alpha lint . --since origin/main --fail-on warn --format github
 ```
 
-`--format sarif` uploads to GitHub code scanning; `--format junit` and `checkstyle` feed other CI systems. Ready-made workflows, pre-commit, lefthook, husky and GitLab snippets: [docs/INTEGRATIONS.md](docs/INTEGRATIONS.md).
-
-A packaged GitHub Action with pull-request comments and SARIF output is planned (see [docs/ROADMAP.md](docs/ROADMAP.md)).
+`--format sarif` uploads to GitHub code scanning; `--format junit` and `checkstyle` feed other CI systems. Ready-made workflows, pre-commit, lefthook, husky and GitLab snippets are in [docs/INTEGRATIONS.md](docs/INTEGRATIONS.md). A packaged GitHub Action with pull-request comments is planned ([docs/ROADMAP.md](docs/ROADMAP.md)).
 
 ## Honest limits
 
-- Token counts are estimates (characters divided by four unless you set `--chars-per-token`).
-- Rules have been tested on synthetic repositories; a study on real repositories is the next step.
-- The contradiction check is a heuristic and can miss paraphrases or flag scoped rules.
-- Rules check what the files say, not whether agents behave better; behavioural evaluation is planned.
-- Anything described as vendor behaviour was verified on 4 October 2026 and may have changed.
+- **Evidence so far.** Obelos has been run over 150 public repositories (144 with instruction files) without a crash, and its factual claims (line counts, missing paths, globs that match nothing) were re-checked independently against those repositories. A human-reviewed precision figure for every rule is still outstanding, which is why the judgement-based rules are notes, not errors.
+- **Sampling bias.** The corpus favours popular, recently active projects.
+- **Estimates.** Token counts are characters divided by four unless you set `--chars-per-token`.
+- **Heuristics.** The contradiction check can miss paraphrases or flag scoped rules.
+- **Scope.** Rules check what the files say, not whether agents behave better; behavioural evaluation is on the roadmap.
+- **Vendor facts** were verified on 4 October 2026 and may have changed since. Every rule records its date.
+
+## Why the name
+
+*Obelos* (ὀβελός) is the Greek word for a roasting spit, and so for any slender pointed rod; *obelisk* is its diminutive, a little spit. In the libraries of Hellenistic Alexandria it acquired a second life as a critic's mark: a stroke in the margin beside a line that the editor believed did not belong. Tradition credits Zenodotus of Ephesus, the first head of the Library, with using it in his edition of Homer in the early third century BCE. A century and a half later Aristarchus of Samothrace built it into a small system of critical signs, and the ancient commentaries on Homer still use his vocabulary, among it *athetesis*, the rejection of a line as spurious.
+
+What makes the obelos the right emblem is what it did not do. It did not delete the line. The suspect verse stayed in the text, and the editor's doubt stood beside it, so that a reader could weigh both. The mark was a claim about the text, made visible and left open to challenge.
+
+The device travelled. In the third century CE, Origen set the Greek Old Testament beside the Hebrew in the six columns of his *Hexapla* and used the obelos for passages the Greek had and the Hebrew lacked, and the asterisk for passages supplied from other Greek translations to fill what the Greek lacked. That is a diff against a source of truth, done by hand, eighteen centuries before `git`. A schoolboy now meets the same stroke as the division sign, ÷, and a scholar meets its cousin, the dagger †, in footnotes.
+
+An agent's instruction file is a text transmitted by many hands, edited under pressure and copied between tools, and it is read very literally by a reader that cannot ask what was meant. It decays in the same ways: lines that no longer correspond to anything, instructions that quietly contradict one another, additions made on the authority of nobody in particular. Obelos is the editor's habit, applied to it:
+
+| The Alexandrian editor | Obelos |
+|---|---|
+| Collates the text against its best witness | Compares every claim with the repository: paths, scripts, globs, sizes |
+| Marks the suspect line; does not erase it | Reports the finding with its reason and a fix; never rewrites your files |
+| Leaves the judgement to the reader | Suppressions with a reason and an expiry date; baselines that record doubt without resolving it |
+| Cites the authority for each sign | Each rule cites vendor documentation and carries the date it was verified |
+
+There is an older precedent still. The Orphic gold tablets, thin leaves of gold buried with the dead in Greece and southern Italy from about the fourth century BCE, are instruction files for a traveller in unfamiliar country: short, exact and practical. They name a spring on the left that must not be approached and tell the traveller what to say to the guards at the next. A wrong turn cost everything, and the text had to be right the first time. That is the situation of an agent reading `AGENTS.md`.
+
+The package uses the Greek spelling; English-language books more often write *obelus*. Obelos is built by [Episteme Research Studio](https://github.com/Episteme-Research-Studio), where the working method is the philologist's: say what the source supports, and mark what it does not.
 
 ## Development
 
@@ -95,11 +163,7 @@ npm run check        # typecheck, tests, build
 npm run self-lint    # lint this repo's own instruction files
 ```
 
-Specification, architecture, rules and roadmap live in [docs/](docs/). See [CONTRIBUTING.md](CONTRIBUTING.md) before opening a pull request.
-
-## Why the name
-
-The *obelos* (÷) is the mark that Alexandrian editors such as Zenodotus and Aristarchus set beside lines of Homer they suspected were not genuine. Obelos does the same for the instructions you give your agents: it marks the lines that are broken, stale, contradictory or not doing what you think.
+Specification, architecture, rules and roadmap live in [docs/](docs/). Please read [CONTRIBUTING.md](CONTRIBUTING.md) before opening a pull request, and report vulnerabilities as described in [SECURITY.md](SECURITY.md).
 
 ## Licence
 
