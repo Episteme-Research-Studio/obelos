@@ -6,3 +6,8 @@ coverage
 CLAUDE.local.md
 corpus/repos/
 corpus/*.csv
+_to_delete/
+untitled folder/
+corpus/*.json
+corpus/report.md
+corpus/sample.json
