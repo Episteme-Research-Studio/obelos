@@ -1,6 +1,6 @@
 {
   "toolVersion": "0.1.0-alpha.0",
-  "date": "2026-10-05T10:47:53.587Z",
+  "date": "2026-10-05T10:52:31.265Z",
   "dir": "/Users/denishakszer/Documents/Claude/Projects/Research Studio/obelos/corpus/repos",
   "repos": [
     {
@@ -17,7 +17,7 @@
       "lines": 2160,
       "findings": 4,
       "notices": 0,
-      "ms": 24
+      "ms": 26
     },
     {
       "repo": "907739769__OSR",
@@ -31,9 +31,9 @@
       "grade": "A",
       "tokens": 116646,
       "lines": 2438,
-      "findings": 78,
+      "findings": 76,
       "notices": 0,
-      "ms": 101
+      "ms": 108
     },
     {
       "repo": "Alfanous-team__alfanous",
@@ -48,7 +48,7 @@
       "lines": 220,
       "findings": 1,
       "notices": 0,
-      "ms": 9
+      "ms": 10
     },
     {
       "repo": "Andersbakken__rtags",
@@ -78,7 +78,7 @@
       "lines": 1305,
       "findings": 10,
       "notices": 0,
-      "ms": 40
+      "ms": 44
     },
     {
       "repo": "Arnon-hs__open-source",
@@ -91,7 +91,7 @@
       "lines": 0,
       "findings": 0,
       "notices": 0,
-      "ms": 156
+      "ms": 154
     },
     {
       "repo": "Autonoma-AI__autonoma",
@@ -124,7 +124,7 @@
       "lines": 93,
       "findings": 3,
       "notices": 0,
-      "ms": 18
+      "ms": 19
     },
     {
       "repo": "Azure__kimojio-rs",
@@ -154,9 +154,9 @@
       "grade": "A",
       "tokens": 128785,
       "lines": 14718,
-      "findings": 121,
+      "findings": 84,
       "notices": 0,
-      "ms": 75
+      "ms": 81
     },
     {
       "repo": "BrowserOperator__browser-operator-core",
@@ -171,7 +171,7 @@
       "lines": 740,
       "findings": 9,
       "notices": 0,
-      "ms": 109
+      "ms": 117
     },
     {
       "repo": "BuilderIO__agent-native",
@@ -185,9 +185,9 @@
       "grade": "A",
       "tokens": 93495,
       "lines": 6556,
-      "findings": 88,
+      "findings": 73,
       "notices": 0,
-      "ms": 352
+      "ms": 376
     },
     {
       "repo": "ClickHouse__ai-sdk-cpp",
@@ -242,11 +242,11 @@
         "copilot-repo",
         "copilot-path"
       ],
-      "score": 97,
+      "score": 99,
       "grade": "A",
       "tokens": 3399,
       "lines": 415,
-      "findings": 16,
+      "findings": 5,
       "notices": 0,
       "ms": 5
     },
@@ -263,7 +263,7 @@
       "lines": 81,
       "findings": 0,
       "notices": 0,
-      "ms": 32
+      "ms": 36
     },
     {
       "repo": "GoogleContainerTools__config-sync",
@@ -279,7 +279,7 @@
       "lines": 164,
       "findings": 2,
       "notices": 0,
-      "ms": 236
+      "ms": 259
     },
     {
       "repo": "Hacker-Valley-Media__Interceptor",
@@ -295,7 +295,7 @@
       "lines": 356,
       "findings": 10,
       "notices": 0,
-      "ms": 19
+      "ms": 20
     },
     {
       "repo": "Hessesian__kmp-lsp",
@@ -305,11 +305,11 @@
         "copilot-repo",
         "agents-md"
       ],
-      "score": 97,
+      "score": 99,
       "grade": "A",
       "tokens": 2182,
       "lines": 102,
-      "findings": 33,
+      "findings": 3,
       "notices": 0,
       "ms": 5
     },
@@ -327,7 +327,7 @@
       "lines": 4118,
       "findings": 13,
       "notices": 0,
-      "ms": 17
+      "ms": 18
     },
     {
       "repo": "HuggingAGI__HuggingArxivLLM",
@@ -340,7 +340,7 @@
       "lines": 0,
       "findings": 0,
       "notices": 0,
-      "ms": 133
+      "ms": 134
     },
     {
       "repo": "Huxpro__vue-lynx",
@@ -356,7 +356,7 @@
       "lines": 122,
       "findings": 4,
       "notices": 0,
-      "ms": 27
+      "ms": 29
     },
     {
       "repo": "K-Dense-AI__scientific-agents",
@@ -372,7 +372,7 @@
       "lines": 135566,
       "findings": 246,
       "notices": 506,
-      "ms": 972
+      "ms": 958
     },
     {
       "repo": "Koomook__fastcampus-ai-agent-vibecoding",
@@ -387,7 +387,7 @@
       "lines": 4547,
       "findings": 10,
       "notices": 0,
-      "ms": 48
+      "ms": 46
     },
     {
       "repo": "Lawofall__AgentCore",
@@ -402,7 +402,7 @@
       "lines": 857,
       "findings": 7,
       "notices": 0,
-      "ms": 103
+      "ms": 100
     },
     {
       "repo": "Lazza__Carbon14",
@@ -448,7 +448,7 @@
       "lines": 365,
       "findings": 2,
       "notices": 0,
-      "ms": 44
+      "ms": 47
     },
     {
       "repo": "LedgerHQ__app-boilerplate",
@@ -472,13 +472,13 @@
       "kinds": [
         "agents-md"
       ],
-      "score": 96,
+      "score": 97,
       "grade": "A",
       "tokens": 68031,
       "lines": 7528,
-      "findings": 32,
+      "findings": 24,
       "notices": 0,
-      "ms": 56
+      "ms": 49
     },
     {
       "repo": "MetrolistGroup__Metrolist",
@@ -493,7 +493,7 @@
       "lines": 35,
       "findings": 3,
       "notices": 0,
-      "ms": 25
+      "ms": 26
     },
     {
       "repo": "NanoNative__nano",
@@ -524,7 +524,7 @@
       "lines": 474,
       "findings": 0,
       "notices": 0,
-      "ms": 11
+      "ms": 10
     },
     {
       "repo": "PeonPing__openpeon",
@@ -555,7 +555,7 @@
       "lines": 723,
       "findings": 21,
       "notices": 0,
-      "ms": 21
+      "ms": 22
     },
     {
       "repo": "SSSYoung__vibe-coding-mobile-engineering",
@@ -615,7 +615,7 @@
       "lines": 754,
       "findings": 3,
       "notices": 0,
-      "ms": 162
+      "ms": 168
     },
     {
       "repo": "TerminalSkills__skills",
@@ -628,7 +628,7 @@
       "lines": 0,
       "findings": 0,
       "notices": 0,
-      "ms": 48
+      "ms": 50
     },
     {
       "repo": "ThomasMoreAI__legal-skills-open",
@@ -642,9 +642,9 @@
       "grade": "A",
       "tokens": 157285,
       "lines": 14453,
-      "findings": 309,
+      "findings": 304,
       "notices": 0,
-      "ms": 1263
+      "ms": 1259
     },
     {
       "repo": "TornLux__UnrealBridge",
@@ -677,7 +677,7 @@
       "lines": 1613,
       "findings": 5,
       "notices": 0,
-      "ms": 616
+      "ms": 682
     },
     {
       "repo": "aashaexo__soundshuman",
@@ -708,7 +708,7 @@
       "lines": 4287,
       "findings": 63,
       "notices": 0,
-      "ms": 209
+      "ms": 215
     },
     {
       "repo": "ardriveapp__ardrive-web",
@@ -724,7 +724,7 @@
       "lines": 294,
       "findings": 2,
       "notices": 0,
-      "ms": 64
+      "ms": 62
     },
     {
       "repo": "axeII__home-ops",
@@ -740,7 +740,7 @@
       "lines": 377,
       "findings": 5,
       "notices": 0,
-      "ms": 18
+      "ms": 21
     },
     {
       "repo": "blackstork-io__blackstork-cli",
@@ -756,7 +756,7 @@
       "lines": 207,
       "findings": 0,
       "notices": 0,
-      "ms": 11
+      "ms": 15
     },
     {
       "repo": "blockscout__blockscout-rs",
@@ -773,7 +773,7 @@
       "lines": 508,
       "findings": 10,
       "notices": 0,
-      "ms": 50
+      "ms": 55
     },
     {
       "repo": "broadinstitute__delphy",
@@ -835,7 +835,7 @@
       "lines": 326,
       "findings": 1,
       "notices": 0,
-      "ms": 13
+      "ms": 16
     },
     {
       "repo": "chen0416ccc-cpu__codex-windows-fast-patch-skill",
@@ -850,7 +850,7 @@
       "lines": 44,
       "findings": 2,
       "notices": 0,
-      "ms": 2
+      "ms": 3
     },
     {
       "repo": "ckotzbauer__vulnerability-operator",
@@ -897,7 +897,7 @@
       "lines": 426,
       "findings": 1,
       "notices": 0,
-      "ms": 18
+      "ms": 19
     },
     {
       "repo": "comma-csv__comma",
@@ -928,7 +928,7 @@
       "lines": 2853,
       "findings": 5,
       "notices": 0,
-      "ms": 16
+      "ms": 18
     },
     {
       "repo": "cosscom__coss",
@@ -976,7 +976,7 @@
       "lines": 1626,
       "findings": 14,
       "notices": 0,
-      "ms": 445
+      "ms": 469
     },
     {
       "repo": "dcloudio__uni-ai-x",
@@ -992,7 +992,7 @@
       "lines": 483,
       "findings": 10,
       "notices": 0,
-      "ms": 15
+      "ms": 17
     },
     {
       "repo": "digitalpetri__opc-ua-demo-server",
@@ -1008,7 +1008,7 @@
       "lines": 75,
       "findings": 0,
       "notices": 0,
-      "ms": 3
+      "ms": 4
     },
     {
       "repo": "dwebagents__AgentPipe",
@@ -1024,7 +1024,7 @@
       "lines": 20,
       "findings": 3,
       "notices": 0,
-      "ms": 4
+      "ms": 3
     },
     {
       "repo": "ecomfe__tempad-dev",
@@ -1039,7 +1039,7 @@
       "lines": 611,
       "findings": 0,
       "notices": 0,
-      "ms": 20
+      "ms": 23
     },
     {
       "repo": "edgestorejs__edgestore",
@@ -1070,7 +1070,7 @@
       "lines": 3873,
       "findings": 16,
       "notices": 0,
-      "ms": 397
+      "ms": 411
     },
     {
       "repo": "fcjr__RCade",
@@ -1086,7 +1086,7 @@
       "lines": 60,
       "findings": 6,
       "notices": 0,
-      "ms": 16
+      "ms": 17
     },
     {
       "repo": "firebase__FirebaseUI-Android",
@@ -1102,7 +1102,7 @@
       "lines": 18,
       "findings": 3,
       "notices": 0,
-      "ms": 15
+      "ms": 16
     },
     {
       "repo": "flyeric0212__cursor-history-links",
@@ -1117,7 +1117,7 @@
       "lines": 146,
       "findings": 4,
       "notices": 0,
-      "ms": 4
+      "ms": 3
     },
     {
       "repo": "gitpod-io__gitpod",
@@ -1133,7 +1133,7 @@
       "lines": 203,
       "findings": 1,
       "notices": 0,
-      "ms": 61
+      "ms": 56
     },
     {
       "repo": "gogpu__gg",
@@ -1164,7 +1164,7 @@
       "lines": 359,
       "findings": 1,
       "notices": 0,
-      "ms": 17
+      "ms": 19
     },
     {
       "repo": "growgraph__ontocast",
@@ -1179,7 +1179,7 @@
       "lines": 82,
       "findings": 1,
       "notices": 0,
-      "ms": 7
+      "ms": 8
     },
     {
       "repo": "haddocking__haddock3",
@@ -1195,7 +1195,7 @@
       "lines": 372,
       "findings": 12,
       "notices": 0,
-      "ms": 24
+      "ms": 28
     },
     {
       "repo": "hectcastro__gh-metrics",
@@ -1210,7 +1210,7 @@
       "lines": 174,
       "findings": 1,
       "notices": 0,
-      "ms": 1
+      "ms": 2
     },
     {
       "repo": "hengfengliya__imgood",
@@ -1242,7 +1242,7 @@
       "lines": 1394,
       "findings": 24,
       "notices": 0,
-      "ms": 27
+      "ms": 26
     },
     {
       "repo": "hschne__puny-monitor",
@@ -1267,11 +1267,11 @@
         "agents-md",
         "claude-md"
       ],
-      "score": 97,
+      "score": 98,
       "grade": "A",
       "tokens": 3135,
       "lines": 323,
-      "findings": 7,
+      "findings": 3,
       "notices": 0,
       "ms": 6
     },
@@ -1289,7 +1289,7 @@
       "lines": 1666,
       "findings": 23,
       "notices": 0,
-      "ms": 114
+      "ms": 120
     },
     {
       "repo": "ijry__uview-plus",
@@ -1304,7 +1304,7 @@
       "lines": 17,
       "findings": 1,
       "notices": 0,
-      "ms": 22
+      "ms": 24
     },
     {
       "repo": "jasonanewcoder__abaqus_skills",
@@ -1381,7 +1381,7 @@
       "lines": 42,
       "findings": 0,
       "notices": 0,
-      "ms": 14
+      "ms": 16
     },
     {
       "repo": "kubernetes-sigs__cluster-api-provider-openstack",
@@ -1429,9 +1429,9 @@
       "grade": "A",
       "tokens": 6122,
       "lines": 418,
-      "findings": 13,
+      "findings": 3,
       "notices": 0,
-      "ms": 14
+      "ms": 15
     },
     {
       "repo": "lifinance__contracts",
@@ -1450,7 +1450,7 @@
       "lines": 4235,
       "findings": 51,
       "notices": 0,
-      "ms": 59
+      "ms": 63
     },
     {
       "repo": "lldap__lldap",
@@ -1481,7 +1481,7 @@
       "lines": 60,
       "findings": 2,
       "notices": 0,
-      "ms": 12
+      "ms": 11
     },
     {
       "repo": "lostintangent__gistpad-mcp",
@@ -1512,7 +1512,7 @@
       "lines": 56,
       "findings": 5,
       "notices": 0,
-      "ms": 13
+      "ms": 12
     },
     {
       "repo": "microbus-io__fabric",
@@ -1528,7 +1528,7 @@
       "lines": 5192,
       "findings": 63,
       "notices": 0,
-      "ms": 61
+      "ms": 64
     },
     {
       "repo": "microsoft-foundry__Foundry_Toolkit_for_VSCode_Lab",
@@ -1541,7 +1541,7 @@
       "lines": 0,
       "findings": 0,
       "notices": 0,
-      "ms": 28
+      "ms": 29
     },
     {
       "repo": "microsoft__Agent365-devTools",
@@ -1589,7 +1589,7 @@
       "lines": 1019,
       "findings": 19,
       "notices": 0,
-      "ms": 56
+      "ms": 57
     },
     {
       "repo": "mvanhorn__printing-press-library",
@@ -1605,7 +1605,7 @@
       "lines": 20910,
       "findings": 179,
       "notices": 318,
-      "ms": 1867
+      "ms": 2003
     },
     {
       "repo": "netdevops__hier_config",
@@ -1638,9 +1638,9 @@
       "grade": "A",
       "tokens": 9804,
       "lines": 1088,
-      "findings": 11,
+      "findings": 8,
       "notices": 0,
-      "ms": 30
+      "ms": 33
     },
     {
       "repo": "northword__zotero-format-metadata",
@@ -1672,7 +1672,7 @@
       "lines": 241,
       "findings": 1,
       "notices": 0,
-      "ms": 23
+      "ms": 24
     },
     {
       "repo": "openshift-examples__web",
@@ -1687,7 +1687,7 @@
       "lines": 163,
       "findings": 1,
       "notices": 0,
-      "ms": 12
+      "ms": 13
     },
     {
       "repo": "openshift__cluster-kube-descheduler-operator",
@@ -1718,7 +1718,7 @@
       "lines": 387,
       "findings": 0,
       "notices": 0,
-      "ms": 11
+      "ms": 14
     },
     {
       "repo": "owncloud__notes",
@@ -1734,7 +1734,7 @@
       "lines": 136,
       "findings": 0,
       "notices": 0,
-      "ms": 9
+      "ms": 7
     },
     {
       "repo": "oyjt__uniapp-vue3-template",
@@ -1782,7 +1782,7 @@
       "lines": 114,
       "findings": 0,
       "notices": 0,
-      "ms": 2
+      "ms": 3
     },
     {
       "repo": "peteromallet__Arnold",
@@ -1797,7 +1797,7 @@
       "lines": 348,
       "findings": 5,
       "notices": 0,
-      "ms": 98
+      "ms": 101
     },
     {
       "repo": "phuhao00__greatestworks",
@@ -1813,7 +1813,7 @@
       "lines": 194,
       "findings": 1,
       "notices": 0,
-      "ms": 12
+      "ms": 15
     },
     {
       "repo": "pinecone-io__pinecone-ts-client",
@@ -1828,7 +1828,7 @@
       "lines": 51,
       "findings": 0,
       "notices": 0,
-      "ms": 9
+      "ms": 7
     },
     {
       "repo": "pktgen__Pktgen-DPDK",
@@ -1843,7 +1843,7 @@
       "lines": 200,
       "findings": 0,
       "notices": 0,
-      "ms": 4
+      "ms": 3
     },
     {
       "repo": "pulumi__kubespy",
@@ -1873,7 +1873,7 @@
       "lines": 134,
       "findings": 0,
       "notices": 0,
-      "ms": 7
+      "ms": 6
     },
     {
       "repo": "raphaelmansuy__edgecrab",
@@ -1888,7 +1888,7 @@
       "lines": 795,
       "findings": 7,
       "notices": 0,
-      "ms": 47
+      "ms": 49
     },
     {
       "repo": "rapi-doc__RapiDoc",
@@ -1934,7 +1934,7 @@
       "lines": 248,
       "findings": 3,
       "notices": 0,
-      "ms": 12
+      "ms": 13
     },
     {
       "repo": "sbroenne__mcp-server-excel",
@@ -1949,7 +1949,7 @@
       "lines": 364,
       "findings": 1,
       "notices": 0,
-      "ms": 24
+      "ms": 26
     },
     {
       "repo": "scosman__Biscotti",
@@ -1964,7 +1964,7 @@
       "lines": 148,
       "findings": 7,
       "notices": 0,
-      "ms": 19
+      "ms": 20
     },
     {
       "repo": "securego__gosec",
@@ -1997,7 +1997,7 @@
       "lines": 1593,
       "findings": 6,
       "notices": 0,
-      "ms": 98
+      "ms": 105
     },
     {
       "repo": "sethlaw__sputr",
@@ -2027,13 +2027,13 @@
         "copilot-path",
         "agents-md"
       ],
-      "score": 98,
+      "score": 99,
       "grade": "A",
       "tokens": 6752,
       "lines": 674,
-      "findings": 79,
+      "findings": 15,
       "notices": 0,
-      "ms": 25
+      "ms": 26
     },
     {
       "repo": "starknet-io__starknet-docs",
@@ -2061,7 +2061,7 @@
       "lines": 115,
       "findings": 0,
       "notices": 0,
-      "ms": 5
+      "ms": 4
     },
     {
       "repo": "supabase__pg-toolbelt",
@@ -2077,7 +2077,7 @@
       "lines": 994,
       "findings": 7,
       "notices": 0,
-      "ms": 54
+      "ms": 57
     },
     {
       "repo": "sverweij__state-machine-cat",
@@ -2092,7 +2092,7 @@
       "lines": 122,
       "findings": 1,
       "notices": 0,
-      "ms": 12
+      "ms": 10
     },
     {
       "repo": "sylverb__game-and-watch-retro-go-sd",
@@ -2108,7 +2108,7 @@
       "lines": 317,
       "findings": 14,
       "notices": 0,
-      "ms": 17
+      "ms": 16
     },
     {
       "repo": "thearnavrustagi__marketmenow",
@@ -2119,13 +2119,13 @@
         "agents-md",
         "claude-md"
       ],
-      "score": 96,
+      "score": 97,
       "grade": "A",
       "tokens": 16158,
       "lines": 1129,
-      "findings": 17,
+      "findings": 12,
       "notices": 0,
-      "ms": 36
+      "ms": 30
     },
     {
       "repo": "thehimel__cursor-rules-and-prompts",
@@ -2140,7 +2140,7 @@
       "lines": 2432,
       "findings": 18,
       "notices": 0,
-      "ms": 27
+      "ms": 24
     },
     {
       "repo": "thomast1906__github-copilot-agent-skills",
@@ -2170,7 +2170,7 @@
       "lines": 91,
       "findings": 0,
       "notices": 0,
-      "ms": 2
+      "ms": 1
     },
     {
       "repo": "tovifun__VivalArc",
@@ -2185,7 +2185,7 @@
       "lines": 26,
       "findings": 1,
       "notices": 0,
-      "ms": 4
+      "ms": 3
     },
     {
       "repo": "treyhunner__dotfiles",
@@ -2217,7 +2217,7 @@
       "lines": 189,
       "findings": 1,
       "notices": 0,
-      "ms": 17
+      "ms": 18
     },
     {
       "repo": "wangqiqi__md2docx",
@@ -2233,7 +2233,7 @@
       "lines": 1956,
       "findings": 123,
       "notices": 0,
-      "ms": 64
+      "ms": 66
     },
     {
       "repo": "web-arena-x__webarena-infinity",
@@ -2248,7 +2248,7 @@
       "lines": 185,
       "findings": 10,
       "notices": 0,
-      "ms": 189
+      "ms": 196
     },
     {
       "repo": "xensik__gsc-tool",
@@ -2264,7 +2264,7 @@
       "lines": 180,
       "findings": 1,
       "notices": 0,
-      "ms": 34
+      "ms": 32
     },
     {
       "repo": "xin-lai__CodeSpirit",
@@ -2280,7 +2280,7 @@
       "lines": 6303,
       "findings": 12,
       "notices": 0,
-      "ms": 115
+      "ms": 113
     },
     {
       "repo": "xxraincandyxx__Amadeus",
@@ -2842,15 +2842,7 @@
       "severity": "info",
       "file": "osr-openliststrm/src/main/java/com/osr/openliststrm/rename/cleanup/AGENTS.md",
       "line": 5,
-      "message": "Same instruction already appears in osr-openliststrm/src/main/java/com/osr/openliststrm/rename/AGENTS.md:5."
-    },
-    {
-      "repo": "907739769__OSR",
-      "ruleId": "OBL011",
-      "severity": "info",
-      "file": "osr-openliststrm/src/main/java/com/osr/openliststrm/rename/cleanup/AGENTS.md",
-      "line": 6,
-      "message": "Same instruction already appears in osr-openliststrm/src/main/java/com/osr/openliststrm/rename/AGENTS.md:6."
+      "message": "2 instructions already appear in osr-openliststrm/src/main/java/com/osr/openliststrm/rename/AGENTS.md (first: line 5)."
     },
     {
       "repo": "907739769__OSR",
@@ -2866,15 +2858,7 @@
       "severity": "info",
       "file": "osr-openliststrm/src/main/java/com/osr/openliststrm/rename/cleanup/CLAUDE.md",
       "line": 3,
-      "message": "Same instruction already appears in osr-openliststrm/src/main/java/com/osr/openliststrm/rename/CLAUDE.md:3."
-    },
-    {
-      "repo": "907739769__OSR",
-      "ruleId": "OBL011",
-      "severity": "info",
-      "file": "osr-openliststrm/src/main/java/com/osr/openliststrm/rename/cleanup/CLAUDE.md",
-      "line": 6,
-      "message": "Same instruction already appears in osr-openliststrm/src/main/java/com/osr/openliststrm/rename/CLAUDE.md:6."
+      "message": "2 instructions already appear in osr-openliststrm/src/main/java/com/osr/openliststrm/rename/CLAUDE.md (first: line 3)."
     },
     {
       "repo": "907739769__OSR",
@@ -3818,23 +3802,7 @@
       "severity": "info",
       "file": ".cursor/rules/isolation_rules/main.mdc",
       "line": 8,
-      "message": "Same instruction already appears in .cursor/rules/isolation_rules/main-optimized.mdc:8."
-    },
-    {
-      "repo": "Baukebrenninkmeijer__table-evaluator",
-      "ruleId": "OBL011",
-      "severity": "info",
-      "file": ".cursor/rules/isolation_rules/main.mdc",
-      "line": 9,
-      "message": "Same instruction already appears in .cursor/rules/isolation_rules/main-optimized.mdc:9."
-    },
-    {
-      "repo": "Baukebrenninkmeijer__table-evaluator",
-      "ruleId": "OBL011",
-      "severity": "info",
-      "file": ".cursor/rules/isolation_rules/main.mdc",
-      "line": 10,
-      "message": "Same instruction already appears in .cursor/rules/isolation_rules/main-optimized.mdc:10."
+      "message": "3 instructions already appear in .cursor/rules/isolation_rules/main-optimized.mdc (first: line 8)."
     },
     {
       "repo": "Baukebrenninkmeijer__table-evaluator",
@@ -3970,287 +3938,7 @@
       "severity": "info",
       "file": ".cursor/rules/isolation_rules/visual-maps/van_mode_split/van-mode-map.mdc",
       "line": 11,
-      "message": "Same instruction already appears in .cursor/rules/isolation_rules/visual-maps/van-mode-map.mdc:8."
-    },
-    {
-      "repo": "Baukebrenninkmeijer__table-evaluator",
-      "ruleId": "OBL011",
-      "severity": "info",
-      "file": ".cursor/rules/isolation_rules/visual-maps/van_mode_split/van-mode-map.mdc",
-      "line": 157,
-      "message": "Same instruction already appears in .cursor/rules/isolation_rules/visual-maps/van-mode-map.mdc:145."
-    },
-    {
-      "repo": "Baukebrenninkmeijer__table-evaluator",
-      "ruleId": "OBL011",
-      "severity": "info",
-      "file": ".cursor/rules/isolation_rules/visual-maps/van_mode_split/van-mode-map.mdc",
-      "line": 174,
-      "message": "Same instruction already appears in .cursor/rules/isolation_rules/visual-maps/van-mode-map.mdc:162."
-    },
-    {
-      "repo": "Baukebrenninkmeijer__table-evaluator",
-      "ruleId": "OBL011",
-      "severity": "info",
-      "file": ".cursor/rules/isolation_rules/visual-maps/van_mode_split/van-mode-map.mdc",
-      "line": 203,
-      "message": "Same instruction already appears in .cursor/rules/isolation_rules/visual-maps/van-mode-map.mdc:191."
-    },
-    {
-      "repo": "Baukebrenninkmeijer__table-evaluator",
-      "ruleId": "OBL011",
-      "severity": "info",
-      "file": ".cursor/rules/isolation_rules/visual-maps/van_mode_split/van-mode-map.mdc",
-      "line": 245,
-      "message": "Same instruction already appears in .cursor/rules/isolation_rules/visual-maps/van-mode-map.mdc:233."
-    },
-    {
-      "repo": "Baukebrenninkmeijer__table-evaluator",
-      "ruleId": "OBL011",
-      "severity": "info",
-      "file": ".cursor/rules/isolation_rules/visual-maps/van_mode_split/van-mode-map.mdc",
-      "line": 263,
-      "message": "Same instruction already appears in .cursor/rules/isolation_rules/visual-maps/van-mode-map.mdc:251."
-    },
-    {
-      "repo": "Baukebrenninkmeijer__table-evaluator",
-      "ruleId": "OBL011",
-      "severity": "info",
-      "file": ".cursor/rules/isolation_rules/visual-maps/van_mode_split/van-mode-map.mdc",
-      "line": 289,
-      "message": "Same instruction already appears in .cursor/rules/isolation_rules/visual-maps/van-mode-map.mdc:277."
-    },
-    {
-      "repo": "Baukebrenninkmeijer__table-evaluator",
-      "ruleId": "OBL011",
-      "severity": "info",
-      "file": ".cursor/rules/isolation_rules/visual-maps/van_mode_split/van-mode-map.mdc",
-      "line": 294,
-      "message": "Same instruction already appears in .cursor/rules/isolation_rules/visual-maps/van-mode-map.mdc:282."
-    },
-    {
-      "repo": "Baukebrenninkmeijer__table-evaluator",
-      "ruleId": "OBL011",
-      "severity": "info",
-      "file": ".cursor/rules/isolation_rules/visual-maps/van_mode_split/van-mode-map.mdc",
-      "line": 295,
-      "message": "Same instruction already appears in .cursor/rules/isolation_rules/visual-maps/van-mode-map.mdc:283."
-    },
-    {
-      "repo": "Baukebrenninkmeijer__table-evaluator",
-      "ruleId": "OBL011",
-      "severity": "info",
-      "file": ".cursor/rules/isolation_rules/visual-maps/van_mode_split/van-mode-map.mdc",
-      "line": 296,
-      "message": "Same instruction already appears in .cursor/rules/isolation_rules/visual-maps/van-mode-map.mdc:284."
-    },
-    {
-      "repo": "Baukebrenninkmeijer__table-evaluator",
-      "ruleId": "OBL011",
-      "severity": "info",
-      "file": ".cursor/rules/isolation_rules/visual-maps/van_mode_split/van-mode-map.mdc",
-      "line": 297,
-      "message": "Same instruction already appears in .cursor/rules/isolation_rules/visual-maps/van-mode-map.mdc:285."
-    },
-    {
-      "repo": "Baukebrenninkmeijer__table-evaluator",
-      "ruleId": "OBL011",
-      "severity": "info",
-      "file": ".cursor/rules/isolation_rules/visual-maps/van_mode_split/van-mode-map.mdc",
-      "line": 308,
-      "message": "Same instruction already appears in .cursor/rules/isolation_rules/visual-maps/van-mode-map.mdc:296."
-    },
-    {
-      "repo": "Baukebrenninkmeijer__table-evaluator",
-      "ruleId": "OBL011",
-      "severity": "info",
-      "file": ".cursor/rules/isolation_rules/visual-maps/van_mode_split/van-mode-map.mdc",
-      "line": 322,
-      "message": "Same instruction already appears in .cursor/rules/isolation_rules/visual-maps/van-mode-map.mdc:310."
-    },
-    {
-      "repo": "Baukebrenninkmeijer__table-evaluator",
-      "ruleId": "OBL011",
-      "severity": "info",
-      "file": ".cursor/rules/isolation_rules/visual-maps/van_mode_split/van-mode-map.mdc",
-      "line": 330,
-      "message": "Same instruction already appears in .cursor/rules/isolation_rules/visual-maps/van-mode-map.mdc:318."
-    },
-    {
-      "repo": "Baukebrenninkmeijer__table-evaluator",
-      "ruleId": "OBL011",
-      "severity": "info",
-      "file": ".cursor/rules/isolation_rules/visual-maps/van_mode_split/van-mode-map.mdc",
-      "line": 338,
-      "message": "Same instruction already appears in .cursor/rules/isolation_rules/visual-maps/van-mode-map.mdc:326."
-    },
-    {
-      "repo": "Baukebrenninkmeijer__table-evaluator",
-      "ruleId": "OBL011",
-      "severity": "info",
-      "file": ".cursor/rules/isolation_rules/visual-maps/van_mode_split/van-mode-map.mdc",
-      "line": 344,
-      "message": "Same instruction already appears in .cursor/rules/isolation_rules/visual-maps/van-mode-map.mdc:332."
-    },
-    {
-      "repo": "Baukebrenninkmeijer__table-evaluator",
-      "ruleId": "OBL011",
-      "severity": "info",
-      "file": ".cursor/rules/isolation_rules/visual-maps/van_mode_split/van-mode-map.mdc",
-      "line": 477,
-      "message": "Same instruction already appears in .cursor/rules/isolation_rules/visual-maps/van-mode-map.mdc:465."
-    },
-    {
-      "repo": "Baukebrenninkmeijer__table-evaluator",
-      "ruleId": "OBL011",
-      "severity": "info",
-      "file": ".cursor/rules/isolation_rules/visual-maps/van_mode_split/van-mode-map.mdc",
-      "line": 559,
-      "message": "Same instruction already appears in .cursor/rules/isolation_rules/visual-maps/van-mode-map.mdc:547."
-    },
-    {
-      "repo": "Baukebrenninkmeijer__table-evaluator",
-      "ruleId": "OBL011",
-      "severity": "info",
-      "file": ".cursor/rules/isolation_rules/visual-maps/van_mode_split/van-mode-map.mdc",
-      "line": 642,
-      "message": "Same instruction already appears in .cursor/rules/isolation_rules/visual-maps/van-mode-map.mdc:630."
-    },
-    {
-      "repo": "Baukebrenninkmeijer__table-evaluator",
-      "ruleId": "OBL011",
-      "severity": "info",
-      "file": ".cursor/rules/isolation_rules/visual-maps/van_mode_split/van-mode-map.mdc",
-      "line": 738,
-      "message": "Same instruction already appears in .cursor/rules/isolation_rules/visual-maps/van-mode-map.mdc:726."
-    },
-    {
-      "repo": "Baukebrenninkmeijer__table-evaluator",
-      "ruleId": "OBL011",
-      "severity": "info",
-      "file": ".cursor/rules/isolation_rules/visual-maps/van_mode_split/van-mode-map.mdc",
-      "line": 773,
-      "message": "Same instruction already appears in .cursor/rules/isolation_rules/visual-maps/van-mode-map.mdc:761."
-    },
-    {
-      "repo": "Baukebrenninkmeijer__table-evaluator",
-      "ruleId": "OBL011",
-      "severity": "info",
-      "file": ".cursor/rules/isolation_rules/visual-maps/van_mode_split/van-mode-map.mdc",
-      "line": 802,
-      "message": "Same instruction already appears in .cursor/rules/isolation_rules/visual-maps/van-mode-map.mdc:790."
-    },
-    {
-      "repo": "Baukebrenninkmeijer__table-evaluator",
-      "ruleId": "OBL011",
-      "severity": "info",
-      "file": ".cursor/rules/isolation_rules/visual-maps/van_mode_split/van-mode-map.mdc",
-      "line": 850,
-      "message": "Same instruction already appears in .cursor/rules/isolation_rules/visual-maps/van-mode-map.mdc:838."
-    },
-    {
-      "repo": "Baukebrenninkmeijer__table-evaluator",
-      "ruleId": "OBL011",
-      "severity": "info",
-      "file": ".cursor/rules/isolation_rules/visual-maps/van_mode_split/van-mode-map.mdc",
-      "line": 881,
-      "message": "Same instruction already appears in .cursor/rules/isolation_rules/visual-maps/van-mode-map.mdc:869."
-    },
-    {
-      "repo": "Baukebrenninkmeijer__table-evaluator",
-      "ruleId": "OBL011",
-      "severity": "info",
-      "file": ".cursor/rules/isolation_rules/visual-maps/van_mode_split/van-mode-map.mdc",
-      "line": 884,
-      "message": "Same instruction already appears in .cursor/rules/isolation_rules/visual-maps/van-mode-map.mdc:872."
-    },
-    {
-      "repo": "Baukebrenninkmeijer__table-evaluator",
-      "ruleId": "OBL011",
-      "severity": "info",
-      "file": ".cursor/rules/isolation_rules/visual-maps/van_mode_split/van-mode-map.mdc",
-      "line": 885,
-      "message": "Same instruction already appears in .cursor/rules/isolation_rules/visual-maps/van-mode-map.mdc:873."
-    },
-    {
-      "repo": "Baukebrenninkmeijer__table-evaluator",
-      "ruleId": "OBL011",
-      "severity": "info",
-      "file": ".cursor/rules/isolation_rules/visual-maps/van_mode_split/van-mode-map.mdc",
-      "line": 886,
-      "message": "Same instruction already appears in .cursor/rules/isolation_rules/visual-maps/van-mode-map.mdc:874."
-    },
-    {
-      "repo": "Baukebrenninkmeijer__table-evaluator",
-      "ruleId": "OBL011",
-      "severity": "info",
-      "file": ".cursor/rules/isolation_rules/visual-maps/van_mode_split/van-mode-map.mdc",
-      "line": 889,
-      "message": "Same instruction already appears in .cursor/rules/isolation_rules/visual-maps/van-mode-map.mdc:877."
-    },
-    {
-      "repo": "Baukebrenninkmeijer__table-evaluator",
-      "ruleId": "OBL011",
-      "severity": "info",
-      "file": ".cursor/rules/isolation_rules/visual-maps/van_mode_split/van-mode-map.mdc",
-      "line": 890,
-      "message": "Same instruction already appears in .cursor/rules/isolation_rules/visual-maps/van-mode-map.mdc:878."
-    },
-    {
-      "repo": "Baukebrenninkmeijer__table-evaluator",
-      "ruleId": "OBL011",
-      "severity": "info",
-      "file": ".cursor/rules/isolation_rules/visual-maps/van_mode_split/van-mode-map.mdc",
-      "line": 891,
-      "message": "Same instruction already appears in .cursor/rules/isolation_rules/visual-maps/van-mode-map.mdc:879."
-    },
-    {
-      "repo": "Baukebrenninkmeijer__table-evaluator",
-      "ruleId": "OBL011",
-      "severity": "info",
-      "file": ".cursor/rules/isolation_rules/visual-maps/van_mode_split/van-mode-map.mdc",
-      "line": 894,
-      "message": "Same instruction already appears in .cursor/rules/isolation_rules/visual-maps/van-mode-map.mdc:882."
-    },
-    {
-      "repo": "Baukebrenninkmeijer__table-evaluator",
-      "ruleId": "OBL011",
-      "severity": "info",
-      "file": ".cursor/rules/isolation_rules/visual-maps/van_mode_split/van-mode-map.mdc",
-      "line": 895,
-      "message": "Same instruction already appears in .cursor/rules/isolation_rules/visual-maps/van-mode-map.mdc:883."
-    },
-    {
-      "repo": "Baukebrenninkmeijer__table-evaluator",
-      "ruleId": "OBL011",
-      "severity": "info",
-      "file": ".cursor/rules/isolation_rules/visual-maps/van_mode_split/van-mode-map.mdc",
-      "line": 896,
-      "message": "Same instruction already appears in .cursor/rules/isolation_rules/visual-maps/van-mode-map.mdc:884."
-    },
-    {
-      "repo": "Baukebrenninkmeijer__table-evaluator",
-      "ruleId": "OBL011",
-      "severity": "info",
-      "file": ".cursor/rules/isolation_rules/visual-maps/van_mode_split/van-mode-map.mdc",
-      "line": 899,
-      "message": "Same instruction already appears in .cursor/rules/isolation_rules/visual-maps/van-mode-map.mdc:887."
-    },
-    {
-      "repo": "Baukebrenninkmeijer__table-evaluator",
-      "ruleId": "OBL011",
-      "severity": "info",
-      "file": ".cursor/rules/isolation_rules/visual-maps/van_mode_split/van-mode-map.mdc",
-      "line": 900,
-      "message": "Same instruction already appears in .cursor/rules/isolation_rules/visual-maps/van-mode-map.mdc:888."
-    },
-    {
-      "repo": "Baukebrenninkmeijer__table-evaluator",
-      "ruleId": "OBL011",
-      "severity": "info",
-      "file": ".cursor/rules/isolation_rules/visual-maps/van_mode_split/van-mode-map.mdc",
-      "line": 901,
-      "message": "Same instruction already appears in .cursor/rules/isolation_rules/visual-maps/van-mode-map.mdc:889."
+      "message": "36 instructions already appear in .cursor/rules/isolation_rules/visual-maps/van-mode-map.mdc (first: line 8)."
     },
     {
       "repo": "Baukebrenninkmeijer__table-evaluator",
@@ -4498,15 +4186,7 @@
       "severity": "info",
       "file": "community-templates/account-expert/AGENTS.md",
       "line": 20,
-      "message": "Same instruction already appears in AGENTS.md:336."
-    },
-    {
-      "repo": "BuilderIO__agent-native",
-      "ruleId": "OBL011",
-      "severity": "info",
-      "file": "community-templates/account-expert/AGENTS.md",
-      "line": 27,
-      "message": "Same instruction already appears in AGENTS.md:294."
+      "message": "2 instructions already appear in AGENTS.md (first: line 336)."
     },
     {
       "repo": "BuilderIO__agent-native",
@@ -4514,15 +4194,7 @@
       "severity": "info",
       "file": "community-templates/account-tiering/AGENTS.md",
       "line": 20,
-      "message": "Same instruction already appears in AGENTS.md:336."
-    },
-    {
-      "repo": "BuilderIO__agent-native",
-      "ruleId": "OBL011",
-      "severity": "info",
-      "file": "community-templates/account-tiering/AGENTS.md",
-      "line": 27,
-      "message": "Same instruction already appears in AGENTS.md:294."
+      "message": "2 instructions already appear in AGENTS.md (first: line 336)."
     },
     {
       "repo": "BuilderIO__agent-native",
@@ -4530,15 +4202,7 @@
       "severity": "info",
       "file": "community-templates/call-follow-up-drafter/AGENTS.md",
       "line": 20,
-      "message": "Same instruction already appears in AGENTS.md:336."
-    },
-    {
-      "repo": "BuilderIO__agent-native",
-      "ruleId": "OBL011",
-      "severity": "info",
-      "file": "community-templates/call-follow-up-drafter/AGENTS.md",
-      "line": 27,
-      "message": "Same instruction already appears in AGENTS.md:294."
+      "message": "2 instructions already appear in AGENTS.md (first: line 336)."
     },
     {
       "repo": "BuilderIO__agent-native",
@@ -4546,15 +4210,7 @@
       "severity": "info",
       "file": "community-templates/churn-early-warning/AGENTS.md",
       "line": 20,
-      "message": "Same instruction already appears in AGENTS.md:336."
-    },
-    {
-      "repo": "BuilderIO__agent-native",
-      "ruleId": "OBL011",
-      "severity": "info",
-      "file": "community-templates/churn-early-warning/AGENTS.md",
-      "line": 27,
-      "message": "Same instruction already appears in AGENTS.md:294."
+      "message": "2 instructions already appear in AGENTS.md (first: line 336)."
     },
     {
       "repo": "BuilderIO__agent-native",
@@ -4562,15 +4218,7 @@
       "severity": "info",
       "file": "community-templates/demo-clip-library/AGENTS.md",
       "line": 20,
-      "message": "Same instruction already appears in AGENTS.md:336."
-    },
-    {
-      "repo": "BuilderIO__agent-native",
-      "ruleId": "OBL011",
-      "severity": "info",
-      "file": "community-templates/demo-clip-library/AGENTS.md",
-      "line": 27,
-      "message": "Same instruction already appears in AGENTS.md:294."
+      "message": "2 instructions already appear in AGENTS.md (first: line 336)."
     },
     {
       "repo": "BuilderIO__agent-native",
@@ -4578,15 +4226,7 @@
       "severity": "info",
       "file": "community-templates/linkedin-icp-prospect-tracker/AGENTS.md",
       "line": 20,
-      "message": "Same instruction already appears in AGENTS.md:336."
-    },
-    {
-      "repo": "BuilderIO__agent-native",
-      "ruleId": "OBL011",
-      "severity": "info",
-      "file": "community-templates/linkedin-icp-prospect-tracker/AGENTS.md",
-      "line": 27,
-      "message": "Same instruction already appears in AGENTS.md:294."
+      "message": "2 instructions already appear in AGENTS.md (first: line 336)."
     },
     {
       "repo": "BuilderIO__agent-native",
@@ -4594,15 +4234,7 @@
       "severity": "info",
       "file": "community-templates/linkedin-signal-watch/AGENTS.md",
       "line": 20,
-      "message": "Same instruction already appears in AGENTS.md:336."
-    },
-    {
-      "repo": "BuilderIO__agent-native",
-      "ruleId": "OBL011",
-      "severity": "info",
-      "file": "community-templates/linkedin-signal-watch/AGENTS.md",
-      "line": 27,
-      "message": "Same instruction already appears in AGENTS.md:294."
+      "message": "2 instructions already appear in AGENTS.md (first: line 336)."
     },
     {
       "repo": "BuilderIO__agent-native",
@@ -4610,15 +4242,7 @@
       "severity": "info",
       "file": "community-templates/outbound-in-your-voice/AGENTS.md",
       "line": 20,
-      "message": "Same instruction already appears in AGENTS.md:336."
-    },
-    {
-      "repo": "BuilderIO__agent-native",
-      "ruleId": "OBL011",
-      "severity": "info",
-      "file": "community-templates/outbound-in-your-voice/AGENTS.md",
-      "line": 27,
-      "message": "Same instruction already appears in AGENTS.md:294."
+      "message": "2 instructions already appear in AGENTS.md (first: line 336)."
     },
     {
       "repo": "BuilderIO__agent-native",
@@ -4626,15 +4250,7 @@
       "severity": "info",
       "file": "community-templates/win-loss-memo/AGENTS.md",
       "line": 20,
-      "message": "Same instruction already appears in AGENTS.md:336."
-    },
-    {
-      "repo": "BuilderIO__agent-native",
-      "ruleId": "OBL011",
-      "severity": "info",
-      "file": "community-templates/win-loss-memo/AGENTS.md",
-      "line": 27,
-      "message": "Same instruction already appears in AGENTS.md:294."
+      "message": "2 instructions already appear in AGENTS.md (first: line 336)."
     },
     {
       "repo": "BuilderIO__agent-native",
@@ -4858,15 +4474,7 @@
       "severity": "info",
       "file": "packages/core/src/templates/workspace-core/AGENTS.md",
       "line": 38,
-      "message": "Same instruction already appears in AGENTS.md:336."
-    },
-    {
-      "repo": "BuilderIO__agent-native",
-      "ruleId": "OBL011",
-      "severity": "info",
-      "file": "packages/core/src/templates/workspace-core/AGENTS.md",
-      "line": 69,
-      "message": "Same instruction already appears in AGENTS.md:294."
+      "message": "2 instructions already appear in AGENTS.md (first: line 336)."
     },
     {
       "repo": "BuilderIO__agent-native",
@@ -5010,15 +4618,7 @@
       "severity": "info",
       "file": "templates/assets/AGENTS.md",
       "line": 25,
-      "message": "Same instruction already appears in AGENTS.md:336."
-    },
-    {
-      "repo": "BuilderIO__agent-native",
-      "ruleId": "OBL011",
-      "severity": "info",
-      "file": "templates/assets/AGENTS.md",
-      "line": 30,
-      "message": "Same instruction already appears in AGENTS.md:294."
+      "message": "2 instructions already appear in AGENTS.md (first: line 336)."
     },
     {
       "repo": "BuilderIO__agent-native",
@@ -5026,15 +4626,7 @@
       "severity": "info",
       "file": "templates/brain/AGENTS.md",
       "line": 25,
-      "message": "Same instruction already appears in AGENTS.md:336."
-    },
-    {
-      "repo": "BuilderIO__agent-native",
-      "ruleId": "OBL011",
-      "severity": "info",
-      "file": "templates/brain/AGENTS.md",
-      "line": 30,
-      "message": "Same instruction already appears in AGENTS.md:294."
+      "message": "2 instructions already appear in AGENTS.md (first: line 336)."
     },
     {
       "repo": "BuilderIO__agent-native",
@@ -5050,15 +4642,7 @@
       "severity": "info",
       "file": "templates/chat/AGENTS.md",
       "line": 20,
-      "message": "Same instruction already appears in AGENTS.md:336."
-    },
-    {
-      "repo": "BuilderIO__agent-native",
-      "ruleId": "OBL011",
-      "severity": "info",
-      "file": "templates/chat/AGENTS.md",
-      "line": 27,
-      "message": "Same instruction already appears in AGENTS.md:294."
+      "message": "2 instructions already appear in AGENTS.md (first: line 336)."
     },
     {
       "repo": "BuilderIO__agent-native",
@@ -5066,15 +4650,7 @@
       "severity": "info",
       "file": "templates/clips/AGENTS.md",
       "line": 24,
-      "message": "Same instruction already appears in AGENTS.md:336."
-    },
-    {
-      "repo": "BuilderIO__agent-native",
-      "ruleId": "OBL011",
-      "severity": "info",
-      "file": "templates/clips/AGENTS.md",
-      "line": 30,
-      "message": "Same instruction already appears in AGENTS.md:294."
+      "message": "2 instructions already appear in AGENTS.md (first: line 336)."
     },
     {
       "repo": "BuilderIO__agent-native",
@@ -5138,15 +4714,7 @@
       "severity": "info",
       "file": "templates/plan/AGENTS.md",
       "line": 31,
-      "message": "Same instruction already appears in AGENTS.md:336."
-    },
-    {
-      "repo": "BuilderIO__agent-native",
-      "ruleId": "OBL011",
-      "severity": "info",
-      "file": "templates/plan/AGENTS.md",
-      "line": 38,
-      "message": "Same instruction already appears in AGENTS.md:294."
+      "message": "2 instructions already appear in AGENTS.md (first: line 336)."
     },
     {
       "repo": "BuilderIO__agent-native",
@@ -5186,23 +4754,7 @@
       "severity": "info",
       "file": ".github/instructions/c-code.instructions.md",
       "line": 15,
-      "message": "Same instruction already appears in .github/copilot-instructions.md:158."
-    },
-    {
-      "repo": "EliasOenal__multimon-ng",
-      "ruleId": "OBL011",
-      "severity": "info",
-      "file": ".github/instructions/c-code.instructions.md",
-      "line": 16,
-      "message": "Same instruction already appears in .github/copilot-instructions.md:159."
-    },
-    {
-      "repo": "EliasOenal__multimon-ng",
-      "ruleId": "OBL011",
-      "severity": "info",
-      "file": ".github/instructions/c-code.instructions.md",
-      "line": 17,
-      "message": "Same instruction already appears in .github/copilot-instructions.md:160."
+      "message": "3 instructions already appear in .github/copilot-instructions.md (first: line 158)."
     },
     {
       "repo": "EliasOenal__multimon-ng",
@@ -5210,31 +4762,7 @@
       "severity": "info",
       "file": ".github/instructions/demodulators.instructions.md",
       "line": 15,
-      "message": "Same instruction already appears in .github/copilot-instructions.md:164."
-    },
-    {
-      "repo": "EliasOenal__multimon-ng",
-      "ruleId": "OBL011",
-      "severity": "info",
-      "file": ".github/instructions/demodulators.instructions.md",
-      "line": 16,
-      "message": "Same instruction already appears in .github/copilot-instructions.md:166."
-    },
-    {
-      "repo": "EliasOenal__multimon-ng",
-      "ruleId": "OBL011",
-      "severity": "info",
-      "file": ".github/instructions/demodulators.instructions.md",
-      "line": 17,
-      "message": "Same instruction already appears in .github/copilot-instructions.md:167."
-    },
-    {
-      "repo": "EliasOenal__multimon-ng",
-      "ruleId": "OBL011",
-      "severity": "info",
-      "file": ".github/instructions/demodulators.instructions.md",
-      "line": 18,
-      "message": "Same instruction already appears in .github/copilot-instructions.md:168."
+      "message": "4 instructions already appear in .github/copilot-instructions.md (first: line 164)."
     },
     {
       "repo": "EliasOenal__multimon-ng",
@@ -5242,23 +4770,7 @@
       "severity": "info",
       "file": ".github/instructions/generators.instructions.md",
       "line": 13,
-      "message": "Same instruction already appears in .github/copilot-instructions.md:172."
-    },
-    {
-      "repo": "EliasOenal__multimon-ng",
-      "ruleId": "OBL011",
-      "severity": "info",
-      "file": ".github/instructions/generators.instructions.md",
-      "line": 15,
-      "message": "Same instruction already appears in .github/copilot-instructions.md:174."
-    },
-    {
-      "repo": "EliasOenal__multimon-ng",
-      "ruleId": "OBL011",
-      "severity": "info",
-      "file": ".github/instructions/generators.instructions.md",
-      "line": 16,
-      "message": "Same instruction already appears in .github/copilot-instructions.md:175."
+      "message": "3 instructions already appear in .github/copilot-instructions.md (first: line 172)."
     },
     {
       "repo": "EliasOenal__multimon-ng",
@@ -5266,15 +4778,7 @@
       "severity": "info",
       "file": ".github/instructions/generators.instructions.md",
       "line": 20,
-      "message": "Same instruction already appears in .github/instructions/demodulators.instructions.md:22."
-    },
-    {
-      "repo": "EliasOenal__multimon-ng",
-      "ruleId": "OBL011",
-      "severity": "info",
-      "file": ".github/instructions/generators.instructions.md",
-      "line": 22,
-      "message": "Same instruction already appears in .github/instructions/demodulators.instructions.md:24."
+      "message": "2 instructions already appear in .github/instructions/demodulators.instructions.md (first: line 22)."
     },
     {
       "repo": "EliasOenal__multimon-ng",
@@ -5282,31 +4786,7 @@
       "severity": "info",
       "file": ".github/instructions/tests.instructions.md",
       "line": 26,
-      "message": "Same instruction already appears in .github/copilot-instructions.md:84."
-    },
-    {
-      "repo": "EliasOenal__multimon-ng",
-      "ruleId": "OBL011",
-      "severity": "info",
-      "file": ".github/instructions/tests.instructions.md",
-      "line": 27,
-      "message": "Same instruction already appears in .github/copilot-instructions.md:85."
-    },
-    {
-      "repo": "EliasOenal__multimon-ng",
-      "ruleId": "OBL011",
-      "severity": "info",
-      "file": ".github/instructions/tests.instructions.md",
-      "line": 28,
-      "message": "Same instruction already appears in .github/copilot-instructions.md:86."
-    },
-    {
-      "repo": "EliasOenal__multimon-ng",
-      "ruleId": "OBL011",
-      "severity": "info",
-      "file": ".github/instructions/tests.instructions.md",
-      "line": 30,
-      "message": "Same instruction already appears in .github/copilot-instructions.md:88."
+      "message": "4 instructions already appear in .github/copilot-instructions.md (first: line 84)."
     },
     {
       "repo": "GoogleContainerTools__config-sync",
@@ -5418,63 +4898,7 @@
       "severity": "info",
       "file": "AGENTS.md",
       "line": 8,
-      "message": "Same instruction already appears in .github/copilot-instructions.md:6."
-    },
-    {
-      "repo": "Hessesian__kmp-lsp",
-      "ruleId": "OBL011",
-      "severity": "info",
-      "file": "AGENTS.md",
-      "line": 9,
-      "message": "Same instruction already appears in .github/copilot-instructions.md:7."
-    },
-    {
-      "repo": "Hessesian__kmp-lsp",
-      "ruleId": "OBL011",
-      "severity": "info",
-      "file": "AGENTS.md",
-      "line": 10,
-      "message": "Same instruction already appears in .github/copilot-instructions.md:8."
-    },
-    {
-      "repo": "Hessesian__kmp-lsp",
-      "ruleId": "OBL011",
-      "severity": "info",
-      "file": "AGENTS.md",
-      "line": 11,
-      "message": "Same instruction already appears in .github/copilot-instructions.md:9."
-    },
-    {
-      "repo": "Hessesian__kmp-lsp",
-      "ruleId": "OBL011",
-      "severity": "info",
-      "file": "AGENTS.md",
-      "line": 12,
-      "message": "Same instruction already appears in .github/copilot-instructions.md:10."
-    },
-    {
-      "repo": "Hessesian__kmp-lsp",
-      "ruleId": "OBL011",
-      "severity": "info",
-      "file": "AGENTS.md",
-      "line": 13,
-      "message": "Same instruction already appears in .github/copilot-instructions.md:11."
-    },
-    {
-      "repo": "Hessesian__kmp-lsp",
-      "ruleId": "OBL011",
-      "severity": "info",
-      "file": "AGENTS.md",
-      "line": 23,
-      "message": "Same instruction already appears in .github/copilot-instructions.md:14."
-    },
-    {
-      "repo": "Hessesian__kmp-lsp",
-      "ruleId": "OBL011",
-      "severity": "info",
-      "file": "AGENTS.md",
-      "line": 24,
-      "message": "Same instruction already appears in .github/copilot-instructions.md:15."
+      "message": "31 instructions already appear in .github/copilot-instructions.md (first: line 6)."
     },
     {
       "repo": "Hessesian__kmp-lsp",
@@ -5483,190 +4907,6 @@
       "file": "AGENTS.md",
       "line": 24,
       "message": "Line is 676 characters long."
-    },
-    {
-      "repo": "Hessesian__kmp-lsp",
-      "ruleId": "OBL011",
-      "severity": "info",
-      "file": "AGENTS.md",
-      "line": 25,
-      "message": "Same instruction already appears in .github/copilot-instructions.md:16."
-    },
-    {
-      "repo": "Hessesian__kmp-lsp",
-      "ruleId": "OBL011",
-      "severity": "info",
-      "file": "AGENTS.md",
-      "line": 26,
-      "message": "Same instruction already appears in .github/copilot-instructions.md:17."
-    },
-    {
-      "repo": "Hessesian__kmp-lsp",
-      "ruleId": "OBL011",
-      "severity": "info",
-      "file": "AGENTS.md",
-      "line": 27,
-      "message": "Same instruction already appears in .github/copilot-instructions.md:18."
-    },
-    {
-      "repo": "Hessesian__kmp-lsp",
-      "ruleId": "OBL011",
-      "severity": "info",
-      "file": "AGENTS.md",
-      "line": 28,
-      "message": "Same instruction already appears in .github/copilot-instructions.md:19."
-    },
-    {
-      "repo": "Hessesian__kmp-lsp",
-      "ruleId": "OBL011",
-      "severity": "info",
-      "file": "AGENTS.md",
-      "line": 29,
-      "message": "Same instruction already appears in .github/copilot-instructions.md:20."
-    },
-    {
-      "repo": "Hessesian__kmp-lsp",
-      "ruleId": "OBL011",
-      "severity": "info",
-      "file": "AGENTS.md",
-      "line": 30,
-      "message": "Same instruction already appears in .github/copilot-instructions.md:21."
-    },
-    {
-      "repo": "Hessesian__kmp-lsp",
-      "ruleId": "OBL011",
-      "severity": "info",
-      "file": "AGENTS.md",
-      "line": 33,
-      "message": "Same instruction already appears in .github/copilot-instructions.md:24."
-    },
-    {
-      "repo": "Hessesian__kmp-lsp",
-      "ruleId": "OBL011",
-      "severity": "info",
-      "file": "AGENTS.md",
-      "line": 34,
-      "message": "Same instruction already appears in .github/copilot-instructions.md:25."
-    },
-    {
-      "repo": "Hessesian__kmp-lsp",
-      "ruleId": "OBL011",
-      "severity": "info",
-      "file": "AGENTS.md",
-      "line": 35,
-      "message": "Same instruction already appears in .github/copilot-instructions.md:26."
-    },
-    {
-      "repo": "Hessesian__kmp-lsp",
-      "ruleId": "OBL011",
-      "severity": "info",
-      "file": "AGENTS.md",
-      "line": 36,
-      "message": "Same instruction already appears in .github/copilot-instructions.md:27."
-    },
-    {
-      "repo": "Hessesian__kmp-lsp",
-      "ruleId": "OBL011",
-      "severity": "info",
-      "file": "AGENTS.md",
-      "line": 37,
-      "message": "Same instruction already appears in .github/copilot-instructions.md:28."
-    },
-    {
-      "repo": "Hessesian__kmp-lsp",
-      "ruleId": "OBL011",
-      "severity": "info",
-      "file": "AGENTS.md",
-      "line": 40,
-      "message": "Same instruction already appears in .github/copilot-instructions.md:31."
-    },
-    {
-      "repo": "Hessesian__kmp-lsp",
-      "ruleId": "OBL011",
-      "severity": "info",
-      "file": "AGENTS.md",
-      "line": 41,
-      "message": "Same instruction already appears in .github/copilot-instructions.md:32."
-    },
-    {
-      "repo": "Hessesian__kmp-lsp",
-      "ruleId": "OBL011",
-      "severity": "info",
-      "file": "AGENTS.md",
-      "line": 42,
-      "message": "Same instruction already appears in .github/copilot-instructions.md:33."
-    },
-    {
-      "repo": "Hessesian__kmp-lsp",
-      "ruleId": "OBL011",
-      "severity": "info",
-      "file": "AGENTS.md",
-      "line": 43,
-      "message": "Same instruction already appears in .github/copilot-instructions.md:34."
-    },
-    {
-      "repo": "Hessesian__kmp-lsp",
-      "ruleId": "OBL011",
-      "severity": "info",
-      "file": "AGENTS.md",
-      "line": 44,
-      "message": "Same instruction already appears in .github/copilot-instructions.md:35."
-    },
-    {
-      "repo": "Hessesian__kmp-lsp",
-      "ruleId": "OBL011",
-      "severity": "info",
-      "file": "AGENTS.md",
-      "line": 45,
-      "message": "Same instruction already appears in .github/copilot-instructions.md:36."
-    },
-    {
-      "repo": "Hessesian__kmp-lsp",
-      "ruleId": "OBL011",
-      "severity": "info",
-      "file": "AGENTS.md",
-      "line": 46,
-      "message": "Same instruction already appears in .github/copilot-instructions.md:37."
-    },
-    {
-      "repo": "Hessesian__kmp-lsp",
-      "ruleId": "OBL011",
-      "severity": "info",
-      "file": "AGENTS.md",
-      "line": 47,
-      "message": "Same instruction already appears in .github/copilot-instructions.md:38."
-    },
-    {
-      "repo": "Hessesian__kmp-lsp",
-      "ruleId": "OBL011",
-      "severity": "info",
-      "file": "AGENTS.md",
-      "line": 48,
-      "message": "Same instruction already appears in .github/copilot-instructions.md:39."
-    },
-    {
-      "repo": "Hessesian__kmp-lsp",
-      "ruleId": "OBL011",
-      "severity": "info",
-      "file": "AGENTS.md",
-      "line": 49,
-      "message": "Same instruction already appears in .github/copilot-instructions.md:40."
-    },
-    {
-      "repo": "Hessesian__kmp-lsp",
-      "ruleId": "OBL011",
-      "severity": "info",
-      "file": "AGENTS.md",
-      "line": 54,
-      "message": "Same instruction already appears in .github/copilot-instructions.md:44."
-    },
-    {
-      "repo": "Hessesian__kmp-lsp",
-      "ruleId": "OBL011",
-      "severity": "info",
-      "file": "AGENTS.md",
-      "line": 55,
-      "message": "Same instruction already appears in .github/copilot-instructions.md:45."
     },
     {
       "repo": "HorusGoul__eslint-plugin-react-render-types",
@@ -8002,71 +7242,7 @@
       "severity": "info",
       "file": "app/components/AGENTS.md",
       "line": 344,
-      "message": "Same instruction already appears in AGENTS.md:302."
-    },
-    {
-      "repo": "Menghuan1918__drawio2go",
-      "ruleId": "OBL011",
-      "severity": "info",
-      "file": "app/components/AGENTS.md",
-      "line": 364,
-      "message": "Same instruction already appears in AGENTS.md:324."
-    },
-    {
-      "repo": "Menghuan1918__drawio2go",
-      "ruleId": "OBL011",
-      "severity": "info",
-      "file": "app/components/AGENTS.md",
-      "line": 365,
-      "message": "Same instruction already appears in AGENTS.md:325."
-    },
-    {
-      "repo": "Menghuan1918__drawio2go",
-      "ruleId": "OBL011",
-      "severity": "info",
-      "file": "app/components/AGENTS.md",
-      "line": 366,
-      "message": "Same instruction already appears in AGENTS.md:326."
-    },
-    {
-      "repo": "Menghuan1918__drawio2go",
-      "ruleId": "OBL011",
-      "severity": "info",
-      "file": "app/components/AGENTS.md",
-      "line": 367,
-      "message": "Same instruction already appears in AGENTS.md:327."
-    },
-    {
-      "repo": "Menghuan1918__drawio2go",
-      "ruleId": "OBL011",
-      "severity": "info",
-      "file": "app/components/AGENTS.md",
-      "line": 368,
-      "message": "Same instruction already appears in AGENTS.md:328."
-    },
-    {
-      "repo": "Menghuan1918__drawio2go",
-      "ruleId": "OBL011",
-      "severity": "info",
-      "file": "app/components/AGENTS.md",
-      "line": 369,
-      "message": "Same instruction already appears in AGENTS.md:329."
-    },
-    {
-      "repo": "Menghuan1918__drawio2go",
-      "ruleId": "OBL011",
-      "severity": "info",
-      "file": "app/components/AGENTS.md",
-      "line": 370,
-      "message": "Same instruction already appears in AGENTS.md:330."
-    },
-    {
-      "repo": "Menghuan1918__drawio2go",
-      "ruleId": "OBL011",
-      "severity": "info",
-      "file": "app/components/AGENTS.md",
-      "line": 371,
-      "message": "Same instruction already appears in AGENTS.md:331."
+      "message": "9 instructions already appear in AGENTS.md (first: line 302)."
     },
     {
       "repo": "Menghuan1918__drawio2go",
@@ -9402,15 +8578,7 @@
       "severity": "info",
       "file": "dz/contracts/CLAUDE.md",
       "line": 34,
-      "message": "Same instruction already appears in dz/CLAUDE.md:51."
-    },
-    {
-      "repo": "ThomasMoreAI__legal-skills-open",
-      "ruleId": "OBL011",
-      "severity": "info",
-      "file": "dz/contracts/CLAUDE.md",
-      "line": 35,
-      "message": "Same instruction already appears in dz/CLAUDE.md:52."
+      "message": "2 instructions already appear in dz/CLAUDE.md (first: line 51)."
     },
     {
       "repo": "ThomasMoreAI__legal-skills-open",
@@ -9418,15 +8586,7 @@
       "severity": "info",
       "file": "dz/corporate/CLAUDE.md",
       "line": 24,
-      "message": "Same instruction already appears in dz/CLAUDE.md:51."
-    },
-    {
-      "repo": "ThomasMoreAI__legal-skills-open",
-      "ruleId": "OBL011",
-      "severity": "info",
-      "file": "dz/corporate/CLAUDE.md",
-      "line": 25,
-      "message": "Same instruction already appears in dz/CLAUDE.md:52."
+      "message": "2 instructions already appear in dz/CLAUDE.md (first: line 51)."
     },
     {
       "repo": "ThomasMoreAI__legal-skills-open",
@@ -9434,15 +8594,7 @@
       "severity": "info",
       "file": "dz/regulatory/CLAUDE.md",
       "line": 36,
-      "message": "Same instruction already appears in dz/CLAUDE.md:51."
-    },
-    {
-      "repo": "ThomasMoreAI__legal-skills-open",
-      "ruleId": "OBL011",
-      "severity": "info",
-      "file": "dz/regulatory/CLAUDE.md",
-      "line": 37,
-      "message": "Same instruction already appears in dz/CLAUDE.md:52."
+      "message": "2 instructions already appear in dz/CLAUDE.md (first: line 51)."
     },
     {
       "repo": "ThomasMoreAI__legal-skills-open",
@@ -9450,15 +8602,7 @@
       "severity": "info",
       "file": "dz/tax/CLAUDE.md",
       "line": 37,
-      "message": "Same instruction already appears in dz/CLAUDE.md:51."
-    },
-    {
-      "repo": "ThomasMoreAI__legal-skills-open",
-      "ruleId": "OBL011",
-      "severity": "info",
-      "file": "dz/tax/CLAUDE.md",
-      "line": 38,
-      "message": "Same instruction already appears in dz/CLAUDE.md:52."
+      "message": "2 instructions already appear in dz/CLAUDE.md (first: line 51)."
     },
     {
       "repo": "ThomasMoreAI__legal-skills-open",
@@ -9466,15 +8610,7 @@
       "severity": "info",
       "file": "dz/white-collar/CLAUDE.md",
       "line": 35,
-      "message": "Same instruction already appears in dz/CLAUDE.md:51."
-    },
-    {
-      "repo": "ThomasMoreAI__legal-skills-open",
-      "ruleId": "OBL011",
-      "severity": "info",
-      "file": "dz/white-collar/CLAUDE.md",
-      "line": 36,
-      "message": "Same instruction already appears in dz/CLAUDE.md:52."
+      "message": "2 instructions already appear in dz/CLAUDE.md (first: line 51)."
     },
     {
       "repo": "ThomasMoreAI__legal-skills-open",
@@ -12698,39 +11834,7 @@
       "severity": "info",
       "file": "docs/AGENTS.md",
       "line": 24,
-      "message": "Same instruction already appears in AGENTS.md:23."
-    },
-    {
-      "repo": "hughjonesd__huxtable",
-      "ruleId": "OBL011",
-      "severity": "info",
-      "file": "docs/AGENTS.md",
-      "line": 44,
-      "message": "Same instruction already appears in AGENTS.md:41."
-    },
-    {
-      "repo": "hughjonesd__huxtable",
-      "ruleId": "OBL011",
-      "severity": "info",
-      "file": "docs/AGENTS.md",
-      "line": 45,
-      "message": "Same instruction already appears in AGENTS.md:42."
-    },
-    {
-      "repo": "hughjonesd__huxtable",
-      "ruleId": "OBL011",
-      "severity": "info",
-      "file": "docs/AGENTS.md",
-      "line": 57,
-      "message": "Same instruction already appears in AGENTS.md:54."
-    },
-    {
-      "repo": "hughjonesd__huxtable",
-      "ruleId": "OBL011",
-      "severity": "info",
-      "file": "docs/AGENTS.md",
-      "line": 58,
-      "message": "Same instruction already appears in AGENTS.md:55."
+      "message": "5 instructions already appear in AGENTS.md (first: line 23)."
     },
     {
       "repo": "hughjonesd__huxtable",
@@ -13010,87 +12114,7 @@
       "severity": "info",
       "file": "AGENTS.md",
       "line": 199,
-      "message": "Same instruction already appears in .cursor/rules/output-style.mdc:12."
-    },
-    {
-      "repo": "leancoderkavy__premiere-pro-mcp",
-      "ruleId": "OBL011",
-      "severity": "info",
-      "file": "AGENTS.md",
-      "line": 200,
-      "message": "Same instruction already appears in .cursor/rules/output-style.mdc:13."
-    },
-    {
-      "repo": "leancoderkavy__premiere-pro-mcp",
-      "ruleId": "OBL011",
-      "severity": "info",
-      "file": "AGENTS.md",
-      "line": 202,
-      "message": "Same instruction already appears in .cursor/rules/output-style.mdc:15."
-    },
-    {
-      "repo": "leancoderkavy__premiere-pro-mcp",
-      "ruleId": "OBL011",
-      "severity": "info",
-      "file": "AGENTS.md",
-      "line": 203,
-      "message": "Same instruction already appears in .cursor/rules/output-style.mdc:16."
-    },
-    {
-      "repo": "leancoderkavy__premiere-pro-mcp",
-      "ruleId": "OBL011",
-      "severity": "info",
-      "file": "AGENTS.md",
-      "line": 204,
-      "message": "Same instruction already appears in .cursor/rules/output-style.mdc:17."
-    },
-    {
-      "repo": "leancoderkavy__premiere-pro-mcp",
-      "ruleId": "OBL011",
-      "severity": "info",
-      "file": "AGENTS.md",
-      "line": 205,
-      "message": "Same instruction already appears in .cursor/rules/output-style.mdc:18."
-    },
-    {
-      "repo": "leancoderkavy__premiere-pro-mcp",
-      "ruleId": "OBL011",
-      "severity": "info",
-      "file": "AGENTS.md",
-      "line": 206,
-      "message": "Same instruction already appears in .cursor/rules/output-style.mdc:19."
-    },
-    {
-      "repo": "leancoderkavy__premiere-pro-mcp",
-      "ruleId": "OBL011",
-      "severity": "info",
-      "file": "AGENTS.md",
-      "line": 207,
-      "message": "Same instruction already appears in .cursor/rules/output-style.mdc:20."
-    },
-    {
-      "repo": "leancoderkavy__premiere-pro-mcp",
-      "ruleId": "OBL011",
-      "severity": "info",
-      "file": "AGENTS.md",
-      "line": 210,
-      "message": "Same instruction already appears in .cursor/rules/output-style.mdc:23."
-    },
-    {
-      "repo": "leancoderkavy__premiere-pro-mcp",
-      "ruleId": "OBL011",
-      "severity": "info",
-      "file": "AGENTS.md",
-      "line": 211,
-      "message": "Same instruction already appears in .cursor/rules/output-style.mdc:24."
-    },
-    {
-      "repo": "leancoderkavy__premiere-pro-mcp",
-      "ruleId": "OBL011",
-      "severity": "info",
-      "file": "AGENTS.md",
-      "line": 213,
-      "message": "Same instruction already appears in .cursor/rules/output-style.mdc:26."
+      "message": "11 instructions already appear in .cursor/rules/output-style.mdc (first: line 12)."
     },
     {
       "repo": "lifinance__contracts",
@@ -15746,15 +14770,7 @@
       "severity": "info",
       "file": ".cursorrules",
       "line": 59,
-      "message": "Same instruction already appears in .cursor/rules/terraform.mdc:59."
-    },
-    {
-      "repo": "nitinjain999__platform-skills",
-      "ruleId": "OBL011",
-      "severity": "info",
-      "file": ".cursorrules",
-      "line": 60,
-      "message": "Same instruction already appears in .cursor/rules/terraform.mdc:61."
+      "message": "2 instructions already appear in .cursor/rules/terraform.mdc (first: line 59)."
     },
     {
       "repo": "nitinjain999__platform-skills",
@@ -15762,23 +14778,7 @@
       "severity": "info",
       "file": ".github/copilot-instructions.md",
       "line": 243,
-      "message": "Same instruction already appears in .cursorrules:58."
-    },
-    {
-      "repo": "nitinjain999__platform-skills",
-      "ruleId": "OBL011",
-      "severity": "info",
-      "file": ".github/copilot-instructions.md",
-      "line": 244,
-      "message": "Same instruction already appears in .cursorrules:60."
-    },
-    {
-      "repo": "nitinjain999__platform-skills",
-      "ruleId": "OBL011",
-      "severity": "info",
-      "file": ".github/copilot-instructions.md",
-      "line": 246,
-      "message": "Same instruction already appears in .cursorrules:59."
+      "message": "3 instructions already appear in .cursorrules (first: line 58)."
     },
     {
       "repo": "nitinjain999__platform-skills",
@@ -16370,55 +15370,7 @@
       "severity": "info",
       "file": ".cursorrules",
       "line": 3,
-      "message": "Same instruction already appears in .claude/CLAUDE.md:3."
-    },
-    {
-      "repo": "snowdreamtech__frp",
-      "ruleId": "OBL011",
-      "severity": "info",
-      "file": ".cursorrules",
-      "line": 4,
-      "message": "Same instruction already appears in .claude/CLAUDE.md:4."
-    },
-    {
-      "repo": "snowdreamtech__frp",
-      "ruleId": "OBL011",
-      "severity": "info",
-      "file": ".cursorrules",
-      "line": 23,
-      "message": "Same instruction already appears in .claude/CLAUDE.md:19."
-    },
-    {
-      "repo": "snowdreamtech__frp",
-      "ruleId": "OBL011",
-      "severity": "info",
-      "file": ".cursorrules",
-      "line": 24,
-      "message": "Same instruction already appears in .claude/CLAUDE.md:20."
-    },
-    {
-      "repo": "snowdreamtech__frp",
-      "ruleId": "OBL011",
-      "severity": "info",
-      "file": ".cursorrules",
-      "line": 25,
-      "message": "Same instruction already appears in .claude/CLAUDE.md:21."
-    },
-    {
-      "repo": "snowdreamtech__frp",
-      "ruleId": "OBL011",
-      "severity": "info",
-      "file": ".cursorrules",
-      "line": 26,
-      "message": "Same instruction already appears in .claude/CLAUDE.md:22."
-    },
-    {
-      "repo": "snowdreamtech__frp",
-      "ruleId": "OBL011",
-      "severity": "info",
-      "file": ".cursorrules",
-      "line": 27,
-      "message": "Same instruction already appears in .claude/CLAUDE.md:23."
+      "message": "7 instructions already appear in .claude/CLAUDE.md (first: line 3)."
     },
     {
       "repo": "snowdreamtech__frp",
@@ -16426,55 +15378,7 @@
       "severity": "info",
       "file": ".gemini/GEMINI.md",
       "line": 3,
-      "message": "Same instruction already appears in .cursorrules:3."
-    },
-    {
-      "repo": "snowdreamtech__frp",
-      "ruleId": "OBL011",
-      "severity": "info",
-      "file": ".gemini/GEMINI.md",
-      "line": 4,
-      "message": "Same instruction already appears in .cursorrules:4."
-    },
-    {
-      "repo": "snowdreamtech__frp",
-      "ruleId": "OBL011",
-      "severity": "info",
-      "file": ".gemini/GEMINI.md",
-      "line": 19,
-      "message": "Same instruction already appears in .cursorrules:23."
-    },
-    {
-      "repo": "snowdreamtech__frp",
-      "ruleId": "OBL011",
-      "severity": "info",
-      "file": ".gemini/GEMINI.md",
-      "line": 20,
-      "message": "Same instruction already appears in .cursorrules:24."
-    },
-    {
-      "repo": "snowdreamtech__frp",
-      "ruleId": "OBL011",
-      "severity": "info",
-      "file": ".gemini/GEMINI.md",
-      "line": 21,
-      "message": "Same instruction already appears in .cursorrules:25."
-    },
-    {
-      "repo": "snowdreamtech__frp",
-      "ruleId": "OBL011",
-      "severity": "info",
-      "file": ".gemini/GEMINI.md",
-      "line": 22,
-      "message": "Same instruction already appears in .cursorrules:26."
-    },
-    {
-      "repo": "snowdreamtech__frp",
-      "ruleId": "OBL011",
-      "severity": "info",
-      "file": ".gemini/GEMINI.md",
-      "line": 23,
-      "message": "Same instruction already appears in .cursorrules:27."
+      "message": "7 instructions already appear in .cursorrules (first: line 3)."
     },
     {
       "repo": "snowdreamtech__frp",
@@ -16482,103 +15386,7 @@
       "severity": "info",
       "file": ".github/copilot-instructions.md",
       "line": 3,
-      "message": "Same instruction already appears in .cursorrules:3."
-    },
-    {
-      "repo": "snowdreamtech__frp",
-      "ruleId": "OBL011",
-      "severity": "info",
-      "file": ".github/copilot-instructions.md",
-      "line": 4,
-      "message": "Same instruction already appears in .cursorrules:4."
-    },
-    {
-      "repo": "snowdreamtech__frp",
-      "ruleId": "OBL011",
-      "severity": "info",
-      "file": ".github/copilot-instructions.md",
-      "line": 13,
-      "message": "Same instruction already appears in .cursorrules:13."
-    },
-    {
-      "repo": "snowdreamtech__frp",
-      "ruleId": "OBL011",
-      "severity": "info",
-      "file": ".github/copilot-instructions.md",
-      "line": 15,
-      "message": "Same instruction already appears in .cursorrules:15."
-    },
-    {
-      "repo": "snowdreamtech__frp",
-      "ruleId": "OBL011",
-      "severity": "info",
-      "file": ".github/copilot-instructions.md",
-      "line": 17,
-      "message": "Same instruction already appears in .cursorrules:17."
-    },
-    {
-      "repo": "snowdreamtech__frp",
-      "ruleId": "OBL011",
-      "severity": "info",
-      "file": ".github/copilot-instructions.md",
-      "line": 18,
-      "message": "Same instruction already appears in .cursorrules:18."
-    },
-    {
-      "repo": "snowdreamtech__frp",
-      "ruleId": "OBL011",
-      "severity": "info",
-      "file": ".github/copilot-instructions.md",
-      "line": 19,
-      "message": "Same instruction already appears in .cursorrules:19."
-    },
-    {
-      "repo": "snowdreamtech__frp",
-      "ruleId": "OBL011",
-      "severity": "info",
-      "file": ".github/copilot-instructions.md",
-      "line": 23,
-      "message": "Same instruction already appears in .cursorrules:23."
-    },
-    {
-      "repo": "snowdreamtech__frp",
-      "ruleId": "OBL011",
-      "severity": "info",
-      "file": ".github/copilot-instructions.md",
-      "line": 24,
-      "message": "Same instruction already appears in .cursorrules:24."
-    },
-    {
-      "repo": "snowdreamtech__frp",
-      "ruleId": "OBL011",
-      "severity": "info",
-      "file": ".github/copilot-instructions.md",
-      "line": 25,
-      "message": "Same instruction already appears in .cursorrules:25."
-    },
-    {
-      "repo": "snowdreamtech__frp",
-      "ruleId": "OBL011",
-      "severity": "info",
-      "file": ".github/copilot-instructions.md",
-      "line": 26,
-      "message": "Same instruction already appears in .cursorrules:26."
-    },
-    {
-      "repo": "snowdreamtech__frp",
-      "ruleId": "OBL011",
-      "severity": "info",
-      "file": ".github/copilot-instructions.md",
-      "line": 27,
-      "message": "Same instruction already appears in .cursorrules:27."
-    },
-    {
-      "repo": "snowdreamtech__frp",
-      "ruleId": "OBL011",
-      "severity": "info",
-      "file": ".github/copilot-instructions.md",
-      "line": 29,
-      "message": "Same instruction already appears in .cursorrules:29."
+      "message": "13 instructions already appear in .cursorrules (first: line 3)."
     },
     {
       "repo": "snowdreamtech__frp",
@@ -16586,55 +15394,7 @@
       "severity": "info",
       "file": ".github/instructions/rules.instructions.md",
       "line": 7,
-      "message": "Same instruction already appears in .cursorrules:3."
-    },
-    {
-      "repo": "snowdreamtech__frp",
-      "ruleId": "OBL011",
-      "severity": "info",
-      "file": ".github/instructions/rules.instructions.md",
-      "line": 8,
-      "message": "Same instruction already appears in .cursorrules:4."
-    },
-    {
-      "repo": "snowdreamtech__frp",
-      "ruleId": "OBL011",
-      "severity": "info",
-      "file": ".github/instructions/rules.instructions.md",
-      "line": 33,
-      "message": "Same instruction already appears in .cursorrules:23."
-    },
-    {
-      "repo": "snowdreamtech__frp",
-      "ruleId": "OBL011",
-      "severity": "info",
-      "file": ".github/instructions/rules.instructions.md",
-      "line": 34,
-      "message": "Same instruction already appears in .cursorrules:24."
-    },
-    {
-      "repo": "snowdreamtech__frp",
-      "ruleId": "OBL011",
-      "severity": "info",
-      "file": ".github/instructions/rules.instructions.md",
-      "line": 35,
-      "message": "Same instruction already appears in .cursorrules:25."
-    },
-    {
-      "repo": "snowdreamtech__frp",
-      "ruleId": "OBL011",
-      "severity": "info",
-      "file": ".github/instructions/rules.instructions.md",
-      "line": 36,
-      "message": "Same instruction already appears in .cursorrules:26."
-    },
-    {
-      "repo": "snowdreamtech__frp",
-      "ruleId": "OBL011",
-      "severity": "info",
-      "file": ".github/instructions/rules.instructions.md",
-      "line": 37,
-      "message": "Same instruction already appears in .cursorrules:27."
+      "message": "7 instructions already appear in .cursorrules (first: line 3)."
     },
     {
       "repo": "snowdreamtech__frp",
@@ -16650,15 +15410,7 @@
       "severity": "info",
       "file": "AGENTS.md",
       "line": 3,
-      "message": "Same instruction already appears in .claude/CLAUDE.md:3."
-    },
-    {
-      "repo": "snowdreamtech__frp",
-      "ruleId": "OBL011",
-      "severity": "info",
-      "file": "AGENTS.md",
-      "line": 4,
-      "message": "Same instruction already appears in .claude/CLAUDE.md:4."
+      "message": "7 instructions already appear in .claude/CLAUDE.md (first: line 3)."
     },
     {
       "repo": "snowdreamtech__frp",
@@ -16666,87 +15418,7 @@
       "severity": "info",
       "file": "AGENTS.md",
       "line": 13,
-      "message": "Same instruction already appears in .github/copilot-instructions.md:13."
-    },
-    {
-      "repo": "snowdreamtech__frp",
-      "ruleId": "OBL011",
-      "severity": "info",
-      "file": "AGENTS.md",
-      "line": 15,
-      "message": "Same instruction already appears in .github/copilot-instructions.md:15."
-    },
-    {
-      "repo": "snowdreamtech__frp",
-      "ruleId": "OBL011",
-      "severity": "info",
-      "file": "AGENTS.md",
-      "line": 17,
-      "message": "Same instruction already appears in .github/copilot-instructions.md:17."
-    },
-    {
-      "repo": "snowdreamtech__frp",
-      "ruleId": "OBL011",
-      "severity": "info",
-      "file": "AGENTS.md",
-      "line": 18,
-      "message": "Same instruction already appears in .github/copilot-instructions.md:18."
-    },
-    {
-      "repo": "snowdreamtech__frp",
-      "ruleId": "OBL011",
-      "severity": "info",
-      "file": "AGENTS.md",
-      "line": 19,
-      "message": "Same instruction already appears in .github/copilot-instructions.md:19."
-    },
-    {
-      "repo": "snowdreamtech__frp",
-      "ruleId": "OBL011",
-      "severity": "info",
-      "file": "AGENTS.md",
-      "line": 23,
-      "message": "Same instruction already appears in .claude/CLAUDE.md:19."
-    },
-    {
-      "repo": "snowdreamtech__frp",
-      "ruleId": "OBL011",
-      "severity": "info",
-      "file": "AGENTS.md",
-      "line": 24,
-      "message": "Same instruction already appears in .claude/CLAUDE.md:20."
-    },
-    {
-      "repo": "snowdreamtech__frp",
-      "ruleId": "OBL011",
-      "severity": "info",
-      "file": "AGENTS.md",
-      "line": 25,
-      "message": "Same instruction already appears in .claude/CLAUDE.md:21."
-    },
-    {
-      "repo": "snowdreamtech__frp",
-      "ruleId": "OBL011",
-      "severity": "info",
-      "file": "AGENTS.md",
-      "line": 26,
-      "message": "Same instruction already appears in .claude/CLAUDE.md:22."
-    },
-    {
-      "repo": "snowdreamtech__frp",
-      "ruleId": "OBL011",
-      "severity": "info",
-      "file": "AGENTS.md",
-      "line": 27,
-      "message": "Same instruction already appears in .claude/CLAUDE.md:23."
-    },
-    {
-      "repo": "snowdreamtech__frp",
-      "ruleId": "OBL011",
-      "severity": "info",
-      "file": "AGENTS.md",
-      "line": 29,
-      "message": "Same instruction already appears in .github/copilot-instructions.md:29."
+      "message": "6 instructions already appear in .github/copilot-instructions.md (first: line 13)."
     },
     {
       "repo": "snowdreamtech__frp",
@@ -16754,15 +15426,7 @@
       "severity": "info",
       "file": "CLAUDE.md",
       "line": 3,
-      "message": "Same instruction already appears in .claude/CLAUDE.md:3."
-    },
-    {
-      "repo": "snowdreamtech__frp",
-      "ruleId": "OBL011",
-      "severity": "info",
-      "file": "CLAUDE.md",
-      "line": 4,
-      "message": "Same instruction already appears in .claude/CLAUDE.md:4."
+      "message": "7 instructions already appear in .claude/CLAUDE.md (first: line 3)."
     },
     {
       "repo": "snowdreamtech__frp",
@@ -16770,87 +15434,7 @@
       "severity": "info",
       "file": "CLAUDE.md",
       "line": 13,
-      "message": "Same instruction already appears in .github/copilot-instructions.md:13."
-    },
-    {
-      "repo": "snowdreamtech__frp",
-      "ruleId": "OBL011",
-      "severity": "info",
-      "file": "CLAUDE.md",
-      "line": 15,
-      "message": "Same instruction already appears in .github/copilot-instructions.md:15."
-    },
-    {
-      "repo": "snowdreamtech__frp",
-      "ruleId": "OBL011",
-      "severity": "info",
-      "file": "CLAUDE.md",
-      "line": 17,
-      "message": "Same instruction already appears in .github/copilot-instructions.md:17."
-    },
-    {
-      "repo": "snowdreamtech__frp",
-      "ruleId": "OBL011",
-      "severity": "info",
-      "file": "CLAUDE.md",
-      "line": 18,
-      "message": "Same instruction already appears in .github/copilot-instructions.md:18."
-    },
-    {
-      "repo": "snowdreamtech__frp",
-      "ruleId": "OBL011",
-      "severity": "info",
-      "file": "CLAUDE.md",
-      "line": 19,
-      "message": "Same instruction already appears in .github/copilot-instructions.md:19."
-    },
-    {
-      "repo": "snowdreamtech__frp",
-      "ruleId": "OBL011",
-      "severity": "info",
-      "file": "CLAUDE.md",
-      "line": 23,
-      "message": "Same instruction already appears in .claude/CLAUDE.md:19."
-    },
-    {
-      "repo": "snowdreamtech__frp",
-      "ruleId": "OBL011",
-      "severity": "info",
-      "file": "CLAUDE.md",
-      "line": 24,
-      "message": "Same instruction already appears in .claude/CLAUDE.md:20."
-    },
-    {
-      "repo": "snowdreamtech__frp",
-      "ruleId": "OBL011",
-      "severity": "info",
-      "file": "CLAUDE.md",
-      "line": 25,
-      "message": "Same instruction already appears in .claude/CLAUDE.md:21."
-    },
-    {
-      "repo": "snowdreamtech__frp",
-      "ruleId": "OBL011",
-      "severity": "info",
-      "file": "CLAUDE.md",
-      "line": 26,
-      "message": "Same instruction already appears in .claude/CLAUDE.md:22."
-    },
-    {
-      "repo": "snowdreamtech__frp",
-      "ruleId": "OBL011",
-      "severity": "info",
-      "file": "CLAUDE.md",
-      "line": 27,
-      "message": "Same instruction already appears in .claude/CLAUDE.md:23."
-    },
-    {
-      "repo": "snowdreamtech__frp",
-      "ruleId": "OBL011",
-      "severity": "info",
-      "file": "CLAUDE.md",
-      "line": 29,
-      "message": "Same instruction already appears in .github/copilot-instructions.md:29."
+      "message": "6 instructions already appear in .github/copilot-instructions.md (first: line 13)."
     },
     {
       "repo": "snowdreamtech__frp",
@@ -16858,15 +15442,7 @@
       "severity": "info",
       "file": "CLAUDE.md",
       "line": 32,
-      "message": "Same instruction already appears in .cursor/rules/specify-rules.mdc:6."
-    },
-    {
-      "repo": "snowdreamtech__frp",
-      "ruleId": "OBL011",
-      "severity": "info",
-      "file": "CLAUDE.md",
-      "line": 33,
-      "message": "Same instruction already appears in .cursor/rules/specify-rules.mdc:7."
+      "message": "2 instructions already appear in .cursor/rules/specify-rules.mdc (first: line 6)."
     },
     {
       "repo": "snowdreamtech__frp",
@@ -16874,15 +15450,7 @@
       "severity": "info",
       "file": "GEMINI.md",
       "line": 3,
-      "message": "Same instruction already appears in .claude/CLAUDE.md:3."
-    },
-    {
-      "repo": "snowdreamtech__frp",
-      "ruleId": "OBL011",
-      "severity": "info",
-      "file": "GEMINI.md",
-      "line": 4,
-      "message": "Same instruction already appears in .claude/CLAUDE.md:4."
+      "message": "7 instructions already appear in .claude/CLAUDE.md (first: line 3)."
     },
     {
       "repo": "snowdreamtech__frp",
@@ -16890,87 +15458,7 @@
       "severity": "info",
       "file": "GEMINI.md",
       "line": 13,
-      "message": "Same instruction already appears in .github/copilot-instructions.md:13."
-    },
-    {
-      "repo": "snowdreamtech__frp",
-      "ruleId": "OBL011",
-      "severity": "info",
-      "file": "GEMINI.md",
-      "line": 15,
-      "message": "Same instruction already appears in .github/copilot-instructions.md:15."
-    },
-    {
-      "repo": "snowdreamtech__frp",
-      "ruleId": "OBL011",
-      "severity": "info",
-      "file": "GEMINI.md",
-      "line": 17,
-      "message": "Same instruction already appears in .github/copilot-instructions.md:17."
-    },
-    {
-      "repo": "snowdreamtech__frp",
-      "ruleId": "OBL011",
-      "severity": "info",
-      "file": "GEMINI.md",
-      "line": 18,
-      "message": "Same instruction already appears in .github/copilot-instructions.md:18."
-    },
-    {
-      "repo": "snowdreamtech__frp",
-      "ruleId": "OBL011",
-      "severity": "info",
-      "file": "GEMINI.md",
-      "line": 19,
-      "message": "Same instruction already appears in .github/copilot-instructions.md:19."
-    },
-    {
-      "repo": "snowdreamtech__frp",
-      "ruleId": "OBL011",
-      "severity": "info",
-      "file": "GEMINI.md",
-      "line": 23,
-      "message": "Same instruction already appears in .claude/CLAUDE.md:19."
-    },
-    {
-      "repo": "snowdreamtech__frp",
-      "ruleId": "OBL011",
-      "severity": "info",
-      "file": "GEMINI.md",
-      "line": 24,
-      "message": "Same instruction already appears in .claude/CLAUDE.md:20."
-    },
-    {
-      "repo": "snowdreamtech__frp",
-      "ruleId": "OBL011",
-      "severity": "info",
-      "file": "GEMINI.md",
-      "line": 25,
-      "message": "Same instruction already appears in .claude/CLAUDE.md:21."
-    },
-    {
-      "repo": "snowdreamtech__frp",
-      "ruleId": "OBL011",
-      "severity": "info",
-      "file": "GEMINI.md",
-      "line": 26,
-      "message": "Same instruction already appears in .claude/CLAUDE.md:22."
-    },
-    {
-      "repo": "snowdreamtech__frp",
-      "ruleId": "OBL011",
-      "severity": "info",
-      "file": "GEMINI.md",
-      "line": 27,
-      "message": "Same instruction already appears in .claude/CLAUDE.md:23."
-    },
-    {
-      "repo": "snowdreamtech__frp",
-      "ruleId": "OBL011",
-      "severity": "info",
-      "file": "GEMINI.md",
-      "line": 29,
-      "message": "Same instruction already appears in .github/copilot-instructions.md:29."
+      "message": "6 instructions already appear in .github/copilot-instructions.md (first: line 13)."
     },
     {
       "repo": "supabase__pg-toolbelt",
@@ -17210,15 +15698,7 @@
       "severity": "info",
       "file": "CLAUDE.md",
       "line": 183,
-      "message": "Same instruction already appears in .cursor/rules/marketmenow.mdc:59."
-    },
-    {
-      "repo": "thearnavrustagi__marketmenow",
-      "ruleId": "OBL011",
-      "severity": "info",
-      "file": "CLAUDE.md",
-      "line": 184,
-      "message": "Same instruction already appears in .cursor/rules/marketmenow.mdc:60."
+      "message": "4 instructions already appear in .cursor/rules/marketmenow.mdc (first: line 59)."
     },
     {
       "repo": "thearnavrustagi__marketmenow",
@@ -17227,22 +15707,6 @@
       "file": "CLAUDE.md",
       "line": 200,
       "message": "`src/adapters/yourplatform/` is referenced but does not exist in the repository."
-    },
-    {
-      "repo": "thearnavrustagi__marketmenow",
-      "ruleId": "OBL011",
-      "severity": "info",
-      "file": "CLAUDE.md",
-      "line": 201,
-      "message": "Same instruction already appears in .cursor/rules/marketmenow.mdc:33."
-    },
-    {
-      "repo": "thearnavrustagi__marketmenow",
-      "ruleId": "OBL011",
-      "severity": "info",
-      "file": "CLAUDE.md",
-      "line": 202,
-      "message": "Same instruction already appears in .cursor/rules/marketmenow.mdc:34."
     },
     {
       "repo": "thearnavrustagi__marketmenow",
@@ -17266,23 +15730,7 @@
       "severity": "info",
       "file": "src/adapters/CLAUDE.md",
       "line": 33,
-      "message": "Same instruction already appears in CLAUDE.md:145."
-    },
-    {
-      "repo": "thearnavrustagi__marketmenow",
-      "ruleId": "OBL011",
-      "severity": "info",
-      "file": "src/adapters/CLAUDE.md",
-      "line": 34,
-      "message": "Same instruction already appears in CLAUDE.md:146."
-    },
-    {
-      "repo": "thearnavrustagi__marketmenow",
-      "ruleId": "OBL011",
-      "severity": "info",
-      "file": "src/adapters/CLAUDE.md",
-      "line": 35,
-      "message": "Same instruction already appears in CLAUDE.md:147."
+      "message": "3 instructions already appear in CLAUDE.md (first: line 145)."
     },
     {
       "repo": "thehimel__cursor-rules-and-prompts",
