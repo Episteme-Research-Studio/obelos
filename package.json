@@ -55,7 +55,7 @@
     "corpus:report": "node scripts/corpus.mjs report"
   },
   "dependencies": {
-    "commander": "^12.1.0",
+    "commander": "^15.0.0",
     "picomatch": "^4.0.2",
     "yaml": "^2.6.0"
   },
