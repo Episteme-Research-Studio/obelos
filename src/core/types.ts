@@ -34,6 +34,8 @@ export interface ContextFile {
   tokens: number;
   frontmatter: Record<string, unknown> | null;
   frontmatterError?: string;
+  /** Frontmatter that is not strict YAML but could be read leniently (unquoted globs, colons in values). */
+  strictYamlError?: string;
   /** 1-based line number where the body starts. */
   bodyStart: number;
   imports: Ref[];

@@ -1,6 +1,6 @@
 import picomatch from "picomatch";
 import type { Diagnostic, Rule } from "../core/types.js";
-import { diag, resolveFrom } from "./util.js";
+import { diag, gitignoreCovers, resolveFrom } from "./util.js";
 
 export const claudeIgnoresAgentsMd: Rule = {
   id: "OBL006",
@@ -14,6 +14,7 @@ export const claudeIgnoresAgentsMd: Rule = {
       if (claudes.length === 0) continue;
       const linked = claudes.some((c) => {
         if (c.realPath === a.realPath) return true; // symlink
+        if (c.raw === a.raw) return true; // identical copy: nothing is hidden (OBL011 reports the duplication)
         return c.imports.some((i) => resolveFrom(c.dir, i.value) === a.path);
       });
       if (linked) continue;
@@ -35,7 +36,7 @@ export const cursorMdIgnored: Rule = {
   defaultSeverity: "warn",
   run(files) {
     return files
-      .filter((f) => f.kind === "cursor-rule" && f.path.endsWith(".md"))
+      .filter((f) => f.kind === "cursor-rule" && f.path.endsWith(".md") && !/(^|\/)README\.md$/i.test(f.path))
       .map((f) => diag(this, f.path, "Cursor project rules must use the .mdc extension; this file is ignored.", { hint: "Rename to .mdc and add frontmatter (description, globs, alwaysApply)." }));
   },
 };
@@ -47,7 +48,7 @@ export const cursorFrontmatter: Rule = {
   defaultSeverity: "info",
   run(files) {
     const out: Diagnostic[] = [];
-    for (const f of files.filter((x) => x.kind === "cursor-rule" && x.path.endsWith(".mdc"))) {
+    for (const f of files.filter((x) => x.kind === "cursor-rule" && x.path.endsWith(".mdc") && !x.frontmatterError)) {
       const fm = f.frontmatter;
       if (!fm) {
         out.push(diag(this, f.path, "Rule has no frontmatter, so Cursor treats it as manual-only.", { hint: "Add description, globs or alwaysApply." }));
@@ -79,21 +80,14 @@ export const frontmatterInvalid: Rule = {
   description: "The YAML frontmatter cannot be parsed.",
   defaultSeverity: "error",
   run(files) {
-    return files.filter((f) => f.frontmatterError).map((f) => diag(this, f.path, `Invalid frontmatter: ${f.frontmatterError}`, { line: 1 }));
+    const out: Diagnostic[] = [];
+    for (const f of files) {
+      if (f.frontmatterError) out.push(diag(this, f.path, `Invalid frontmatter: ${f.frontmatterError}`, { line: 1 }));
+      else if (f.strictYamlError) out.push(diag(this, f.path, `Frontmatter is not strict YAML (${f.strictYamlError}) but its keys were read; tools with strict parsers may ignore it.`, { line: 1, severity: "warn", hint: "Quote values that contain special characters, for example globs: \"*.ts\"." }));
+    }
+    return out;
   },
 };
-
-function gitignoreCovers(lines: string[], rel: string): boolean {
-  for (const raw of lines) {
-    const line = raw.trim();
-    if (!line || line.startsWith("#") || line.startsWith("!")) continue;
-    const pattern = line.replace(/^\//, "").replace(/\/$/, "");
-    const anchored = line.startsWith("/") || pattern.includes("/");
-    const glob = anchored ? pattern : `**/${pattern}`;
-    if (picomatch(glob, { dot: true })(rel)) return true;
-  }
-  return false;
-}
 
 export const localFileNotGitignored: Rule = {
   id: "OBL017",

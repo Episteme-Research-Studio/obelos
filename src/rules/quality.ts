@@ -137,7 +137,9 @@ export const secretDetected: Rule = {
         const u = URL_CREDENTIALS.exec(text);
         if (u && !PLACEHOLDER.test(u[0])) out.push(diag(this, f.path, "URL with embedded credentials (value not shown).", { line: i + 1, hint: "Remove the credentials from the URL and rotate them." }));
         const g = GENERIC.exec(text);
-        if (g && !PLACEHOLDER.test(g[0]) && entropy(g[1] ?? "") >= minEntropy) {
+        const gv = g?.[1] ?? "";
+        // Real secrets mix letters and digits; plain words, snake_case and kebab-case identifiers are not credentials.
+        if (g && !PLACEHOLDER.test(g[0]) && entropy(gv) >= minEntropy && /\d/.test(gv) && /[A-Za-z]/.test(gv) && !/^[a-z]+(?:[_-][a-z0-9]+)+$/i.test(gv)) {
           out.push(diag(this, f.path, "Possible hard-coded credential (value not shown).", { line: i + 1, hint: "Remove it and rotate if it is real. To allow a known-safe pattern, set ruleOptions OBL013.allow in the config." }));
         }
       });
@@ -161,7 +163,8 @@ export const emptyOrPlaceholder: Rule = {
         out.push(diag(this, f.path, "File is nearly empty (under three lines and about 80 characters of content).", { hint: "Add concrete build, test and convention instructions, or delete the file." }));
       }
       for (const { text, line } of bodyLines(f)) {
-        if (/\b(TODO|TBD|FIXME)\b|<fill (this )?in>|\[placeholder\]/i.test(text)) out.push(diag(this, f.path, "Placeholder text left in file.", { line }));
+        // A TODO at the start of a line is an unfinished file; a sentence that mentions TODOs is an instruction.
+        if (/\bTBD\b|<fill (this )?in>|\[placeholder\]/i.test(text) || /^\s*(?:[-*>]\s*)?(?:TODO|FIXME)\b/.test(text)) out.push(diag(this, f.path, "Placeholder text left in file.", { line }));
       }
     }
     return out;
@@ -202,6 +205,8 @@ export const contradictoryInstruction: Rule = {
       }
       for (let i = f.bodyStart - 1; i < f.lines.length; i++) {
         const text = f.lines[i] ?? "";
+        // Lines that state a preference ("use pnpm, not npm") or install a global tool do not prescribe a second manager.
+        if (/\b(?:instead of|rather than|not|never|don'?t|do not|avoid|over|no)\b/i.test(text) || /\b(?:npm|pnpm|yarn|bun)\s+(?:i|install|add)\s+(?:-g|--global)\b/.test(text)) continue;
         for (const m of MANAGERS) {
           if (new RegExp(`\\b${m}\\s+(install|ci|add|run|test|i)\\b`).test(text) && !inFile.has(m)) {
             inFile.add(m);
@@ -212,7 +217,7 @@ export const contradictoryInstruction: Rule = {
     }
     for (const [key, pos] of positives) {
       const neg = negatives.get(key);
-      if (neg && key.length > 2) {
+      if (neg && key.length >= 12 && key.includes(" ")) {
         out.push(diag(this, neg.file, `Conflicts with ${pos.file}:${pos.line} ("${pos.text.slice(0, 70)}") about "${key}".`, { line: neg.line, hint: "Decide which applies and delete the other." }));
       }
     }

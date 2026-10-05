@@ -68,12 +68,12 @@ scenario("broken-references", "OBL003 broken import, OBL004 missing path, OBL005
   return [[r.code === 1, `exit ${r.code}, want 1 (OBL003 is an error)`], ...["OBL003", "OBL004", "OBL005"].map((id) => [has(r.out, id), `reports ${id}`])];
 });
 scenario("claude-ignores-agents", "OBL006: CLAUDE.md that does not import AGENTS.md", () => {
-  const d = repo({ "AGENTS.md": GOOD, "CLAUDE.md": GOOD });
+  const d = repo({ "AGENTS.md": GOOD, "CLAUDE.md": `${GOOD}- Claude-specific note.\n` });
   const r = run(d, "lint");
   return [[has(r.out, "OBL006"), "reports OBL006"], [r.code === 0, "warning only, exit 0"]];
 });
 scenario("fail-on", "--fail-on warn turns warnings into exit 1; --fail-on never forces 0", () => {
-  const d = repo({ "AGENTS.md": GOOD, "CLAUDE.md": GOOD });
+  const d = repo({ "AGENTS.md": GOOD, "CLAUDE.md": `${GOOD}- Claude-specific note.\n` });
   return [[run(d, "lint", "--fail-on", "warn").code === 1, "--fail-on warn exits 1"], [run(d, "lint", "--fail-on", "never").code === 0, "--fail-on never exits 0"], [run(d, "lint", "--max-warnings", "0").code === 1, "--max-warnings 0 exits 1"]];
 });
 scenario("secrets", "OBL013 detects several credential formats and never prints the value", () => {

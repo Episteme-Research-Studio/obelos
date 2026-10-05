@@ -5,7 +5,24 @@ import type { ContextFile, Disables, FileKind, Ref, RuleSet, Suppression, Tool }
 
 const FENCE = /^\s*(```|~~~)/;
 const CODE_SPAN = /`([^`\n]+)`/g;
-const SCRIPT_RE = /\b(?:npm|pnpm|yarn|bun)\s+run\s+([\w:.\-]+)/g;
+const SCRIPT_RE = /\b(?:npm|pnpm|yarn|bun)\s+run\s+((?:(?!\b(?:npm|pnpm|yarn|bun)\s+run\b)[^\n`])*)/g;
+const VALUE_FLAGS = new Set(["--filter", "-F", "--workspace", "-w", "--prefix", "-C", "--cwd", "--dir"]);
+const CJK_PUNCT = /[\u3000-\u303f\uff00-\uffef]/;
+
+/** First non-flag word after `run`, skipping flags such as `-r` or `--filter web`. */
+function scriptName(rest: string): string | null {
+  const tokens = rest.trim().split(/\s+/);
+  for (let i = 0; i < tokens.length; i++) {
+    const t = tokens[i] ?? "";
+    if (t.startsWith("-")) {
+      if (VALUE_FLAGS.has(t)) i++;
+      continue;
+    }
+    const name = t.replace(/[`'",;)]+$/, "");
+    return /^[\w:.\-]+$/.test(name) ? name : null;
+  }
+  return null;
+}
 // An @import must start a token (start of line or whitespace before it).
 const IMPORT_RE = /(^|\s)@((?:\\ |[^\s`])+)/g;
 
@@ -27,6 +44,7 @@ export function splitFrontmatter(raw: string): {
   frontmatter: Record<string, unknown> | null;
   error?: string;
   bodyStart: number;
+  yamlText?: string;
 } {
   const lines = raw.split(/\r?\n/);
   if (lines[0]?.trim() !== "---") return { frontmatter: null, bodyStart: 1 };
@@ -44,8 +62,23 @@ export function splitFrontmatter(raw: string): {
     const fm = parsed && typeof parsed === "object" && !Array.isArray(parsed) ? (parsed as Record<string, unknown>) : {};
     return { frontmatter: fm, bodyStart: end + 2 };
   } catch (e) {
-    return { frontmatter: null, error: (e as Error).message.split("\n")[0] ?? "Invalid YAML", bodyStart: end + 2 };
+    return { frontmatter: null, error: (e as Error).message.split("\n")[0] ?? "Invalid YAML", bodyStart: end + 2, yamlText };
   }
+}
+
+/** Line-by-line `key: value` reader for frontmatter that is not strict YAML (for example an unquoted `globs: *.ts`). */
+export function lenientFrontmatter(yamlText: string): Record<string, unknown> | null {
+  const out: Record<string, unknown> = {};
+  for (const line of yamlText.split(/\r?\n/)) {
+    const m = /^([A-Za-z_][\w-]*)\s*:\s*(.*?)\s*$/.exec(line);
+    if (!m) continue;
+    let v: unknown = (m[2] ?? "").replace(/^(["'])(.*)\1$/, "$2");
+    if (v === "true") v = true;
+    else if (v === "false") v = false;
+    else if (v === "" || v === "null" || v === "~") v = null;
+    out[m[1]!] = v;
+  }
+  return Object.keys(out).length > 0 ? out : null;
 }
 
 function looksLikePath(s: string): boolean {
@@ -77,7 +110,10 @@ export function extractRefs(lines: string[], from: number): { imports: Ref[]; pa
       continue;
     }
     // Script references are meaningful inside fences and spans alike.
-    for (const m of line.matchAll(SCRIPT_RE)) if (m[1]) scriptRefs.push({ value: m[1], line: lineNo });
+    for (const m of line.matchAll(SCRIPT_RE)) {
+      const name = scriptName(m[1] ?? "");
+      if (name) scriptRefs.push({ value: name, line: lineNo });
+    }
     if (inFence) continue;
     for (const m of line.matchAll(CODE_SPAN)) {
       const v = m[1]?.trim();
@@ -90,7 +126,7 @@ export function extractRefs(lines: string[], from: number): { imports: Ref[]; pa
     const bare = stripSpans(line);
     for (const m of bare.matchAll(IMPORT_RE)) {
       let t = m[2] ?? "";
-      t = t.replace(/[.,;:!?)\]]+$/, "");
+      t = (t.split(CJK_PUNCT)[0] ?? "").replace(/[.,;:!?)\]]+$/, "");
       if (t && (t.includes("/") || /\.[A-Za-z0-9]+$/.test(t))) imports.push({ value: t.replace(/\\ /g, " "), line: lineNo });
     }
   }
@@ -158,6 +194,21 @@ export function parseContent(rel: string, raw: string, meta: ParseMeta = {}): Co
   if (!cls) return null;
   const lines = raw.split(/\r?\n/);
   const fm = splitFrontmatter(raw);
+  // Cursor reads frontmatter leniently (unquoted globs are common); recover the values instead of reporting an error.
+  let frontmatter = fm.frontmatter;
+  let frontmatterError = fm.error;
+  let strictYamlError: string | undefined;
+  if (fm.error && !frontmatter && fm.yamlText !== undefined) {
+    const lenient = lenientFrontmatter(fm.yamlText);
+    if (lenient) {
+      frontmatter = lenient;
+      if (cls.tool === "cursor") frontmatterError = undefined;
+      else {
+        strictYamlError = fm.error;
+        frontmatterError = undefined;
+      }
+    }
+  }
   const refs = extractRefs(lines, fm.bodyStart);
   const bytes = Buffer.byteLength(raw, "utf8");
   return {
@@ -171,8 +222,9 @@ export function parseContent(rel: string, raw: string, meta: ParseMeta = {}): Co
     lines,
     bytes,
     tokens: Math.ceil(bytes / 4),
-    frontmatter: fm.frontmatter,
-    frontmatterError: fm.error,
+    frontmatter,
+    frontmatterError,
+    strictYamlError,
     bodyStart: fm.bodyStart,
     ...refs,
     disables: extractDisables(lines, meta.today),

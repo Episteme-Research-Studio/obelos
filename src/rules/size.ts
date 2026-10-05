@@ -39,21 +39,20 @@ export const sizeBudget: Rule = {
 export const aggregateBudget: Rule = {
   id: "OBL002",
   name: "aggregate-budget",
-  description: "Combined size of an AGENTS.md or CLAUDE.md chain (file plus its ancestors) exceeds the aggregate byte budget.",
+  description: "Combined size of an AGENTS.md chain (file plus its ancestors) exceeds the aggregate byte budget; Codex stops loading files once 32 KiB is reached.",
   defaultSeverity: "warn",
   run(files, ws) {
     const out: Diagnostic[] = [];
     const limit = ws.config.budgets.aggregateBytes;
-    const chainKinds = new Set(["agents-md", "claude-md"]);
+    const chainKinds = new Set(["agents-md"]);
     for (const f of files) {
       if (!chainKinds.has(f.kind)) continue;
       const chain = files.filter(
         (g) => g.kind === f.kind && (g.dir === "" || f.dir === g.dir || f.dir.startsWith(g.dir + "/")),
       );
       const total = chain.reduce((n, g) => n + g.bytes, 0);
-      // Report only at the deepest file of the chain to avoid noise.
-      const deepest = chain.reduce((a, b) => (b.dir.length > a.dir.length ? b : a), chain[0] ?? f);
-      if (total > limit && deepest.path === f.path) {
+      // Report only at the file whose addition pushes the chain over the limit, not at every file below it.
+      if (total > limit && total - f.bytes <= limit) {
         out.push(
           diag(this, f.path, `Combined ${f.kind} chain is ${total} bytes (limit ${limit}); some tools truncate or drop the excess.`, {
             hint: "Trim the root file or split guidance into nested files that only load when relevant.",

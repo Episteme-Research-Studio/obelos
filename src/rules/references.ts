@@ -2,7 +2,7 @@ import path from "node:path";
 import picomatch from "picomatch";
 import type { ContextFile, Diagnostic, Rule, Workspace } from "../core/types.js";
 import { extractRefs } from "../core/parse.js";
-import { HEDGED, diag, resolveFrom } from "./util.js";
+import { HEDGED, diag, gitignoreCovers, resolveFrom, submodulePaths } from "./util.js";
 
 const MAX_IMPORT_DEPTH = 4; // Claude Code docs: imports resolve recursively to a maximum depth of four hops
 
@@ -42,6 +42,10 @@ export const brokenImport: Rule = {
         if (target === null) continue;
         // `@scope/package` in prose is an npm package name, not a file import.
         if (!/\.[A-Za-z0-9]+$/.test(imp.value) && /^[a-z0-9][\w.-]*\/[\w.-]+$/.test(imp.value) && !ws.exists(target)) continue;
+        // Cursor `@file` references may be relative to the repository root.
+        if (f.kind === "cursor-rule" && ws.exists(imp.value)) continue;
+        // Content of a git submodule is absent from a plain clone.
+        if (submodulePaths(ws.read(".gitmodules")).some((p) => target === p || target.startsWith(`${p}/`))) continue;
         if (!ws.exists(target)) {
           out.push(diag(this, f.path, `@${imp.value} does not exist (resolved to ${target}).`, { line: imp.line, hint: "Imports resolve relative to the file that contains them." }));
         }
@@ -102,6 +106,9 @@ export const missingPathReference: Rule = {
   run(files, ws) {
     const out: Diagnostic[] = [];
     const ignored = picomatch(ws.config.ignorePathRefs, { dot: true });
+    const gi = (ws.read(".gitignore") ?? "").split(/\r?\n/);
+    const subs = submodulePaths(ws.read(".gitmodules"));
+    const repoName = path.basename(path.resolve(ws.root));
     for (const f of files) {
       const seen = new Set<string>();
       for (const ref of f.pathRefs) {
@@ -112,6 +119,9 @@ export const missingPathReference: Rule = {
         const fromFile = ws.exists(resolveFrom(f.dir, ref.value));
         if (fromRoot || fromFile) continue;
         if (GENERATED_DIR.test(clean) || HEDGED.test(f.lines[ref.line - 1] ?? "")) continue;
+        // Tool aliases (`@app/...`), paths ignored by git (generated or local), submodules, and `<repo-name>/...` prefixes.
+        if (clean.startsWith("@") || gitignoreCovers(gi, clean) || subs.some((p) => clean === p || clean.startsWith(`${p}/`))) continue;
+        if (clean.startsWith(`${repoName}/`) && ws.exists(clean.slice(repoName.length + 1))) continue;
         // Paths are often written relative to a sub-package or source root: accept any matching trailing path.
         if (!existsAnywhere(ws, clean)) {
           out.push(diag(this, f.path, `\`${ref.value}\` is referenced but does not exist in the repository.`, { line: ref.line, hint: "Update the path, remove the line, or add the path to ignorePathRefs if it is generated." }));
@@ -189,10 +199,12 @@ export const scopedGlobMatchesNothing: Rule = {
       else if (f.kind === "copilot-path") key = "applyTo";
       if (!key || fm[key] === undefined) continue;
       const raw = fm[key];
-      const patterns = (Array.isArray(raw) ? raw : splitPatterns(String(raw))).map((p) => String(p).trim()).filter(Boolean);
+      if (raw === null || raw === false || raw === true) continue; // `globs:` left empty, `null`, or a boolean
+      const patterns = (Array.isArray(raw) ? raw : splitPatterns(String(raw))).map((p) => String(p).trim().replace(/^["']|["']$/g, "")).filter((p) => p && p !== "null" && p !== "~");
       const all = ws.allFiles();
       for (const p of patterns) {
-        const m = picomatch(p, { dot: true });
+        // A pattern without a slash (`*.cs`, `build.gradle`) matches by file name in any directory.
+        const m = picomatch(p, { dot: true, basename: !p.includes("/") });
         if (!all.some((file) => m(file))) {
           out.push(diag(this, f.path, `${key} pattern "${p}" matches no files in the repository.`, { hint: "The rule will never load; fix the glob or delete the rule." }));
         }

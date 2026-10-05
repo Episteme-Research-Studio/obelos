@@ -1,4 +1,5 @@
 import path from "node:path";
+import picomatch from "picomatch";
 import type { ContextFile, Diagnostic, Rule, Severity } from "../core/types.js";
 
 export function diag(rule: Pick<Rule, "id" | "defaultSeverity">, file: string, message: string, extra: { line?: number; hint?: string; severity?: Severity } = {}): Diagnostic {
@@ -50,6 +51,29 @@ export function proseLines(f: ContextFile): { text: string; line: number }[] {
 
 /** Text that says a referenced thing may legitimately be absent, optional, generated or yet to be created. */
 export const HEDGED = /\b(?:if (?:it )?(?:exists?|is present|present|available|any)|when present|where present|optional(?:ly)?|may not exist|if needed|generated|auto-generated|gitignored|git-ignored|build output|output (?:goes|is written)|created (?:by|on|at)|will be created|scratch|put (?:any )?files)\b/i;
+
+/** Simple .gitignore matcher (no negation support beyond skipping `!` lines). */
+export function gitignoreCovers(lines: string[], rel: string): boolean {
+  for (const raw of lines) {
+    const line = raw.trim();
+    if (!line || line.startsWith("#") || line.startsWith("!")) continue;
+    const pattern = line.replace(/^\//, "").replace(/\/$/, "");
+    const anchored = line.startsWith("/") || pattern.includes("/");
+    const glob = anchored ? pattern : `**/${pattern}`;
+    const m = picomatch(glob, { dot: true });
+    if (m(rel) || m(rel.replace(/\/$/, ""))) return true;
+    // a directory pattern also covers everything below it
+    const parts = rel.replace(/\/$/, "").split("/");
+    for (let i = 1; i < parts.length; i++) if (m(parts.slice(0, i).join("/"))) return true;
+  }
+  return false;
+}
+
+/** Paths of git submodules from .gitmodules; their content is not part of a plain clone. */
+export function submodulePaths(text: string | null): string[] {
+  if (!text) return [];
+  return [...text.matchAll(/^\s*path\s*=\s*(.+?)\s*$/gm)].map((m) => (m[1] ?? "").replace(/\/$/, ""));
+}
 
 export function resolveFrom(fileDir: string, target: string): string {
   return path.posix.normalize(path.posix.join(fileDir, target));
