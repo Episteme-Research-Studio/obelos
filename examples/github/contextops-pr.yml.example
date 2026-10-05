@@ -1,0 +1,26 @@
+# Copy to .github/workflows/contextops.yml in any repository. Uses the published package (after the first npm release).
+name: contextops
+on:
+  pull_request:
+permissions:
+  contents: read
+  security-events: write   # for SARIF upload to code scanning
+jobs:
+  lint:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0   # needed for --since
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+      - name: Lint agent context (annotations in the PR)
+        run: npx contextops@latest lint . --since origin/${{ github.base_ref }} --format github --fail-on error
+      - name: Full report for code scanning
+        if: always()
+        run: npx contextops@latest lint . --format sarif --output contextops.sarif --fail-on never
+      - uses: github/codeql-action/upload-sarif@v3   # check the current major version of this action
+        if: always()
+        with:
+          sarif_file: contextops.sarif

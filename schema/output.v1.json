@@ -1,0 +1,186 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "https://github.com/Episteme-Research-Studio/obelos/schema/output.v1.json",
+  "title": "Obelos lint output (version 1)",
+  "type": "object",
+  "required": [
+    "version",
+    "toolVersion",
+    "scoreVersion",
+    "root",
+    "score",
+    "grade",
+    "files",
+    "diagnostics"
+  ],
+  "properties": {
+    "version": {
+      "const": 1
+    },
+    "toolVersion": {
+      "type": "string"
+    },
+    "scoreVersion": {
+      "type": "integer"
+    },
+    "root": {
+      "type": "string"
+    },
+    "score": {
+      "type": "integer",
+      "minimum": 0,
+      "maximum": 100
+    },
+    "grade": {
+      "enum": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "F"
+      ]
+    },
+    "baselined": {
+      "type": "integer",
+      "minimum": 0
+    },
+    "suppressed": {
+      "type": "integer",
+      "minimum": 0
+    },
+    "files": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": [
+          "path",
+          "tool",
+          "kind",
+          "lines",
+          "bytes",
+          "tokensEstimate"
+        ],
+        "properties": {
+          "path": {
+            "type": "string"
+          },
+          "tool": {
+            "enum": [
+              "claude",
+              "agents",
+              "cursor",
+              "copilot",
+              "gemini"
+            ]
+          },
+          "kind": {
+            "type": "string"
+          },
+          "lines": {
+            "type": "integer"
+          },
+          "bytes": {
+            "type": "integer"
+          },
+          "tokensEstimate": {
+            "type": "integer"
+          }
+        }
+      }
+    },
+    "diagnostics": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": [
+          "ruleId",
+          "severity",
+          "message",
+          "file"
+        ],
+        "properties": {
+          "ruleId": {
+            "type": "string",
+            "pattern": "^(OBL[0-9]{3}|POL-[A-Z0-9_-]+)$"
+          },
+          "severity": {
+            "enum": [
+              "error",
+              "warn",
+              "info"
+            ]
+          },
+          "message": {
+            "type": "string"
+          },
+          "file": {
+            "type": "string"
+          },
+          "line": {
+            "type": "integer",
+            "minimum": 1
+          },
+          "hint": {
+            "type": "string"
+          },
+          "column": {
+            "type": "integer",
+            "minimum": 1
+          },
+          "endLine": {
+            "type": "integer",
+            "minimum": 1
+          },
+          "endColumn": {
+            "type": "integer",
+            "minimum": 1
+          },
+          "fix": {
+            "type": "array",
+            "items": {
+              "type": "object",
+              "required": [
+                "line",
+                "column",
+                "endLine",
+                "endColumn",
+                "newText"
+              ],
+              "properties": {
+                "line": {
+                  "type": "integer"
+                },
+                "column": {
+                  "type": "integer"
+                },
+                "endLine": {
+                  "type": "integer"
+                },
+                "endColumn": {
+                  "type": "integer"
+                },
+                "newText": {
+                  "type": "string"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "scope": {
+      "type": "object",
+      "properties": {
+        "mode": {
+          "const": "changed"
+        },
+        "since": {
+          "type": "string"
+        },
+        "changedFiles": {
+          "type": "integer"
+        }
+      }
+    }
+  }
+}

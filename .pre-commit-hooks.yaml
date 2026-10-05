@@ -1,0 +1,7 @@
+- id: obelos
+  name: obelos
+  description: Lint agent instruction files (CLAUDE.md, AGENTS.md, Cursor rules, Copilot instructions).
+  entry: obelos lint . --changed-only --fail-on error
+  language: node
+  pass_filenames: false
+  files: (^|/)(CLAUDE(\.local)?\.md|AGENTS\.md|GEMINI\.md|\.cursorrules|obelos\.config\.json)$|(^|/)\.claude/|(^|/)\.cursor/rules/|^\.github/(copilot-instructions\.md|instructions/)

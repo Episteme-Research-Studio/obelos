@@ -1,0 +1,210 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "https://github.com/Episteme-Research-Studio/obelos/schema/config.v1.json",
+  "title": "Obelos configuration",
+  "type": "object",
+  "properties": {
+    "$schema": {
+      "type": "string"
+    },
+    "rules": {
+      "type": "object",
+      "patternProperties": {
+        "^(OBL[0-9]{3}|POL-[A-Z0-9_-]+)$": {
+          "oneOf": [
+            {
+              "enum": [
+                "error",
+                "warn",
+                "info",
+                "off"
+              ]
+            },
+            {
+              "type": "array",
+              "minItems": 1,
+              "maxItems": 2,
+              "items": {
+                "anyOf": [
+                  {
+                    "enum": [
+                      "error",
+                      "warn",
+                      "info",
+                      "off"
+                    ]
+                  },
+                  {
+                    "type": "object"
+                  }
+                ]
+              }
+            }
+          ]
+        }
+      },
+      "additionalProperties": false
+    },
+    "ignore": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "ignorePathRefs": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "budgets": {
+      "type": "object",
+      "properties": {
+        "claudeLines": {
+          "type": "integer",
+          "minimum": 1
+        },
+        "cursorLines": {
+          "type": "integer",
+          "minimum": 1
+        },
+        "agentsLines": {
+          "type": "integer",
+          "minimum": 1
+        },
+        "otherLines": {
+          "type": "integer",
+          "minimum": 1
+        },
+        "aggregateBytes": {
+          "type": "integer",
+          "minimum": 1
+        }
+      },
+      "additionalProperties": false
+    },
+    "extends": {
+      "oneOf": [
+        {
+          "type": "string"
+        },
+        {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        }
+      ],
+      "description": "Presets (obelos:recommended, obelos:strict, obelos:minimal) or relative paths to shared config files."
+    },
+    "limits": {
+      "type": "object",
+      "properties": {
+        "maxFileBytes": {
+          "type": "integer",
+          "minimum": 1
+        },
+        "maxInstructionFiles": {
+          "type": "integer",
+          "minimum": 1
+        },
+        "maxDepth": {
+          "type": "integer",
+          "minimum": 1
+        },
+        "timeoutMs": {
+          "type": "integer",
+          "minimum": 1
+        }
+      },
+      "additionalProperties": false
+    },
+    "policies": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": [
+          "id"
+        ],
+        "properties": {
+          "id": {
+            "type": "string",
+            "pattern": "^[A-Za-z0-9_-]{1,40}$"
+          },
+          "description": {
+            "type": "string"
+          },
+          "files": {
+            "oneOf": [
+              {
+                "type": "string"
+              },
+              {
+                "type": "array",
+                "items": {
+                  "type": "string"
+                }
+              }
+            ]
+          },
+          "tools": {
+            "type": "array",
+            "items": {
+              "enum": [
+                "claude",
+                "agents",
+                "cursor",
+                "copilot",
+                "gemini"
+              ]
+            }
+          },
+          "require": {
+            "type": "string",
+            "maxLength": 500
+          },
+          "forbid": {
+            "type": "string",
+            "maxLength": 500
+          },
+          "requireHeading": {
+            "type": "string"
+          },
+          "flags": {
+            "type": "string",
+            "pattern": "^[gimsuy]*$"
+          },
+          "severity": {
+            "enum": [
+              "error",
+              "warn",
+              "info"
+            ]
+          },
+          "message": {
+            "type": "string"
+          }
+        },
+        "anyOf": [
+          {
+            "required": [
+              "require"
+            ]
+          },
+          {
+            "required": [
+              "forbid"
+            ]
+          },
+          {
+            "required": [
+              "requireHeading"
+            ]
+          }
+        ],
+        "additionalProperties": false
+      }
+    }
+  },
+  "additionalProperties": false
+}
