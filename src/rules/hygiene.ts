@@ -1,5 +1,5 @@
 import type { Diagnostic, Rule } from "../core/types.js";
-import { bodyLines, diag } from "./util.js";
+import { bodyLines, diag, proseLines } from "./util.js";
 
 const MAIN_KINDS = new Set(["claude-md", "agents-md", "copilot-repo", "gemini-md"]);
 const COMMAND_RE = /\b(?:npm|pnpm|yarn|bun)(?:\s+run)?\s+(?:test|build|lint|typecheck|check)\b|\bpytest\b|\bcargo\s+(?:test|build|check)\b|\bgo\s+(?:test|build|vet)\b|\bmake\s+[\w-]+|\b(?:mvn|gradle|gradlew)\b|\bdotnet\s+(?:test|build)\b|\b(?:tox|nox)\b|\bjust\s+[\w-]+|\b(?:test|build|lint)\s+command\b/i;
@@ -56,10 +56,15 @@ export const wallOfText: Rule = {
         paraLen = 0;
         paraStart = 0;
       };
-      for (const { text, line } of bodyLines(f)) {
+      for (const { text, line } of proseLines(f)) {
         if (text.trim() === "") {
           flushPara();
           continue;
+        }
+        // Headings, table rows and each list item start a new block; they are not one paragraph.
+        if (/^\s*(#|\||[-*+]\s|\d+[.)]\s)/.test(text)) {
+          flushPara();
+          if (/^\s*(#|\|)/.test(text)) continue;
         }
         if (text.length > maxLine && count < 5) {
           out.push(diag(this, f.path, `Line is ${text.length} characters long.`, { line, hint: "Break it into shorter instructions." }));

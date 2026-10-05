@@ -172,7 +172,7 @@ export function lint(rootInput: string, options: LintOptions = {}): LintResult {
     configSources: [...config.sources, ...nested.map((n) => `${n.dir}/(nested)`)],
     skipped: notices.map((n) => n.file),
   };
-  return { root, files, diagnostics: kept, ...score(kept.filter((d) => d.ruleId !== "OBL000")), baselined, suppressed, scope, stats };
+  return { root, files, diagnostics: kept, ...score(kept.filter((d) => d.ruleId !== "OBL000"), files.map((f) => f.path)), baselined, suppressed, scope, stats };
 }
 
 function loadDefault(): Config {

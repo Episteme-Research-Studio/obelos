@@ -64,12 +64,12 @@ export const cursorFrontmatter: Rule = {
 export const copilotApplyToMissing: Rule = {
   id: "OBL009",
   name: "copilot-applyto-missing",
-  description: "A Copilot path-specific instructions file has no applyTo frontmatter.",
-  defaultSeverity: "error",
+  description: "A Copilot path-specific instructions file has neither applyTo nor description, so nothing selects it automatically.",
+  defaultSeverity: "info",
   run(files) {
     return files
-      .filter((f) => f.kind === "copilot-path" && (!f.frontmatter || f.frontmatter.applyTo === undefined))
-      .map((f) => diag(this, f.path, "Path-specific instructions need an `applyTo` glob in frontmatter.", { hint: 'Add `---\napplyTo: "**/*.ts"\n---` at the top.' }));
+      .filter((f) => f.kind === "copilot-path" && (!f.frontmatter || (f.frontmatter.applyTo === undefined && f.frontmatter.description === undefined)))
+      .map((f) => diag(this, f.path, "No `applyTo` glob and no `description`: this file is only used when attached by hand.", { hint: 'Add `applyTo: "**/*.ts"` (automatic by file) or a `description` (chosen by task).' }));
   },
 };
 

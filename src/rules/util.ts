@@ -20,6 +20,37 @@ export function bodyLines(f: ContextFile): { text: string; line: number }[] {
   return out;
 }
 
+/** Lines of the body with fenced code and HTML comments (single or multi-line) removed. */
+export function proseLines(f: ContextFile): { text: string; line: number }[] {
+  const out: { text: string; line: number }[] = [];
+  let inComment = false;
+  for (const l of bodyLines(f)) {
+    let t = l.text;
+    if (inComment) {
+      const end = t.indexOf("-->");
+      if (end === -1) continue;
+      inComment = false;
+      t = t.slice(end + 3);
+    }
+    for (;;) {
+      const start = t.indexOf("<!--");
+      if (start === -1) break;
+      const end = t.indexOf("-->", start + 4);
+      if (end === -1) {
+        t = t.slice(0, start);
+        inComment = true;
+        break;
+      }
+      t = t.slice(0, start) + t.slice(end + 3);
+    }
+    out.push({ text: t, line: l.line });
+  }
+  return out;
+}
+
+/** Text that says a referenced thing may legitimately be absent, optional, generated or yet to be created. */
+export const HEDGED = /\b(?:if (?:it )?(?:exists?|is present|present|available|any)|when present|where present|optional(?:ly)?|may not exist|if needed|generated|auto-generated|gitignored|git-ignored|build output|output (?:goes|is written)|created (?:by|on|at)|will be created|scratch|put (?:any )?files)\b/i;
+
 export function resolveFrom(fileDir: string, target: string): string {
   return path.posix.normalize(path.posix.join(fileDir, target));
 }

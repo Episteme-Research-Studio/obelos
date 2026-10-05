@@ -2,7 +2,7 @@ import path from "node:path";
 import picomatch from "picomatch";
 import type { ContextFile, Diagnostic, Rule, Workspace } from "../core/types.js";
 import { extractRefs } from "../core/parse.js";
-import { diag, resolveFrom } from "./util.js";
+import { HEDGED, diag, resolveFrom } from "./util.js";
 
 const MAX_IMPORT_DEPTH = 4; // Claude Code docs: imports resolve recursively to a maximum depth of four hops
 
@@ -40,6 +40,8 @@ export const brokenImport: Rule = {
       for (const imp of f.imports) {
         const target = resolveImport(f, imp.value);
         if (target === null) continue;
+        // `@scope/package` in prose is an npm package name, not a file import.
+        if (!/\.[A-Za-z0-9]+$/.test(imp.value) && /^[a-z0-9][\w.-]*\/[\w.-]+$/.test(imp.value) && !ws.exists(target)) continue;
         if (!ws.exists(target)) {
           out.push(diag(this, f.path, `@${imp.value} does not exist (resolved to ${target}).`, { line: imp.line, hint: "Imports resolve relative to the file that contains them." }));
         }
@@ -52,6 +54,45 @@ export const brokenImport: Rule = {
     return out;
   },
 };
+
+const GENERATED_DIR = /(^|\/)(?:node_modules|dist|build|\.build|out|target|vendor|coverage|\.next|\.nuxt|\.venv|venv|__pycache__|\.cache|tmp|generated|gen|[\w.-]+-gen)(\/|$)/;
+
+interface PathIndex {
+  files: Set<string>;
+  suffixes: Set<string>;
+}
+const indexCache = new WeakMap<Workspace, PathIndex>();
+
+/** Every file path, and every trailing sub-path of files and directories, so `models/` matches `src/airflow/models/`. */
+function pathIndex(ws: Workspace): PathIndex {
+  const hit = indexCache.get(ws);
+  if (hit) return hit;
+  const files = new Set<string>();
+  const suffixes = new Set<string>();
+  const dirs = new Set<string>();
+  for (const file of ws.allFiles()) {
+    files.add(file);
+    const parts = file.split("/");
+    for (let j = 0; j < parts.length; j++) suffixes.add(parts.slice(j).join("/"));
+    for (let k = 1; k < parts.length; k++) dirs.add(parts.slice(0, k).join("/"));
+  }
+  for (const d of dirs) {
+    const parts = d.split("/");
+    for (let j = 0; j < parts.length; j++) suffixes.add(parts.slice(j).join("/"));
+  }
+  const idx = { files, suffixes };
+  indexCache.set(ws, idx);
+  return idx;
+}
+
+function existsAnywhere(ws: Workspace, rel: string): boolean {
+  const clean = rel.replace(/\/$/, "");
+  const { suffixes } = pathIndex(ws);
+  if (suffixes.has(clean)) return true;
+  // TypeScript sources are imported with a .js extension.
+  const ts = clean.replace(/\.jsx?$/, (m) => (m === ".js" ? ".ts" : ".tsx"));
+  return ts !== clean && suffixes.has(ts);
+}
 
 export const missingPathReference: Rule = {
   id: "OBL004",
@@ -69,7 +110,10 @@ export const missingPathReference: Rule = {
         seen.add(clean);
         const fromRoot = ws.exists(clean);
         const fromFile = ws.exists(resolveFrom(f.dir, ref.value));
-        if (!fromRoot && !fromFile) {
+        if (fromRoot || fromFile) continue;
+        if (GENERATED_DIR.test(clean) || HEDGED.test(f.lines[ref.line - 1] ?? "")) continue;
+        // Paths are often written relative to a sub-package or source root: accept any matching trailing path.
+        if (!existsAnywhere(ws, clean)) {
           out.push(diag(this, f.path, `\`${ref.value}\` is referenced but does not exist in the repository.`, { line: ref.line, hint: "Update the path, remove the line, or add the path to ignorePathRefs if it is generated." }));
         }
       }
@@ -77,6 +121,18 @@ export const missingPathReference: Rule = {
     return out;
   },
 };
+
+/** Monorepo and sub-folder case: the script is defined in some other package.json in the repository. */
+function definedElsewhere(ws: Workspace, name: string): boolean {
+  let n = 0;
+  for (const file of ws.allFiles()) {
+    if (file !== "package.json" && !file.endsWith("/package.json")) continue;
+    if (++n > 300) break;
+    const dir = file === "package.json" ? "" : file.slice(0, -"/package.json".length);
+    if (ws.scriptsFor(dir).has(name)) return true;
+  }
+  return false;
+}
 
 export const missingScriptReference: Rule = {
   id: "OBL005",
@@ -91,6 +147,7 @@ export const missingScriptReference: Rule = {
       const seen = new Set<string>();
       for (const ref of f.scriptRefs) {
         if (scripts.has(ref.value) || seen.has(ref.value)) continue;
+        if (HEDGED.test(f.lines[ref.line - 1] ?? "") || definedElsewhere(ws, ref.value)) continue;
         seen.add(ref.value);
         out.push(diag(this, f.path, `Script "${ref.value}" is not defined in any package.json in scope.`, { line: ref.line, hint: "The agent will run this command and fail; fix the name or add the script." }));
       }
@@ -98,6 +155,23 @@ export const missingScriptReference: Rule = {
     return out;
   },
 };
+
+/** Split a comma-separated glob list without breaking brace groups such as `*.{ts,css}`. */
+export function splitPatterns(s: string): string[] {
+  const out: string[] = [];
+  let depth = 0;
+  let cur = "";
+  for (const ch of s) {
+    if (ch === "{") depth++;
+    else if (ch === "}" && depth > 0) depth--;
+    if (ch === "," && depth === 0) {
+      out.push(cur);
+      cur = "";
+    } else cur += ch;
+  }
+  out.push(cur);
+  return out;
+}
 
 export const scopedGlobMatchesNothing: Rule = {
   id: "OBL010",
@@ -115,7 +189,7 @@ export const scopedGlobMatchesNothing: Rule = {
       else if (f.kind === "copilot-path") key = "applyTo";
       if (!key || fm[key] === undefined) continue;
       const raw = fm[key];
-      const patterns = (Array.isArray(raw) ? raw : String(raw).split(",")).map((p) => String(p).trim()).filter(Boolean);
+      const patterns = (Array.isArray(raw) ? raw : splitPatterns(String(raw))).map((p) => String(p).trim()).filter(Boolean);
       const all = ws.allFiles();
       for (const p of patterns) {
         const m = picomatch(p, { dot: true });

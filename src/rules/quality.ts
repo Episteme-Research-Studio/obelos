@@ -1,5 +1,5 @@
 import type { Diagnostic, Rule } from "../core/types.js";
-import { bodyLines, diag } from "./util.js";
+import { bodyLines, diag, proseLines } from "./util.js";
 
 function normalise(s: string): string {
   return s
@@ -17,21 +17,30 @@ export const duplicateInstruction: Rule = {
   defaultSeverity: "warn",
   run(files) {
     const out: Diagnostic[] = [];
-    const firstSeen = new Map<string, { file: string; line: number }>();
+    // Two files only duplicate each other when an agent could load both: one directory contains the other.
+    const related = (a: string, b: string) => a === "" || b === "" || a === b || a.startsWith(`${b}/`) || b.startsWith(`${a}/`);
+    const seen = new Map<string, { file: string; dir: string; line: number }[]>();
+    const done: typeof files = [];
     for (const f of files) {
-      for (const { text, line } of bodyLines(f)) {
-        if (/^\s*#/.test(text)) continue;
+      // The same file reached through a symlink is not a duplicate; an exact copy is one finding, not one per line.
+      const twin = done.find((g) => g.realPath === f.realPath || (g.raw === f.raw && related(g.dir, f.dir)));
+      done.push(f);
+      if (twin) {
+        if (twin.realPath !== f.realPath) out.push(diag(this, f.path, `Exact copy of ${twin.path}.`, { severity: "info", hint: "Use an import (`@${twin.path}`) or a symlink instead of a copy." }));
+        continue;
+      }
+      for (const { text, line } of proseLines(f)) {
+        if (/^\s*(#|\||>?\s*[-*_]{3,}\s*$)/.test(text)) continue; // headings, table rows, rules
         const n = normalise(text);
-        if (n.length < 40) continue;
-        const prev = firstSeen.get(n);
-        if (!prev) {
-          firstSeen.set(n, { file: f.path, line });
-          continue;
-        }
-        if (prev.file === f.path) {
-          out.push(diag(this, f.path, `Line repeats line ${prev.line} of the same file.`, { line, severity: "info" }));
-        } else {
-          out.push(diag(this, f.path, `Same instruction already appears in ${prev.file}:${prev.line}.`, { line, hint: "Keep one source of truth and import or reference it." }));
+        if (n.length < 40 || /^https?:\/\/\S+$/.test(n)) continue;
+        const prior = seen.get(n) ?? [];
+        const same = prior.find((p) => p.file === f.path);
+        const other = prior.find((p) => p.file !== f.path && related(p.dir, f.dir));
+        if (same) out.push(diag(this, f.path, `Line repeats line ${same.line} of the same file.`, { line, severity: "info" }));
+        else if (other) out.push(diag(this, f.path, `Same instruction already appears in ${other.file}:${other.line}.`, { line, severity: "info", hint: "Keep one source of truth and import or reference it." }));
+        if (!same) {
+          prior.push({ file: f.path, dir: f.dir, line });
+          seen.set(n, prior);
         }
       }
     }
@@ -145,9 +154,11 @@ export const emptyOrPlaceholder: Rule = {
   run(files) {
     const out: Diagnostic[] = [];
     for (const f of files) {
-      const content = bodyLines(f).filter((l) => l.text.trim() && !/^\s*#/.test(l.text));
-      if (content.length < 3) {
-        out.push(diag(this, f.path, "File has fewer than three lines of content.", { severity: "warn", hint: "Add concrete build, test and convention instructions, or delete the file." }));
+      const content = proseLines(f).filter((l) => l.text.trim() && !/^\s*#/.test(l.text));
+      const importsOnly = f.imports.length > 0 && content.every((l) => /^\s*@\S+\s*$/.test(l.text));
+      const chars = content.reduce((n, l) => n + l.text.trim().length, 0);
+      if (!importsOnly && content.length < 3 && chars < 80) {
+        out.push(diag(this, f.path, "File is nearly empty (under three lines and about 80 characters of content).", { hint: "Add concrete build, test and convention instructions, or delete the file." }));
       }
       for (const { text, line } of bodyLines(f)) {
         if (/\b(TODO|TBD|FIXME)\b|<fill (this )?in>|\[placeholder\]/i.test(text)) out.push(diag(this, f.path, "Placeholder text left in file.", { line }));

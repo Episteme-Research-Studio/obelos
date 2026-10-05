@@ -5,6 +5,8 @@ All notable changes. Format follows Keep a Changelog; versions follow semantic v
 ## [Unreleased] - 0.1.0-alpha.0
 
 ### Changed
+- Rule accuracy pass after linting six real public repositories: OBL004 accepts sub-package-relative paths and skips generated, optional and URL-like references; OBL005 accepts scripts defined in any package.json and skips hedged lines; OBL003 ignores `@scope/package` names; OBL009 is now `info` and satisfied by `description` (VS Code documents `applyTo` as optional); OBL010 no longer splits `{a,b}` brace patterns; OBL011 ignores comments, headings, symlinks and unrelated directories, and reports exact copies once; OBL014 accepts import-only files; OBL026 treats list items, tables and comments as separate blocks.
+- Score formula v2: average of per-file scores (`scoreVersion` 2).
 - Documentation split: planning and strategy documents moved out of the repository; added ROADMAP.md and CONTRIBUTING.md; DECISIONS.md now lists technical decisions only.
 - File discovery uses an own picomatch-based walker; `fast-glob` was removed because its `micromatch`/`braces` chain carried an unfixed high-severity advisory. `npm audit --omit=dev` is clean.
 

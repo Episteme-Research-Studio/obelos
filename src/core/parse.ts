@@ -54,7 +54,10 @@ function looksLikePath(s: string): boolean {
   if (s.startsWith("/") || s.startsWith("~") || s.startsWith("$")) return false;
   if (!s.includes("/")) return false;
   if (/[*?{}[\]]/.test(s)) return false;
-  return /\.[A-Za-z0-9]+$/.test(s) || s.endsWith("/");
+  if (/(?:YYYY|MM_DD|<|>)/.test(s)) return false; // template placeholder
+  if (!s.startsWith(".") && /^[a-z0-9-]+(?:\.[a-z0-9-]+)*\.(?:com|org|net|io|dev|ai|app|gov|edu)\//i.test(s)) return false; // a URL without a scheme
+  const ext = /\.([A-Za-z0-9]+)$/.exec(s)?.[1];
+  return (ext !== undefined && ext.length <= 6) || s.endsWith("/");
 }
 
 function stripSpans(line: string): string {

@@ -114,7 +114,7 @@ Unknown top-level keys, invalid severities, invalid regular expressions and bad 
 {
   "version": 1,
   "toolVersion": "0.1.0-alpha.0",
-  "scoreVersion": 1,
+  "scoreVersion": 2,
   "root": "/abs/path",
   "baselined": 0,
   "suppressed": 0,
@@ -128,9 +128,9 @@ Unknown top-level keys, invalid severities, invalid regular expressions and bad 
 
 `scope` appears only for `--changed-only` and `--since`. Diagnostics may also carry optional `column`, `endLine`, `endColumn` and `fix` (a list of `{line, column, endLine, endColumn, newText}` edits, 1-based, end exclusive); no rule fills them yet. Rule IDs are `OBLnnn` or `POL-<ID>`. The schema is stable within `version: 1`; additions are allowed, removals are not. Schemas: `schema/output.v1.json` and `schema/config.v1.json`.
 
-## 5. Score (v0 heuristic)
+## 5. Score (v2 heuristic)
 
-Start at 100. For each rule and severity, subtract weight times min(count, 5): error 12, warn 4, info 1. Floor at 0. Grades: A 90 or more, B 80 to 89, C 65 to 79, D 50 to 64, F below 50. The score is for trend and communication, not a quality guarantee. It will change before 1.0; every change is recorded in the changelog and version-stamped in JSON output (`scoreVersion` in JSON output).
+Each instruction file is scored on its own: start at 100, and for each rule and severity subtract weight times min(count, 5), with error 12, warn 4, info 1, floor 0. The repository score is the average of the file scores, so a large monorepo with many files is not driven to zero (v1 scored all findings as one group). Grades: A 90 or more, B 80 to 89, C 65 to 79, D 50 to 64, F below 50. The score is for trend and communication, not a quality guarantee. It will change before 1.0; every change is recorded in the changelog and version-stamped in JSON output (`scoreVersion` in JSON output).
 
 ## 6. Severity semantics
 
