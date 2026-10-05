@@ -99,7 +99,7 @@ describe("OBL010 scoped globs", () => {
 describe("quality rules", () => {
   it("OBL011 flags duplicated lines across files", () => {
     const line = "- Always run the full test suite before opening a pull request in this repository.";
-    const root = makeRepo({ "AGENTS.md": line + "\n", "GEMINI.md": line + "\n" });
+    const root = makeRepo({ "AGENTS.md": line + "\n", "sub/AGENTS.md": line + "\nMore.\n" });
     expect(has(root, "OBL011")).toBe(true);
   });
   it("OBL012 flags vague instructions", () => {

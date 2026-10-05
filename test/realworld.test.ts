@@ -109,7 +109,7 @@ describe("OBL011 duplicates", () => {
   });
   it("reports an exact copy once instead of once per line", () => {
     const body = Array.from({ length: 30 }, (_, i) => `- Rule number ${i}: always keep modules small and covered by tests.`).join("\n");
-    const root = makeRepo({ "AGENTS.md": body, "CLAUDE.md": body });
+    const root = makeRepo({ "AGENTS.md": body, "sub/AGENTS.md": body });
     const d = found(root, "OBL011");
     expect(d).toHaveLength(1);
     expect(d[0]!.message).toContain("Exact copy");
@@ -214,5 +214,15 @@ describe("second corpus pass: 150 public repositories", () => {
   it("OBL015: stating a preference or installing a global tool is not a second package manager", () => {
     const root = makeRepo({ "AGENTS.md": "- Use pnpm install, never npm install.\n- Install the CLI once with npm install -g tool.\n- Run pnpm test before committing.\n" });
     expect(found(root, "OBL015")).toHaveLength(0);
+  });
+});
+
+describe("third accuracy pass", () => {
+  it("does not flag CLAUDE.md and AGENTS.md siblings as duplicates", () => {
+    const root = makeRepo({
+      "AGENTS.md": "# A\n\nAlways run the full test suite before opening a pull request to main.\n",
+      "CLAUDE.md": "# C\n\nAlways run the full test suite before opening a pull request to main.\nExtra.\n",
+    });
+    expect(found(root, "OBL011")).toHaveLength(0);
   });
 });

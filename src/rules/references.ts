@@ -59,7 +59,7 @@ export const brokenImport: Rule = {
   },
 };
 
-const GENERATED_DIR = /(^|\/)(?:node_modules|dist|build|\.build|out|target|vendor|coverage|\.next|\.nuxt|\.venv|venv|__pycache__|\.cache|tmp|generated|gen|[\w.-]+-gen)(\/|$)/;
+const GENERATED_DIR = /(^|\/)(?:node_modules|dist|build|\.build|out|target|vendor|coverage|\.next|\.nuxt|\.venv|venv|__pycache__|\.cache|tmp|generated|gen|memory-bank|\.memory-bank|[\w.-]+-gen)(\/|$)/;
 
 interface PathIndex {
   files: Set<string>;
