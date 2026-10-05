@@ -1,6 +1,6 @@
 {
   "toolVersion": "0.1.0-alpha.0",
-  "date": "2026-10-05T10:52:31.265Z",
+  "date": "2026-10-05T11:03:17.373Z",
   "dir": "/Users/denishakszer/Documents/Claude/Projects/Research Studio/obelos/corpus/repos",
   "repos": [
     {
@@ -15,9 +15,9 @@
       "grade": "A",
       "tokens": 16974,
       "lines": 2160,
-      "findings": 4,
+      "findings": 3,
       "notices": 0,
-      "ms": 26
+      "ms": 25
     },
     {
       "repo": "907739769__OSR",
@@ -33,7 +33,7 @@
       "lines": 2438,
       "findings": 76,
       "notices": 0,
-      "ms": 108
+      "ms": 103
     },
     {
       "repo": "Alfanous-team__alfanous",
@@ -78,7 +78,7 @@
       "lines": 1305,
       "findings": 10,
       "notices": 0,
-      "ms": 44
+      "ms": 43
     },
     {
       "repo": "Arnon-hs__open-source",
@@ -91,7 +91,7 @@
       "lines": 0,
       "findings": 0,
       "notices": 0,
-      "ms": 154
+      "ms": 151
     },
     {
       "repo": "Autonoma-AI__autonoma",
@@ -107,7 +107,7 @@
       "lines": 2074,
       "findings": 37,
       "notices": 0,
-      "ms": 82
+      "ms": 86
     },
     {
       "repo": "AzureAD__microsoft-authentication-library-common-for-objc",
@@ -124,7 +124,7 @@
       "lines": 93,
       "findings": 3,
       "notices": 0,
-      "ms": 19
+      "ms": 20
     },
     {
       "repo": "Azure__kimojio-rs",
@@ -171,7 +171,7 @@
       "lines": 740,
       "findings": 9,
       "notices": 0,
-      "ms": 117
+      "ms": 112
     },
     {
       "repo": "BuilderIO__agent-native",
@@ -185,9 +185,9 @@
       "grade": "A",
       "tokens": 93495,
       "lines": 6556,
-      "findings": 73,
+      "findings": 72,
       "notices": 0,
-      "ms": 376
+      "ms": 381
     },
     {
       "repo": "ClickHouse__ai-sdk-cpp",
@@ -232,7 +232,7 @@
       "lines": 10,
       "findings": 0,
       "notices": 0,
-      "ms": 7
+      "ms": 6
     },
     {
       "repo": "EliasOenal__multimon-ng",
@@ -248,7 +248,7 @@
       "lines": 415,
       "findings": 5,
       "notices": 0,
-      "ms": 5
+      "ms": 6
     },
     {
       "repo": "GoogleCloudPlatform__kubernetes-engine-samples",
@@ -263,7 +263,7 @@
       "lines": 81,
       "findings": 0,
       "notices": 0,
-      "ms": 36
+      "ms": 38
     },
     {
       "repo": "GoogleContainerTools__config-sync",
@@ -279,7 +279,7 @@
       "lines": 164,
       "findings": 2,
       "notices": 0,
-      "ms": 259
+      "ms": 250
     },
     {
       "repo": "Hacker-Valley-Media__Interceptor",
@@ -295,7 +295,7 @@
       "lines": 356,
       "findings": 10,
       "notices": 0,
-      "ms": 20
+      "ms": 19
     },
     {
       "repo": "Hessesian__kmp-lsp",
@@ -340,7 +340,7 @@
       "lines": 0,
       "findings": 0,
       "notices": 0,
-      "ms": 134
+      "ms": 136
     },
     {
       "repo": "Huxpro__vue-lynx",
@@ -372,7 +372,7 @@
       "lines": 135566,
       "findings": 246,
       "notices": 506,
-      "ms": 958
+      "ms": 991
     },
     {
       "repo": "Koomook__fastcampus-ai-agent-vibecoding",
@@ -387,7 +387,7 @@
       "lines": 4547,
       "findings": 10,
       "notices": 0,
-      "ms": 46
+      "ms": 50
     },
     {
       "repo": "Lawofall__AgentCore",
@@ -402,7 +402,7 @@
       "lines": 857,
       "findings": 7,
       "notices": 0,
-      "ms": 100
+      "ms": 106
     },
     {
       "repo": "Lazza__Carbon14",
@@ -448,7 +448,7 @@
       "lines": 365,
       "findings": 2,
       "notices": 0,
-      "ms": 47
+      "ms": 44
     },
     {
       "repo": "LedgerHQ__app-boilerplate",
@@ -463,7 +463,7 @@
       "lines": 2,
       "findings": 1,
       "notices": 0,
-      "ms": 40
+      "ms": 41
     },
     {
       "repo": "Menghuan1918__drawio2go",
@@ -478,7 +478,7 @@
       "lines": 7528,
       "findings": 24,
       "notices": 0,
-      "ms": 49
+      "ms": 51
     },
     {
       "repo": "MetrolistGroup__Metrolist",
@@ -493,7 +493,7 @@
       "lines": 35,
       "findings": 3,
       "notices": 0,
-      "ms": 26
+      "ms": 24
     },
     {
       "repo": "NanoNative__nano",
@@ -555,7 +555,7 @@
       "lines": 723,
       "findings": 21,
       "notices": 0,
-      "ms": 22
+      "ms": 23
     },
     {
       "repo": "SSSYoung__vibe-coding-mobile-engineering",
@@ -569,9 +569,9 @@
       "grade": "A",
       "tokens": 1648,
       "lines": 202,
-      "findings": 2,
+      "findings": 1,
       "notices": 0,
-      "ms": 5
+      "ms": 4
     },
     {
       "repo": "Shlomob__ocmonitor-share",
@@ -593,11 +593,11 @@
       "kinds": [
         "agents-md"
       ],
-      "score": 99,
+      "score": 100,
       "grade": "A",
       "tokens": 320,
       "lines": 24,
-      "findings": 1,
+      "findings": 0,
       "notices": 0,
       "ms": 2
     },
@@ -615,7 +615,7 @@
       "lines": 754,
       "findings": 3,
       "notices": 0,
-      "ms": 168
+      "ms": 153
     },
     {
       "repo": "TerminalSkills__skills",
@@ -628,7 +628,7 @@
       "lines": 0,
       "findings": 0,
       "notices": 0,
-      "ms": 50
+      "ms": 45
     },
     {
       "repo": "ThomasMoreAI__legal-skills-open",
@@ -644,7 +644,7 @@
       "lines": 14453,
       "findings": 304,
       "notices": 0,
-      "ms": 1259
+      "ms": 1262
     },
     {
       "repo": "TornLux__UnrealBridge",
@@ -675,9 +675,9 @@
       "grade": "A",
       "tokens": 20853,
       "lines": 1613,
-      "findings": 5,
+      "findings": 4,
       "notices": 0,
-      "ms": 682
+      "ms": 647
     },
     {
       "repo": "aashaexo__soundshuman",
@@ -708,7 +708,7 @@
       "lines": 4287,
       "findings": 63,
       "notices": 0,
-      "ms": 215
+      "ms": 208
     },
     {
       "repo": "ardriveapp__ardrive-web",
@@ -724,7 +724,7 @@
       "lines": 294,
       "findings": 2,
       "notices": 0,
-      "ms": 62
+      "ms": 67
     },
     {
       "repo": "axeII__home-ops",
@@ -740,7 +740,7 @@
       "lines": 377,
       "findings": 5,
       "notices": 0,
-      "ms": 21
+      "ms": 19
     },
     {
       "repo": "blackstork-io__blackstork-cli",
@@ -756,7 +756,7 @@
       "lines": 207,
       "findings": 0,
       "notices": 0,
-      "ms": 15
+      "ms": 11
     },
     {
       "repo": "blockscout__blockscout-rs",
@@ -773,7 +773,7 @@
       "lines": 508,
       "findings": 10,
       "notices": 0,
-      "ms": 55
+      "ms": 50
     },
     {
       "repo": "broadinstitute__delphy",
@@ -787,7 +787,7 @@
       "grade": "A",
       "tokens": 3632,
       "lines": 361,
-      "findings": 2,
+      "findings": 1,
       "notices": 0,
       "ms": 4
     },
@@ -835,7 +835,7 @@
       "lines": 326,
       "findings": 1,
       "notices": 0,
-      "ms": 16
+      "ms": 15
     },
     {
       "repo": "chen0416ccc-cpu__codex-windows-fast-patch-skill",
@@ -850,7 +850,7 @@
       "lines": 44,
       "findings": 2,
       "notices": 0,
-      "ms": 3
+      "ms": 2
     },
     {
       "repo": "ckotzbauer__vulnerability-operator",
@@ -865,7 +865,7 @@
       "lines": 275,
       "findings": 4,
       "notices": 0,
-      "ms": 4
+      "ms": 3
     },
     {
       "repo": "cocart-headless__cocart-community",
@@ -922,13 +922,13 @@
         "cursor-rule",
         "cursor-legacy"
       ],
-      "score": 98,
+      "score": 99,
       "grade": "A",
       "tokens": 19194,
       "lines": 2853,
       "findings": 5,
       "notices": 0,
-      "ms": 18
+      "ms": 17
     },
     {
       "repo": "cosscom__coss",
@@ -944,7 +944,7 @@
       "lines": 2756,
       "findings": 6,
       "notices": 0,
-      "ms": 23
+      "ms": 25
     },
     {
       "repo": "coverallsapp__coverage-reporter",
@@ -976,7 +976,7 @@
       "lines": 1626,
       "findings": 14,
       "notices": 0,
-      "ms": 469
+      "ms": 444
     },
     {
       "repo": "dcloudio__uni-ai-x",
@@ -990,9 +990,9 @@
       "grade": "A",
       "tokens": 5464,
       "lines": 483,
-      "findings": 10,
+      "findings": 9,
       "notices": 0,
-      "ms": 17
+      "ms": 16
     },
     {
       "repo": "digitalpetri__opc-ua-demo-server",
@@ -1024,7 +1024,7 @@
       "lines": 20,
       "findings": 3,
       "notices": 0,
-      "ms": 3
+      "ms": 4
     },
     {
       "repo": "ecomfe__tempad-dev",
@@ -1039,7 +1039,7 @@
       "lines": 611,
       "findings": 0,
       "notices": 0,
-      "ms": 23
+      "ms": 22
     },
     {
       "repo": "edgestorejs__edgestore",
@@ -1049,13 +1049,13 @@
         "cursor-rule",
         "agents-md"
       ],
-      "score": 96,
+      "score": 98,
       "grade": "A",
       "tokens": 4963,
       "lines": 663,
       "findings": 2,
       "notices": 0,
-      "ms": 15
+      "ms": 14
     },
     {
       "repo": "enso-org__enso",
@@ -1068,9 +1068,9 @@
       "grade": "A",
       "tokens": 43031,
       "lines": 3873,
-      "findings": 16,
+      "findings": 15,
       "notices": 0,
-      "ms": 411
+      "ms": 395
     },
     {
       "repo": "fcjr__RCade",
@@ -1086,7 +1086,7 @@
       "lines": 60,
       "findings": 6,
       "notices": 0,
-      "ms": 17
+      "ms": 16
     },
     {
       "repo": "firebase__FirebaseUI-Android",
@@ -1133,7 +1133,7 @@
       "lines": 203,
       "findings": 1,
       "notices": 0,
-      "ms": 56
+      "ms": 67
     },
     {
       "repo": "gogpu__gg",
@@ -1148,7 +1148,7 @@
       "lines": 93,
       "findings": 0,
       "notices": 0,
-      "ms": 6
+      "ms": 5
     },
     {
       "repo": "grafana__synthetic-monitoring-app",
@@ -1179,7 +1179,7 @@
       "lines": 82,
       "findings": 1,
       "notices": 0,
-      "ms": 8
+      "ms": 7
     },
     {
       "repo": "haddocking__haddock3",
@@ -1195,7 +1195,7 @@
       "lines": 372,
       "findings": 12,
       "notices": 0,
-      "ms": 28
+      "ms": 25
     },
     {
       "repo": "hectcastro__gh-metrics",
@@ -1226,7 +1226,7 @@
       "lines": 180,
       "findings": 7,
       "notices": 0,
-      "ms": 5
+      "ms": 4
     },
     {
       "repo": "heygen-com__hyperframes-launches",
@@ -1242,7 +1242,7 @@
       "lines": 1394,
       "findings": 24,
       "notices": 0,
-      "ms": 26
+      "ms": 27
     },
     {
       "repo": "hschne__puny-monitor",
@@ -1251,11 +1251,11 @@
       "kinds": [
         "claude-md"
       ],
-      "score": 99,
+      "score": 100,
       "grade": "A",
       "tokens": 953,
       "lines": 95,
-      "findings": 1,
+      "findings": 0,
       "notices": 0,
       "ms": 2
     },
@@ -1289,7 +1289,7 @@
       "lines": 1666,
       "findings": 23,
       "notices": 0,
-      "ms": 120
+      "ms": 119
     },
     {
       "repo": "ijry__uview-plus",
@@ -1320,7 +1320,7 @@
       "lines": 324,
       "findings": 2,
       "notices": 0,
-      "ms": 16
+      "ms": 17
     },
     {
       "repo": "joeseesun__qiaomu-blog-opensource",
@@ -1345,11 +1345,11 @@
         "copilot-repo",
         "agents-md"
       ],
-      "score": 99,
+      "score": 100,
       "grade": "A",
       "tokens": 2196,
       "lines": 167,
-      "findings": 2,
+      "findings": 1,
       "notices": 0,
       "ms": 2
     },
@@ -1360,11 +1360,11 @@
       "kinds": [
         "claude-md"
       ],
-      "score": 95,
+      "score": 96,
       "grade": "A",
       "tokens": 881,
       "lines": 102,
-      "findings": 2,
+      "findings": 1,
       "notices": 0,
       "ms": 2
     },
@@ -1381,7 +1381,7 @@
       "lines": 42,
       "findings": 0,
       "notices": 0,
-      "ms": 16
+      "ms": 15
     },
     {
       "repo": "kubernetes-sigs__cluster-api-provider-openstack",
@@ -1396,7 +1396,7 @@
       "lines": 304,
       "findings": 0,
       "notices": 0,
-      "ms": 10
+      "ms": 11
     },
     {
       "repo": "lajarre__pi-vim",
@@ -1411,7 +1411,7 @@
       "lines": 18,
       "findings": 0,
       "notices": 0,
-      "ms": 1
+      "ms": 2
     },
     {
       "repo": "leancoderkavy__premiere-pro-mcp",
@@ -1450,7 +1450,7 @@
       "lines": 4235,
       "findings": 51,
       "notices": 0,
-      "ms": 63
+      "ms": 62
     },
     {
       "repo": "lldap__lldap",
@@ -1496,7 +1496,7 @@
       "lines": 4,
       "findings": 0,
       "notices": 0,
-      "ms": 2
+      "ms": 1
     },
     {
       "repo": "mhernesniemi__hoikka",
@@ -1510,7 +1510,7 @@
       "grade": "A",
       "tokens": 1630,
       "lines": 56,
-      "findings": 5,
+      "findings": 4,
       "notices": 0,
       "ms": 12
     },
@@ -1528,7 +1528,7 @@
       "lines": 5192,
       "findings": 63,
       "notices": 0,
-      "ms": 64
+      "ms": 62
     },
     {
       "repo": "microsoft-foundry__Foundry_Toolkit_for_VSCode_Lab",
@@ -1557,7 +1557,7 @@
       "lines": 509,
       "findings": 2,
       "notices": 0,
-      "ms": 13
+      "ms": 14
     },
     {
       "repo": "microsoft__BC-Bench",
@@ -1605,7 +1605,7 @@
       "lines": 20910,
       "findings": 179,
       "notices": 318,
-      "ms": 2003
+      "ms": 1912
     },
     {
       "repo": "netdevops__hier_config",
@@ -1670,9 +1670,9 @@
       "grade": "A",
       "tokens": 2165,
       "lines": 241,
-      "findings": 1,
+      "findings": 0,
       "notices": 0,
-      "ms": 24
+      "ms": 25
     },
     {
       "repo": "openshift-examples__web",
@@ -1703,7 +1703,7 @@
       "lines": 328,
       "findings": 4,
       "notices": 0,
-      "ms": 210
+      "ms": 218
     },
     {
       "repo": "orneryd__uiGrid",
@@ -1734,7 +1734,7 @@
       "lines": 136,
       "findings": 0,
       "notices": 0,
-      "ms": 7
+      "ms": 8
     },
     {
       "repo": "oyjt__uniapp-vue3-template",
@@ -1761,7 +1761,7 @@
         "agents-md",
         "claude-md"
       ],
-      "score": 83,
+      "score": 84,
       "grade": "B",
       "tokens": 77232,
       "lines": 4621,
@@ -1782,7 +1782,7 @@
       "lines": 114,
       "findings": 0,
       "notices": 0,
-      "ms": 3
+      "ms": 2
     },
     {
       "repo": "peteromallet__Arnold",
@@ -1797,7 +1797,7 @@
       "lines": 348,
       "findings": 5,
       "notices": 0,
-      "ms": 101
+      "ms": 103
     },
     {
       "repo": "phuhao00__greatestworks",
@@ -1813,7 +1813,7 @@
       "lines": 194,
       "findings": 1,
       "notices": 0,
-      "ms": 15
+      "ms": 14
     },
     {
       "repo": "pinecone-io__pinecone-ts-client",
@@ -1828,7 +1828,7 @@
       "lines": 51,
       "findings": 0,
       "notices": 0,
-      "ms": 7
+      "ms": 9
     },
     {
       "repo": "pktgen__Pktgen-DPDK",
@@ -1888,7 +1888,7 @@
       "lines": 795,
       "findings": 7,
       "notices": 0,
-      "ms": 49
+      "ms": 52
     },
     {
       "repo": "rapi-doc__RapiDoc",
@@ -1903,7 +1903,7 @@
       "lines": 390,
       "findings": 1,
       "notices": 0,
-      "ms": 20
+      "ms": 21
     },
     {
       "repo": "rmpowell77__wxUI",
@@ -1934,7 +1934,7 @@
       "lines": 248,
       "findings": 3,
       "notices": 0,
-      "ms": 13
+      "ms": 14
     },
     {
       "repo": "sbroenne__mcp-server-excel",
@@ -1997,7 +1997,7 @@
       "lines": 1593,
       "findings": 6,
       "notices": 0,
-      "ms": 105
+      "ms": 104
     },
     {
       "repo": "sethlaw__sputr",
@@ -2033,7 +2033,7 @@
       "lines": 674,
       "findings": 15,
       "notices": 0,
-      "ms": 26
+      "ms": 27
     },
     {
       "repo": "starknet-io__starknet-docs",
@@ -2046,7 +2046,7 @@
       "lines": 0,
       "findings": 0,
       "notices": 0,
-      "ms": 5
+      "ms": 6
     },
     {
       "repo": "stefanbschneider__mobile-env",
@@ -2077,7 +2077,7 @@
       "lines": 994,
       "findings": 7,
       "notices": 0,
-      "ms": 57
+      "ms": 54
     },
     {
       "repo": "sverweij__state-machine-cat",
@@ -2092,7 +2092,7 @@
       "lines": 122,
       "findings": 1,
       "notices": 0,
-      "ms": 10
+      "ms": 12
     },
     {
       "repo": "sylverb__game-and-watch-retro-go-sd",
@@ -2108,7 +2108,7 @@
       "lines": 317,
       "findings": 14,
       "notices": 0,
-      "ms": 16
+      "ms": 15
     },
     {
       "repo": "thearnavrustagi__marketmenow",
@@ -2125,7 +2125,7 @@
       "lines": 1129,
       "findings": 12,
       "notices": 0,
-      "ms": 30
+      "ms": 34
     },
     {
       "repo": "thehimel__cursor-rules-and-prompts",
@@ -2140,7 +2140,7 @@
       "lines": 2432,
       "findings": 18,
       "notices": 0,
-      "ms": 24
+      "ms": 27
     },
     {
       "repo": "thomast1906__github-copilot-agent-skills",
@@ -2170,7 +2170,7 @@
       "lines": 91,
       "findings": 0,
       "notices": 0,
-      "ms": 1
+      "ms": 2
     },
     {
       "repo": "tovifun__VivalArc",
@@ -2185,7 +2185,7 @@
       "lines": 26,
       "findings": 1,
       "notices": 0,
-      "ms": 3
+      "ms": 5
     },
     {
       "repo": "treyhunner__dotfiles",
@@ -2233,7 +2233,7 @@
       "lines": 1956,
       "findings": 123,
       "notices": 0,
-      "ms": 66
+      "ms": 63
     },
     {
       "repo": "web-arena-x__webarena-infinity",
@@ -2248,7 +2248,7 @@
       "lines": 185,
       "findings": 10,
       "notices": 0,
-      "ms": 196
+      "ms": 193
     },
     {
       "repo": "xensik__gsc-tool",
@@ -2264,7 +2264,7 @@
       "lines": 180,
       "findings": 1,
       "notices": 0,
-      "ms": 32
+      "ms": 33
     },
     {
       "repo": "xin-lai__CodeSpirit",
@@ -2280,7 +2280,7 @@
       "lines": 6303,
       "findings": 12,
       "notices": 0,
-      "ms": 113
+      "ms": 112
     },
     {
       "repo": "xxraincandyxx__Amadeus",
@@ -2298,7 +2298,7 @@
       "lines": 155,
       "findings": 3,
       "notices": 0,
-      "ms": 12
+      "ms": 13
     },
     {
       "repo": "yahiafarghaly__PrettyOS",
@@ -2307,11 +2307,11 @@
       "kinds": [
         "claude-md"
       ],
-      "score": 99,
+      "score": 100,
       "grade": "A",
       "tokens": 977,
       "lines": 98,
-      "findings": 1,
+      "findings": 0,
       "notices": 0,
       "ms": 3
     },
@@ -2328,7 +2328,7 @@
       "lines": 7,
       "findings": 1,
       "notices": 0,
-      "ms": 2
+      "ms": 1
     },
     {
       "repo": "zxlie__FeHelper",
@@ -2355,14 +2355,6 @@
       "file": "AGENTS.md",
       "line": "",
       "message": "1006 lines exceeds the 500-line budget for agents files (about 8017 tokens)."
-    },
-    {
-      "repo": "1amageek__SwiftAgent",
-      "ruleId": "OBL019",
-      "severity": "info",
-      "file": "AGENTS.md",
-      "line": "",
-      "message": "No build, test or lint command found in the root instruction files."
     },
     {
       "repo": "1amageek__SwiftAgent",
@@ -4150,14 +4142,6 @@
     },
     {
       "repo": "BuilderIO__agent-native",
-      "ruleId": "OBL019",
-      "severity": "info",
-      "file": "AGENTS.md",
-      "line": "",
-      "message": "No build, test or lint command found in the root instruction files."
-    },
-    {
-      "repo": "BuilderIO__agent-native",
       "ruleId": "OBL004",
       "severity": "warn",
       "file": "AGENTS.md",
@@ -5031,7 +5015,7 @@
     {
       "repo": "Huxpro__vue-lynx",
       "ruleId": "OBL015",
-      "severity": "warn",
+      "severity": "info",
       "file": "examples/hello-world/AGENTS.md",
       "line": 14,
       "message": "Multiple package managers are prescribed (pnpm, npm)."
@@ -7566,27 +7550,11 @@
     },
     {
       "repo": "SSSYoung__vibe-coding-mobile-engineering",
-      "ruleId": "OBL019",
-      "severity": "info",
-      "file": "AGENTS.md",
-      "line": "",
-      "message": "No build, test or lint command found in the root instruction files."
-    },
-    {
-      "repo": "SSSYoung__vibe-coding-mobile-engineering",
       "ruleId": "OBL006",
       "severity": "warn",
       "file": "CLAUDE.md",
       "line": "",
       "message": "AGENTS.md exists next to this file but is not imported; Claude Code reads only CLAUDE.md when both are present."
-    },
-    {
-      "repo": "Smith42__astroPT",
-      "ruleId": "OBL019",
-      "severity": "info",
-      "file": "AGENTS.md",
-      "line": "",
-      "message": "No build, test or lint command found in the root instruction files."
     },
     {
       "repo": "SunkenInTime__which-ai",
@@ -10093,14 +10061,6 @@
       "message": "globs pattern \"packages/ui/src\" matches no files in the repository."
     },
     {
-      "repo": "Vrooli__Vrooli",
-      "ruleId": "OBL003",
-      "severity": "error",
-      "file": ".cursor/rules/ui.mdc",
-      "line": 9,
-      "message": "@.eslintrc does not exist (resolved to .cursor/rules/.eslintrc)."
-    },
-    {
       "repo": "ai-dynamo__dynamo",
       "ruleId": "OBL026",
       "severity": "info",
@@ -10742,14 +10702,6 @@
     },
     {
       "repo": "broadinstitute__delphy",
-      "ruleId": "OBL019",
-      "severity": "info",
-      "file": "AGENTS.md",
-      "line": "",
-      "message": "No build, test or lint command found in the root instruction files."
-    },
-    {
-      "repo": "broadinstitute__delphy",
       "ruleId": "OBL006",
       "severity": "warn",
       "file": "CLAUDE.md",
@@ -10895,7 +10847,7 @@
     {
       "repo": "cool-team-official__cool-admin-midway",
       "ruleId": "OBL015",
-      "severity": "warn",
+      "severity": "info",
       "file": ".cursor/rules/db.mdc",
       "line": 56,
       "message": "Multiple package managers are prescribed (pnpm, npm)."
@@ -11094,14 +11046,6 @@
     },
     {
       "repo": "dcloudio__uni-ai-x",
-      "ruleId": "OBL014",
-      "severity": "info",
-      "file": ".claude/rules/lessons-learned.md",
-      "line": "",
-      "message": "File is nearly empty (under three lines and about 80 characters of content)."
-    },
-    {
-      "repo": "dcloudio__uni-ai-x",
       "ruleId": "OBL010",
       "severity": "warn",
       "file": ".cursor/rules/conditional-compilation.mdc",
@@ -11207,7 +11151,7 @@
     {
       "repo": "edgestorejs__edgestore",
       "ruleId": "OBL015",
-      "severity": "warn",
+      "severity": "info",
       "file": ".cursor/rules/add-adapter.mdc",
       "line": 51,
       "message": "Multiple package managers are prescribed (npm, pnpm, bun, yarn)."
@@ -11275,14 +11219,6 @@
       "file": "app/gui/CLAUDE.md",
       "line": 91,
       "message": "`src/project-view/util/iconMetadata/iconName.ts` is referenced but does not exist in the repository."
-    },
-    {
-      "repo": "enso-org__enso",
-      "ruleId": "OBL019",
-      "severity": "info",
-      "file": "CLAUDE.md",
-      "line": "",
-      "message": "No build, test or lint command found in the root instruction files."
     },
     {
       "repo": "enso-org__enso",
@@ -11821,14 +11757,6 @@
       "message": "`references/tailwind.md` is referenced but does not exist in the repository."
     },
     {
-      "repo": "hschne__puny-monitor",
-      "ruleId": "OBL019",
-      "severity": "info",
-      "file": "CLAUDE.md",
-      "line": "",
-      "message": "No build, test or lint command found in the root instruction files."
-    },
-    {
       "repo": "hughjonesd__huxtable",
       "ruleId": "OBL011",
       "severity": "info",
@@ -12067,22 +11995,6 @@
       "file": ".github/copilot-instructions.md",
       "line": 47,
       "message": "\"use good names\" is too vague to change behaviour."
-    },
-    {
-      "repo": "johnpapa__vscode-winteriscoming",
-      "ruleId": "OBL019",
-      "severity": "info",
-      "file": "AGENTS.md",
-      "line": "",
-      "message": "No build, test or lint command found in the root instruction files."
-    },
-    {
-      "repo": "jvkersch__tmtools",
-      "ruleId": "OBL019",
-      "severity": "info",
-      "file": "CLAUDE.md",
-      "line": "",
-      "message": "No build, test or lint command found in the root instruction files."
     },
     {
       "repo": "jvkersch__tmtools",
@@ -12547,14 +12459,6 @@
       "file": "CLAUDE.md",
       "line": "",
       "message": "AGENTS.md exists next to this file but is not imported; Claude Code reads only CLAUDE.md when both are present."
-    },
-    {
-      "repo": "mhernesniemi__hoikka",
-      "ruleId": "OBL019",
-      "severity": "info",
-      "file": "AGENTS.md",
-      "line": "",
-      "message": "No build, test or lint command found in the root instruction files."
     },
     {
       "repo": "mhernesniemi__hoikka",
@@ -14805,14 +14709,6 @@
       "message": "`content/scripts/linter.js` is referenced but does not exist in the repository."
     },
     {
-      "repo": "nsnam__ns-3-dev-git",
-      "ruleId": "OBL019",
-      "severity": "info",
-      "file": "AGENTS.md",
-      "line": "",
-      "message": "No build, test or lint command found in the root instruction files."
-    },
-    {
       "repo": "openshift-examples__web",
       "ruleId": "OBL004",
       "severity": "warn",
@@ -14935,7 +14831,7 @@
     {
       "repo": "panaversity__ksor",
       "ruleId": "OBL015",
-      "severity": "warn",
+      "severity": "info",
       "file": "AGENTS.md",
       "line": 438,
       "message": "Multiple package managers are prescribed (pnpm, npm)."
@@ -15295,7 +15191,7 @@
     {
       "repo": "selfxyz__self",
       "ruleId": "OBL015",
-      "severity": "warn",
+      "severity": "info",
       "file": "AGENTS.md",
       "line": 11,
       "message": "Multiple package managers are prescribed (yarn, pnpm)."
@@ -17083,14 +16979,6 @@
       "file": "CLAUDE.md",
       "line": "",
       "message": "10 ALL-CAPS emphasis words (limit 8)."
-    },
-    {
-      "repo": "yahiafarghaly__PrettyOS",
-      "ruleId": "OBL019",
-      "severity": "info",
-      "file": "CLAUDE.md",
-      "line": "",
-      "message": "No build, test or lint command found in the root instruction files."
     },
     {
       "repo": "yanyiwu__nodejieba",

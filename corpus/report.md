@@ -15,7 +15,7 @@ Tool version 0.1.0-alpha.0, run 2026-10-05, folder `/Users/denishakszer/Document
 |---|---|---|---|---|---|---|
 | OBL001 | 284 | 31 | 22% | 0 | n/a | needs review |
 | OBL002 | 21 | 13 | 9% | 0 | n/a | needs review |
-| OBL003 | 14 | 3 | 2% | 0 | n/a | needs review |
+| OBL003 | 13 | 2 | 1% | 0 | n/a | needs review |
 | OBL004 | 356 | 55 | 38% | 0 | n/a | needs review |
 | OBL005 | 4 | 2 | 1% | 0 | n/a | needs review |
 | OBL006 | 18 | 18 | 13% | 0 | n/a | needs review |
@@ -24,10 +24,10 @@ Tool version 0.1.0-alpha.0, run 2026-10-05, folder `/Users/denishakszer/Document
 | OBL010 | 204 | 13 | 9% | 0 | n/a | needs review |
 | OBL011 | 618 | 30 | 21% | 0 | n/a | needs review |
 | OBL012 | 13 | 7 | 5% | 0 | n/a | needs review |
-| OBL014 | 26 | 10 | 7% | 0 | n/a | needs review |
+| OBL014 | 25 | 9 | 6% | 0 | n/a | needs review |
 | OBL015 | 5 | 5 | 3% | 0 | n/a | needs review |
 | OBL016 | 1 | 1 | 1% | 0 | n/a | needs review |
-| OBL019 | 31 | 31 | 22% | 0 | n/a | needs review |
+| OBL019 | 19 | 19 | 13% | 0 | n/a | needs review |
 | OBL026 | 237 | 25 | 17% | 0 | n/a | needs review |
 | OBL027 | 8 | 7 | 5% | 0 | n/a | needs review |
 
