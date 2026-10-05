@@ -6,7 +6,7 @@ Tool version 0.1.0-alpha.0, run 2026-10-05, folder `/Users/denishakszer/Document
 
 - Repositories: 150; with agent instruction files: 144 (96%).
 - Crashes: 0. Gate target: 0.
-- Median score: 98; grades: A=129 B=12 C=3.
+- Median score: 99; grades: A=129 B=12 C=3.
 - Median instruction size: 2655 estimated tokens; median run time per repository: 14 ms.
 
 ## Findings by rule
@@ -16,13 +16,13 @@ Tool version 0.1.0-alpha.0, run 2026-10-05, folder `/Users/denishakszer/Document
 | OBL001 | 284 | 31 | 22% | 0 | n/a | needs review |
 | OBL002 | 21 | 13 | 9% | 0 | n/a | needs review |
 | OBL003 | 14 | 3 | 2% | 0 | n/a | needs review |
-| OBL004 | 378 | 55 | 38% | 0 | n/a | needs review |
+| OBL004 | 356 | 55 | 38% | 0 | n/a | needs review |
 | OBL005 | 4 | 2 | 1% | 0 | n/a | needs review |
 | OBL006 | 18 | 18 | 13% | 0 | n/a | needs review |
 | OBL007 | 1 | 1 | 1% | 0 | n/a | needs review |
 | OBL008 | 3 | 3 | 2% | 0 | n/a | needs review |
 | OBL010 | 204 | 13 | 9% | 0 | n/a | needs review |
-| OBL011 | 1156 | 39 | 27% | 0 | n/a | needs review |
+| OBL011 | 812 | 30 | 21% | 0 | n/a | needs review |
 | OBL012 | 13 | 7 | 5% | 0 | n/a | needs review |
 | OBL014 | 26 | 10 | 7% | 0 | n/a | needs review |
 | OBL015 | 5 | 5 | 3% | 0 | n/a | needs review |

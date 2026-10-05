@@ -18,12 +18,17 @@ export const duplicateInstruction: Rule = {
   run(files) {
     const out: Diagnostic[] = [];
     // Two files only duplicate each other when an agent could load both: one directory contains the other.
-    const related = (a: string, b: string) => a === "" || b === "" || a === b || a.startsWith(`${b}/`) || b.startsWith(`${a}/`);
-    const seen = new Map<string, { file: string; dir: string; line: number }[]>();
+    const nested = (a: string, b: string) => a === "" || b === "" || a === b || a.startsWith(`${b}/`) || b.startsWith(`${a}/`);
+    // Sibling files for different tools (CLAUDE.md next to AGENTS.md, rules.md next to rules.mdc) are never loaded together.
+    const stem = (p: string) => p.replace(/\.[^./]+$/, "");
+    const sibling = (a: { path: string; dir: string; kind: string }, b: { path: string; dir: string; kind: string }) =>
+      a.dir === b.dir && a.path !== b.path && (a.kind !== b.kind || stem(a.path) === stem(b.path));
+    const related = (a: { path: string; dir: string; kind: string }, b: { path: string; dir: string; kind: string }) => nested(a.dir, b.dir) && !sibling(a, b);
+    const seen = new Map<string, { file: string; dir: string; kind: string; line: number }[]>();
     const done: typeof files = [];
     for (const f of files) {
       // The same file reached through a symlink is not a duplicate; an exact copy is one finding, not one per line.
-      const twin = done.find((g) => g.realPath === f.realPath || (g.raw === f.raw && related(g.dir, f.dir)));
+      const twin = done.find((g) => g.realPath === f.realPath || (g.raw === f.raw && nested(g.dir, f.dir) && !sibling(g, f)));
       done.push(f);
       if (twin) {
         if (twin.realPath !== f.realPath) out.push(diag(this, f.path, `Exact copy of ${twin.path}.`, { severity: "info", hint: "Use an import (`@${twin.path}`) or a symlink instead of a copy." }));
@@ -35,11 +40,11 @@ export const duplicateInstruction: Rule = {
         if (n.length < 40 || /^https?:\/\/\S+$/.test(n)) continue;
         const prior = seen.get(n) ?? [];
         const same = prior.find((p) => p.file === f.path);
-        const other = prior.find((p) => p.file !== f.path && related(p.dir, f.dir));
+        const other = prior.find((p) => p.file !== f.path && related({ path: p.file, dir: p.dir, kind: p.kind }, f));
         if (same) out.push(diag(this, f.path, `Line repeats line ${same.line} of the same file.`, { line, severity: "info" }));
         else if (other) out.push(diag(this, f.path, `Same instruction already appears in ${other.file}:${other.line}.`, { line, severity: "info", hint: "Keep one source of truth and import or reference it." }));
         if (!same) {
-          prior.push({ file: f.path, dir: f.dir, line });
+          prior.push({ file: f.path, dir: f.dir, kind: f.kind, line });
           seen.set(n, prior);
         }
       }

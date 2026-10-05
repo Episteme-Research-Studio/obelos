@@ -1,6 +1,6 @@
 {
   "toolVersion": "0.1.0-alpha.0",
-  "date": "2026-10-05T10:38:32.437Z",
+  "date": "2026-10-05T10:47:53.587Z",
   "dir": "/Users/denishakszer/Documents/Claude/Projects/Research Studio/obelos/corpus/repos",
   "repos": [
     {
@@ -11,11 +11,11 @@
         "agents-md",
         "claude-md"
       ],
-      "score": 94,
+      "score": 96,
       "grade": "A",
       "tokens": 16974,
       "lines": 2160,
-      "findings": 40,
+      "findings": 4,
       "notices": 0,
       "ms": 24
     },
@@ -48,7 +48,7 @@
       "lines": 220,
       "findings": 1,
       "notices": 0,
-      "ms": 10
+      "ms": 9
     },
     {
       "repo": "Andersbakken__rtags",
@@ -78,7 +78,7 @@
       "lines": 1305,
       "findings": 10,
       "notices": 0,
-      "ms": 41
+      "ms": 40
     },
     {
       "repo": "Arnon-hs__open-source",
@@ -91,7 +91,7 @@
       "lines": 0,
       "findings": 0,
       "notices": 0,
-      "ms": 147
+      "ms": 156
     },
     {
       "repo": "Autonoma-AI__autonoma",
@@ -150,13 +150,13 @@
         "claude-md",
         "gemini-md"
       ],
-      "score": 94,
+      "score": 95,
       "grade": "A",
       "tokens": 128785,
       "lines": 14718,
-      "findings": 158,
+      "findings": 121,
       "notices": 0,
-      "ms": 81
+      "ms": 75
     },
     {
       "repo": "BrowserOperator__browser-operator-core",
@@ -171,7 +171,7 @@
       "lines": 740,
       "findings": 9,
       "notices": 0,
-      "ms": 113
+      "ms": 109
     },
     {
       "repo": "BuilderIO__agent-native",
@@ -187,7 +187,7 @@
       "lines": 6556,
       "findings": 88,
       "notices": 0,
-      "ms": 347
+      "ms": 352
     },
     {
       "repo": "ClickHouse__ai-sdk-cpp",
@@ -232,7 +232,7 @@
       "lines": 10,
       "findings": 0,
       "notices": 0,
-      "ms": 6
+      "ms": 7
     },
     {
       "repo": "EliasOenal__multimon-ng",
@@ -263,7 +263,7 @@
       "lines": 81,
       "findings": 0,
       "notices": 0,
-      "ms": 31
+      "ms": 32
     },
     {
       "repo": "GoogleContainerTools__config-sync",
@@ -279,7 +279,7 @@
       "lines": 164,
       "findings": 2,
       "notices": 0,
-      "ms": 238
+      "ms": 236
     },
     {
       "repo": "Hacker-Valley-Media__Interceptor",
@@ -340,7 +340,7 @@
       "lines": 0,
       "findings": 0,
       "notices": 0,
-      "ms": 131
+      "ms": 133
     },
     {
       "repo": "Huxpro__vue-lynx",
@@ -356,7 +356,7 @@
       "lines": 122,
       "findings": 4,
       "notices": 0,
-      "ms": 28
+      "ms": 27
     },
     {
       "repo": "K-Dense-AI__scientific-agents",
@@ -370,9 +370,9 @@
       "grade": "A",
       "tokens": 2382054,
       "lines": 135566,
-      "findings": 496,
+      "findings": 246,
       "notices": 506,
-      "ms": 888
+      "ms": 972
     },
     {
       "repo": "Koomook__fastcampus-ai-agent-vibecoding",
@@ -387,7 +387,7 @@
       "lines": 4547,
       "findings": 10,
       "notices": 0,
-      "ms": 50
+      "ms": 48
     },
     {
       "repo": "Lawofall__AgentCore",
@@ -402,7 +402,7 @@
       "lines": 857,
       "findings": 7,
       "notices": 0,
-      "ms": 95
+      "ms": 103
     },
     {
       "repo": "Lazza__Carbon14",
@@ -463,7 +463,7 @@
       "lines": 2,
       "findings": 1,
       "notices": 0,
-      "ms": 39
+      "ms": 40
     },
     {
       "repo": "Menghuan1918__drawio2go",
@@ -478,7 +478,7 @@
       "lines": 7528,
       "findings": 32,
       "notices": 0,
-      "ms": 48
+      "ms": 56
     },
     {
       "repo": "MetrolistGroup__Metrolist",
@@ -493,7 +493,7 @@
       "lines": 35,
       "findings": 3,
       "notices": 0,
-      "ms": 23
+      "ms": 25
     },
     {
       "repo": "NanoNative__nano",
@@ -509,7 +509,7 @@
       "lines": 135,
       "findings": 1,
       "notices": 0,
-      "ms": 4
+      "ms": 5
     },
     {
       "repo": "NaverPayDev__pie",
@@ -524,7 +524,7 @@
       "lines": 474,
       "findings": 0,
       "notices": 0,
-      "ms": 9
+      "ms": 11
     },
     {
       "repo": "PeonPing__openpeon",
@@ -565,13 +565,13 @@
         "agents-md",
         "claude-md"
       ],
-      "score": 95,
+      "score": 98,
       "grade": "A",
       "tokens": 1648,
       "lines": 202,
-      "findings": 10,
+      "findings": 2,
       "notices": 0,
-      "ms": 4
+      "ms": 5
     },
     {
       "repo": "Shlomob__ocmonitor-share",
@@ -615,7 +615,7 @@
       "lines": 754,
       "findings": 3,
       "notices": 0,
-      "ms": 161
+      "ms": 162
     },
     {
       "repo": "TerminalSkills__skills",
@@ -628,7 +628,7 @@
       "lines": 0,
       "findings": 0,
       "notices": 0,
-      "ms": 46
+      "ms": 48
     },
     {
       "repo": "ThomasMoreAI__legal-skills-open",
@@ -644,7 +644,7 @@
       "lines": 14453,
       "findings": 309,
       "notices": 0,
-      "ms": 1247
+      "ms": 1263
     },
     {
       "repo": "TornLux__UnrealBridge",
@@ -677,7 +677,7 @@
       "lines": 1613,
       "findings": 5,
       "notices": 0,
-      "ms": 654
+      "ms": 616
     },
     {
       "repo": "aashaexo__soundshuman",
@@ -708,7 +708,7 @@
       "lines": 4287,
       "findings": 63,
       "notices": 0,
-      "ms": 208
+      "ms": 209
     },
     {
       "repo": "ardriveapp__ardrive-web",
@@ -724,7 +724,7 @@
       "lines": 294,
       "findings": 2,
       "notices": 0,
-      "ms": 63
+      "ms": 64
     },
     {
       "repo": "axeII__home-ops",
@@ -740,7 +740,7 @@
       "lines": 377,
       "findings": 5,
       "notices": 0,
-      "ms": 19
+      "ms": 18
     },
     {
       "repo": "blackstork-io__blackstork-cli",
@@ -756,7 +756,7 @@
       "lines": 207,
       "findings": 0,
       "notices": 0,
-      "ms": 12
+      "ms": 11
     },
     {
       "repo": "blockscout__blockscout-rs",
@@ -771,9 +771,9 @@
       "grade": "B",
       "tokens": 7223,
       "lines": 508,
-      "findings": 11,
+      "findings": 10,
       "notices": 0,
-      "ms": 49
+      "ms": 50
     },
     {
       "repo": "broadinstitute__delphy",
@@ -865,7 +865,7 @@
       "lines": 275,
       "findings": 4,
       "notices": 0,
-      "ms": 3
+      "ms": 4
     },
     {
       "repo": "cocart-headless__cocart-community",
@@ -882,7 +882,7 @@
       "lines": 220,
       "findings": 0,
       "notices": 0,
-      "ms": 5
+      "ms": 6
     },
     {
       "repo": "code-a2z__code-a2z",
@@ -928,7 +928,7 @@
       "lines": 2853,
       "findings": 5,
       "notices": 0,
-      "ms": 18
+      "ms": 16
     },
     {
       "repo": "cosscom__coss",
@@ -944,7 +944,7 @@
       "lines": 2756,
       "findings": 6,
       "notices": 0,
-      "ms": 22
+      "ms": 23
     },
     {
       "repo": "coverallsapp__coverage-reporter",
@@ -959,7 +959,7 @@
       "lines": 149,
       "findings": 4,
       "notices": 0,
-      "ms": 5
+      "ms": 6
     },
     {
       "repo": "crewAIInc__crewAI",
@@ -976,7 +976,7 @@
       "lines": 1626,
       "findings": 14,
       "notices": 0,
-      "ms": 442
+      "ms": 445
     },
     {
       "repo": "dcloudio__uni-ai-x",
@@ -992,7 +992,7 @@
       "lines": 483,
       "findings": 10,
       "notices": 0,
-      "ms": 16
+      "ms": 15
     },
     {
       "repo": "digitalpetri__opc-ua-demo-server",
@@ -1055,7 +1055,7 @@
       "lines": 663,
       "findings": 2,
       "notices": 0,
-      "ms": 14
+      "ms": 15
     },
     {
       "repo": "enso-org__enso",
@@ -1070,7 +1070,7 @@
       "lines": 3873,
       "findings": 16,
       "notices": 0,
-      "ms": 395
+      "ms": 397
     },
     {
       "repo": "fcjr__RCade",
@@ -1086,7 +1086,7 @@
       "lines": 60,
       "findings": 6,
       "notices": 0,
-      "ms": 17
+      "ms": 16
     },
     {
       "repo": "firebase__FirebaseUI-Android",
@@ -1117,7 +1117,7 @@
       "lines": 146,
       "findings": 4,
       "notices": 0,
-      "ms": 3
+      "ms": 4
     },
     {
       "repo": "gitpod-io__gitpod",
@@ -1133,7 +1133,7 @@
       "lines": 203,
       "findings": 1,
       "notices": 0,
-      "ms": 62
+      "ms": 61
     },
     {
       "repo": "gogpu__gg",
@@ -1148,7 +1148,7 @@
       "lines": 93,
       "findings": 0,
       "notices": 0,
-      "ms": 5
+      "ms": 6
     },
     {
       "repo": "grafana__synthetic-monitoring-app",
@@ -1164,7 +1164,7 @@
       "lines": 359,
       "findings": 1,
       "notices": 0,
-      "ms": 19
+      "ms": 17
     },
     {
       "repo": "growgraph__ontocast",
@@ -1210,7 +1210,7 @@
       "lines": 174,
       "findings": 1,
       "notices": 0,
-      "ms": 2
+      "ms": 1
     },
     {
       "repo": "hengfengliya__imgood",
@@ -1240,9 +1240,9 @@
       "grade": "A",
       "tokens": 24520,
       "lines": 1394,
-      "findings": 31,
+      "findings": 24,
       "notices": 0,
-      "ms": 25
+      "ms": 27
     },
     {
       "repo": "hschne__puny-monitor",
@@ -1267,13 +1267,13 @@
         "agents-md",
         "claude-md"
       ],
-      "score": 96,
+      "score": 97,
       "grade": "A",
       "tokens": 3135,
       "lines": 323,
-      "findings": 8,
+      "findings": 7,
       "notices": 0,
-      "ms": 5
+      "ms": 6
     },
     {
       "repo": "hunmer__agent-spaces",
@@ -1289,7 +1289,7 @@
       "lines": 1666,
       "findings": 23,
       "notices": 0,
-      "ms": 115
+      "ms": 114
     },
     {
       "repo": "ijry__uview-plus",
@@ -1304,7 +1304,7 @@
       "lines": 17,
       "findings": 1,
       "notices": 0,
-      "ms": 21
+      "ms": 22
     },
     {
       "repo": "jasonanewcoder__abaqus_skills",
@@ -1320,7 +1320,7 @@
       "lines": 324,
       "findings": 2,
       "notices": 0,
-      "ms": 15
+      "ms": 16
     },
     {
       "repo": "joeseesun__qiaomu-blog-opensource",
@@ -1381,7 +1381,7 @@
       "lines": 42,
       "findings": 0,
       "notices": 0,
-      "ms": 15
+      "ms": 14
     },
     {
       "repo": "kubernetes-sigs__cluster-api-provider-openstack",
@@ -1411,7 +1411,7 @@
       "lines": 18,
       "findings": 0,
       "notices": 0,
-      "ms": 2
+      "ms": 1
     },
     {
       "repo": "leancoderkavy__premiere-pro-mcp",
@@ -1429,9 +1429,9 @@
       "grade": "A",
       "tokens": 6122,
       "lines": 418,
-      "findings": 14,
+      "findings": 13,
       "notices": 0,
-      "ms": 15
+      "ms": 14
     },
     {
       "repo": "lifinance__contracts",
@@ -1450,7 +1450,7 @@
       "lines": 4235,
       "findings": 51,
       "notices": 0,
-      "ms": 63
+      "ms": 59
     },
     {
       "repo": "lldap__lldap",
@@ -1475,13 +1475,13 @@
         "agents-md",
         "claude-md"
       ],
-      "score": 97,
+      "score": 98,
       "grade": "A",
       "tokens": 878,
       "lines": 60,
-      "findings": 3,
+      "findings": 2,
       "notices": 0,
-      "ms": 10
+      "ms": 12
     },
     {
       "repo": "lostintangent__gistpad-mcp",
@@ -1496,7 +1496,7 @@
       "lines": 4,
       "findings": 0,
       "notices": 0,
-      "ms": 1
+      "ms": 2
     },
     {
       "repo": "mhernesniemi__hoikka",
@@ -1506,13 +1506,13 @@
         "agents-md",
         "claude-md"
       ],
-      "score": 94,
+      "score": 95,
       "grade": "A",
       "tokens": 1630,
       "lines": 56,
-      "findings": 6,
+      "findings": 5,
       "notices": 0,
-      "ms": 12
+      "ms": 13
     },
     {
       "repo": "microbus-io__fabric",
@@ -1528,7 +1528,7 @@
       "lines": 5192,
       "findings": 63,
       "notices": 0,
-      "ms": 60
+      "ms": 61
     },
     {
       "repo": "microsoft-foundry__Foundry_Toolkit_for_VSCode_Lab",
@@ -1541,7 +1541,7 @@
       "lines": 0,
       "findings": 0,
       "notices": 0,
-      "ms": 29
+      "ms": 28
     },
     {
       "repo": "microsoft__Agent365-devTools",
@@ -1573,7 +1573,7 @@
       "lines": 125,
       "findings": 4,
       "notices": 0,
-      "ms": 22
+      "ms": 23
     },
     {
       "repo": "msrbuilds__elementor-mcp",
@@ -1589,7 +1589,7 @@
       "lines": 1019,
       "findings": 19,
       "notices": 0,
-      "ms": 68
+      "ms": 56
     },
     {
       "repo": "mvanhorn__printing-press-library",
@@ -1605,7 +1605,7 @@
       "lines": 20910,
       "findings": 179,
       "notices": 318,
-      "ms": 1857
+      "ms": 1867
     },
     {
       "repo": "netdevops__hier_config",
@@ -1640,7 +1640,7 @@
       "lines": 1088,
       "findings": 11,
       "notices": 0,
-      "ms": 31
+      "ms": 30
     },
     {
       "repo": "northword__zotero-format-metadata",
@@ -1672,7 +1672,7 @@
       "lines": 241,
       "findings": 1,
       "notices": 0,
-      "ms": 24
+      "ms": 23
     },
     {
       "repo": "openshift-examples__web",
@@ -1718,7 +1718,7 @@
       "lines": 387,
       "findings": 0,
       "notices": 0,
-      "ms": 12
+      "ms": 11
     },
     {
       "repo": "owncloud__notes",
@@ -1734,7 +1734,7 @@
       "lines": 136,
       "findings": 0,
       "notices": 0,
-      "ms": 8
+      "ms": 9
     },
     {
       "repo": "oyjt__uniapp-vue3-template",
@@ -1751,7 +1751,7 @@
       "lines": 461,
       "findings": 1,
       "notices": 0,
-      "ms": 13
+      "ms": 12
     },
     {
       "repo": "panaversity__ksor",
@@ -1767,7 +1767,7 @@
       "lines": 4621,
       "findings": 27,
       "notices": 0,
-      "ms": 39
+      "ms": 41
     },
     {
       "repo": "pawcoding__astro-loader-pocketbase",
@@ -1782,7 +1782,7 @@
       "lines": 114,
       "findings": 0,
       "notices": 0,
-      "ms": 3
+      "ms": 2
     },
     {
       "repo": "peteromallet__Arnold",
@@ -1797,7 +1797,7 @@
       "lines": 348,
       "findings": 5,
       "notices": 0,
-      "ms": 104
+      "ms": 98
     },
     {
       "repo": "phuhao00__greatestworks",
@@ -1813,7 +1813,7 @@
       "lines": 194,
       "findings": 1,
       "notices": 0,
-      "ms": 14
+      "ms": 12
     },
     {
       "repo": "pinecone-io__pinecone-ts-client",
@@ -1828,7 +1828,7 @@
       "lines": 51,
       "findings": 0,
       "notices": 0,
-      "ms": 8
+      "ms": 9
     },
     {
       "repo": "pktgen__Pktgen-DPDK",
@@ -1843,7 +1843,7 @@
       "lines": 200,
       "findings": 0,
       "notices": 0,
-      "ms": 3
+      "ms": 4
     },
     {
       "repo": "pulumi__kubespy",
@@ -1888,7 +1888,7 @@
       "lines": 795,
       "findings": 7,
       "notices": 0,
-      "ms": 50
+      "ms": 47
     },
     {
       "repo": "rapi-doc__RapiDoc",
@@ -1903,7 +1903,7 @@
       "lines": 390,
       "findings": 1,
       "notices": 0,
-      "ms": 22
+      "ms": 20
     },
     {
       "repo": "rmpowell77__wxUI",
@@ -1949,7 +1949,7 @@
       "lines": 364,
       "findings": 1,
       "notices": 0,
-      "ms": 26
+      "ms": 24
     },
     {
       "repo": "scosman__Biscotti",
@@ -1964,7 +1964,7 @@
       "lines": 148,
       "findings": 7,
       "notices": 0,
-      "ms": 20
+      "ms": 19
     },
     {
       "repo": "securego__gosec",
@@ -1991,13 +1991,13 @@
         "agents-md",
         "claude-md"
       ],
-      "score": 97,
+      "score": 98,
       "grade": "A",
       "tokens": 17139,
       "lines": 1593,
-      "findings": 16,
+      "findings": 6,
       "notices": 0,
-      "ms": 107
+      "ms": 98
     },
     {
       "repo": "sethlaw__sputr",
@@ -2031,9 +2031,9 @@
       "grade": "A",
       "tokens": 6752,
       "lines": 674,
-      "findings": 77,
+      "findings": 79,
       "notices": 0,
-      "ms": 29
+      "ms": 25
     },
     {
       "repo": "starknet-io__starknet-docs",
@@ -2046,7 +2046,7 @@
       "lines": 0,
       "findings": 0,
       "notices": 0,
-      "ms": 6
+      "ms": 5
     },
     {
       "repo": "stefanbschneider__mobile-env",
@@ -2061,7 +2061,7 @@
       "lines": 115,
       "findings": 0,
       "notices": 0,
-      "ms": 4
+      "ms": 5
     },
     {
       "repo": "supabase__pg-toolbelt",
@@ -2077,7 +2077,7 @@
       "lines": 994,
       "findings": 7,
       "notices": 0,
-      "ms": 57
+      "ms": 54
     },
     {
       "repo": "sverweij__state-machine-cat",
@@ -2092,7 +2092,7 @@
       "lines": 122,
       "findings": 1,
       "notices": 0,
-      "ms": 10
+      "ms": 12
     },
     {
       "repo": "sylverb__game-and-watch-retro-go-sd",
@@ -2125,7 +2125,7 @@
       "lines": 1129,
       "findings": 17,
       "notices": 0,
-      "ms": 31
+      "ms": 36
     },
     {
       "repo": "thehimel__cursor-rules-and-prompts",
@@ -2140,7 +2140,7 @@
       "lines": 2432,
       "findings": 18,
       "notices": 0,
-      "ms": 24
+      "ms": 27
     },
     {
       "repo": "thomast1906__github-copilot-agent-skills",
@@ -2201,7 +2201,7 @@
       "lines": 138,
       "findings": 0,
       "notices": 0,
-      "ms": 2
+      "ms": 3
     },
     {
       "repo": "vllm-project__agentic-api",
@@ -2233,7 +2233,7 @@
       "lines": 1956,
       "findings": 123,
       "notices": 0,
-      "ms": 65
+      "ms": 64
     },
     {
       "repo": "web-arena-x__webarena-infinity",
@@ -2248,7 +2248,7 @@
       "lines": 185,
       "findings": 10,
       "notices": 0,
-      "ms": 195
+      "ms": 189
     },
     {
       "repo": "xensik__gsc-tool",
@@ -2264,7 +2264,7 @@
       "lines": 180,
       "findings": 1,
       "notices": 0,
-      "ms": 33
+      "ms": 34
     },
     {
       "repo": "xin-lai__CodeSpirit",
@@ -2280,7 +2280,7 @@
       "lines": 6303,
       "findings": 12,
       "notices": 0,
-      "ms": 109
+      "ms": 115
     },
     {
       "repo": "xxraincandyxx__Amadeus",
@@ -2292,11 +2292,11 @@
         "claude-md",
         "gemini-md"
       ],
-      "score": 97,
+      "score": 99,
       "grade": "A",
       "tokens": 2655,
       "lines": 155,
-      "findings": 18,
+      "findings": 3,
       "notices": 0,
       "ms": 12
     },
@@ -2379,294 +2379,6 @@
       "file": "CLAUDE.md",
       "line": "",
       "message": "AGENTS.md exists next to this file but is not imported; Claude Code reads only CLAUDE.md when both are present."
-    },
-    {
-      "repo": "1amageek__SwiftAgent",
-      "ruleId": "OBL011",
-      "severity": "info",
-      "file": "CLAUDE.md",
-      "line": 3,
-      "message": "Same instruction already appears in AGENTS.md:3."
-    },
-    {
-      "repo": "1amageek__SwiftAgent",
-      "ruleId": "OBL011",
-      "severity": "info",
-      "file": "CLAUDE.md",
-      "line": 5,
-      "message": "Same instruction already appears in AGENTS.md:5."
-    },
-    {
-      "repo": "1amageek__SwiftAgent",
-      "ruleId": "OBL011",
-      "severity": "info",
-      "file": "CLAUDE.md",
-      "line": 185,
-      "message": "Same instruction already appears in AGENTS.md:185."
-    },
-    {
-      "repo": "1amageek__SwiftAgent",
-      "ruleId": "OBL011",
-      "severity": "info",
-      "file": "CLAUDE.md",
-      "line": 189,
-      "message": "Same instruction already appears in AGENTS.md:189."
-    },
-    {
-      "repo": "1amageek__SwiftAgent",
-      "ruleId": "OBL011",
-      "severity": "info",
-      "file": "CLAUDE.md",
-      "line": 226,
-      "message": "Same instruction already appears in AGENTS.md:226."
-    },
-    {
-      "repo": "1amageek__SwiftAgent",
-      "ruleId": "OBL011",
-      "severity": "info",
-      "file": "CLAUDE.md",
-      "line": 264,
-      "message": "Same instruction already appears in AGENTS.md:264."
-    },
-    {
-      "repo": "1amageek__SwiftAgent",
-      "ruleId": "OBL011",
-      "severity": "info",
-      "file": "CLAUDE.md",
-      "line": 317,
-      "message": "Same instruction already appears in AGENTS.md:317."
-    },
-    {
-      "repo": "1amageek__SwiftAgent",
-      "ruleId": "OBL011",
-      "severity": "info",
-      "file": "CLAUDE.md",
-      "line": 355,
-      "message": "Same instruction already appears in AGENTS.md:355."
-    },
-    {
-      "repo": "1amageek__SwiftAgent",
-      "ruleId": "OBL011",
-      "severity": "info",
-      "file": "CLAUDE.md",
-      "line": 369,
-      "message": "Same instruction already appears in AGENTS.md:369."
-    },
-    {
-      "repo": "1amageek__SwiftAgent",
-      "ruleId": "OBL011",
-      "severity": "info",
-      "file": "CLAUDE.md",
-      "line": 411,
-      "message": "Same instruction already appears in AGENTS.md:411."
-    },
-    {
-      "repo": "1amageek__SwiftAgent",
-      "ruleId": "OBL011",
-      "severity": "info",
-      "file": "CLAUDE.md",
-      "line": 412,
-      "message": "Same instruction already appears in AGENTS.md:412."
-    },
-    {
-      "repo": "1amageek__SwiftAgent",
-      "ruleId": "OBL011",
-      "severity": "info",
-      "file": "CLAUDE.md",
-      "line": 422,
-      "message": "Same instruction already appears in AGENTS.md:422."
-    },
-    {
-      "repo": "1amageek__SwiftAgent",
-      "ruleId": "OBL011",
-      "severity": "info",
-      "file": "CLAUDE.md",
-      "line": 423,
-      "message": "Same instruction already appears in AGENTS.md:423."
-    },
-    {
-      "repo": "1amageek__SwiftAgent",
-      "ruleId": "OBL011",
-      "severity": "info",
-      "file": "CLAUDE.md",
-      "line": 424,
-      "message": "Same instruction already appears in AGENTS.md:424."
-    },
-    {
-      "repo": "1amageek__SwiftAgent",
-      "ruleId": "OBL011",
-      "severity": "info",
-      "file": "CLAUDE.md",
-      "line": 434,
-      "message": "Same instruction already appears in AGENTS.md:434."
-    },
-    {
-      "repo": "1amageek__SwiftAgent",
-      "ruleId": "OBL011",
-      "severity": "info",
-      "file": "CLAUDE.md",
-      "line": 449,
-      "message": "Same instruction already appears in AGENTS.md:449."
-    },
-    {
-      "repo": "1amageek__SwiftAgent",
-      "ruleId": "OBL011",
-      "severity": "info",
-      "file": "CLAUDE.md",
-      "line": 496,
-      "message": "Same instruction already appears in AGENTS.md:496."
-    },
-    {
-      "repo": "1amageek__SwiftAgent",
-      "ruleId": "OBL011",
-      "severity": "info",
-      "file": "CLAUDE.md",
-      "line": 499,
-      "message": "Same instruction already appears in AGENTS.md:499."
-    },
-    {
-      "repo": "1amageek__SwiftAgent",
-      "ruleId": "OBL011",
-      "severity": "info",
-      "file": "CLAUDE.md",
-      "line": 526,
-      "message": "Same instruction already appears in AGENTS.md:526."
-    },
-    {
-      "repo": "1amageek__SwiftAgent",
-      "ruleId": "OBL011",
-      "severity": "info",
-      "file": "CLAUDE.md",
-      "line": 527,
-      "message": "Same instruction already appears in AGENTS.md:527."
-    },
-    {
-      "repo": "1amageek__SwiftAgent",
-      "ruleId": "OBL011",
-      "severity": "info",
-      "file": "CLAUDE.md",
-      "line": 528,
-      "message": "Same instruction already appears in AGENTS.md:528."
-    },
-    {
-      "repo": "1amageek__SwiftAgent",
-      "ruleId": "OBL011",
-      "severity": "info",
-      "file": "CLAUDE.md",
-      "line": 529,
-      "message": "Same instruction already appears in AGENTS.md:529."
-    },
-    {
-      "repo": "1amageek__SwiftAgent",
-      "ruleId": "OBL011",
-      "severity": "info",
-      "file": "CLAUDE.md",
-      "line": 530,
-      "message": "Same instruction already appears in AGENTS.md:530."
-    },
-    {
-      "repo": "1amageek__SwiftAgent",
-      "ruleId": "OBL011",
-      "severity": "info",
-      "file": "CLAUDE.md",
-      "line": 531,
-      "message": "Same instruction already appears in AGENTS.md:531."
-    },
-    {
-      "repo": "1amageek__SwiftAgent",
-      "ruleId": "OBL011",
-      "severity": "info",
-      "file": "CLAUDE.md",
-      "line": 638,
-      "message": "Same instruction already appears in AGENTS.md:638."
-    },
-    {
-      "repo": "1amageek__SwiftAgent",
-      "ruleId": "OBL011",
-      "severity": "info",
-      "file": "CLAUDE.md",
-      "line": 664,
-      "message": "Same instruction already appears in AGENTS.md:664."
-    },
-    {
-      "repo": "1amageek__SwiftAgent",
-      "ruleId": "OBL011",
-      "severity": "info",
-      "file": "CLAUDE.md",
-      "line": 665,
-      "message": "Same instruction already appears in AGENTS.md:665."
-    },
-    {
-      "repo": "1amageek__SwiftAgent",
-      "ruleId": "OBL011",
-      "severity": "info",
-      "file": "CLAUDE.md",
-      "line": 701,
-      "message": "Same instruction already appears in AGENTS.md:701."
-    },
-    {
-      "repo": "1amageek__SwiftAgent",
-      "ruleId": "OBL011",
-      "severity": "info",
-      "file": "CLAUDE.md",
-      "line": 790,
-      "message": "Same instruction already appears in AGENTS.md:790."
-    },
-    {
-      "repo": "1amageek__SwiftAgent",
-      "ruleId": "OBL011",
-      "severity": "info",
-      "file": "CLAUDE.md",
-      "line": 816,
-      "message": "Same instruction already appears in AGENTS.md:816."
-    },
-    {
-      "repo": "1amageek__SwiftAgent",
-      "ruleId": "OBL011",
-      "severity": "info",
-      "file": "CLAUDE.md",
-      "line": 903,
-      "message": "Same instruction already appears in AGENTS.md:903."
-    },
-    {
-      "repo": "1amageek__SwiftAgent",
-      "ruleId": "OBL011",
-      "severity": "info",
-      "file": "CLAUDE.md",
-      "line": 918,
-      "message": "Same instruction already appears in AGENTS.md:918."
-    },
-    {
-      "repo": "1amageek__SwiftAgent",
-      "ruleId": "OBL011",
-      "severity": "info",
-      "file": "CLAUDE.md",
-      "line": 969,
-      "message": "Same instruction already appears in AGENTS.md:969."
-    },
-    {
-      "repo": "1amageek__SwiftAgent",
-      "ruleId": "OBL011",
-      "severity": "info",
-      "file": "CLAUDE.md",
-      "line": 1003,
-      "message": "Same instruction already appears in AGENTS.md:1003."
-    },
-    {
-      "repo": "1amageek__SwiftAgent",
-      "ruleId": "OBL011",
-      "severity": "info",
-      "file": "CLAUDE.md",
-      "line": 1004,
-      "message": "Same instruction already appears in AGENTS.md:1004."
-    },
-    {
-      "repo": "1amageek__SwiftAgent",
-      "ruleId": "OBL011",
-      "severity": "info",
-      "file": "CLAUDE.md",
-      "line": 1005,
-      "message": "Same instruction already appears in AGENTS.md:1005."
     },
     {
       "repo": "907739769__OSR",
@@ -3742,78 +3454,6 @@
     },
     {
       "repo": "Baukebrenninkmeijer__table-evaluator",
-      "ruleId": "OBL004",
-      "severity": "warn",
-      "file": ".cursor/rules/isolation_rules/Core/memory-bank-paths.mdc",
-      "line": 9,
-      "message": "`memory-bank/` is referenced but does not exist in the repository."
-    },
-    {
-      "repo": "Baukebrenninkmeijer__table-evaluator",
-      "ruleId": "OBL004",
-      "severity": "warn",
-      "file": ".cursor/rules/isolation_rules/Core/memory-bank-paths.mdc",
-      "line": 11,
-      "message": "`memory-bank/tasks.md` is referenced but does not exist in the repository."
-    },
-    {
-      "repo": "Baukebrenninkmeijer__table-evaluator",
-      "ruleId": "OBL004",
-      "severity": "warn",
-      "file": ".cursor/rules/isolation_rules/Core/memory-bank-paths.mdc",
-      "line": 12,
-      "message": "`memory-bank/activeContext.md` is referenced but does not exist in the repository."
-    },
-    {
-      "repo": "Baukebrenninkmeijer__table-evaluator",
-      "ruleId": "OBL004",
-      "severity": "warn",
-      "file": ".cursor/rules/isolation_rules/Core/memory-bank-paths.mdc",
-      "line": 13,
-      "message": "`memory-bank/progress.md` is referenced but does not exist in the repository."
-    },
-    {
-      "repo": "Baukebrenninkmeijer__table-evaluator",
-      "ruleId": "OBL004",
-      "severity": "warn",
-      "file": ".cursor/rules/isolation_rules/Core/memory-bank-paths.mdc",
-      "line": 14,
-      "message": "`memory-bank/projectbrief.md` is referenced but does not exist in the repository."
-    },
-    {
-      "repo": "Baukebrenninkmeijer__table-evaluator",
-      "ruleId": "OBL004",
-      "severity": "warn",
-      "file": ".cursor/rules/isolation_rules/Core/memory-bank-paths.mdc",
-      "line": 15,
-      "message": "`memory-bank/productContext.md` is referenced but does not exist in the repository."
-    },
-    {
-      "repo": "Baukebrenninkmeijer__table-evaluator",
-      "ruleId": "OBL004",
-      "severity": "warn",
-      "file": ".cursor/rules/isolation_rules/Core/memory-bank-paths.mdc",
-      "line": 16,
-      "message": "`memory-bank/systemPatterns.md` is referenced but does not exist in the repository."
-    },
-    {
-      "repo": "Baukebrenninkmeijer__table-evaluator",
-      "ruleId": "OBL004",
-      "severity": "warn",
-      "file": ".cursor/rules/isolation_rules/Core/memory-bank-paths.mdc",
-      "line": 17,
-      "message": "`memory-bank/techContext.md` is referenced but does not exist in the repository."
-    },
-    {
-      "repo": "Baukebrenninkmeijer__table-evaluator",
-      "ruleId": "OBL004",
-      "severity": "warn",
-      "file": ".cursor/rules/isolation_rules/Core/memory-bank-paths.mdc",
-      "line": 18,
-      "message": "`memory-bank/style-guide.md` is referenced but does not exist in the repository."
-    },
-    {
-      "repo": "Baukebrenninkmeijer__table-evaluator",
       "ruleId": "OBL010",
       "severity": "warn",
       "file": ".cursor/rules/isolation_rules/Core/mode-transition-optimization.mdc",
@@ -3998,83 +3638,11 @@
     },
     {
       "repo": "Baukebrenninkmeijer__table-evaluator",
-      "ruleId": "OBL004",
-      "severity": "warn",
-      "file": ".cursor/rules/isolation_rules/Level3/archive-intermediate.mdc",
-      "line": 13,
-      "message": "`memory-bank/tasks.md` is referenced but does not exist in the repository."
-    },
-    {
-      "repo": "Baukebrenninkmeijer__table-evaluator",
-      "ruleId": "OBL004",
-      "severity": "warn",
-      "file": ".cursor/rules/isolation_rules/Level3/archive-intermediate.mdc",
-      "line": 18,
-      "message": "`memory-bank/progress.md` is referenced but does not exist in the repository."
-    },
-    {
-      "repo": "Baukebrenninkmeijer__table-evaluator",
-      "ruleId": "OBL004",
-      "severity": "warn",
-      "file": ".cursor/rules/isolation_rules/Level3/archive-intermediate.mdc",
-      "line": 54,
-      "message": "`memory-bank/style-guide.md` is referenced but does not exist in the repository."
-    },
-    {
-      "repo": "Baukebrenninkmeijer__table-evaluator",
-      "ruleId": "OBL004",
-      "severity": "warn",
-      "file": ".cursor/rules/isolation_rules/Level3/implementation-intermediate.mdc",
-      "line": 46,
-      "message": "`memory-bank/style-guide.md` is referenced but does not exist in the repository."
-    },
-    {
-      "repo": "Baukebrenninkmeijer__table-evaluator",
       "ruleId": "OBL012",
       "severity": "info",
       "file": ".cursor/rules/isolation_rules/Level3/implementation-intermediate.mdc",
       "line": 52,
       "message": "\"be careful\" is too vague to change behaviour."
-    },
-    {
-      "repo": "Baukebrenninkmeijer__table-evaluator",
-      "ruleId": "OBL004",
-      "severity": "warn",
-      "file": ".cursor/rules/isolation_rules/Level3/implementation-intermediate.mdc",
-      "line": 64,
-      "message": "`memory-bank/tasks.md` is referenced but does not exist in the repository."
-    },
-    {
-      "repo": "Baukebrenninkmeijer__table-evaluator",
-      "ruleId": "OBL004",
-      "severity": "warn",
-      "file": ".cursor/rules/isolation_rules/Level3/implementation-intermediate.mdc",
-      "line": 65,
-      "message": "`memory-bank/progress.md` is referenced but does not exist in the repository."
-    },
-    {
-      "repo": "Baukebrenninkmeijer__table-evaluator",
-      "ruleId": "OBL004",
-      "severity": "warn",
-      "file": ".cursor/rules/isolation_rules/Level3/reflection-intermediate.mdc",
-      "line": 51,
-      "message": "`memory-bank/style-guide.md` is referenced but does not exist in the repository."
-    },
-    {
-      "repo": "Baukebrenninkmeijer__table-evaluator",
-      "ruleId": "OBL004",
-      "severity": "warn",
-      "file": ".cursor/rules/isolation_rules/Level3/workflow-level3.mdc",
-      "line": 75,
-      "message": "`memory-bank/tasks.md` is referenced but does not exist in the repository."
-    },
-    {
-      "repo": "Baukebrenninkmeijer__table-evaluator",
-      "ruleId": "OBL004",
-      "severity": "warn",
-      "file": ".cursor/rules/isolation_rules/Level3/workflow-level3.mdc",
-      "line": 76,
-      "message": "`memory-bank/activeContext.md` is referenced but does not exist in the repository."
     },
     {
       "repo": "Baukebrenninkmeijer__table-evaluator",
@@ -4089,32 +3657,8 @@
       "ruleId": "OBL004",
       "severity": "warn",
       "file": ".cursor/rules/isolation_rules/Level3/workflow-level3.mdc",
-      "line": 109,
-      "message": "`memory-bank/projectbrief.md` is referenced but does not exist in the repository."
-    },
-    {
-      "repo": "Baukebrenninkmeijer__table-evaluator",
-      "ruleId": "OBL004",
-      "severity": "warn",
-      "file": ".cursor/rules/isolation_rules/Level3/workflow-level3.mdc",
       "line": 201,
       "message": "`Level3/implementation-L3.mdc` is referenced but does not exist in the repository."
-    },
-    {
-      "repo": "Baukebrenninkmeijer__table-evaluator",
-      "ruleId": "OBL004",
-      "severity": "warn",
-      "file": ".cursor/rules/isolation_rules/Level3/workflow-level3.mdc",
-      "line": 223,
-      "message": "`memory-bank/style-guide.md` is referenced but does not exist in the repository."
-    },
-    {
-      "repo": "Baukebrenninkmeijer__table-evaluator",
-      "ruleId": "OBL004",
-      "severity": "warn",
-      "file": ".cursor/rules/isolation_rules/Level3/workflow-level3.mdc",
-      "line": 224,
-      "message": "`memory-bank/progress.md` is referenced but does not exist in the repository."
     },
     {
       "repo": "Baukebrenninkmeijer__table-evaluator",
@@ -4307,14 +3851,6 @@
       "file": ".cursor/rules/isolation_rules/Phases/CreativePhase/creative-phase-uiux.mdc",
       "line": "",
       "message": "9 ALL-CAPS emphasis words (limit 8)."
-    },
-    {
-      "repo": "Baukebrenninkmeijer__table-evaluator",
-      "ruleId": "OBL004",
-      "severity": "warn",
-      "file": ".cursor/rules/isolation_rules/Phases/CreativePhase/creative-phase-uiux.mdc",
-      "line": 6,
-      "message": "`memory-bank/style-guide.md` is referenced but does not exist in the repository."
     },
     {
       "repo": "Baukebrenninkmeijer__table-evaluator",
@@ -4851,126 +4387,6 @@
       "file": "CLAUDE.md",
       "line": 237,
       "message": "`tests/test_dython_compatibility.py` is referenced but does not exist in the repository."
-    },
-    {
-      "repo": "Baukebrenninkmeijer__table-evaluator",
-      "ruleId": "OBL011",
-      "severity": "info",
-      "file": "GEMINI.md",
-      "line": 3,
-      "message": "Same instruction already appears in CLAUDE.md:3."
-    },
-    {
-      "repo": "Baukebrenninkmeijer__table-evaluator",
-      "ruleId": "OBL011",
-      "severity": "info",
-      "file": "GEMINI.md",
-      "line": 8,
-      "message": "Same instruction already appears in CLAUDE.md:42."
-    },
-    {
-      "repo": "Baukebrenninkmeijer__table-evaluator",
-      "ruleId": "OBL011",
-      "severity": "info",
-      "file": "GEMINI.md",
-      "line": 9,
-      "message": "Same instruction already appears in CLAUDE.md:43."
-    },
-    {
-      "repo": "Baukebrenninkmeijer__table-evaluator",
-      "ruleId": "OBL011",
-      "severity": "info",
-      "file": "GEMINI.md",
-      "line": 13,
-      "message": "Same instruction already appears in CLAUDE.md:55."
-    },
-    {
-      "repo": "Baukebrenninkmeijer__table-evaluator",
-      "ruleId": "OBL011",
-      "severity": "info",
-      "file": "GEMINI.md",
-      "line": 14,
-      "message": "Same instruction already appears in CLAUDE.md:56."
-    },
-    {
-      "repo": "Baukebrenninkmeijer__table-evaluator",
-      "ruleId": "OBL011",
-      "severity": "info",
-      "file": "GEMINI.md",
-      "line": 15,
-      "message": "Same instruction already appears in CLAUDE.md:57."
-    },
-    {
-      "repo": "Baukebrenninkmeijer__table-evaluator",
-      "ruleId": "OBL011",
-      "severity": "info",
-      "file": "GEMINI.md",
-      "line": 16,
-      "message": "Same instruction already appears in CLAUDE.md:58."
-    },
-    {
-      "repo": "Baukebrenninkmeijer__table-evaluator",
-      "ruleId": "OBL011",
-      "severity": "info",
-      "file": "GEMINI.md",
-      "line": 17,
-      "message": "Same instruction already appears in CLAUDE.md:59."
-    },
-    {
-      "repo": "Baukebrenninkmeijer__table-evaluator",
-      "ruleId": "OBL011",
-      "severity": "info",
-      "file": "GEMINI.md",
-      "line": 20,
-      "message": "Same instruction already appears in CLAUDE.md:62."
-    },
-    {
-      "repo": "Baukebrenninkmeijer__table-evaluator",
-      "ruleId": "OBL011",
-      "severity": "info",
-      "file": "GEMINI.md",
-      "line": 21,
-      "message": "Same instruction already appears in CLAUDE.md:63."
-    },
-    {
-      "repo": "Baukebrenninkmeijer__table-evaluator",
-      "ruleId": "OBL011",
-      "severity": "info",
-      "file": "GEMINI.md",
-      "line": 22,
-      "message": "Same instruction already appears in CLAUDE.md:64."
-    },
-    {
-      "repo": "Baukebrenninkmeijer__table-evaluator",
-      "ruleId": "OBL011",
-      "severity": "info",
-      "file": "GEMINI.md",
-      "line": 26,
-      "message": "Same instruction already appears in CLAUDE.md:69."
-    },
-    {
-      "repo": "Baukebrenninkmeijer__table-evaluator",
-      "ruleId": "OBL011",
-      "severity": "info",
-      "file": "GEMINI.md",
-      "line": 27,
-      "message": "Same instruction already appears in CLAUDE.md:70."
-    },
-    {
-      "repo": "Baukebrenninkmeijer__table-evaluator",
-      "ruleId": "OBL011",
-      "severity": "info",
-      "file": "GEMINI.md",
-      "line": 31,
-      "message": "Same instruction already appears in CLAUDE.md:91."
-    },
-    {
-      "repo": "Baukebrenninkmeijer__table-evaluator",
-      "ruleId": "OBL011",
-      "severity": "info",
-      "file": "GEMINI.md",
-      "line": 32,
-      "message": "Same instruction already appears in CLAUDE.md:92."
     },
     {
       "repo": "BrowserOperator__browser-operator-core",
@@ -6398,14 +5814,6 @@
     },
     {
       "repo": "K-Dense-AI__scientific-agents",
-      "ruleId": "OBL011",
-      "severity": "info",
-      "file": "scientific-agents/accelerator-physicist/CLAUDE.md",
-      "line": "",
-      "message": "Exact copy of scientific-agents/accelerator-physicist/AGENTS.md."
-    },
-    {
-      "repo": "K-Dense-AI__scientific-agents",
       "ruleId": "OBL001",
       "severity": "warn",
       "file": "scientific-agents/acoustical-engineer/CLAUDE.md",
@@ -6414,27 +5822,11 @@
     },
     {
       "repo": "K-Dense-AI__scientific-agents",
-      "ruleId": "OBL011",
-      "severity": "info",
-      "file": "scientific-agents/acoustical-engineer/CLAUDE.md",
-      "line": "",
-      "message": "Exact copy of scientific-agents/acoustical-engineer/AGENTS.md."
-    },
-    {
-      "repo": "K-Dense-AI__scientific-agents",
       "ruleId": "OBL001",
       "severity": "warn",
       "file": "scientific-agents/acoustics-physicist/CLAUDE.md",
       "line": "",
       "message": "258 lines exceeds the 200-line budget for claude files (about 4534 tokens)."
-    },
-    {
-      "repo": "K-Dense-AI__scientific-agents",
-      "ruleId": "OBL011",
-      "severity": "info",
-      "file": "scientific-agents/acoustics-physicist/CLAUDE.md",
-      "line": "",
-      "message": "Exact copy of scientific-agents/acoustics-physicist/AGENTS.md."
     },
     {
       "repo": "K-Dense-AI__scientific-agents",
@@ -6454,14 +5846,6 @@
     },
     {
       "repo": "K-Dense-AI__scientific-agents",
-      "ruleId": "OBL011",
-      "severity": "info",
-      "file": "scientific-agents/actuarial-scientist/CLAUDE.md",
-      "line": "",
-      "message": "Exact copy of scientific-agents/actuarial-scientist/AGENTS.md."
-    },
-    {
-      "repo": "K-Dense-AI__scientific-agents",
       "ruleId": "OBL026",
       "severity": "info",
       "file": "scientific-agents/actuarial-scientist/CLAUDE.md",
@@ -6478,27 +5862,11 @@
     },
     {
       "repo": "K-Dense-AI__scientific-agents",
-      "ruleId": "OBL011",
-      "severity": "info",
-      "file": "scientific-agents/additive-manufacturing-engineer/CLAUDE.md",
-      "line": "",
-      "message": "Exact copy of scientific-agents/additive-manufacturing-engineer/AGENTS.md."
-    },
-    {
-      "repo": "K-Dense-AI__scientific-agents",
       "ruleId": "OBL001",
       "severity": "warn",
       "file": "scientific-agents/aerodynamicist/CLAUDE.md",
       "line": "",
       "message": "290 lines exceeds the 200-line budget for claude files (about 4790 tokens)."
-    },
-    {
-      "repo": "K-Dense-AI__scientific-agents",
-      "ruleId": "OBL011",
-      "severity": "info",
-      "file": "scientific-agents/aerodynamicist/CLAUDE.md",
-      "line": "",
-      "message": "Exact copy of scientific-agents/aerodynamicist/AGENTS.md."
     },
     {
       "repo": "K-Dense-AI__scientific-agents",
@@ -6510,27 +5878,11 @@
     },
     {
       "repo": "K-Dense-AI__scientific-agents",
-      "ruleId": "OBL011",
-      "severity": "info",
-      "file": "scientific-agents/aeronautical-engineer/CLAUDE.md",
-      "line": "",
-      "message": "Exact copy of scientific-agents/aeronautical-engineer/AGENTS.md."
-    },
-    {
-      "repo": "K-Dense-AI__scientific-agents",
       "ruleId": "OBL001",
       "severity": "warn",
       "file": "scientific-agents/aeronomy-scientist/CLAUDE.md",
       "line": "",
       "message": "276 lines exceeds the 200-line budget for claude files (about 4999 tokens)."
-    },
-    {
-      "repo": "K-Dense-AI__scientific-agents",
-      "ruleId": "OBL011",
-      "severity": "info",
-      "file": "scientific-agents/aeronomy-scientist/CLAUDE.md",
-      "line": "",
-      "message": "Exact copy of scientific-agents/aeronomy-scientist/AGENTS.md."
     },
     {
       "repo": "K-Dense-AI__scientific-agents",
@@ -6542,27 +5894,11 @@
     },
     {
       "repo": "K-Dense-AI__scientific-agents",
-      "ruleId": "OBL011",
-      "severity": "info",
-      "file": "scientific-agents/aerospace-engineer/CLAUDE.md",
-      "line": "",
-      "message": "Exact copy of scientific-agents/aerospace-engineer/AGENTS.md."
-    },
-    {
-      "repo": "K-Dense-AI__scientific-agents",
       "ruleId": "OBL001",
       "severity": "warn",
       "file": "scientific-agents/agricultural-engineer/CLAUDE.md",
       "line": "",
       "message": "240 lines exceeds the 200-line budget for claude files (about 4056 tokens)."
-    },
-    {
-      "repo": "K-Dense-AI__scientific-agents",
-      "ruleId": "OBL011",
-      "severity": "info",
-      "file": "scientific-agents/agricultural-engineer/CLAUDE.md",
-      "line": "",
-      "message": "Exact copy of scientific-agents/agricultural-engineer/AGENTS.md."
     },
     {
       "repo": "K-Dense-AI__scientific-agents",
@@ -6574,27 +5910,11 @@
     },
     {
       "repo": "K-Dense-AI__scientific-agents",
-      "ruleId": "OBL011",
-      "severity": "info",
-      "file": "scientific-agents/agricultural-entomologist/CLAUDE.md",
-      "line": "",
-      "message": "Exact copy of scientific-agents/agricultural-entomologist/AGENTS.md."
-    },
-    {
-      "repo": "K-Dense-AI__scientific-agents",
       "ruleId": "OBL001",
       "severity": "warn",
       "file": "scientific-agents/agroecologist/CLAUDE.md",
       "line": "",
       "message": "243 lines exceeds the 200-line budget for claude files (about 4023 tokens)."
-    },
-    {
-      "repo": "K-Dense-AI__scientific-agents",
-      "ruleId": "OBL011",
-      "severity": "info",
-      "file": "scientific-agents/agroecologist/CLAUDE.md",
-      "line": "",
-      "message": "Exact copy of scientific-agents/agroecologist/AGENTS.md."
     },
     {
       "repo": "K-Dense-AI__scientific-agents",
@@ -6606,35 +5926,11 @@
     },
     {
       "repo": "K-Dense-AI__scientific-agents",
-      "ruleId": "OBL011",
-      "severity": "info",
-      "file": "scientific-agents/agronomist/CLAUDE.md",
-      "line": "",
-      "message": "Exact copy of scientific-agents/agronomist/AGENTS.md."
-    },
-    {
-      "repo": "K-Dense-AI__scientific-agents",
       "ruleId": "OBL001",
       "severity": "warn",
       "file": "scientific-agents/ai-researcher/CLAUDE.md",
       "line": "",
       "message": "253 lines exceeds the 200-line budget for claude files (about 4389 tokens)."
-    },
-    {
-      "repo": "K-Dense-AI__scientific-agents",
-      "ruleId": "OBL011",
-      "severity": "info",
-      "file": "scientific-agents/ai-researcher/CLAUDE.md",
-      "line": "",
-      "message": "Exact copy of scientific-agents/ai-researcher/AGENTS.md."
-    },
-    {
-      "repo": "K-Dense-AI__scientific-agents",
-      "ruleId": "OBL011",
-      "severity": "info",
-      "file": "scientific-agents/air-quality-scientist/CLAUDE.md",
-      "line": "",
-      "message": "Exact copy of scientific-agents/air-quality-scientist/AGENTS.md."
     },
     {
       "repo": "K-Dense-AI__scientific-agents",
@@ -6646,27 +5942,11 @@
     },
     {
       "repo": "K-Dense-AI__scientific-agents",
-      "ruleId": "OBL011",
-      "severity": "info",
-      "file": "scientific-agents/algebraist/CLAUDE.md",
-      "line": "",
-      "message": "Exact copy of scientific-agents/algebraist/AGENTS.md."
-    },
-    {
-      "repo": "K-Dense-AI__scientific-agents",
       "ruleId": "OBL001",
       "severity": "warn",
       "file": "scientific-agents/algorithms-researcher/CLAUDE.md",
       "line": "",
       "message": "281 lines exceeds the 200-line budget for claude files (about 4887 tokens)."
-    },
-    {
-      "repo": "K-Dense-AI__scientific-agents",
-      "ruleId": "OBL011",
-      "severity": "info",
-      "file": "scientific-agents/algorithms-researcher/CLAUDE.md",
-      "line": "",
-      "message": "Exact copy of scientific-agents/algorithms-researcher/AGENTS.md."
     },
     {
       "repo": "K-Dense-AI__scientific-agents",
@@ -6678,35 +5958,11 @@
     },
     {
       "repo": "K-Dense-AI__scientific-agents",
-      "ruleId": "OBL011",
-      "severity": "info",
-      "file": "scientific-agents/analytical-chemist/CLAUDE.md",
-      "line": "",
-      "message": "Exact copy of scientific-agents/analytical-chemist/AGENTS.md."
-    },
-    {
-      "repo": "K-Dense-AI__scientific-agents",
       "ruleId": "OBL001",
       "severity": "warn",
       "file": "scientific-agents/anatomist/CLAUDE.md",
       "line": "",
       "message": "372 lines exceeds the 200-line budget for claude files (about 6250 tokens)."
-    },
-    {
-      "repo": "K-Dense-AI__scientific-agents",
-      "ruleId": "OBL011",
-      "severity": "info",
-      "file": "scientific-agents/anatomist/CLAUDE.md",
-      "line": "",
-      "message": "Exact copy of scientific-agents/anatomist/AGENTS.md."
-    },
-    {
-      "repo": "K-Dense-AI__scientific-agents",
-      "ruleId": "OBL011",
-      "severity": "info",
-      "file": "scientific-agents/anesthesiologist/CLAUDE.md",
-      "line": "",
-      "message": "Exact copy of scientific-agents/anesthesiologist/AGENTS.md."
     },
     {
       "repo": "K-Dense-AI__scientific-agents",
@@ -6718,14 +5974,6 @@
     },
     {
       "repo": "K-Dense-AI__scientific-agents",
-      "ruleId": "OBL011",
-      "severity": "info",
-      "file": "scientific-agents/animal-geneticist-breeder/CLAUDE.md",
-      "line": "",
-      "message": "Exact copy of scientific-agents/animal-geneticist-breeder/AGENTS.md."
-    },
-    {
-      "repo": "K-Dense-AI__scientific-agents",
       "ruleId": "OBL001",
       "severity": "warn",
       "file": "scientific-agents/animal-nutritionist/CLAUDE.md",
@@ -6734,27 +5982,11 @@
     },
     {
       "repo": "K-Dense-AI__scientific-agents",
-      "ruleId": "OBL011",
-      "severity": "info",
-      "file": "scientific-agents/animal-nutritionist/CLAUDE.md",
-      "line": "",
-      "message": "Exact copy of scientific-agents/animal-nutritionist/AGENTS.md."
-    },
-    {
-      "repo": "K-Dense-AI__scientific-agents",
       "ruleId": "OBL026",
       "severity": "info",
       "file": "scientific-agents/animal-scientist/AGENTS.md",
       "line": 3,
       "message": "Line is 629 characters long."
-    },
-    {
-      "repo": "K-Dense-AI__scientific-agents",
-      "ruleId": "OBL011",
-      "severity": "info",
-      "file": "scientific-agents/animal-scientist/CLAUDE.md",
-      "line": "",
-      "message": "Exact copy of scientific-agents/animal-scientist/AGENTS.md."
     },
     {
       "repo": "K-Dense-AI__scientific-agents",
@@ -6774,27 +6006,11 @@
     },
     {
       "repo": "K-Dense-AI__scientific-agents",
-      "ruleId": "OBL011",
-      "severity": "info",
-      "file": "scientific-agents/antenna-engineer/CLAUDE.md",
-      "line": "",
-      "message": "Exact copy of scientific-agents/antenna-engineer/AGENTS.md."
-    },
-    {
-      "repo": "K-Dense-AI__scientific-agents",
       "ruleId": "OBL001",
       "severity": "warn",
       "file": "scientific-agents/antimicrobial-resistance-scientist/CLAUDE.md",
       "line": "",
       "message": "225 lines exceeds the 200-line budget for claude files (about 4164 tokens)."
-    },
-    {
-      "repo": "K-Dense-AI__scientific-agents",
-      "ruleId": "OBL011",
-      "severity": "info",
-      "file": "scientific-agents/antimicrobial-resistance-scientist/CLAUDE.md",
-      "line": "",
-      "message": "Exact copy of scientific-agents/antimicrobial-resistance-scientist/AGENTS.md."
     },
     {
       "repo": "K-Dense-AI__scientific-agents",
@@ -6806,27 +6022,11 @@
     },
     {
       "repo": "K-Dense-AI__scientific-agents",
-      "ruleId": "OBL011",
-      "severity": "info",
-      "file": "scientific-agents/applied-mathematician/CLAUDE.md",
-      "line": "",
-      "message": "Exact copy of scientific-agents/applied-mathematician/AGENTS.md."
-    },
-    {
-      "repo": "K-Dense-AI__scientific-agents",
       "ruleId": "OBL001",
       "severity": "warn",
       "file": "scientific-agents/aquaculture-scientist/CLAUDE.md",
       "line": "",
       "message": "245 lines exceeds the 200-line budget for claude files (about 4187 tokens)."
-    },
-    {
-      "repo": "K-Dense-AI__scientific-agents",
-      "ruleId": "OBL011",
-      "severity": "info",
-      "file": "scientific-agents/aquaculture-scientist/CLAUDE.md",
-      "line": "",
-      "message": "Exact copy of scientific-agents/aquaculture-scientist/AGENTS.md."
     },
     {
       "repo": "K-Dense-AI__scientific-agents",
@@ -6838,27 +6038,11 @@
     },
     {
       "repo": "K-Dense-AI__scientific-agents",
-      "ruleId": "OBL011",
-      "severity": "info",
-      "file": "scientific-agents/astrobiologist/CLAUDE.md",
-      "line": "",
-      "message": "Exact copy of scientific-agents/astrobiologist/AGENTS.md."
-    },
-    {
-      "repo": "K-Dense-AI__scientific-agents",
       "ruleId": "OBL001",
       "severity": "warn",
       "file": "scientific-agents/astrochemist/CLAUDE.md",
       "line": "",
       "message": "309 lines exceeds the 200-line budget for claude files (about 5382 tokens)."
-    },
-    {
-      "repo": "K-Dense-AI__scientific-agents",
-      "ruleId": "OBL011",
-      "severity": "info",
-      "file": "scientific-agents/astrochemist/CLAUDE.md",
-      "line": "",
-      "message": "Exact copy of scientific-agents/astrochemist/AGENTS.md."
     },
     {
       "repo": "K-Dense-AI__scientific-agents",
@@ -6870,27 +6054,11 @@
     },
     {
       "repo": "K-Dense-AI__scientific-agents",
-      "ruleId": "OBL011",
-      "severity": "info",
-      "file": "scientific-agents/astrodynamicist/CLAUDE.md",
-      "line": "",
-      "message": "Exact copy of scientific-agents/astrodynamicist/AGENTS.md."
-    },
-    {
-      "repo": "K-Dense-AI__scientific-agents",
       "ruleId": "OBL001",
       "severity": "warn",
       "file": "scientific-agents/astronautical-engineer/CLAUDE.md",
       "line": "",
       "message": "284 lines exceeds the 200-line budget for claude files (about 4773 tokens)."
-    },
-    {
-      "repo": "K-Dense-AI__scientific-agents",
-      "ruleId": "OBL011",
-      "severity": "info",
-      "file": "scientific-agents/astronautical-engineer/CLAUDE.md",
-      "line": "",
-      "message": "Exact copy of scientific-agents/astronautical-engineer/AGENTS.md."
     },
     {
       "repo": "K-Dense-AI__scientific-agents",
@@ -6902,27 +6070,11 @@
     },
     {
       "repo": "K-Dense-AI__scientific-agents",
-      "ruleId": "OBL011",
-      "severity": "info",
-      "file": "scientific-agents/astronomer/CLAUDE.md",
-      "line": "",
-      "message": "Exact copy of scientific-agents/astronomer/AGENTS.md."
-    },
-    {
-      "repo": "K-Dense-AI__scientific-agents",
       "ruleId": "OBL001",
       "severity": "warn",
       "file": "scientific-agents/astronomical-instrumentation-scientist/CLAUDE.md",
       "line": "",
       "message": "229 lines exceeds the 200-line budget for claude files (about 3784 tokens)."
-    },
-    {
-      "repo": "K-Dense-AI__scientific-agents",
-      "ruleId": "OBL011",
-      "severity": "info",
-      "file": "scientific-agents/astronomical-instrumentation-scientist/CLAUDE.md",
-      "line": "",
-      "message": "Exact copy of scientific-agents/astronomical-instrumentation-scientist/AGENTS.md."
     },
     {
       "repo": "K-Dense-AI__scientific-agents",
@@ -6934,27 +6086,11 @@
     },
     {
       "repo": "K-Dense-AI__scientific-agents",
-      "ruleId": "OBL011",
-      "severity": "info",
-      "file": "scientific-agents/astroparticle-physicist/CLAUDE.md",
-      "line": "",
-      "message": "Exact copy of scientific-agents/astroparticle-physicist/AGENTS.md."
-    },
-    {
-      "repo": "K-Dense-AI__scientific-agents",
       "ruleId": "OBL001",
       "severity": "warn",
       "file": "scientific-agents/astrophysicist/CLAUDE.md",
       "line": "",
       "message": "306 lines exceeds the 200-line budget for claude files (about 4864 tokens)."
-    },
-    {
-      "repo": "K-Dense-AI__scientific-agents",
-      "ruleId": "OBL011",
-      "severity": "info",
-      "file": "scientific-agents/astrophysicist/CLAUDE.md",
-      "line": "",
-      "message": "Exact copy of scientific-agents/astrophysicist/AGENTS.md."
     },
     {
       "repo": "K-Dense-AI__scientific-agents",
@@ -6966,27 +6102,11 @@
     },
     {
       "repo": "K-Dense-AI__scientific-agents",
-      "ruleId": "OBL011",
-      "severity": "info",
-      "file": "scientific-agents/astrostatistician/CLAUDE.md",
-      "line": "",
-      "message": "Exact copy of scientific-agents/astrostatistician/AGENTS.md."
-    },
-    {
-      "repo": "K-Dense-AI__scientific-agents",
       "ruleId": "OBL001",
       "severity": "warn",
       "file": "scientific-agents/atmospheric-chemist/CLAUDE.md",
       "line": "",
       "message": "207 lines exceeds the 200-line budget for claude files (about 3384 tokens)."
-    },
-    {
-      "repo": "K-Dense-AI__scientific-agents",
-      "ruleId": "OBL011",
-      "severity": "info",
-      "file": "scientific-agents/atmospheric-chemist/CLAUDE.md",
-      "line": "",
-      "message": "Exact copy of scientific-agents/atmospheric-chemist/AGENTS.md."
     },
     {
       "repo": "K-Dense-AI__scientific-agents",
@@ -6998,35 +6118,11 @@
     },
     {
       "repo": "K-Dense-AI__scientific-agents",
-      "ruleId": "OBL011",
-      "severity": "info",
-      "file": "scientific-agents/atmospheric-scientist/CLAUDE.md",
-      "line": "",
-      "message": "Exact copy of scientific-agents/atmospheric-scientist/AGENTS.md."
-    },
-    {
-      "repo": "K-Dense-AI__scientific-agents",
       "ruleId": "OBL001",
       "severity": "warn",
       "file": "scientific-agents/atomic-molecular-optical-physicist/CLAUDE.md",
       "line": "",
       "message": "311 lines exceeds the 200-line budget for claude files (about 5436 tokens)."
-    },
-    {
-      "repo": "K-Dense-AI__scientific-agents",
-      "ruleId": "OBL011",
-      "severity": "info",
-      "file": "scientific-agents/atomic-molecular-optical-physicist/CLAUDE.md",
-      "line": "",
-      "message": "Exact copy of scientific-agents/atomic-molecular-optical-physicist/AGENTS.md."
-    },
-    {
-      "repo": "K-Dense-AI__scientific-agents",
-      "ruleId": "OBL011",
-      "severity": "info",
-      "file": "scientific-agents/audiologist/CLAUDE.md",
-      "line": "",
-      "message": "Exact copy of scientific-agents/audiologist/AGENTS.md."
     },
     {
       "repo": "K-Dense-AI__scientific-agents",
@@ -7038,27 +6134,11 @@
     },
     {
       "repo": "K-Dense-AI__scientific-agents",
-      "ruleId": "OBL011",
-      "severity": "info",
-      "file": "scientific-agents/automotive-engineer/CLAUDE.md",
-      "line": "",
-      "message": "Exact copy of scientific-agents/automotive-engineer/AGENTS.md."
-    },
-    {
-      "repo": "K-Dense-AI__scientific-agents",
       "ruleId": "OBL001",
       "severity": "warn",
       "file": "scientific-agents/bacteriologist/CLAUDE.md",
       "line": "",
       "message": "332 lines exceeds the 200-line budget for claude files (about 6155 tokens)."
-    },
-    {
-      "repo": "K-Dense-AI__scientific-agents",
-      "ruleId": "OBL011",
-      "severity": "info",
-      "file": "scientific-agents/bacteriologist/CLAUDE.md",
-      "line": "",
-      "message": "Exact copy of scientific-agents/bacteriologist/AGENTS.md."
     },
     {
       "repo": "K-Dense-AI__scientific-agents",
@@ -7070,27 +6150,11 @@
     },
     {
       "repo": "K-Dense-AI__scientific-agents",
-      "ruleId": "OBL011",
-      "severity": "info",
-      "file": "scientific-agents/bayesian-statistician/CLAUDE.md",
-      "line": "",
-      "message": "Exact copy of scientific-agents/bayesian-statistician/AGENTS.md."
-    },
-    {
-      "repo": "K-Dense-AI__scientific-agents",
       "ruleId": "OBL001",
       "severity": "warn",
       "file": "scientific-agents/behavioral-ecologist/CLAUDE.md",
       "line": "",
       "message": "348 lines exceeds the 200-line budget for claude files (about 5605 tokens)."
-    },
-    {
-      "repo": "K-Dense-AI__scientific-agents",
-      "ruleId": "OBL011",
-      "severity": "info",
-      "file": "scientific-agents/behavioral-ecologist/CLAUDE.md",
-      "line": "",
-      "message": "Exact copy of scientific-agents/behavioral-ecologist/AGENTS.md."
     },
     {
       "repo": "K-Dense-AI__scientific-agents",
@@ -7102,27 +6166,11 @@
     },
     {
       "repo": "K-Dense-AI__scientific-agents",
-      "ruleId": "OBL011",
-      "severity": "info",
-      "file": "scientific-agents/behavioral-neuroscientist/CLAUDE.md",
-      "line": "",
-      "message": "Exact copy of scientific-agents/behavioral-neuroscientist/AGENTS.md."
-    },
-    {
-      "repo": "K-Dense-AI__scientific-agents",
       "ruleId": "OBL001",
       "severity": "warn",
       "file": "scientific-agents/biochemist/CLAUDE.md",
       "line": "",
       "message": "272 lines exceeds the 200-line budget for claude files (about 4955 tokens)."
-    },
-    {
-      "repo": "K-Dense-AI__scientific-agents",
-      "ruleId": "OBL011",
-      "severity": "info",
-      "file": "scientific-agents/biochemist/CLAUDE.md",
-      "line": "",
-      "message": "Exact copy of scientific-agents/biochemist/AGENTS.md."
     },
     {
       "repo": "K-Dense-AI__scientific-agents",
@@ -7134,14 +6182,6 @@
     },
     {
       "repo": "K-Dense-AI__scientific-agents",
-      "ruleId": "OBL011",
-      "severity": "info",
-      "file": "scientific-agents/biogeochemist/CLAUDE.md",
-      "line": "",
-      "message": "Exact copy of scientific-agents/biogeochemist/AGENTS.md."
-    },
-    {
-      "repo": "K-Dense-AI__scientific-agents",
       "ruleId": "OBL001",
       "severity": "warn",
       "file": "scientific-agents/biogeographer/CLAUDE.md",
@@ -7150,27 +6190,11 @@
     },
     {
       "repo": "K-Dense-AI__scientific-agents",
-      "ruleId": "OBL011",
-      "severity": "info",
-      "file": "scientific-agents/biogeographer/CLAUDE.md",
-      "line": "",
-      "message": "Exact copy of scientific-agents/biogeographer/AGENTS.md."
-    },
-    {
-      "repo": "K-Dense-AI__scientific-agents",
       "ruleId": "OBL001",
       "severity": "warn",
       "file": "scientific-agents/bioinformatician/CLAUDE.md",
       "line": "",
       "message": "306 lines exceeds the 200-line budget for claude files (about 5353 tokens)."
-    },
-    {
-      "repo": "K-Dense-AI__scientific-agents",
-      "ruleId": "OBL011",
-      "severity": "info",
-      "file": "scientific-agents/bioinformatician/CLAUDE.md",
-      "line": "",
-      "message": "Exact copy of scientific-agents/bioinformatician/AGENTS.md."
     },
     {
       "repo": "K-Dense-AI__scientific-agents",
@@ -7214,14 +6238,6 @@
     },
     {
       "repo": "K-Dense-AI__scientific-agents",
-      "ruleId": "OBL011",
-      "severity": "info",
-      "file": "scientific-agents/bioinformatics-engineer/CLAUDE.md",
-      "line": "",
-      "message": "Exact copy of scientific-agents/bioinformatics-engineer/AGENTS.md."
-    },
-    {
-      "repo": "K-Dense-AI__scientific-agents",
       "ruleId": "OBL004",
       "severity": "warn",
       "file": "scientific-agents/bioinformatics-engineer/CLAUDE.md",
@@ -7262,27 +6278,11 @@
     },
     {
       "repo": "K-Dense-AI__scientific-agents",
-      "ruleId": "OBL011",
-      "severity": "info",
-      "file": "scientific-agents/biological-oceanographer/CLAUDE.md",
-      "line": "",
-      "message": "Exact copy of scientific-agents/biological-oceanographer/AGENTS.md."
-    },
-    {
-      "repo": "K-Dense-AI__scientific-agents",
       "ruleId": "OBL001",
       "severity": "warn",
       "file": "scientific-agents/biomaterials-scientist/CLAUDE.md",
       "line": "",
       "message": "260 lines exceeds the 200-line budget for claude files (about 5583 tokens)."
-    },
-    {
-      "repo": "K-Dense-AI__scientific-agents",
-      "ruleId": "OBL011",
-      "severity": "info",
-      "file": "scientific-agents/biomaterials-scientist/CLAUDE.md",
-      "line": "",
-      "message": "Exact copy of scientific-agents/biomaterials-scientist/AGENTS.md."
     },
     {
       "repo": "K-Dense-AI__scientific-agents",
@@ -7294,35 +6294,11 @@
     },
     {
       "repo": "K-Dense-AI__scientific-agents",
-      "ruleId": "OBL011",
-      "severity": "info",
-      "file": "scientific-agents/biomedical-engineer/CLAUDE.md",
-      "line": "",
-      "message": "Exact copy of scientific-agents/biomedical-engineer/AGENTS.md."
-    },
-    {
-      "repo": "K-Dense-AI__scientific-agents",
       "ruleId": "OBL001",
       "severity": "warn",
       "file": "scientific-agents/biomedical-imaging-scientist/CLAUDE.md",
       "line": "",
       "message": "235 lines exceeds the 200-line budget for claude files (about 3923 tokens)."
-    },
-    {
-      "repo": "K-Dense-AI__scientific-agents",
-      "ruleId": "OBL011",
-      "severity": "info",
-      "file": "scientific-agents/biomedical-imaging-scientist/CLAUDE.md",
-      "line": "",
-      "message": "Exact copy of scientific-agents/biomedical-imaging-scientist/AGENTS.md."
-    },
-    {
-      "repo": "K-Dense-AI__scientific-agents",
-      "ruleId": "OBL011",
-      "severity": "info",
-      "file": "scientific-agents/biophysical-chemist/CLAUDE.md",
-      "line": "",
-      "message": "Exact copy of scientific-agents/biophysical-chemist/AGENTS.md."
     },
     {
       "repo": "K-Dense-AI__scientific-agents",
@@ -7334,27 +6310,11 @@
     },
     {
       "repo": "K-Dense-AI__scientific-agents",
-      "ruleId": "OBL011",
-      "severity": "info",
-      "file": "scientific-agents/biophysicist/CLAUDE.md",
-      "line": "",
-      "message": "Exact copy of scientific-agents/biophysicist/AGENTS.md."
-    },
-    {
-      "repo": "K-Dense-AI__scientific-agents",
       "ruleId": "OBL001",
       "severity": "warn",
       "file": "scientific-agents/bioprocess-engineer/CLAUDE.md",
       "line": "",
       "message": "311 lines exceeds the 200-line budget for claude files (about 5569 tokens)."
-    },
-    {
-      "repo": "K-Dense-AI__scientific-agents",
-      "ruleId": "OBL011",
-      "severity": "info",
-      "file": "scientific-agents/bioprocess-engineer/CLAUDE.md",
-      "line": "",
-      "message": "Exact copy of scientific-agents/bioprocess-engineer/AGENTS.md."
     },
     {
       "repo": "K-Dense-AI__scientific-agents",
@@ -7366,27 +6326,11 @@
     },
     {
       "repo": "K-Dense-AI__scientific-agents",
-      "ruleId": "OBL011",
-      "severity": "info",
-      "file": "scientific-agents/bioprocess-microbiologist/CLAUDE.md",
-      "line": "",
-      "message": "Exact copy of scientific-agents/bioprocess-microbiologist/AGENTS.md."
-    },
-    {
-      "repo": "K-Dense-AI__scientific-agents",
       "ruleId": "OBL001",
       "severity": "warn",
       "file": "scientific-agents/biostatistician/CLAUDE.md",
       "line": "",
       "message": "253 lines exceeds the 200-line budget for claude files (about 4267 tokens)."
-    },
-    {
-      "repo": "K-Dense-AI__scientific-agents",
-      "ruleId": "OBL011",
-      "severity": "info",
-      "file": "scientific-agents/biostatistician/CLAUDE.md",
-      "line": "",
-      "message": "Exact copy of scientific-agents/biostatistician/AGENTS.md."
     },
     {
       "repo": "K-Dense-AI__scientific-agents",
@@ -7398,27 +6342,11 @@
     },
     {
       "repo": "K-Dense-AI__scientific-agents",
-      "ruleId": "OBL011",
-      "severity": "info",
-      "file": "scientific-agents/biosystems-agricultural-process-engineer/CLAUDE.md",
-      "line": "",
-      "message": "Exact copy of scientific-agents/biosystems-agricultural-process-engineer/AGENTS.md."
-    },
-    {
-      "repo": "K-Dense-AI__scientific-agents",
       "ruleId": "OBL001",
       "severity": "warn",
       "file": "scientific-agents/botanist/CLAUDE.md",
       "line": "",
       "message": "286 lines exceeds the 200-line budget for claude files (about 4555 tokens)."
-    },
-    {
-      "repo": "K-Dense-AI__scientific-agents",
-      "ruleId": "OBL011",
-      "severity": "info",
-      "file": "scientific-agents/botanist/CLAUDE.md",
-      "line": "",
-      "message": "Exact copy of scientific-agents/botanist/AGENTS.md."
     },
     {
       "repo": "K-Dense-AI__scientific-agents",
@@ -7430,27 +6358,11 @@
     },
     {
       "repo": "K-Dense-AI__scientific-agents",
-      "ruleId": "OBL011",
-      "severity": "info",
-      "file": "scientific-agents/brain-computer-interface-engineer/CLAUDE.md",
-      "line": "",
-      "message": "Exact copy of scientific-agents/brain-computer-interface-engineer/AGENTS.md."
-    },
-    {
-      "repo": "K-Dense-AI__scientific-agents",
       "ruleId": "OBL001",
       "severity": "warn",
       "file": "scientific-agents/bridge-engineer/CLAUDE.md",
       "line": "",
       "message": "237 lines exceeds the 200-line budget for claude files (about 4508 tokens)."
-    },
-    {
-      "repo": "K-Dense-AI__scientific-agents",
-      "ruleId": "OBL011",
-      "severity": "info",
-      "file": "scientific-agents/bridge-engineer/CLAUDE.md",
-      "line": "",
-      "message": "Exact copy of scientific-agents/bridge-engineer/AGENTS.md."
     },
     {
       "repo": "K-Dense-AI__scientific-agents",
@@ -7462,43 +6374,11 @@
     },
     {
       "repo": "K-Dense-AI__scientific-agents",
-      "ruleId": "OBL011",
-      "severity": "info",
-      "file": "scientific-agents/building-science-engineer/CLAUDE.md",
-      "line": "",
-      "message": "Exact copy of scientific-agents/building-science-engineer/AGENTS.md."
-    },
-    {
-      "repo": "K-Dense-AI__scientific-agents",
-      "ruleId": "OBL011",
-      "severity": "info",
-      "file": "scientific-agents/cancer-biologist/CLAUDE.md",
-      "line": "",
-      "message": "Exact copy of scientific-agents/cancer-biologist/AGENTS.md."
-    },
-    {
-      "repo": "K-Dense-AI__scientific-agents",
-      "ruleId": "OBL011",
-      "severity": "info",
-      "file": "scientific-agents/carbon-cycle-scientist/CLAUDE.md",
-      "line": "",
-      "message": "Exact copy of scientific-agents/carbon-cycle-scientist/AGENTS.md."
-    },
-    {
-      "repo": "K-Dense-AI__scientific-agents",
       "ruleId": "OBL001",
       "severity": "warn",
       "file": "scientific-agents/cardiologist/CLAUDE.md",
       "line": "",
       "message": "274 lines exceeds the 200-line budget for claude files (about 4539 tokens)."
-    },
-    {
-      "repo": "K-Dense-AI__scientific-agents",
-      "ruleId": "OBL011",
-      "severity": "info",
-      "file": "scientific-agents/cardiologist/CLAUDE.md",
-      "line": "",
-      "message": "Exact copy of scientific-agents/cardiologist/AGENTS.md."
     },
     {
       "repo": "K-Dense-AI__scientific-agents",
@@ -7510,27 +6390,11 @@
     },
     {
       "repo": "K-Dense-AI__scientific-agents",
-      "ruleId": "OBL011",
-      "severity": "info",
-      "file": "scientific-agents/catalysis-engineer/CLAUDE.md",
-      "line": "",
-      "message": "Exact copy of scientific-agents/catalysis-engineer/AGENTS.md."
-    },
-    {
-      "repo": "K-Dense-AI__scientific-agents",
       "ruleId": "OBL001",
       "severity": "warn",
       "file": "scientific-agents/catalysis-scientist/CLAUDE.md",
       "line": "",
       "message": "317 lines exceeds the 200-line budget for claude files (about 6098 tokens)."
-    },
-    {
-      "repo": "K-Dense-AI__scientific-agents",
-      "ruleId": "OBL011",
-      "severity": "info",
-      "file": "scientific-agents/catalysis-scientist/CLAUDE.md",
-      "line": "",
-      "message": "Exact copy of scientific-agents/catalysis-scientist/AGENTS.md."
     },
     {
       "repo": "K-Dense-AI__scientific-agents",
@@ -7542,27 +6406,11 @@
     },
     {
       "repo": "K-Dense-AI__scientific-agents",
-      "ruleId": "OBL011",
-      "severity": "info",
-      "file": "scientific-agents/causal-inference-scientist/CLAUDE.md",
-      "line": "",
-      "message": "Exact copy of scientific-agents/causal-inference-scientist/AGENTS.md."
-    },
-    {
-      "repo": "K-Dense-AI__scientific-agents",
       "ruleId": "OBL001",
       "severity": "warn",
       "file": "scientific-agents/cell-biologist/CLAUDE.md",
       "line": "",
       "message": "267 lines exceeds the 200-line budget for claude files (about 4782 tokens)."
-    },
-    {
-      "repo": "K-Dense-AI__scientific-agents",
-      "ruleId": "OBL011",
-      "severity": "info",
-      "file": "scientific-agents/cell-biologist/CLAUDE.md",
-      "line": "",
-      "message": "Exact copy of scientific-agents/cell-biologist/AGENTS.md."
     },
     {
       "repo": "K-Dense-AI__scientific-agents",
@@ -7574,27 +6422,11 @@
     },
     {
       "repo": "K-Dense-AI__scientific-agents",
-      "ruleId": "OBL011",
-      "severity": "info",
-      "file": "scientific-agents/cell-signaling-biologist/CLAUDE.md",
-      "line": "",
-      "message": "Exact copy of scientific-agents/cell-signaling-biologist/AGENTS.md."
-    },
-    {
-      "repo": "K-Dense-AI__scientific-agents",
       "ruleId": "OBL001",
       "severity": "warn",
       "file": "scientific-agents/cellular-neuroscientist/CLAUDE.md",
       "line": "",
       "message": "282 lines exceeds the 200-line budget for claude files (about 4209 tokens)."
-    },
-    {
-      "repo": "K-Dense-AI__scientific-agents",
-      "ruleId": "OBL011",
-      "severity": "info",
-      "file": "scientific-agents/cellular-neuroscientist/CLAUDE.md",
-      "line": "",
-      "message": "Exact copy of scientific-agents/cellular-neuroscientist/AGENTS.md."
     },
     {
       "repo": "K-Dense-AI__scientific-agents",
@@ -7606,27 +6438,11 @@
     },
     {
       "repo": "K-Dense-AI__scientific-agents",
-      "ruleId": "OBL011",
-      "severity": "info",
-      "file": "scientific-agents/ceramics-engineer/CLAUDE.md",
-      "line": "",
-      "message": "Exact copy of scientific-agents/ceramics-engineer/AGENTS.md."
-    },
-    {
-      "repo": "K-Dense-AI__scientific-agents",
       "ruleId": "OBL001",
       "severity": "warn",
       "file": "scientific-agents/chemical-biologist/CLAUDE.md",
       "line": "",
       "message": "302 lines exceeds the 200-line budget for claude files (about 5245 tokens)."
-    },
-    {
-      "repo": "K-Dense-AI__scientific-agents",
-      "ruleId": "OBL011",
-      "severity": "info",
-      "file": "scientific-agents/chemical-biologist/CLAUDE.md",
-      "line": "",
-      "message": "Exact copy of scientific-agents/chemical-biologist/AGENTS.md."
     },
     {
       "repo": "K-Dense-AI__scientific-agents",
@@ -7638,27 +6454,11 @@
     },
     {
       "repo": "K-Dense-AI__scientific-agents",
-      "ruleId": "OBL011",
-      "severity": "info",
-      "file": "scientific-agents/chemical-engineer/CLAUDE.md",
-      "line": "",
-      "message": "Exact copy of scientific-agents/chemical-engineer/AGENTS.md."
-    },
-    {
-      "repo": "K-Dense-AI__scientific-agents",
       "ruleId": "OBL001",
       "severity": "warn",
       "file": "scientific-agents/chemical-oceanographer/CLAUDE.md",
       "line": "",
       "message": "249 lines exceeds the 200-line budget for claude files (about 4173 tokens)."
-    },
-    {
-      "repo": "K-Dense-AI__scientific-agents",
-      "ruleId": "OBL011",
-      "severity": "info",
-      "file": "scientific-agents/chemical-oceanographer/CLAUDE.md",
-      "line": "",
-      "message": "Exact copy of scientific-agents/chemical-oceanographer/AGENTS.md."
     },
     {
       "repo": "K-Dense-AI__scientific-agents",
@@ -7670,27 +6470,11 @@
     },
     {
       "repo": "K-Dense-AI__scientific-agents",
-      "ruleId": "OBL011",
-      "severity": "info",
-      "file": "scientific-agents/cheminformatician/CLAUDE.md",
-      "line": "",
-      "message": "Exact copy of scientific-agents/cheminformatician/AGENTS.md."
-    },
-    {
-      "repo": "K-Dense-AI__scientific-agents",
       "ruleId": "OBL001",
       "severity": "warn",
       "file": "scientific-agents/chromatin-biologist/CLAUDE.md",
       "line": "",
       "message": "300 lines exceeds the 200-line budget for claude files (about 4734 tokens)."
-    },
-    {
-      "repo": "K-Dense-AI__scientific-agents",
-      "ruleId": "OBL011",
-      "severity": "info",
-      "file": "scientific-agents/chromatin-biologist/CLAUDE.md",
-      "line": "",
-      "message": "Exact copy of scientific-agents/chromatin-biologist/AGENTS.md."
     },
     {
       "repo": "K-Dense-AI__scientific-agents",
@@ -7702,27 +6486,11 @@
     },
     {
       "repo": "K-Dense-AI__scientific-agents",
-      "ruleId": "OBL011",
-      "severity": "info",
-      "file": "scientific-agents/chronobiologist/CLAUDE.md",
-      "line": "",
-      "message": "Exact copy of scientific-agents/chronobiologist/AGENTS.md."
-    },
-    {
-      "repo": "K-Dense-AI__scientific-agents",
       "ruleId": "OBL001",
       "severity": "warn",
       "file": "scientific-agents/civil-engineer/CLAUDE.md",
       "line": "",
       "message": "255 lines exceeds the 200-line budget for claude files (about 4414 tokens)."
-    },
-    {
-      "repo": "K-Dense-AI__scientific-agents",
-      "ruleId": "OBL011",
-      "severity": "info",
-      "file": "scientific-agents/civil-engineer/CLAUDE.md",
-      "line": "",
-      "message": "Exact copy of scientific-agents/civil-engineer/AGENTS.md."
     },
     {
       "repo": "K-Dense-AI__scientific-agents",
@@ -7734,27 +6502,11 @@
     },
     {
       "repo": "K-Dense-AI__scientific-agents",
-      "ruleId": "OBL011",
-      "severity": "info",
-      "file": "scientific-agents/climate-risk-analyst/CLAUDE.md",
-      "line": "",
-      "message": "Exact copy of scientific-agents/climate-risk-analyst/AGENTS.md."
-    },
-    {
-      "repo": "K-Dense-AI__scientific-agents",
       "ruleId": "OBL001",
       "severity": "warn",
       "file": "scientific-agents/climate-scientist/CLAUDE.md",
       "line": "",
       "message": "283 lines exceeds the 200-line budget for claude files (about 4789 tokens)."
-    },
-    {
-      "repo": "K-Dense-AI__scientific-agents",
-      "ruleId": "OBL011",
-      "severity": "info",
-      "file": "scientific-agents/climate-scientist/CLAUDE.md",
-      "line": "",
-      "message": "Exact copy of scientific-agents/climate-scientist/AGENTS.md."
     },
     {
       "repo": "K-Dense-AI__scientific-agents",
@@ -7766,27 +6518,11 @@
     },
     {
       "repo": "K-Dense-AI__scientific-agents",
-      "ruleId": "OBL011",
-      "severity": "info",
-      "file": "scientific-agents/climatologist/CLAUDE.md",
-      "line": "",
-      "message": "Exact copy of scientific-agents/climatologist/AGENTS.md."
-    },
-    {
-      "repo": "K-Dense-AI__scientific-agents",
       "ruleId": "OBL001",
       "severity": "warn",
       "file": "scientific-agents/clinical-data-manager/CLAUDE.md",
       "line": "",
       "message": "283 lines exceeds the 200-line budget for claude files (about 4351 tokens)."
-    },
-    {
-      "repo": "K-Dense-AI__scientific-agents",
-      "ruleId": "OBL011",
-      "severity": "info",
-      "file": "scientific-agents/clinical-data-manager/CLAUDE.md",
-      "line": "",
-      "message": "Exact copy of scientific-agents/clinical-data-manager/AGENTS.md."
     },
     {
       "repo": "K-Dense-AI__scientific-agents",
@@ -7798,27 +6534,11 @@
     },
     {
       "repo": "K-Dense-AI__scientific-agents",
-      "ruleId": "OBL011",
-      "severity": "info",
-      "file": "scientific-agents/clinical-embryologist/CLAUDE.md",
-      "line": "",
-      "message": "Exact copy of scientific-agents/clinical-embryologist/AGENTS.md."
-    },
-    {
-      "repo": "K-Dense-AI__scientific-agents",
       "ruleId": "OBL001",
       "severity": "warn",
       "file": "scientific-agents/clinical-epidemiologist/CLAUDE.md",
       "line": "",
       "message": "320 lines exceeds the 200-line budget for claude files (about 5707 tokens)."
-    },
-    {
-      "repo": "K-Dense-AI__scientific-agents",
-      "ruleId": "OBL011",
-      "severity": "info",
-      "file": "scientific-agents/clinical-epidemiologist/CLAUDE.md",
-      "line": "",
-      "message": "Exact copy of scientific-agents/clinical-epidemiologist/AGENTS.md."
     },
     {
       "repo": "K-Dense-AI__scientific-agents",
@@ -7830,27 +6550,11 @@
     },
     {
       "repo": "K-Dense-AI__scientific-agents",
-      "ruleId": "OBL011",
-      "severity": "info",
-      "file": "scientific-agents/clinical-laboratory-scientist/CLAUDE.md",
-      "line": "",
-      "message": "Exact copy of scientific-agents/clinical-laboratory-scientist/AGENTS.md."
-    },
-    {
-      "repo": "K-Dense-AI__scientific-agents",
       "ruleId": "OBL001",
       "severity": "warn",
       "file": "scientific-agents/clinical-microbiologist/CLAUDE.md",
       "line": "",
       "message": "284 lines exceeds the 200-line budget for claude files (about 4719 tokens)."
-    },
-    {
-      "repo": "K-Dense-AI__scientific-agents",
-      "ruleId": "OBL011",
-      "severity": "info",
-      "file": "scientific-agents/clinical-microbiologist/CLAUDE.md",
-      "line": "",
-      "message": "Exact copy of scientific-agents/clinical-microbiologist/AGENTS.md."
     },
     {
       "repo": "K-Dense-AI__scientific-agents",
@@ -7862,27 +6566,11 @@
     },
     {
       "repo": "K-Dense-AI__scientific-agents",
-      "ruleId": "OBL011",
-      "severity": "info",
-      "file": "scientific-agents/clinical-pharmacologist/CLAUDE.md",
-      "line": "",
-      "message": "Exact copy of scientific-agents/clinical-pharmacologist/AGENTS.md."
-    },
-    {
-      "repo": "K-Dense-AI__scientific-agents",
       "ruleId": "OBL001",
       "severity": "warn",
       "file": "scientific-agents/clinical-trial-scientist/CLAUDE.md",
       "line": "",
       "message": "260 lines exceeds the 200-line budget for claude files (about 4444 tokens)."
-    },
-    {
-      "repo": "K-Dense-AI__scientific-agents",
-      "ruleId": "OBL011",
-      "severity": "info",
-      "file": "scientific-agents/clinical-trial-scientist/CLAUDE.md",
-      "line": "",
-      "message": "Exact copy of scientific-agents/clinical-trial-scientist/AGENTS.md."
     },
     {
       "repo": "K-Dense-AI__scientific-agents",
@@ -7902,14 +6590,6 @@
     },
     {
       "repo": "K-Dense-AI__scientific-agents",
-      "ruleId": "OBL011",
-      "severity": "info",
-      "file": "scientific-agents/coastal-engineer/CLAUDE.md",
-      "line": "",
-      "message": "Exact copy of scientific-agents/coastal-engineer/AGENTS.md."
-    },
-    {
-      "repo": "K-Dense-AI__scientific-agents",
       "ruleId": "OBL012",
       "severity": "info",
       "file": "scientific-agents/coastal-engineer/CLAUDE.md",
@@ -7926,35 +6606,11 @@
     },
     {
       "repo": "K-Dense-AI__scientific-agents",
-      "ruleId": "OBL011",
-      "severity": "info",
-      "file": "scientific-agents/cognitive-neuroscientist/CLAUDE.md",
-      "line": "",
-      "message": "Exact copy of scientific-agents/cognitive-neuroscientist/AGENTS.md."
-    },
-    {
-      "repo": "K-Dense-AI__scientific-agents",
       "ruleId": "OBL001",
       "severity": "warn",
       "file": "scientific-agents/cognitive-scientist/CLAUDE.md",
       "line": "",
       "message": "248 lines exceeds the 200-line budget for claude files (about 4608 tokens)."
-    },
-    {
-      "repo": "K-Dense-AI__scientific-agents",
-      "ruleId": "OBL011",
-      "severity": "info",
-      "file": "scientific-agents/cognitive-scientist/CLAUDE.md",
-      "line": "",
-      "message": "Exact copy of scientific-agents/cognitive-scientist/AGENTS.md."
-    },
-    {
-      "repo": "K-Dense-AI__scientific-agents",
-      "ruleId": "OBL011",
-      "severity": "info",
-      "file": "scientific-agents/colloid-chemist/CLAUDE.md",
-      "line": "",
-      "message": "Exact copy of scientific-agents/colloid-chemist/AGENTS.md."
     },
     {
       "repo": "K-Dense-AI__scientific-agents",
@@ -7966,27 +6622,11 @@
     },
     {
       "repo": "K-Dense-AI__scientific-agents",
-      "ruleId": "OBL011",
-      "severity": "info",
-      "file": "scientific-agents/combinatorialist/CLAUDE.md",
-      "line": "",
-      "message": "Exact copy of scientific-agents/combinatorialist/AGENTS.md."
-    },
-    {
-      "repo": "K-Dense-AI__scientific-agents",
       "ruleId": "OBL001",
       "severity": "warn",
       "file": "scientific-agents/combustion-engineer/CLAUDE.md",
       "line": "",
       "message": "206 lines exceeds the 200-line budget for claude files (about 3520 tokens)."
-    },
-    {
-      "repo": "K-Dense-AI__scientific-agents",
-      "ruleId": "OBL011",
-      "severity": "info",
-      "file": "scientific-agents/combustion-engineer/CLAUDE.md",
-      "line": "",
-      "message": "Exact copy of scientific-agents/combustion-engineer/AGENTS.md."
     },
     {
       "repo": "K-Dense-AI__scientific-agents",
@@ -7998,35 +6638,11 @@
     },
     {
       "repo": "K-Dense-AI__scientific-agents",
-      "ruleId": "OBL011",
-      "severity": "info",
-      "file": "scientific-agents/communications-engineer/CLAUDE.md",
-      "line": "",
-      "message": "Exact copy of scientific-agents/communications-engineer/AGENTS.md."
-    },
-    {
-      "repo": "K-Dense-AI__scientific-agents",
       "ruleId": "OBL001",
       "severity": "warn",
       "file": "scientific-agents/community-ecologist/CLAUDE.md",
       "line": "",
       "message": "290 lines exceeds the 200-line budget for claude files (about 4697 tokens)."
-    },
-    {
-      "repo": "K-Dense-AI__scientific-agents",
-      "ruleId": "OBL011",
-      "severity": "info",
-      "file": "scientific-agents/community-ecologist/CLAUDE.md",
-      "line": "",
-      "message": "Exact copy of scientific-agents/community-ecologist/AGENTS.md."
-    },
-    {
-      "repo": "K-Dense-AI__scientific-agents",
-      "ruleId": "OBL011",
-      "severity": "info",
-      "file": "scientific-agents/comparative-medicine-researcher/CLAUDE.md",
-      "line": "",
-      "message": "Exact copy of scientific-agents/comparative-medicine-researcher/AGENTS.md."
     },
     {
       "repo": "K-Dense-AI__scientific-agents",
@@ -8046,14 +6662,6 @@
     },
     {
       "repo": "K-Dense-AI__scientific-agents",
-      "ruleId": "OBL011",
-      "severity": "info",
-      "file": "scientific-agents/comparative-physiologist/CLAUDE.md",
-      "line": "",
-      "message": "Exact copy of scientific-agents/comparative-physiologist/AGENTS.md."
-    },
-    {
-      "repo": "K-Dense-AI__scientific-agents",
       "ruleId": "OBL026",
       "severity": "info",
       "file": "scientific-agents/comparative-physiologist/CLAUDE.md",
@@ -8070,27 +6678,11 @@
     },
     {
       "repo": "K-Dense-AI__scientific-agents",
-      "ruleId": "OBL011",
-      "severity": "info",
-      "file": "scientific-agents/composites-engineer/CLAUDE.md",
-      "line": "",
-      "message": "Exact copy of scientific-agents/composites-engineer/AGENTS.md."
-    },
-    {
-      "repo": "K-Dense-AI__scientific-agents",
       "ruleId": "OBL001",
       "severity": "warn",
       "file": "scientific-agents/computational-chemist/CLAUDE.md",
       "line": "",
       "message": "329 lines exceeds the 200-line budget for claude files (about 5704 tokens)."
-    },
-    {
-      "repo": "K-Dense-AI__scientific-agents",
-      "ruleId": "OBL011",
-      "severity": "info",
-      "file": "scientific-agents/computational-chemist/CLAUDE.md",
-      "line": "",
-      "message": "Exact copy of scientific-agents/computational-chemist/AGENTS.md."
     },
     {
       "repo": "K-Dense-AI__scientific-agents",
@@ -8102,27 +6694,11 @@
     },
     {
       "repo": "K-Dense-AI__scientific-agents",
-      "ruleId": "OBL011",
-      "severity": "info",
-      "file": "scientific-agents/computational-linguist/CLAUDE.md",
-      "line": "",
-      "message": "Exact copy of scientific-agents/computational-linguist/AGENTS.md."
-    },
-    {
-      "repo": "K-Dense-AI__scientific-agents",
       "ruleId": "OBL001",
       "severity": "warn",
       "file": "scientific-agents/computational-neuroscientist/CLAUDE.md",
       "line": "",
       "message": "283 lines exceeds the 200-line budget for claude files (about 4277 tokens)."
-    },
-    {
-      "repo": "K-Dense-AI__scientific-agents",
-      "ruleId": "OBL011",
-      "severity": "info",
-      "file": "scientific-agents/computational-neuroscientist/CLAUDE.md",
-      "line": "",
-      "message": "Exact copy of scientific-agents/computational-neuroscientist/AGENTS.md."
     },
     {
       "repo": "K-Dense-AI__scientific-agents",
@@ -8134,27 +6710,11 @@
     },
     {
       "repo": "K-Dense-AI__scientific-agents",
-      "ruleId": "OBL011",
-      "severity": "info",
-      "file": "scientific-agents/computational-physicist/CLAUDE.md",
-      "line": "",
-      "message": "Exact copy of scientific-agents/computational-physicist/AGENTS.md."
-    },
-    {
-      "repo": "K-Dense-AI__scientific-agents",
       "ruleId": "OBL001",
       "severity": "warn",
       "file": "scientific-agents/computational-scientist/CLAUDE.md",
       "line": "",
       "message": "250 lines exceeds the 200-line budget for claude files (about 4574 tokens)."
-    },
-    {
-      "repo": "K-Dense-AI__scientific-agents",
-      "ruleId": "OBL011",
-      "severity": "info",
-      "file": "scientific-agents/computational-scientist/CLAUDE.md",
-      "line": "",
-      "message": "Exact copy of scientific-agents/computational-scientist/AGENTS.md."
     },
     {
       "repo": "K-Dense-AI__scientific-agents",
@@ -8166,27 +6726,11 @@
     },
     {
       "repo": "K-Dense-AI__scientific-agents",
-      "ruleId": "OBL011",
-      "severity": "info",
-      "file": "scientific-agents/computational-social-scientist/CLAUDE.md",
-      "line": "",
-      "message": "Exact copy of scientific-agents/computational-social-scientist/AGENTS.md."
-    },
-    {
-      "repo": "K-Dense-AI__scientific-agents",
       "ruleId": "OBL001",
       "severity": "warn",
       "file": "scientific-agents/computer-architecture-researcher/CLAUDE.md",
       "line": "",
       "message": "281 lines exceeds the 200-line budget for claude files (about 5091 tokens)."
-    },
-    {
-      "repo": "K-Dense-AI__scientific-agents",
-      "ruleId": "OBL011",
-      "severity": "info",
-      "file": "scientific-agents/computer-architecture-researcher/CLAUDE.md",
-      "line": "",
-      "message": "Exact copy of scientific-agents/computer-architecture-researcher/AGENTS.md."
     },
     {
       "repo": "K-Dense-AI__scientific-agents",
@@ -8198,27 +6742,11 @@
     },
     {
       "repo": "K-Dense-AI__scientific-agents",
-      "ruleId": "OBL011",
-      "severity": "info",
-      "file": "scientific-agents/computer-graphics-researcher/CLAUDE.md",
-      "line": "",
-      "message": "Exact copy of scientific-agents/computer-graphics-researcher/AGENTS.md."
-    },
-    {
-      "repo": "K-Dense-AI__scientific-agents",
       "ruleId": "OBL001",
       "severity": "warn",
       "file": "scientific-agents/computer-hardware-engineer/CLAUDE.md",
       "line": "",
       "message": "282 lines exceeds the 200-line budget for claude files (about 5089 tokens)."
-    },
-    {
-      "repo": "K-Dense-AI__scientific-agents",
-      "ruleId": "OBL011",
-      "severity": "info",
-      "file": "scientific-agents/computer-hardware-engineer/CLAUDE.md",
-      "line": "",
-      "message": "Exact copy of scientific-agents/computer-hardware-engineer/AGENTS.md."
     },
     {
       "repo": "K-Dense-AI__scientific-agents",
@@ -8230,27 +6758,11 @@
     },
     {
       "repo": "K-Dense-AI__scientific-agents",
-      "ruleId": "OBL011",
-      "severity": "info",
-      "file": "scientific-agents/computer-scientist/CLAUDE.md",
-      "line": "",
-      "message": "Exact copy of scientific-agents/computer-scientist/AGENTS.md."
-    },
-    {
-      "repo": "K-Dense-AI__scientific-agents",
       "ruleId": "OBL001",
       "severity": "warn",
       "file": "scientific-agents/computer-security-researcher/CLAUDE.md",
       "line": "",
       "message": "328 lines exceeds the 200-line budget for claude files (about 5348 tokens)."
-    },
-    {
-      "repo": "K-Dense-AI__scientific-agents",
-      "ruleId": "OBL011",
-      "severity": "info",
-      "file": "scientific-agents/computer-security-researcher/CLAUDE.md",
-      "line": "",
-      "message": "Exact copy of scientific-agents/computer-security-researcher/AGENTS.md."
     },
     {
       "repo": "K-Dense-AI__scientific-agents",
@@ -8262,27 +6774,11 @@
     },
     {
       "repo": "K-Dense-AI__scientific-agents",
-      "ruleId": "OBL011",
-      "severity": "info",
-      "file": "scientific-agents/computer-vision-scientist/CLAUDE.md",
-      "line": "",
-      "message": "Exact copy of scientific-agents/computer-vision-scientist/AGENTS.md."
-    },
-    {
-      "repo": "K-Dense-AI__scientific-agents",
       "ruleId": "OBL001",
       "severity": "warn",
       "file": "scientific-agents/condensed-matter-physicist/CLAUDE.md",
       "line": "",
       "message": "288 lines exceeds the 200-line budget for claude files (about 4945 tokens)."
-    },
-    {
-      "repo": "K-Dense-AI__scientific-agents",
-      "ruleId": "OBL011",
-      "severity": "info",
-      "file": "scientific-agents/condensed-matter-physicist/CLAUDE.md",
-      "line": "",
-      "message": "Exact copy of scientific-agents/condensed-matter-physicist/AGENTS.md."
     },
     {
       "repo": "K-Dense-AI__scientific-agents",
@@ -8294,27 +6790,11 @@
     },
     {
       "repo": "K-Dense-AI__scientific-agents",
-      "ruleId": "OBL011",
-      "severity": "info",
-      "file": "scientific-agents/connectomics-scientist/CLAUDE.md",
-      "line": "",
-      "message": "Exact copy of scientific-agents/connectomics-scientist/AGENTS.md."
-    },
-    {
-      "repo": "K-Dense-AI__scientific-agents",
       "ruleId": "OBL001",
       "severity": "warn",
       "file": "scientific-agents/conservation-biologist/CLAUDE.md",
       "line": "",
       "message": "387 lines exceeds the 200-line budget for claude files (about 6966 tokens)."
-    },
-    {
-      "repo": "K-Dense-AI__scientific-agents",
-      "ruleId": "OBL011",
-      "severity": "info",
-      "file": "scientific-agents/conservation-biologist/CLAUDE.md",
-      "line": "",
-      "message": "Exact copy of scientific-agents/conservation-biologist/AGENTS.md."
     },
     {
       "repo": "K-Dense-AI__scientific-agents",
@@ -8326,27 +6806,11 @@
     },
     {
       "repo": "K-Dense-AI__scientific-agents",
-      "ruleId": "OBL011",
-      "severity": "info",
-      "file": "scientific-agents/conservation-scientist/CLAUDE.md",
-      "line": "",
-      "message": "Exact copy of scientific-agents/conservation-scientist/AGENTS.md."
-    },
-    {
-      "repo": "K-Dense-AI__scientific-agents",
       "ruleId": "OBL001",
       "severity": "warn",
       "file": "scientific-agents/construction-engineer/CLAUDE.md",
       "line": "",
       "message": "278 lines exceeds the 200-line budget for claude files (about 4746 tokens)."
-    },
-    {
-      "repo": "K-Dense-AI__scientific-agents",
-      "ruleId": "OBL011",
-      "severity": "info",
-      "file": "scientific-agents/construction-engineer/CLAUDE.md",
-      "line": "",
-      "message": "Exact copy of scientific-agents/construction-engineer/AGENTS.md."
     },
     {
       "repo": "K-Dense-AI__scientific-agents",
@@ -8358,43 +6822,11 @@
     },
     {
       "repo": "K-Dense-AI__scientific-agents",
-      "ruleId": "OBL011",
-      "severity": "info",
-      "file": "scientific-agents/control-systems-engineer/CLAUDE.md",
-      "line": "",
-      "message": "Exact copy of scientific-agents/control-systems-engineer/AGENTS.md."
-    },
-    {
-      "repo": "K-Dense-AI__scientific-agents",
       "ruleId": "OBL001",
       "severity": "warn",
       "file": "scientific-agents/corrosion-engineer/CLAUDE.md",
       "line": "",
       "message": "205 lines exceeds the 200-line budget for claude files (about 3513 tokens)."
-    },
-    {
-      "repo": "K-Dense-AI__scientific-agents",
-      "ruleId": "OBL011",
-      "severity": "info",
-      "file": "scientific-agents/corrosion-engineer/CLAUDE.md",
-      "line": "",
-      "message": "Exact copy of scientific-agents/corrosion-engineer/AGENTS.md."
-    },
-    {
-      "repo": "K-Dense-AI__scientific-agents",
-      "ruleId": "OBL011",
-      "severity": "info",
-      "file": "scientific-agents/cosmochemist/CLAUDE.md",
-      "line": "",
-      "message": "Exact copy of scientific-agents/cosmochemist/AGENTS.md."
-    },
-    {
-      "repo": "K-Dense-AI__scientific-agents",
-      "ruleId": "OBL011",
-      "severity": "info",
-      "file": "scientific-agents/cosmologist/CLAUDE.md",
-      "line": "",
-      "message": "Exact copy of scientific-agents/cosmologist/AGENTS.md."
     },
     {
       "repo": "K-Dense-AI__scientific-agents",
@@ -8406,27 +6838,11 @@
     },
     {
       "repo": "K-Dense-AI__scientific-agents",
-      "ruleId": "OBL011",
-      "severity": "info",
-      "file": "scientific-agents/critical-care-researcher/CLAUDE.md",
-      "line": "",
-      "message": "Exact copy of scientific-agents/critical-care-researcher/AGENTS.md."
-    },
-    {
-      "repo": "K-Dense-AI__scientific-agents",
       "ruleId": "OBL001",
       "severity": "warn",
       "file": "scientific-agents/crop-protection-scientist/CLAUDE.md",
       "line": "",
       "message": "281 lines exceeds the 200-line budget for claude files (about 4869 tokens)."
-    },
-    {
-      "repo": "K-Dense-AI__scientific-agents",
-      "ruleId": "OBL011",
-      "severity": "info",
-      "file": "scientific-agents/crop-protection-scientist/CLAUDE.md",
-      "line": "",
-      "message": "Exact copy of scientific-agents/crop-protection-scientist/AGENTS.md."
     },
     {
       "repo": "K-Dense-AI__scientific-agents",
@@ -8438,27 +6854,11 @@
     },
     {
       "repo": "K-Dense-AI__scientific-agents",
-      "ruleId": "OBL011",
-      "severity": "info",
-      "file": "scientific-agents/crop-scientist/CLAUDE.md",
-      "line": "",
-      "message": "Exact copy of scientific-agents/crop-scientist/AGENTS.md."
-    },
-    {
-      "repo": "K-Dense-AI__scientific-agents",
       "ruleId": "OBL001",
       "severity": "warn",
       "file": "scientific-agents/cryo-em-structural-biologist/CLAUDE.md",
       "line": "",
       "message": "404 lines exceeds the 200-line budget for claude files (about 6463 tokens)."
-    },
-    {
-      "repo": "K-Dense-AI__scientific-agents",
-      "ruleId": "OBL011",
-      "severity": "info",
-      "file": "scientific-agents/cryo-em-structural-biologist/CLAUDE.md",
-      "line": "",
-      "message": "Exact copy of scientific-agents/cryo-em-structural-biologist/AGENTS.md."
     },
     {
       "repo": "K-Dense-AI__scientific-agents",
@@ -8470,27 +6870,11 @@
     },
     {
       "repo": "K-Dense-AI__scientific-agents",
-      "ruleId": "OBL011",
-      "severity": "info",
-      "file": "scientific-agents/cryptographer/CLAUDE.md",
-      "line": "",
-      "message": "Exact copy of scientific-agents/cryptographer/AGENTS.md."
-    },
-    {
-      "repo": "K-Dense-AI__scientific-agents",
       "ruleId": "OBL001",
       "severity": "warn",
       "file": "scientific-agents/cryptography-engineer/CLAUDE.md",
       "line": "",
       "message": "239 lines exceeds the 200-line budget for claude files (about 3936 tokens)."
-    },
-    {
-      "repo": "K-Dense-AI__scientific-agents",
-      "ruleId": "OBL011",
-      "severity": "info",
-      "file": "scientific-agents/cryptography-engineer/CLAUDE.md",
-      "line": "",
-      "message": "Exact copy of scientific-agents/cryptography-engineer/AGENTS.md."
     },
     {
       "repo": "K-Dense-AI__scientific-agents",
@@ -8502,22 +6886,6 @@
     },
     {
       "repo": "K-Dense-AI__scientific-agents",
-      "ruleId": "OBL011",
-      "severity": "info",
-      "file": "scientific-agents/crystal-growth-specialist/CLAUDE.md",
-      "line": "",
-      "message": "Exact copy of scientific-agents/crystal-growth-specialist/AGENTS.md."
-    },
-    {
-      "repo": "K-Dense-AI__scientific-agents",
-      "ruleId": "OBL011",
-      "severity": "info",
-      "file": "scientific-agents/crystallographer/CLAUDE.md",
-      "line": "",
-      "message": "Exact copy of scientific-agents/crystallographer/AGENTS.md."
-    },
-    {
-      "repo": "K-Dense-AI__scientific-agents",
       "ruleId": "OBL001",
       "severity": "warn",
       "file": "scientific-agents/cytogeneticist/CLAUDE.md",
@@ -8526,27 +6894,11 @@
     },
     {
       "repo": "K-Dense-AI__scientific-agents",
-      "ruleId": "OBL011",
-      "severity": "info",
-      "file": "scientific-agents/cytogeneticist/CLAUDE.md",
-      "line": "",
-      "message": "Exact copy of scientific-agents/cytogeneticist/AGENTS.md."
-    },
-    {
-      "repo": "K-Dense-AI__scientific-agents",
       "ruleId": "OBL026",
       "severity": "info",
       "file": "scientific-agents/dairy-scientist/AGENTS.md",
       "line": 3,
       "message": "Line is 656 characters long."
-    },
-    {
-      "repo": "K-Dense-AI__scientific-agents",
-      "ruleId": "OBL011",
-      "severity": "info",
-      "file": "scientific-agents/dairy-scientist/CLAUDE.md",
-      "line": "",
-      "message": "Exact copy of scientific-agents/dairy-scientist/AGENTS.md."
     },
     {
       "repo": "K-Dense-AI__scientific-agents",
@@ -8566,51 +6918,11 @@
     },
     {
       "repo": "K-Dense-AI__scientific-agents",
-      "ruleId": "OBL011",
-      "severity": "info",
-      "file": "scientific-agents/data-engineer/CLAUDE.md",
-      "line": "",
-      "message": "Exact copy of scientific-agents/data-engineer/AGENTS.md."
-    },
-    {
-      "repo": "K-Dense-AI__scientific-agents",
-      "ruleId": "OBL011",
-      "severity": "info",
-      "file": "scientific-agents/data-scientist/CLAUDE.md",
-      "line": "",
-      "message": "Exact copy of scientific-agents/data-scientist/AGENTS.md."
-    },
-    {
-      "repo": "K-Dense-AI__scientific-agents",
-      "ruleId": "OBL011",
-      "severity": "info",
-      "file": "scientific-agents/database-systems-researcher/CLAUDE.md",
-      "line": "",
-      "message": "Exact copy of scientific-agents/database-systems-researcher/AGENTS.md."
-    },
-    {
-      "repo": "K-Dense-AI__scientific-agents",
       "ruleId": "OBL001",
       "severity": "warn",
       "file": "scientific-agents/deep-learning-scientist/CLAUDE.md",
       "line": "",
       "message": "340 lines exceeds the 200-line budget for claude files (about 5469 tokens)."
-    },
-    {
-      "repo": "K-Dense-AI__scientific-agents",
-      "ruleId": "OBL011",
-      "severity": "info",
-      "file": "scientific-agents/deep-learning-scientist/CLAUDE.md",
-      "line": "",
-      "message": "Exact copy of scientific-agents/deep-learning-scientist/AGENTS.md."
-    },
-    {
-      "repo": "K-Dense-AI__scientific-agents",
-      "ruleId": "OBL011",
-      "severity": "info",
-      "file": "scientific-agents/dentist-scientist/CLAUDE.md",
-      "line": "",
-      "message": "Exact copy of scientific-agents/dentist-scientist/AGENTS.md."
     },
     {
       "repo": "K-Dense-AI__scientific-agents",
@@ -8622,27 +6934,11 @@
     },
     {
       "repo": "K-Dense-AI__scientific-agents",
-      "ruleId": "OBL011",
-      "severity": "info",
-      "file": "scientific-agents/dermatologist/CLAUDE.md",
-      "line": "",
-      "message": "Exact copy of scientific-agents/dermatologist/AGENTS.md."
-    },
-    {
-      "repo": "K-Dense-AI__scientific-agents",
       "ruleId": "OBL001",
       "severity": "warn",
       "file": "scientific-agents/developmental-biologist/CLAUDE.md",
       "line": "",
       "message": "334 lines exceeds the 200-line budget for claude files (about 5668 tokens)."
-    },
-    {
-      "repo": "K-Dense-AI__scientific-agents",
-      "ruleId": "OBL011",
-      "severity": "info",
-      "file": "scientific-agents/developmental-biologist/CLAUDE.md",
-      "line": "",
-      "message": "Exact copy of scientific-agents/developmental-biologist/AGENTS.md."
     },
     {
       "repo": "K-Dense-AI__scientific-agents",
@@ -8654,27 +6950,11 @@
     },
     {
       "repo": "K-Dense-AI__scientific-agents",
-      "ruleId": "OBL011",
-      "severity": "info",
-      "file": "scientific-agents/developmental-psychologist/CLAUDE.md",
-      "line": "",
-      "message": "Exact copy of scientific-agents/developmental-psychologist/AGENTS.md."
-    },
-    {
-      "repo": "K-Dense-AI__scientific-agents",
       "ruleId": "OBL001",
       "severity": "warn",
       "file": "scientific-agents/differential-geometer/CLAUDE.md",
       "line": "",
       "message": "289 lines exceeds the 200-line budget for claude files (about 5344 tokens)."
-    },
-    {
-      "repo": "K-Dense-AI__scientific-agents",
-      "ruleId": "OBL011",
-      "severity": "info",
-      "file": "scientific-agents/differential-geometer/CLAUDE.md",
-      "line": "",
-      "message": "Exact copy of scientific-agents/differential-geometer/AGENTS.md."
     },
     {
       "repo": "K-Dense-AI__scientific-agents",
@@ -8686,27 +6966,11 @@
     },
     {
       "repo": "K-Dense-AI__scientific-agents",
-      "ruleId": "OBL011",
-      "severity": "info",
-      "file": "scientific-agents/digital-pathology-scientist/CLAUDE.md",
-      "line": "",
-      "message": "Exact copy of scientific-agents/digital-pathology-scientist/AGENTS.md."
-    },
-    {
-      "repo": "K-Dense-AI__scientific-agents",
       "ruleId": "OBL001",
       "severity": "warn",
       "file": "scientific-agents/distributed-systems-researcher/CLAUDE.md",
       "line": "",
       "message": "229 lines exceeds the 200-line budget for claude files (about 4064 tokens)."
-    },
-    {
-      "repo": "K-Dense-AI__scientific-agents",
-      "ruleId": "OBL011",
-      "severity": "info",
-      "file": "scientific-agents/distributed-systems-researcher/CLAUDE.md",
-      "line": "",
-      "message": "Exact copy of scientific-agents/distributed-systems-researcher/AGENTS.md."
     },
     {
       "repo": "K-Dense-AI__scientific-agents",
@@ -8718,27 +6982,11 @@
     },
     {
       "repo": "K-Dense-AI__scientific-agents",
-      "ruleId": "OBL011",
-      "severity": "info",
-      "file": "scientific-agents/dynamical-systems-theorist/CLAUDE.md",
-      "line": "",
-      "message": "Exact copy of scientific-agents/dynamical-systems-theorist/AGENTS.md."
-    },
-    {
-      "repo": "K-Dense-AI__scientific-agents",
       "ruleId": "OBL001",
       "severity": "warn",
       "file": "scientific-agents/earthquake-engineer/CLAUDE.md",
       "line": "",
       "message": "263 lines exceeds the 200-line budget for claude files (about 4543 tokens)."
-    },
-    {
-      "repo": "K-Dense-AI__scientific-agents",
-      "ruleId": "OBL011",
-      "severity": "info",
-      "file": "scientific-agents/earthquake-engineer/CLAUDE.md",
-      "line": "",
-      "message": "Exact copy of scientific-agents/earthquake-engineer/AGENTS.md."
     },
     {
       "repo": "K-Dense-AI__scientific-agents",
@@ -8750,27 +6998,11 @@
     },
     {
       "repo": "K-Dense-AI__scientific-agents",
-      "ruleId": "OBL011",
-      "severity": "info",
-      "file": "scientific-agents/ecologist/CLAUDE.md",
-      "line": "",
-      "message": "Exact copy of scientific-agents/ecologist/AGENTS.md."
-    },
-    {
-      "repo": "K-Dense-AI__scientific-agents",
       "ruleId": "OBL001",
       "severity": "warn",
       "file": "scientific-agents/economic-geologist/CLAUDE.md",
       "line": "",
       "message": "247 lines exceeds the 200-line budget for claude files (about 4775 tokens)."
-    },
-    {
-      "repo": "K-Dense-AI__scientific-agents",
-      "ruleId": "OBL011",
-      "severity": "info",
-      "file": "scientific-agents/economic-geologist/CLAUDE.md",
-      "line": "",
-      "message": "Exact copy of scientific-agents/economic-geologist/AGENTS.md."
     },
     {
       "repo": "K-Dense-AI__scientific-agents",
@@ -8782,27 +7014,11 @@
     },
     {
       "repo": "K-Dense-AI__scientific-agents",
-      "ruleId": "OBL011",
-      "severity": "info",
-      "file": "scientific-agents/ecosystem-ecologist/CLAUDE.md",
-      "line": "",
-      "message": "Exact copy of scientific-agents/ecosystem-ecologist/AGENTS.md."
-    },
-    {
-      "repo": "K-Dense-AI__scientific-agents",
       "ruleId": "OBL001",
       "severity": "warn",
       "file": "scientific-agents/ecotoxicologist/CLAUDE.md",
       "line": "",
       "message": "252 lines exceeds the 200-line budget for claude files (about 4351 tokens)."
-    },
-    {
-      "repo": "K-Dense-AI__scientific-agents",
-      "ruleId": "OBL011",
-      "severity": "info",
-      "file": "scientific-agents/ecotoxicologist/CLAUDE.md",
-      "line": "",
-      "message": "Exact copy of scientific-agents/ecotoxicologist/AGENTS.md."
     },
     {
       "repo": "K-Dense-AI__scientific-agents",
@@ -8814,27 +7030,11 @@
     },
     {
       "repo": "K-Dense-AI__scientific-agents",
-      "ruleId": "OBL011",
-      "severity": "info",
-      "file": "scientific-agents/edge-embedded-ai-engineer/CLAUDE.md",
-      "line": "",
-      "message": "Exact copy of scientific-agents/edge-embedded-ai-engineer/AGENTS.md."
-    },
-    {
-      "repo": "K-Dense-AI__scientific-agents",
       "ruleId": "OBL001",
       "severity": "warn",
       "file": "scientific-agents/electric-machines-engineer/CLAUDE.md",
       "line": "",
       "message": "300 lines exceeds the 200-line budget for claude files (about 5664 tokens)."
-    },
-    {
-      "repo": "K-Dense-AI__scientific-agents",
-      "ruleId": "OBL011",
-      "severity": "info",
-      "file": "scientific-agents/electric-machines-engineer/CLAUDE.md",
-      "line": "",
-      "message": "Exact copy of scientific-agents/electric-machines-engineer/AGENTS.md."
     },
     {
       "repo": "K-Dense-AI__scientific-agents",
@@ -8846,27 +7046,11 @@
     },
     {
       "repo": "K-Dense-AI__scientific-agents",
-      "ruleId": "OBL011",
-      "severity": "info",
-      "file": "scientific-agents/electrical-engineer/CLAUDE.md",
-      "line": "",
-      "message": "Exact copy of scientific-agents/electrical-engineer/AGENTS.md."
-    },
-    {
-      "repo": "K-Dense-AI__scientific-agents",
       "ruleId": "OBL001",
       "severity": "warn",
       "file": "scientific-agents/electrochemist/CLAUDE.md",
       "line": "",
       "message": "310 lines exceeds the 200-line budget for claude files (about 5246 tokens)."
-    },
-    {
-      "repo": "K-Dense-AI__scientific-agents",
-      "ruleId": "OBL011",
-      "severity": "info",
-      "file": "scientific-agents/electrochemist/CLAUDE.md",
-      "line": "",
-      "message": "Exact copy of scientific-agents/electrochemist/AGENTS.md."
     },
     {
       "repo": "K-Dense-AI__scientific-agents",
@@ -8878,27 +7062,11 @@
     },
     {
       "repo": "K-Dense-AI__scientific-agents",
-      "ruleId": "OBL011",
-      "severity": "info",
-      "file": "scientific-agents/electromagnetics-engineer/CLAUDE.md",
-      "line": "",
-      "message": "Exact copy of scientific-agents/electromagnetics-engineer/AGENTS.md."
-    },
-    {
-      "repo": "K-Dense-AI__scientific-agents",
       "ruleId": "OBL001",
       "severity": "warn",
       "file": "scientific-agents/electronic-materials-engineer/CLAUDE.md",
       "line": "",
       "message": "238 lines exceeds the 200-line budget for claude files (about 4303 tokens)."
-    },
-    {
-      "repo": "K-Dense-AI__scientific-agents",
-      "ruleId": "OBL011",
-      "severity": "info",
-      "file": "scientific-agents/electronic-materials-engineer/CLAUDE.md",
-      "line": "",
-      "message": "Exact copy of scientific-agents/electronic-materials-engineer/AGENTS.md."
     },
     {
       "repo": "K-Dense-AI__scientific-agents",
@@ -8910,27 +7078,11 @@
     },
     {
       "repo": "K-Dense-AI__scientific-agents",
-      "ruleId": "OBL011",
-      "severity": "info",
-      "file": "scientific-agents/electronics-engineer/CLAUDE.md",
-      "line": "",
-      "message": "Exact copy of scientific-agents/electronics-engineer/AGENTS.md."
-    },
-    {
-      "repo": "K-Dense-AI__scientific-agents",
       "ruleId": "OBL001",
       "severity": "warn",
       "file": "scientific-agents/electrophysiologist/CLAUDE.md",
       "line": "",
       "message": "248 lines exceeds the 200-line budget for claude files (about 3970 tokens)."
-    },
-    {
-      "repo": "K-Dense-AI__scientific-agents",
-      "ruleId": "OBL011",
-      "severity": "info",
-      "file": "scientific-agents/electrophysiologist/CLAUDE.md",
-      "line": "",
-      "message": "Exact copy of scientific-agents/electrophysiologist/AGENTS.md."
     },
     {
       "repo": "K-Dense-AI__scientific-agents",
@@ -8942,27 +7094,11 @@
     },
     {
       "repo": "K-Dense-AI__scientific-agents",
-      "ruleId": "OBL011",
-      "severity": "info",
-      "file": "scientific-agents/embedded-systems-engineer/CLAUDE.md",
-      "line": "",
-      "message": "Exact copy of scientific-agents/embedded-systems-engineer/AGENTS.md."
-    },
-    {
-      "repo": "K-Dense-AI__scientific-agents",
       "ruleId": "OBL001",
       "severity": "warn",
       "file": "scientific-agents/emergency-medicine-researcher/CLAUDE.md",
       "line": "",
       "message": "223 lines exceeds the 200-line budget for claude files (about 4078 tokens)."
-    },
-    {
-      "repo": "K-Dense-AI__scientific-agents",
-      "ruleId": "OBL011",
-      "severity": "info",
-      "file": "scientific-agents/emergency-medicine-researcher/CLAUDE.md",
-      "line": "",
-      "message": "Exact copy of scientific-agents/emergency-medicine-researcher/AGENTS.md."
     },
     {
       "repo": "K-Dense-AI__scientific-agents",
@@ -8974,27 +7110,11 @@
     },
     {
       "repo": "K-Dense-AI__scientific-agents",
-      "ruleId": "OBL011",
-      "severity": "info",
-      "file": "scientific-agents/endocrinologist/CLAUDE.md",
-      "line": "",
-      "message": "Exact copy of scientific-agents/endocrinologist/AGENTS.md."
-    },
-    {
-      "repo": "K-Dense-AI__scientific-agents",
       "ruleId": "OBL001",
       "severity": "warn",
       "file": "scientific-agents/energy-storage-battery-scientist/CLAUDE.md",
       "line": "",
       "message": "286 lines exceeds the 200-line budget for claude files (about 5783 tokens)."
-    },
-    {
-      "repo": "K-Dense-AI__scientific-agents",
-      "ruleId": "OBL011",
-      "severity": "info",
-      "file": "scientific-agents/energy-storage-battery-scientist/CLAUDE.md",
-      "line": "",
-      "message": "Exact copy of scientific-agents/energy-storage-battery-scientist/AGENTS.md."
     },
     {
       "repo": "K-Dense-AI__scientific-agents",
@@ -9006,27 +7126,11 @@
     },
     {
       "repo": "K-Dense-AI__scientific-agents",
-      "ruleId": "OBL011",
-      "severity": "info",
-      "file": "scientific-agents/energy-systems-engineer/CLAUDE.md",
-      "line": "",
-      "message": "Exact copy of scientific-agents/energy-systems-engineer/AGENTS.md."
-    },
-    {
-      "repo": "K-Dense-AI__scientific-agents",
       "ruleId": "OBL001",
       "severity": "warn",
       "file": "scientific-agents/entomologist/CLAUDE.md",
       "line": "",
       "message": "300 lines exceeds the 200-line budget for claude files (about 5529 tokens)."
-    },
-    {
-      "repo": "K-Dense-AI__scientific-agents",
-      "ruleId": "OBL011",
-      "severity": "info",
-      "file": "scientific-agents/entomologist/CLAUDE.md",
-      "line": "",
-      "message": "Exact copy of scientific-agents/entomologist/AGENTS.md."
     },
     {
       "repo": "K-Dense-AI__scientific-agents",
@@ -9038,35 +7142,11 @@
     },
     {
       "repo": "K-Dense-AI__scientific-agents",
-      "ruleId": "OBL011",
-      "severity": "info",
-      "file": "scientific-agents/environmental-chemist/CLAUDE.md",
-      "line": "",
-      "message": "Exact copy of scientific-agents/environmental-chemist/AGENTS.md."
-    },
-    {
-      "repo": "K-Dense-AI__scientific-agents",
-      "ruleId": "OBL011",
-      "severity": "info",
-      "file": "scientific-agents/environmental-engineer/CLAUDE.md",
-      "line": "",
-      "message": "Exact copy of scientific-agents/environmental-engineer/AGENTS.md."
-    },
-    {
-      "repo": "K-Dense-AI__scientific-agents",
       "ruleId": "OBL001",
       "severity": "warn",
       "file": "scientific-agents/environmental-health-scientist/CLAUDE.md",
       "line": "",
       "message": "279 lines exceeds the 200-line budget for claude files (about 4626 tokens)."
-    },
-    {
-      "repo": "K-Dense-AI__scientific-agents",
-      "ruleId": "OBL011",
-      "severity": "info",
-      "file": "scientific-agents/environmental-health-scientist/CLAUDE.md",
-      "line": "",
-      "message": "Exact copy of scientific-agents/environmental-health-scientist/AGENTS.md."
     },
     {
       "repo": "K-Dense-AI__scientific-agents",
@@ -9078,27 +7158,11 @@
     },
     {
       "repo": "K-Dense-AI__scientific-agents",
-      "ruleId": "OBL011",
-      "severity": "info",
-      "file": "scientific-agents/environmental-microbiologist/CLAUDE.md",
-      "line": "",
-      "message": "Exact copy of scientific-agents/environmental-microbiologist/AGENTS.md."
-    },
-    {
-      "repo": "K-Dense-AI__scientific-agents",
       "ruleId": "OBL001",
       "severity": "warn",
       "file": "scientific-agents/environmental-policy-analyst/CLAUDE.md",
       "line": "",
       "message": "374 lines exceeds the 200-line budget for claude files (about 6851 tokens)."
-    },
-    {
-      "repo": "K-Dense-AI__scientific-agents",
-      "ruleId": "OBL011",
-      "severity": "info",
-      "file": "scientific-agents/environmental-policy-analyst/CLAUDE.md",
-      "line": "",
-      "message": "Exact copy of scientific-agents/environmental-policy-analyst/AGENTS.md."
     },
     {
       "repo": "K-Dense-AI__scientific-agents",
@@ -9110,27 +7174,11 @@
     },
     {
       "repo": "K-Dense-AI__scientific-agents",
-      "ruleId": "OBL011",
-      "severity": "info",
-      "file": "scientific-agents/environmental-scientist/CLAUDE.md",
-      "line": "",
-      "message": "Exact copy of scientific-agents/environmental-scientist/AGENTS.md."
-    },
-    {
-      "repo": "K-Dense-AI__scientific-agents",
       "ruleId": "OBL001",
       "severity": "warn",
       "file": "scientific-agents/enzymologist/CLAUDE.md",
       "line": "",
       "message": "306 lines exceeds the 200-line budget for claude files (about 5244 tokens)."
-    },
-    {
-      "repo": "K-Dense-AI__scientific-agents",
-      "ruleId": "OBL011",
-      "severity": "info",
-      "file": "scientific-agents/enzymologist/CLAUDE.md",
-      "line": "",
-      "message": "Exact copy of scientific-agents/enzymologist/AGENTS.md."
     },
     {
       "repo": "K-Dense-AI__scientific-agents",
@@ -9142,27 +7190,11 @@
     },
     {
       "repo": "K-Dense-AI__scientific-agents",
-      "ruleId": "OBL011",
-      "severity": "info",
-      "file": "scientific-agents/epidemiologist/CLAUDE.md",
-      "line": "",
-      "message": "Exact copy of scientific-agents/epidemiologist/AGENTS.md."
-    },
-    {
-      "repo": "K-Dense-AI__scientific-agents",
       "ruleId": "OBL001",
       "severity": "warn",
       "file": "scientific-agents/epigeneticist/CLAUDE.md",
       "line": "",
       "message": "471 lines exceeds the 200-line budget for claude files (about 7383 tokens)."
-    },
-    {
-      "repo": "K-Dense-AI__scientific-agents",
-      "ruleId": "OBL011",
-      "severity": "info",
-      "file": "scientific-agents/epigeneticist/CLAUDE.md",
-      "line": "",
-      "message": "Exact copy of scientific-agents/epigeneticist/AGENTS.md."
     },
     {
       "repo": "K-Dense-AI__scientific-agents",
@@ -9174,27 +7206,11 @@
     },
     {
       "repo": "K-Dense-AI__scientific-agents",
-      "ruleId": "OBL011",
-      "severity": "info",
-      "file": "scientific-agents/ethologist/CLAUDE.md",
-      "line": "",
-      "message": "Exact copy of scientific-agents/ethologist/AGENTS.md."
-    },
-    {
-      "repo": "K-Dense-AI__scientific-agents",
       "ruleId": "OBL001",
       "severity": "warn",
       "file": "scientific-agents/evolutionary-biologist/CLAUDE.md",
       "line": "",
       "message": "289 lines exceeds the 200-line budget for claude files (about 5274 tokens)."
-    },
-    {
-      "repo": "K-Dense-AI__scientific-agents",
-      "ruleId": "OBL011",
-      "severity": "info",
-      "file": "scientific-agents/evolutionary-biologist/CLAUDE.md",
-      "line": "",
-      "message": "Exact copy of scientific-agents/evolutionary-biologist/AGENTS.md."
     },
     {
       "repo": "K-Dense-AI__scientific-agents",
@@ -9206,27 +7222,11 @@
     },
     {
       "repo": "K-Dense-AI__scientific-agents",
-      "ruleId": "OBL011",
-      "severity": "info",
-      "file": "scientific-agents/exercise-physiologist/CLAUDE.md",
-      "line": "",
-      "message": "Exact copy of scientific-agents/exercise-physiologist/AGENTS.md."
-    },
-    {
-      "repo": "K-Dense-AI__scientific-agents",
       "ruleId": "OBL001",
       "severity": "warn",
       "file": "scientific-agents/exoplanet-scientist/CLAUDE.md",
       "line": "",
       "message": "252 lines exceeds the 200-line budget for claude files (about 3782 tokens)."
-    },
-    {
-      "repo": "K-Dense-AI__scientific-agents",
-      "ruleId": "OBL011",
-      "severity": "info",
-      "file": "scientific-agents/exoplanet-scientist/CLAUDE.md",
-      "line": "",
-      "message": "Exact copy of scientific-agents/exoplanet-scientist/AGENTS.md."
     },
     {
       "repo": "K-Dense-AI__scientific-agents",
@@ -9246,14 +7246,6 @@
     },
     {
       "repo": "K-Dense-AI__scientific-agents",
-      "ruleId": "OBL011",
-      "severity": "info",
-      "file": "scientific-agents/experimental-physicist/CLAUDE.md",
-      "line": "",
-      "message": "Exact copy of scientific-agents/experimental-physicist/AGENTS.md."
-    },
-    {
-      "repo": "K-Dense-AI__scientific-agents",
       "ruleId": "OBL026",
       "severity": "info",
       "file": "scientific-agents/experimental-physicist/CLAUDE.md",
@@ -9270,35 +7262,11 @@
     },
     {
       "repo": "K-Dense-AI__scientific-agents",
-      "ruleId": "OBL011",
-      "severity": "info",
-      "file": "scientific-agents/extremophile-biologist/CLAUDE.md",
-      "line": "",
-      "message": "Exact copy of scientific-agents/extremophile-biologist/AGENTS.md."
-    },
-    {
-      "repo": "K-Dense-AI__scientific-agents",
       "ruleId": "OBL001",
       "severity": "warn",
       "file": "scientific-agents/fermentation-scientist/CLAUDE.md",
       "line": "",
       "message": "314 lines exceeds the 200-line budget for claude files (about 5438 tokens)."
-    },
-    {
-      "repo": "K-Dense-AI__scientific-agents",
-      "ruleId": "OBL011",
-      "severity": "info",
-      "file": "scientific-agents/fermentation-scientist/CLAUDE.md",
-      "line": "",
-      "message": "Exact copy of scientific-agents/fermentation-scientist/AGENTS.md."
-    },
-    {
-      "repo": "K-Dense-AI__scientific-agents",
-      "ruleId": "OBL011",
-      "severity": "info",
-      "file": "scientific-agents/finite-element-analyst/CLAUDE.md",
-      "line": "",
-      "message": "Exact copy of scientific-agents/finite-element-analyst/AGENTS.md."
     },
     {
       "repo": "K-Dense-AI__scientific-agents",
@@ -9310,14 +7278,6 @@
     },
     {
       "repo": "K-Dense-AI__scientific-agents",
-      "ruleId": "OBL011",
-      "severity": "info",
-      "file": "scientific-agents/fire-protection-engineer/CLAUDE.md",
-      "line": "",
-      "message": "Exact copy of scientific-agents/fire-protection-engineer/AGENTS.md."
-    },
-    {
-      "repo": "K-Dense-AI__scientific-agents",
       "ruleId": "OBL001",
       "severity": "warn",
       "file": "scientific-agents/fisheries-scientist/CLAUDE.md",
@@ -9326,27 +7286,11 @@
     },
     {
       "repo": "K-Dense-AI__scientific-agents",
-      "ruleId": "OBL011",
-      "severity": "info",
-      "file": "scientific-agents/fisheries-scientist/CLAUDE.md",
-      "line": "",
-      "message": "Exact copy of scientific-agents/fisheries-scientist/AGENTS.md."
-    },
-    {
-      "repo": "K-Dense-AI__scientific-agents",
       "ruleId": "OBL001",
       "severity": "warn",
       "file": "scientific-agents/flavor-fragrance-chemist/CLAUDE.md",
       "line": "",
       "message": "217 lines exceeds the 200-line budget for claude files (about 4103 tokens)."
-    },
-    {
-      "repo": "K-Dense-AI__scientific-agents",
-      "ruleId": "OBL011",
-      "severity": "info",
-      "file": "scientific-agents/flavor-fragrance-chemist/CLAUDE.md",
-      "line": "",
-      "message": "Exact copy of scientific-agents/flavor-fragrance-chemist/AGENTS.md."
     },
     {
       "repo": "K-Dense-AI__scientific-agents",
@@ -9366,14 +7310,6 @@
     },
     {
       "repo": "K-Dense-AI__scientific-agents",
-      "ruleId": "OBL011",
-      "severity": "info",
-      "file": "scientific-agents/fluid-dynamicist/CLAUDE.md",
-      "line": "",
-      "message": "Exact copy of scientific-agents/fluid-dynamicist/AGENTS.md."
-    },
-    {
-      "repo": "K-Dense-AI__scientific-agents",
       "ruleId": "OBL004",
       "severity": "warn",
       "file": "scientific-agents/fluid-dynamicist/CLAUDE.md",
@@ -9390,35 +7326,11 @@
     },
     {
       "repo": "K-Dense-AI__scientific-agents",
-      "ruleId": "OBL011",
-      "severity": "info",
-      "file": "scientific-agents/fluid-mechanics-engineer/CLAUDE.md",
-      "line": "",
-      "message": "Exact copy of scientific-agents/fluid-mechanics-engineer/AGENTS.md."
-    },
-    {
-      "repo": "K-Dense-AI__scientific-agents",
-      "ruleId": "OBL011",
-      "severity": "info",
-      "file": "scientific-agents/food-chemist/CLAUDE.md",
-      "line": "",
-      "message": "Exact copy of scientific-agents/food-chemist/AGENTS.md."
-    },
-    {
-      "repo": "K-Dense-AI__scientific-agents",
       "ruleId": "OBL001",
       "severity": "warn",
       "file": "scientific-agents/food-engineer/CLAUDE.md",
       "line": "",
       "message": "289 lines exceeds the 200-line budget for claude files (about 4724 tokens)."
-    },
-    {
-      "repo": "K-Dense-AI__scientific-agents",
-      "ruleId": "OBL011",
-      "severity": "info",
-      "file": "scientific-agents/food-engineer/CLAUDE.md",
-      "line": "",
-      "message": "Exact copy of scientific-agents/food-engineer/AGENTS.md."
     },
     {
       "repo": "K-Dense-AI__scientific-agents",
@@ -9430,27 +7342,11 @@
     },
     {
       "repo": "K-Dense-AI__scientific-agents",
-      "ruleId": "OBL011",
-      "severity": "info",
-      "file": "scientific-agents/food-microbiologist/CLAUDE.md",
-      "line": "",
-      "message": "Exact copy of scientific-agents/food-microbiologist/AGENTS.md."
-    },
-    {
-      "repo": "K-Dense-AI__scientific-agents",
       "ruleId": "OBL001",
       "severity": "warn",
       "file": "scientific-agents/food-scientist/CLAUDE.md",
       "line": "",
       "message": "327 lines exceeds the 200-line budget for claude files (about 5259 tokens)."
-    },
-    {
-      "repo": "K-Dense-AI__scientific-agents",
-      "ruleId": "OBL011",
-      "severity": "info",
-      "file": "scientific-agents/food-scientist/CLAUDE.md",
-      "line": "",
-      "message": "Exact copy of scientific-agents/food-scientist/AGENTS.md."
     },
     {
       "repo": "K-Dense-AI__scientific-agents",
@@ -9462,27 +7358,11 @@
     },
     {
       "repo": "K-Dense-AI__scientific-agents",
-      "ruleId": "OBL011",
-      "severity": "info",
-      "file": "scientific-agents/forensic-chemist/CLAUDE.md",
-      "line": "",
-      "message": "Exact copy of scientific-agents/forensic-chemist/AGENTS.md."
-    },
-    {
-      "repo": "K-Dense-AI__scientific-agents",
       "ruleId": "OBL001",
       "severity": "warn",
       "file": "scientific-agents/forestry-scientist/CLAUDE.md",
       "line": "",
       "message": "307 lines exceeds the 200-line budget for claude files (about 5616 tokens)."
-    },
-    {
-      "repo": "K-Dense-AI__scientific-agents",
-      "ruleId": "OBL011",
-      "severity": "info",
-      "file": "scientific-agents/forestry-scientist/CLAUDE.md",
-      "line": "",
-      "message": "Exact copy of scientific-agents/forestry-scientist/AGENTS.md."
     },
     {
       "repo": "K-Dense-AI__scientific-agents",
@@ -9494,27 +7374,11 @@
     },
     {
       "repo": "K-Dense-AI__scientific-agents",
-      "ruleId": "OBL011",
-      "severity": "info",
-      "file": "scientific-agents/formal-methods-researcher/CLAUDE.md",
-      "line": "",
-      "message": "Exact copy of scientific-agents/formal-methods-researcher/AGENTS.md."
-    },
-    {
-      "repo": "K-Dense-AI__scientific-agents",
       "ruleId": "OBL001",
       "severity": "warn",
       "file": "scientific-agents/foundation-engineer/CLAUDE.md",
       "line": "",
       "message": "263 lines exceeds the 200-line budget for claude files (about 5003 tokens)."
-    },
-    {
-      "repo": "K-Dense-AI__scientific-agents",
-      "ruleId": "OBL011",
-      "severity": "info",
-      "file": "scientific-agents/foundation-engineer/CLAUDE.md",
-      "line": "",
-      "message": "Exact copy of scientific-agents/foundation-engineer/AGENTS.md."
     },
     {
       "repo": "K-Dense-AI__scientific-agents",
@@ -9526,27 +7390,11 @@
     },
     {
       "repo": "K-Dense-AI__scientific-agents",
-      "ruleId": "OBL011",
-      "severity": "info",
-      "file": "scientific-agents/fpga-engineer/CLAUDE.md",
-      "line": "",
-      "message": "Exact copy of scientific-agents/fpga-engineer/AGENTS.md."
-    },
-    {
-      "repo": "K-Dense-AI__scientific-agents",
       "ruleId": "OBL001",
       "severity": "warn",
       "file": "scientific-agents/functional-genomics-scientist/CLAUDE.md",
       "line": "",
       "message": "362 lines exceeds the 200-line budget for claude files (about 5552 tokens)."
-    },
-    {
-      "repo": "K-Dense-AI__scientific-agents",
-      "ruleId": "OBL011",
-      "severity": "info",
-      "file": "scientific-agents/functional-genomics-scientist/CLAUDE.md",
-      "line": "",
-      "message": "Exact copy of scientific-agents/functional-genomics-scientist/AGENTS.md."
     },
     {
       "repo": "K-Dense-AI__scientific-agents",
@@ -9558,43 +7406,11 @@
     },
     {
       "repo": "K-Dense-AI__scientific-agents",
-      "ruleId": "OBL011",
-      "severity": "info",
-      "file": "scientific-agents/fusion-scientist/CLAUDE.md",
-      "line": "",
-      "message": "Exact copy of scientific-agents/fusion-scientist/AGENTS.md."
-    },
-    {
-      "repo": "K-Dense-AI__scientific-agents",
-      "ruleId": "OBL011",
-      "severity": "info",
-      "file": "scientific-agents/galactic-astronomer/CLAUDE.md",
-      "line": "",
-      "message": "Exact copy of scientific-agents/galactic-astronomer/AGENTS.md."
-    },
-    {
-      "repo": "K-Dense-AI__scientific-agents",
       "ruleId": "OBL001",
       "severity": "warn",
       "file": "scientific-agents/gene-therapy-scientist/CLAUDE.md",
       "line": "",
       "message": "205 lines exceeds the 200-line budget for claude files (about 3167 tokens)."
-    },
-    {
-      "repo": "K-Dense-AI__scientific-agents",
-      "ruleId": "OBL011",
-      "severity": "info",
-      "file": "scientific-agents/gene-therapy-scientist/CLAUDE.md",
-      "line": "",
-      "message": "Exact copy of scientific-agents/gene-therapy-scientist/AGENTS.md."
-    },
-    {
-      "repo": "K-Dense-AI__scientific-agents",
-      "ruleId": "OBL011",
-      "severity": "info",
-      "file": "scientific-agents/genetic-counselor/CLAUDE.md",
-      "line": "",
-      "message": "Exact copy of scientific-agents/genetic-counselor/AGENTS.md."
     },
     {
       "repo": "K-Dense-AI__scientific-agents",
@@ -9606,27 +7422,11 @@
     },
     {
       "repo": "K-Dense-AI__scientific-agents",
-      "ruleId": "OBL011",
-      "severity": "info",
-      "file": "scientific-agents/geneticist/CLAUDE.md",
-      "line": "",
-      "message": "Exact copy of scientific-agents/geneticist/AGENTS.md."
-    },
-    {
-      "repo": "K-Dense-AI__scientific-agents",
       "ruleId": "OBL001",
       "severity": "warn",
       "file": "scientific-agents/genome-engineering-crispr-scientist/CLAUDE.md",
       "line": "",
       "message": "401 lines exceeds the 200-line budget for claude files (about 6123 tokens)."
-    },
-    {
-      "repo": "K-Dense-AI__scientific-agents",
-      "ruleId": "OBL011",
-      "severity": "info",
-      "file": "scientific-agents/genome-engineering-crispr-scientist/CLAUDE.md",
-      "line": "",
-      "message": "Exact copy of scientific-agents/genome-engineering-crispr-scientist/AGENTS.md."
     },
     {
       "repo": "K-Dense-AI__scientific-agents",
@@ -9638,27 +7438,11 @@
     },
     {
       "repo": "K-Dense-AI__scientific-agents",
-      "ruleId": "OBL011",
-      "severity": "info",
-      "file": "scientific-agents/genomicist/CLAUDE.md",
-      "line": "",
-      "message": "Exact copy of scientific-agents/genomicist/AGENTS.md."
-    },
-    {
-      "repo": "K-Dense-AI__scientific-agents",
       "ruleId": "OBL001",
       "severity": "warn",
       "file": "scientific-agents/geobiologist/CLAUDE.md",
       "line": "",
       "message": "257 lines exceeds the 200-line budget for claude files (about 4866 tokens)."
-    },
-    {
-      "repo": "K-Dense-AI__scientific-agents",
-      "ruleId": "OBL011",
-      "severity": "info",
-      "file": "scientific-agents/geobiologist/CLAUDE.md",
-      "line": "",
-      "message": "Exact copy of scientific-agents/geobiologist/AGENTS.md."
     },
     {
       "repo": "K-Dense-AI__scientific-agents",
@@ -9670,14 +7454,6 @@
     },
     {
       "repo": "K-Dense-AI__scientific-agents",
-      "ruleId": "OBL011",
-      "severity": "info",
-      "file": "scientific-agents/geochemist/CLAUDE.md",
-      "line": "",
-      "message": "Exact copy of scientific-agents/geochemist/AGENTS.md."
-    },
-    {
-      "repo": "K-Dense-AI__scientific-agents",
       "ruleId": "OBL001",
       "severity": "warn",
       "file": "scientific-agents/geodesist/CLAUDE.md",
@@ -9686,27 +7462,11 @@
     },
     {
       "repo": "K-Dense-AI__scientific-agents",
-      "ruleId": "OBL011",
-      "severity": "info",
-      "file": "scientific-agents/geodesist/CLAUDE.md",
-      "line": "",
-      "message": "Exact copy of scientific-agents/geodesist/AGENTS.md."
-    },
-    {
-      "repo": "K-Dense-AI__scientific-agents",
       "ruleId": "OBL001",
       "severity": "warn",
       "file": "scientific-agents/geodynamics-tectonics-scientist/CLAUDE.md",
       "line": "",
       "message": "283 lines exceeds the 200-line budget for claude files (about 4686 tokens)."
-    },
-    {
-      "repo": "K-Dense-AI__scientific-agents",
-      "ruleId": "OBL011",
-      "severity": "info",
-      "file": "scientific-agents/geodynamics-tectonics-scientist/CLAUDE.md",
-      "line": "",
-      "message": "Exact copy of scientific-agents/geodynamics-tectonics-scientist/AGENTS.md."
     },
     {
       "repo": "K-Dense-AI__scientific-agents",
@@ -9726,14 +7486,6 @@
     },
     {
       "repo": "K-Dense-AI__scientific-agents",
-      "ruleId": "OBL011",
-      "severity": "info",
-      "file": "scientific-agents/geographic-information-scientist-gis/CLAUDE.md",
-      "line": "",
-      "message": "Exact copy of scientific-agents/geographic-information-scientist-gis/AGENTS.md."
-    },
-    {
-      "repo": "K-Dense-AI__scientific-agents",
       "ruleId": "OBL004",
       "severity": "warn",
       "file": "scientific-agents/geographic-information-scientist-gis/CLAUDE.md",
@@ -9750,27 +7502,11 @@
     },
     {
       "repo": "K-Dense-AI__scientific-agents",
-      "ruleId": "OBL011",
-      "severity": "info",
-      "file": "scientific-agents/geological-oceanographer/CLAUDE.md",
-      "line": "",
-      "message": "Exact copy of scientific-agents/geological-oceanographer/AGENTS.md."
-    },
-    {
-      "repo": "K-Dense-AI__scientific-agents",
       "ruleId": "OBL001",
       "severity": "warn",
       "file": "scientific-agents/geologist/CLAUDE.md",
       "line": "",
       "message": "291 lines exceeds the 200-line budget for claude files (about 4532 tokens)."
-    },
-    {
-      "repo": "K-Dense-AI__scientific-agents",
-      "ruleId": "OBL011",
-      "severity": "info",
-      "file": "scientific-agents/geologist/CLAUDE.md",
-      "line": "",
-      "message": "Exact copy of scientific-agents/geologist/AGENTS.md."
     },
     {
       "repo": "K-Dense-AI__scientific-agents",
@@ -9782,43 +7518,11 @@
     },
     {
       "repo": "K-Dense-AI__scientific-agents",
-      "ruleId": "OBL011",
-      "severity": "info",
-      "file": "scientific-agents/geomagnetist/CLAUDE.md",
-      "line": "",
-      "message": "Exact copy of scientific-agents/geomagnetist/AGENTS.md."
-    },
-    {
-      "repo": "K-Dense-AI__scientific-agents",
-      "ruleId": "OBL011",
-      "severity": "info",
-      "file": "scientific-agents/geomorphologist/CLAUDE.md",
-      "line": "",
-      "message": "Exact copy of scientific-agents/geomorphologist/AGENTS.md."
-    },
-    {
-      "repo": "K-Dense-AI__scientific-agents",
-      "ruleId": "OBL011",
-      "severity": "info",
-      "file": "scientific-agents/geophysicist/CLAUDE.md",
-      "line": "",
-      "message": "Exact copy of scientific-agents/geophysicist/AGENTS.md."
-    },
-    {
-      "repo": "K-Dense-AI__scientific-agents",
       "ruleId": "OBL001",
       "severity": "warn",
       "file": "scientific-agents/geotechnical-engineer/CLAUDE.md",
       "line": "",
       "message": "288 lines exceeds the 200-line budget for claude files (about 5503 tokens)."
-    },
-    {
-      "repo": "K-Dense-AI__scientific-agents",
-      "ruleId": "OBL011",
-      "severity": "info",
-      "file": "scientific-agents/geotechnical-engineer/CLAUDE.md",
-      "line": "",
-      "message": "Exact copy of scientific-agents/geotechnical-engineer/AGENTS.md."
     },
     {
       "repo": "K-Dense-AI__scientific-agents",
@@ -9830,35 +7534,11 @@
     },
     {
       "repo": "K-Dense-AI__scientific-agents",
-      "ruleId": "OBL011",
-      "severity": "info",
-      "file": "scientific-agents/geotechnical-scientist/CLAUDE.md",
-      "line": "",
-      "message": "Exact copy of scientific-agents/geotechnical-scientist/AGENTS.md."
-    },
-    {
-      "repo": "K-Dense-AI__scientific-agents",
-      "ruleId": "OBL011",
-      "severity": "info",
-      "file": "scientific-agents/gerontologist/CLAUDE.md",
-      "line": "",
-      "message": "Exact copy of scientific-agents/gerontologist/AGENTS.md."
-    },
-    {
-      "repo": "K-Dense-AI__scientific-agents",
       "ruleId": "OBL001",
       "severity": "warn",
       "file": "scientific-agents/glaciologist/CLAUDE.md",
       "line": "",
       "message": "276 lines exceeds the 200-line budget for claude files (about 5121 tokens)."
-    },
-    {
-      "repo": "K-Dense-AI__scientific-agents",
-      "ruleId": "OBL011",
-      "severity": "info",
-      "file": "scientific-agents/glaciologist/CLAUDE.md",
-      "line": "",
-      "message": "Exact copy of scientific-agents/glaciologist/AGENTS.md."
     },
     {
       "repo": "K-Dense-AI__scientific-agents",
@@ -9870,27 +7550,11 @@
     },
     {
       "repo": "K-Dense-AI__scientific-agents",
-      "ruleId": "OBL011",
-      "severity": "info",
-      "file": "scientific-agents/global-health-researcher/CLAUDE.md",
-      "line": "",
-      "message": "Exact copy of scientific-agents/global-health-researcher/AGENTS.md."
-    },
-    {
-      "repo": "K-Dense-AI__scientific-agents",
       "ruleId": "OBL001",
       "severity": "warn",
       "file": "scientific-agents/glycobiologist/CLAUDE.md",
       "line": "",
       "message": "289 lines exceeds the 200-line budget for claude files (about 5040 tokens)."
-    },
-    {
-      "repo": "K-Dense-AI__scientific-agents",
-      "ruleId": "OBL011",
-      "severity": "info",
-      "file": "scientific-agents/glycobiologist/CLAUDE.md",
-      "line": "",
-      "message": "Exact copy of scientific-agents/glycobiologist/AGENTS.md."
     },
     {
       "repo": "K-Dense-AI__scientific-agents",
@@ -9902,35 +7566,11 @@
     },
     {
       "repo": "K-Dense-AI__scientific-agents",
-      "ruleId": "OBL011",
-      "severity": "info",
-      "file": "scientific-agents/gravitational-physicist/CLAUDE.md",
-      "line": "",
-      "message": "Exact copy of scientific-agents/gravitational-physicist/AGENTS.md."
-    },
-    {
-      "repo": "K-Dense-AI__scientific-agents",
-      "ruleId": "OBL011",
-      "severity": "info",
-      "file": "scientific-agents/gravitational-wave-astronomer/CLAUDE.md",
-      "line": "",
-      "message": "Exact copy of scientific-agents/gravitational-wave-astronomer/AGENTS.md."
-    },
-    {
-      "repo": "K-Dense-AI__scientific-agents",
       "ruleId": "OBL001",
       "severity": "warn",
       "file": "scientific-agents/green-chemist/CLAUDE.md",
       "line": "",
       "message": "324 lines exceeds the 200-line budget for claude files (about 5238 tokens)."
-    },
-    {
-      "repo": "K-Dense-AI__scientific-agents",
-      "ruleId": "OBL011",
-      "severity": "info",
-      "file": "scientific-agents/green-chemist/CLAUDE.md",
-      "line": "",
-      "message": "Exact copy of scientific-agents/green-chemist/AGENTS.md."
     },
     {
       "repo": "K-Dense-AI__scientific-agents",
@@ -9942,27 +7582,11 @@
     },
     {
       "repo": "K-Dense-AI__scientific-agents",
-      "ruleId": "OBL011",
-      "severity": "info",
-      "file": "scientific-agents/health-economist/CLAUDE.md",
-      "line": "",
-      "message": "Exact copy of scientific-agents/health-economist/AGENTS.md."
-    },
-    {
-      "repo": "K-Dense-AI__scientific-agents",
       "ruleId": "OBL001",
       "severity": "warn",
       "file": "scientific-agents/health-informatician/CLAUDE.md",
       "line": "",
       "message": "246 lines exceeds the 200-line budget for claude files (about 3983 tokens)."
-    },
-    {
-      "repo": "K-Dense-AI__scientific-agents",
-      "ruleId": "OBL011",
-      "severity": "info",
-      "file": "scientific-agents/health-informatician/CLAUDE.md",
-      "line": "",
-      "message": "Exact copy of scientific-agents/health-informatician/AGENTS.md."
     },
     {
       "repo": "K-Dense-AI__scientific-agents",
@@ -9974,27 +7598,11 @@
     },
     {
       "repo": "K-Dense-AI__scientific-agents",
-      "ruleId": "OBL011",
-      "severity": "info",
-      "file": "scientific-agents/heat-transfer-engineer/CLAUDE.md",
-      "line": "",
-      "message": "Exact copy of scientific-agents/heat-transfer-engineer/AGENTS.md."
-    },
-    {
-      "repo": "K-Dense-AI__scientific-agents",
       "ruleId": "OBL001",
       "severity": "warn",
       "file": "scientific-agents/heliophysicist/CLAUDE.md",
       "line": "",
       "message": "220 lines exceeds the 200-line budget for claude files (about 3810 tokens)."
-    },
-    {
-      "repo": "K-Dense-AI__scientific-agents",
-      "ruleId": "OBL011",
-      "severity": "info",
-      "file": "scientific-agents/heliophysicist/CLAUDE.md",
-      "line": "",
-      "message": "Exact copy of scientific-agents/heliophysicist/AGENTS.md."
     },
     {
       "repo": "K-Dense-AI__scientific-agents",
@@ -10006,27 +7614,11 @@
     },
     {
       "repo": "K-Dense-AI__scientific-agents",
-      "ruleId": "OBL011",
-      "severity": "info",
-      "file": "scientific-agents/hematologist/CLAUDE.md",
-      "line": "",
-      "message": "Exact copy of scientific-agents/hematologist/AGENTS.md."
-    },
-    {
-      "repo": "K-Dense-AI__scientific-agents",
       "ruleId": "OBL001",
       "severity": "warn",
       "file": "scientific-agents/hepatologist/CLAUDE.md",
       "line": "",
       "message": "277 lines exceeds the 200-line budget for claude files (about 4911 tokens)."
-    },
-    {
-      "repo": "K-Dense-AI__scientific-agents",
-      "ruleId": "OBL011",
-      "severity": "info",
-      "file": "scientific-agents/hepatologist/CLAUDE.md",
-      "line": "",
-      "message": "Exact copy of scientific-agents/hepatologist/AGENTS.md."
     },
     {
       "repo": "K-Dense-AI__scientific-agents",
@@ -10038,35 +7630,11 @@
     },
     {
       "repo": "K-Dense-AI__scientific-agents",
-      "ruleId": "OBL011",
-      "severity": "info",
-      "file": "scientific-agents/herpetologist/CLAUDE.md",
-      "line": "",
-      "message": "Exact copy of scientific-agents/herpetologist/AGENTS.md."
-    },
-    {
-      "repo": "K-Dense-AI__scientific-agents",
       "ruleId": "OBL001",
       "severity": "warn",
       "file": "scientific-agents/high-energy-astrophysicist/CLAUDE.md",
       "line": "",
       "message": "289 lines exceeds the 200-line budget for claude files (about 4681 tokens)."
-    },
-    {
-      "repo": "K-Dense-AI__scientific-agents",
-      "ruleId": "OBL011",
-      "severity": "info",
-      "file": "scientific-agents/high-energy-astrophysicist/CLAUDE.md",
-      "line": "",
-      "message": "Exact copy of scientific-agents/high-energy-astrophysicist/AGENTS.md."
-    },
-    {
-      "repo": "K-Dense-AI__scientific-agents",
-      "ruleId": "OBL011",
-      "severity": "info",
-      "file": "scientific-agents/high-performance-computing-specialist/CLAUDE.md",
-      "line": "",
-      "message": "Exact copy of scientific-agents/high-performance-computing-specialist/AGENTS.md."
     },
     {
       "repo": "K-Dense-AI__scientific-agents",
@@ -10078,27 +7646,11 @@
     },
     {
       "repo": "K-Dense-AI__scientific-agents",
-      "ruleId": "OBL011",
-      "severity": "info",
-      "file": "scientific-agents/histologist/CLAUDE.md",
-      "line": "",
-      "message": "Exact copy of scientific-agents/histologist/AGENTS.md."
-    },
-    {
-      "repo": "K-Dense-AI__scientific-agents",
       "ruleId": "OBL001",
       "severity": "warn",
       "file": "scientific-agents/horticulturist/CLAUDE.md",
       "line": "",
       "message": "234 lines exceeds the 200-line budget for claude files (about 3978 tokens)."
-    },
-    {
-      "repo": "K-Dense-AI__scientific-agents",
-      "ruleId": "OBL011",
-      "severity": "info",
-      "file": "scientific-agents/horticulturist/CLAUDE.md",
-      "line": "",
-      "message": "Exact copy of scientific-agents/horticulturist/AGENTS.md."
     },
     {
       "repo": "K-Dense-AI__scientific-agents",
@@ -10110,35 +7662,11 @@
     },
     {
       "repo": "K-Dense-AI__scientific-agents",
-      "ruleId": "OBL011",
-      "severity": "info",
-      "file": "scientific-agents/human-computer-interaction-researcher/CLAUDE.md",
-      "line": "",
-      "message": "Exact copy of scientific-agents/human-computer-interaction-researcher/AGENTS.md."
-    },
-    {
-      "repo": "K-Dense-AI__scientific-agents",
       "ruleId": "OBL001",
       "severity": "warn",
       "file": "scientific-agents/hvac-engineer/CLAUDE.md",
       "line": "",
       "message": "309 lines exceeds the 200-line budget for claude files (about 5503 tokens)."
-    },
-    {
-      "repo": "K-Dense-AI__scientific-agents",
-      "ruleId": "OBL011",
-      "severity": "info",
-      "file": "scientific-agents/hvac-engineer/CLAUDE.md",
-      "line": "",
-      "message": "Exact copy of scientific-agents/hvac-engineer/AGENTS.md."
-    },
-    {
-      "repo": "K-Dense-AI__scientific-agents",
-      "ruleId": "OBL011",
-      "severity": "info",
-      "file": "scientific-agents/hydraulic-engineer/CLAUDE.md",
-      "line": "",
-      "message": "Exact copy of scientific-agents/hydraulic-engineer/AGENTS.md."
     },
     {
       "repo": "K-Dense-AI__scientific-agents",
@@ -10150,27 +7678,11 @@
     },
     {
       "repo": "K-Dense-AI__scientific-agents",
-      "ruleId": "OBL011",
-      "severity": "info",
-      "file": "scientific-agents/hydrogeologist/CLAUDE.md",
-      "line": "",
-      "message": "Exact copy of scientific-agents/hydrogeologist/AGENTS.md."
-    },
-    {
-      "repo": "K-Dense-AI__scientific-agents",
       "ruleId": "OBL001",
       "severity": "warn",
       "file": "scientific-agents/hydrologist/CLAUDE.md",
       "line": "",
       "message": "257 lines exceeds the 200-line budget for claude files (about 4299 tokens)."
-    },
-    {
-      "repo": "K-Dense-AI__scientific-agents",
-      "ruleId": "OBL011",
-      "severity": "info",
-      "file": "scientific-agents/hydrologist/CLAUDE.md",
-      "line": "",
-      "message": "Exact copy of scientific-agents/hydrologist/AGENTS.md."
     },
     {
       "repo": "K-Dense-AI__scientific-agents",
@@ -10182,27 +7694,11 @@
     },
     {
       "repo": "K-Dense-AI__scientific-agents",
-      "ruleId": "OBL011",
-      "severity": "info",
-      "file": "scientific-agents/ichthyologist/CLAUDE.md",
-      "line": "",
-      "message": "Exact copy of scientific-agents/ichthyologist/AGENTS.md."
-    },
-    {
-      "repo": "K-Dense-AI__scientific-agents",
       "ruleId": "OBL001",
       "severity": "warn",
       "file": "scientific-agents/immunogeneticist/CLAUDE.md",
       "line": "",
       "message": "292 lines exceeds the 200-line budget for claude files (about 4678 tokens)."
-    },
-    {
-      "repo": "K-Dense-AI__scientific-agents",
-      "ruleId": "OBL011",
-      "severity": "info",
-      "file": "scientific-agents/immunogeneticist/CLAUDE.md",
-      "line": "",
-      "message": "Exact copy of scientific-agents/immunogeneticist/AGENTS.md."
     },
     {
       "repo": "K-Dense-AI__scientific-agents",
@@ -10214,27 +7710,11 @@
     },
     {
       "repo": "K-Dense-AI__scientific-agents",
-      "ruleId": "OBL011",
-      "severity": "info",
-      "file": "scientific-agents/immunologist/CLAUDE.md",
-      "line": "",
-      "message": "Exact copy of scientific-agents/immunologist/AGENTS.md."
-    },
-    {
-      "repo": "K-Dense-AI__scientific-agents",
       "ruleId": "OBL001",
       "severity": "warn",
       "file": "scientific-agents/immunotherapy-scientist/CLAUDE.md",
       "line": "",
       "message": "287 lines exceeds the 200-line budget for claude files (about 5549 tokens)."
-    },
-    {
-      "repo": "K-Dense-AI__scientific-agents",
-      "ruleId": "OBL011",
-      "severity": "info",
-      "file": "scientific-agents/immunotherapy-scientist/CLAUDE.md",
-      "line": "",
-      "message": "Exact copy of scientific-agents/immunotherapy-scientist/AGENTS.md."
     },
     {
       "repo": "K-Dense-AI__scientific-agents",
@@ -10246,27 +7726,11 @@
     },
     {
       "repo": "K-Dense-AI__scientific-agents",
-      "ruleId": "OBL011",
-      "severity": "info",
-      "file": "scientific-agents/industrial-ecologist/CLAUDE.md",
-      "line": "",
-      "message": "Exact copy of scientific-agents/industrial-ecologist/AGENTS.md."
-    },
-    {
-      "repo": "K-Dense-AI__scientific-agents",
       "ruleId": "OBL001",
       "severity": "warn",
       "file": "scientific-agents/industrial-engineer/CLAUDE.md",
       "line": "",
       "message": "280 lines exceeds the 200-line budget for claude files (about 4889 tokens)."
-    },
-    {
-      "repo": "K-Dense-AI__scientific-agents",
-      "ruleId": "OBL011",
-      "severity": "info",
-      "file": "scientific-agents/industrial-engineer/CLAUDE.md",
-      "line": "",
-      "message": "Exact copy of scientific-agents/industrial-engineer/AGENTS.md."
     },
     {
       "repo": "K-Dense-AI__scientific-agents",
@@ -10278,35 +7742,11 @@
     },
     {
       "repo": "K-Dense-AI__scientific-agents",
-      "ruleId": "OBL011",
-      "severity": "info",
-      "file": "scientific-agents/industrial-microbiologist/CLAUDE.md",
-      "line": "",
-      "message": "Exact copy of scientific-agents/industrial-microbiologist/AGENTS.md."
-    },
-    {
-      "repo": "K-Dense-AI__scientific-agents",
-      "ruleId": "OBL011",
-      "severity": "info",
-      "file": "scientific-agents/infectious-disease-specialist/CLAUDE.md",
-      "line": "",
-      "message": "Exact copy of scientific-agents/infectious-disease-specialist/AGENTS.md."
-    },
-    {
-      "repo": "K-Dense-AI__scientific-agents",
       "ruleId": "OBL001",
       "severity": "warn",
       "file": "scientific-agents/information-retrieval-scientist/CLAUDE.md",
       "line": "",
       "message": "370 lines exceeds the 200-line budget for claude files (about 6751 tokens)."
-    },
-    {
-      "repo": "K-Dense-AI__scientific-agents",
-      "ruleId": "OBL011",
-      "severity": "info",
-      "file": "scientific-agents/information-retrieval-scientist/CLAUDE.md",
-      "line": "",
-      "message": "Exact copy of scientific-agents/information-retrieval-scientist/AGENTS.md."
     },
     {
       "repo": "K-Dense-AI__scientific-agents",
@@ -10318,14 +7758,6 @@
     },
     {
       "repo": "K-Dense-AI__scientific-agents",
-      "ruleId": "OBL011",
-      "severity": "info",
-      "file": "scientific-agents/inorganic-chemist/CLAUDE.md",
-      "line": "",
-      "message": "Exact copy of scientific-agents/inorganic-chemist/AGENTS.md."
-    },
-    {
-      "repo": "K-Dense-AI__scientific-agents",
       "ruleId": "OBL001",
       "severity": "warn",
       "file": "scientific-agents/instrumentation-engineer/CLAUDE.md",
@@ -10334,27 +7766,11 @@
     },
     {
       "repo": "K-Dense-AI__scientific-agents",
-      "ruleId": "OBL011",
-      "severity": "info",
-      "file": "scientific-agents/instrumentation-engineer/CLAUDE.md",
-      "line": "",
-      "message": "Exact copy of scientific-agents/instrumentation-engineer/AGENTS.md."
-    },
-    {
-      "repo": "K-Dense-AI__scientific-agents",
       "ruleId": "OBL001",
       "severity": "warn",
       "file": "scientific-agents/integrated-circuit-designer/CLAUDE.md",
       "line": "",
       "message": "235 lines exceeds the 200-line budget for claude files (about 3533 tokens)."
-    },
-    {
-      "repo": "K-Dense-AI__scientific-agents",
-      "ruleId": "OBL011",
-      "severity": "info",
-      "file": "scientific-agents/integrated-circuit-designer/CLAUDE.md",
-      "line": "",
-      "message": "Exact copy of scientific-agents/integrated-circuit-designer/AGENTS.md."
     },
     {
       "repo": "Koomook__fastcampus-ai-agent-vibecoding",
@@ -10987,70 +8403,6 @@
       "file": "CLAUDE.md",
       "line": "",
       "message": "AGENTS.md exists next to this file but is not imported; Claude Code reads only CLAUDE.md when both are present."
-    },
-    {
-      "repo": "SSSYoung__vibe-coding-mobile-engineering",
-      "ruleId": "OBL011",
-      "severity": "info",
-      "file": "CLAUDE.md",
-      "line": 7,
-      "message": "Same instruction already appears in AGENTS.md:7."
-    },
-    {
-      "repo": "SSSYoung__vibe-coding-mobile-engineering",
-      "ruleId": "OBL011",
-      "severity": "info",
-      "file": "CLAUDE.md",
-      "line": 37,
-      "message": "Same instruction already appears in AGENTS.md:37."
-    },
-    {
-      "repo": "SSSYoung__vibe-coding-mobile-engineering",
-      "ruleId": "OBL011",
-      "severity": "info",
-      "file": "CLAUDE.md",
-      "line": 40,
-      "message": "Same instruction already appears in AGENTS.md:40."
-    },
-    {
-      "repo": "SSSYoung__vibe-coding-mobile-engineering",
-      "ruleId": "OBL011",
-      "severity": "info",
-      "file": "CLAUDE.md",
-      "line": 43,
-      "message": "Same instruction already appears in AGENTS.md:43."
-    },
-    {
-      "repo": "SSSYoung__vibe-coding-mobile-engineering",
-      "ruleId": "OBL011",
-      "severity": "info",
-      "file": "CLAUDE.md",
-      "line": 57,
-      "message": "Same instruction already appears in AGENTS.md:57."
-    },
-    {
-      "repo": "SSSYoung__vibe-coding-mobile-engineering",
-      "ruleId": "OBL011",
-      "severity": "info",
-      "file": "CLAUDE.md",
-      "line": 58,
-      "message": "Same instruction already appears in AGENTS.md:58."
-    },
-    {
-      "repo": "SSSYoung__vibe-coding-mobile-engineering",
-      "ruleId": "OBL011",
-      "severity": "info",
-      "file": "CLAUDE.md",
-      "line": 74,
-      "message": "Same instruction already appears in AGENTS.md:74."
-    },
-    {
-      "repo": "SSSYoung__vibe-coding-mobile-engineering",
-      "ruleId": "OBL011",
-      "severity": "info",
-      "file": "CLAUDE.md",
-      "line": 77,
-      "message": "Same instruction already appears in AGENTS.md:77."
     },
     {
       "repo": "Smith42__astroPT",
@@ -14253,14 +11605,6 @@
       "message": "@.memory-bank/workflows/ does not exist (resolved to stats/.claude/.memory-bank/workflows/)."
     },
     {
-      "repo": "blockscout__blockscout-rs",
-      "ruleId": "OBL011",
-      "severity": "info",
-      "file": "tac-operation-lifecycle/CLAUDE.md",
-      "line": "",
-      "message": "Exact copy of tac-operation-lifecycle/AGENTS.md."
-    },
-    {
       "repo": "broadinstitute__delphy",
       "ruleId": "OBL019",
       "severity": "info",
@@ -15150,14 +12494,6 @@
     },
     {
       "repo": "heygen-com__hyperframes-launches",
-      "ruleId": "OBL011",
-      "severity": "info",
-      "file": "cloud-render-launch/capture/CLAUDE.md",
-      "line": "",
-      "message": "Exact copy of cloud-render-launch/capture/AGENTS.md."
-    },
-    {
-      "repo": "heygen-com__hyperframes-launches",
       "ruleId": "OBL004",
       "severity": "warn",
       "file": "heygen-apple-motion/01-ui-sting/AGENTS.md",
@@ -15171,14 +12507,6 @@
       "file": "heygen-apple-motion/01-ui-sting/AGENTS.md",
       "line": 41,
       "message": "`references/tailwind.md` is referenced but does not exist in the repository."
-    },
-    {
-      "repo": "heygen-com__hyperframes-launches",
-      "ruleId": "OBL011",
-      "severity": "info",
-      "file": "heygen-apple-motion/01-ui-sting/CLAUDE.md",
-      "line": "",
-      "message": "Exact copy of heygen-apple-motion/01-ui-sting/AGENTS.md."
     },
     {
       "repo": "heygen-com__hyperframes-launches",
@@ -15214,14 +12542,6 @@
     },
     {
       "repo": "heygen-com__hyperframes-launches",
-      "ruleId": "OBL011",
-      "severity": "info",
-      "file": "heygen-apple-motion/02-bouncy-ui/CLAUDE.md",
-      "line": "",
-      "message": "Exact copy of heygen-apple-motion/02-bouncy-ui/AGENTS.md."
-    },
-    {
-      "repo": "heygen-com__hyperframes-launches",
       "ruleId": "OBL004",
       "severity": "warn",
       "file": "heygen-apple-motion/02-bouncy-ui/CLAUDE.md",
@@ -15251,14 +12571,6 @@
       "file": "heygen-apple-motion/03-message-sting/AGENTS.md",
       "line": 41,
       "message": "`references/tailwind.md` is referenced but does not exist in the repository."
-    },
-    {
-      "repo": "heygen-com__hyperframes-launches",
-      "ruleId": "OBL011",
-      "severity": "info",
-      "file": "heygen-apple-motion/03-message-sting/CLAUDE.md",
-      "line": "",
-      "message": "Exact copy of heygen-apple-motion/03-message-sting/AGENTS.md."
     },
     {
       "repo": "heygen-com__hyperframes-launches",
@@ -15294,14 +12606,6 @@
     },
     {
       "repo": "heygen-com__hyperframes-launches",
-      "ruleId": "OBL011",
-      "severity": "info",
-      "file": "heygen-apple-motion/04-generate-reel/CLAUDE.md",
-      "line": "",
-      "message": "Exact copy of heygen-apple-motion/04-generate-reel/AGENTS.md."
-    },
-    {
-      "repo": "heygen-com__hyperframes-launches",
       "ruleId": "OBL004",
       "severity": "warn",
       "file": "heygen-apple-motion/04-generate-reel/CLAUDE.md",
@@ -15334,14 +12638,6 @@
     },
     {
       "repo": "heygen-com__hyperframes-launches",
-      "ruleId": "OBL011",
-      "severity": "info",
-      "file": "heygen-apple-motion/examples/instagram/CLAUDE.md",
-      "line": "",
-      "message": "Exact copy of heygen-apple-motion/examples/instagram/AGENTS.md."
-    },
-    {
-      "repo": "heygen-com__hyperframes-launches",
       "ruleId": "OBL004",
       "severity": "warn",
       "file": "heygen-apple-motion/examples/instagram/CLAUDE.md",
@@ -15371,14 +12667,6 @@
       "file": "heygen-apple-motion/examples/spotify/AGENTS.md",
       "line": 41,
       "message": "`references/tailwind.md` is referenced but does not exist in the repository."
-    },
-    {
-      "repo": "heygen-com__hyperframes-launches",
-      "ruleId": "OBL011",
-      "severity": "info",
-      "file": "heygen-apple-motion/examples/spotify/CLAUDE.md",
-      "line": "",
-      "message": "Exact copy of heygen-apple-motion/examples/spotify/AGENTS.md."
     },
     {
       "repo": "heygen-com__hyperframes-launches",
@@ -15451,14 +12739,6 @@
       "file": "docs/CLAUDE.md",
       "line": "",
       "message": "docs/AGENTS.md exists next to this file but is not imported; Claude Code reads only CLAUDE.md when both are present."
-    },
-    {
-      "repo": "hughjonesd__huxtable",
-      "ruleId": "OBL011",
-      "severity": "info",
-      "file": "docs/CLAUDE.md",
-      "line": 40,
-      "message": "Same instruction already appears in docs/AGENTS.md:77."
     },
     {
       "repo": "hughjonesd__huxtable",
@@ -15811,14 +13091,6 @@
       "file": "AGENTS.md",
       "line": 213,
       "message": "Same instruction already appears in .cursor/rules/output-style.mdc:26."
-    },
-    {
-      "repo": "leancoderkavy__premiere-pro-mcp",
-      "ruleId": "OBL011",
-      "severity": "info",
-      "file": "GEMINI.md",
-      "line": "",
-      "message": "Exact copy of CLAUDE.md."
     },
     {
       "repo": "lifinance__contracts",
@@ -16253,14 +13525,6 @@
       "message": "AGENTS.md exists next to this file but is not imported; Claude Code reads only CLAUDE.md when both are present."
     },
     {
-      "repo": "longbridge__gpui-fast",
-      "ruleId": "OBL011",
-      "severity": "info",
-      "file": "CLAUDE.md",
-      "line": 19,
-      "message": "Same instruction already appears in AGENTS.md:17."
-    },
-    {
       "repo": "mhernesniemi__hoikka",
       "ruleId": "OBL019",
       "severity": "info",
@@ -16283,14 +13547,6 @@
       "file": "AGENTS.md",
       "line": 21,
       "message": "Line is 738 characters long."
-    },
-    {
-      "repo": "mhernesniemi__hoikka",
-      "ruleId": "OBL011",
-      "severity": "info",
-      "file": "CLAUDE.md",
-      "line": "",
-      "message": "Exact copy of AGENTS.md."
     },
     {
       "repo": "mhernesniemi__hoikka",
@@ -19062,91 +16318,11 @@
     },
     {
       "repo": "selfxyz__self",
-      "ruleId": "OBL011",
-      "severity": "info",
-      "file": "CLAUDE.md",
-      "line": 19,
-      "message": "Same instruction already appears in AGENTS.md:16."
-    },
-    {
-      "repo": "selfxyz__self",
-      "ruleId": "OBL011",
-      "severity": "info",
-      "file": "CLAUDE.md",
-      "line": 20,
-      "message": "Same instruction already appears in AGENTS.md:17."
-    },
-    {
-      "repo": "selfxyz__self",
-      "ruleId": "OBL011",
-      "severity": "info",
-      "file": "CLAUDE.md",
-      "line": 24,
-      "message": "Same instruction already appears in AGENTS.md:21."
-    },
-    {
-      "repo": "selfxyz__self",
-      "ruleId": "OBL011",
-      "severity": "info",
-      "file": "CLAUDE.md",
-      "line": 37,
-      "message": "Same instruction already appears in AGENTS.md:30."
-    },
-    {
-      "repo": "selfxyz__self",
-      "ruleId": "OBL011",
-      "severity": "info",
-      "file": "CLAUDE.md",
-      "line": 38,
-      "message": "Same instruction already appears in AGENTS.md:31."
-    },
-    {
-      "repo": "selfxyz__self",
       "ruleId": "OBL026",
       "severity": "info",
       "file": "CLAUDE.md",
       "line": 39,
       "message": "Line is 760 characters long."
-    },
-    {
-      "repo": "selfxyz__self",
-      "ruleId": "OBL011",
-      "severity": "info",
-      "file": "CLAUDE.md",
-      "line": 42,
-      "message": "Same instruction already appears in AGENTS.md:35."
-    },
-    {
-      "repo": "selfxyz__self",
-      "ruleId": "OBL011",
-      "severity": "info",
-      "file": "CLAUDE.md",
-      "line": 43,
-      "message": "Same instruction already appears in AGENTS.md:36."
-    },
-    {
-      "repo": "selfxyz__self",
-      "ruleId": "OBL011",
-      "severity": "info",
-      "file": "CLAUDE.md",
-      "line": 65,
-      "message": "Same instruction already appears in AGENTS.md:93."
-    },
-    {
-      "repo": "selfxyz__self",
-      "ruleId": "OBL011",
-      "severity": "info",
-      "file": "CLAUDE.md",
-      "line": 66,
-      "message": "Same instruction already appears in AGENTS.md:95."
-    },
-    {
-      "repo": "selfxyz__self",
-      "ruleId": "OBL011",
-      "severity": "info",
-      "file": "CLAUDE.md",
-      "line": 68,
-      "message": "Same instruction already appears in AGENTS.md:96."
     },
     {
       "repo": "selfxyz__self",
@@ -19187,182 +16363,6 @@
       "file": ".cursor/rules/rules.mdc",
       "line": "",
       "message": "Rule has no frontmatter, so Cursor treats it as manual-only."
-    },
-    {
-      "repo": "snowdreamtech__frp",
-      "ruleId": "OBL011",
-      "severity": "info",
-      "file": ".cursor/rules/rules.mdc",
-      "line": 3,
-      "message": "Same instruction already appears in .cursor/rules/rules.md:3."
-    },
-    {
-      "repo": "snowdreamtech__frp",
-      "ruleId": "OBL011",
-      "severity": "info",
-      "file": ".cursor/rules/rules.mdc",
-      "line": 4,
-      "message": "Same instruction already appears in .cursor/rules/rules.md:4."
-    },
-    {
-      "repo": "snowdreamtech__frp",
-      "ruleId": "OBL011",
-      "severity": "info",
-      "file": ".cursor/rules/rules.mdc",
-      "line": 9,
-      "message": "Same instruction already appears in .cursor/rules/rules.md:9."
-    },
-    {
-      "repo": "snowdreamtech__frp",
-      "ruleId": "OBL011",
-      "severity": "info",
-      "file": ".cursor/rules/rules.mdc",
-      "line": 11,
-      "message": "Same instruction already appears in .cursor/rules/rules.md:11."
-    },
-    {
-      "repo": "snowdreamtech__frp",
-      "ruleId": "OBL011",
-      "severity": "info",
-      "file": ".cursor/rules/rules.mdc",
-      "line": 12,
-      "message": "Same instruction already appears in .cursor/rules/rules.md:12."
-    },
-    {
-      "repo": "snowdreamtech__frp",
-      "ruleId": "OBL011",
-      "severity": "info",
-      "file": ".cursor/rules/rules.mdc",
-      "line": 13,
-      "message": "Same instruction already appears in .cursor/rules/rules.md:13."
-    },
-    {
-      "repo": "snowdreamtech__frp",
-      "ruleId": "OBL011",
-      "severity": "info",
-      "file": ".cursor/rules/rules.mdc",
-      "line": 14,
-      "message": "Same instruction already appears in .cursor/rules/rules.md:14."
-    },
-    {
-      "repo": "snowdreamtech__frp",
-      "ruleId": "OBL011",
-      "severity": "info",
-      "file": ".cursor/rules/rules.mdc",
-      "line": 15,
-      "message": "Same instruction already appears in .cursor/rules/rules.md:15."
-    },
-    {
-      "repo": "snowdreamtech__frp",
-      "ruleId": "OBL011",
-      "severity": "info",
-      "file": ".cursor/rules/rules.mdc",
-      "line": 16,
-      "message": "Same instruction already appears in .cursor/rules/rules.md:16."
-    },
-    {
-      "repo": "snowdreamtech__frp",
-      "ruleId": "OBL011",
-      "severity": "info",
-      "file": ".cursor/rules/rules.mdc",
-      "line": 17,
-      "message": "Same instruction already appears in .cursor/rules/rules.md:17."
-    },
-    {
-      "repo": "snowdreamtech__frp",
-      "ruleId": "OBL011",
-      "severity": "info",
-      "file": ".cursor/rules/rules.mdc",
-      "line": 18,
-      "message": "Same instruction already appears in .cursor/rules/rules.md:18."
-    },
-    {
-      "repo": "snowdreamtech__frp",
-      "ruleId": "OBL011",
-      "severity": "info",
-      "file": ".cursor/rules/rules.mdc",
-      "line": 19,
-      "message": "Same instruction already appears in .cursor/rules/rules.md:19."
-    },
-    {
-      "repo": "snowdreamtech__frp",
-      "ruleId": "OBL011",
-      "severity": "info",
-      "file": ".cursor/rules/rules.mdc",
-      "line": 20,
-      "message": "Same instruction already appears in .cursor/rules/rules.md:20."
-    },
-    {
-      "repo": "snowdreamtech__frp",
-      "ruleId": "OBL011",
-      "severity": "info",
-      "file": ".cursor/rules/rules.mdc",
-      "line": 21,
-      "message": "Same instruction already appears in .cursor/rules/rules.md:21."
-    },
-    {
-      "repo": "snowdreamtech__frp",
-      "ruleId": "OBL011",
-      "severity": "info",
-      "file": ".cursor/rules/rules.mdc",
-      "line": 25,
-      "message": "Same instruction already appears in .cursor/rules/rules.md:25."
-    },
-    {
-      "repo": "snowdreamtech__frp",
-      "ruleId": "OBL011",
-      "severity": "info",
-      "file": ".cursor/rules/rules.mdc",
-      "line": 27,
-      "message": "Same instruction already appears in .cursor/rules/rules.md:27."
-    },
-    {
-      "repo": "snowdreamtech__frp",
-      "ruleId": "OBL011",
-      "severity": "info",
-      "file": ".cursor/rules/rules.mdc",
-      "line": 120,
-      "message": "Same instruction already appears in .cursor/rules/rules.md:124."
-    },
-    {
-      "repo": "snowdreamtech__frp",
-      "ruleId": "OBL011",
-      "severity": "info",
-      "file": ".cursor/rules/rules.mdc",
-      "line": 121,
-      "message": "Same instruction already appears in .cursor/rules/rules.md:125."
-    },
-    {
-      "repo": "snowdreamtech__frp",
-      "ruleId": "OBL011",
-      "severity": "info",
-      "file": ".cursor/rules/rules.mdc",
-      "line": 122,
-      "message": "Same instruction already appears in .cursor/rules/rules.md:126."
-    },
-    {
-      "repo": "snowdreamtech__frp",
-      "ruleId": "OBL011",
-      "severity": "info",
-      "file": ".cursor/rules/rules.mdc",
-      "line": 123,
-      "message": "Same instruction already appears in .cursor/rules/rules.md:127."
-    },
-    {
-      "repo": "snowdreamtech__frp",
-      "ruleId": "OBL011",
-      "severity": "info",
-      "file": ".cursor/rules/rules.mdc",
-      "line": 124,
-      "message": "Same instruction already appears in .cursor/rules/rules.md:128."
-    },
-    {
-      "repo": "snowdreamtech__frp",
-      "ruleId": "OBL011",
-      "severity": "info",
-      "file": ".cursor/rules/rules.mdc",
-      "line": 126,
-      "message": "Same instruction already appears in .cursor/rules/rules.md:130."
     },
     {
       "repo": "snowdreamtech__frp",
@@ -19638,19 +16638,115 @@
     },
     {
       "repo": "snowdreamtech__frp",
-      "ruleId": "OBL011",
-      "severity": "info",
-      "file": "AGENTS.md",
-      "line": "",
-      "message": "Exact copy of .cursorrules."
-    },
-    {
-      "repo": "snowdreamtech__frp",
       "ruleId": "OBL019",
       "severity": "info",
       "file": "AGENTS.md",
       "line": "",
       "message": "No build, test or lint command found in the root instruction files."
+    },
+    {
+      "repo": "snowdreamtech__frp",
+      "ruleId": "OBL011",
+      "severity": "info",
+      "file": "AGENTS.md",
+      "line": 3,
+      "message": "Same instruction already appears in .claude/CLAUDE.md:3."
+    },
+    {
+      "repo": "snowdreamtech__frp",
+      "ruleId": "OBL011",
+      "severity": "info",
+      "file": "AGENTS.md",
+      "line": 4,
+      "message": "Same instruction already appears in .claude/CLAUDE.md:4."
+    },
+    {
+      "repo": "snowdreamtech__frp",
+      "ruleId": "OBL011",
+      "severity": "info",
+      "file": "AGENTS.md",
+      "line": 13,
+      "message": "Same instruction already appears in .github/copilot-instructions.md:13."
+    },
+    {
+      "repo": "snowdreamtech__frp",
+      "ruleId": "OBL011",
+      "severity": "info",
+      "file": "AGENTS.md",
+      "line": 15,
+      "message": "Same instruction already appears in .github/copilot-instructions.md:15."
+    },
+    {
+      "repo": "snowdreamtech__frp",
+      "ruleId": "OBL011",
+      "severity": "info",
+      "file": "AGENTS.md",
+      "line": 17,
+      "message": "Same instruction already appears in .github/copilot-instructions.md:17."
+    },
+    {
+      "repo": "snowdreamtech__frp",
+      "ruleId": "OBL011",
+      "severity": "info",
+      "file": "AGENTS.md",
+      "line": 18,
+      "message": "Same instruction already appears in .github/copilot-instructions.md:18."
+    },
+    {
+      "repo": "snowdreamtech__frp",
+      "ruleId": "OBL011",
+      "severity": "info",
+      "file": "AGENTS.md",
+      "line": 19,
+      "message": "Same instruction already appears in .github/copilot-instructions.md:19."
+    },
+    {
+      "repo": "snowdreamtech__frp",
+      "ruleId": "OBL011",
+      "severity": "info",
+      "file": "AGENTS.md",
+      "line": 23,
+      "message": "Same instruction already appears in .claude/CLAUDE.md:19."
+    },
+    {
+      "repo": "snowdreamtech__frp",
+      "ruleId": "OBL011",
+      "severity": "info",
+      "file": "AGENTS.md",
+      "line": 24,
+      "message": "Same instruction already appears in .claude/CLAUDE.md:20."
+    },
+    {
+      "repo": "snowdreamtech__frp",
+      "ruleId": "OBL011",
+      "severity": "info",
+      "file": "AGENTS.md",
+      "line": 25,
+      "message": "Same instruction already appears in .claude/CLAUDE.md:21."
+    },
+    {
+      "repo": "snowdreamtech__frp",
+      "ruleId": "OBL011",
+      "severity": "info",
+      "file": "AGENTS.md",
+      "line": 26,
+      "message": "Same instruction already appears in .claude/CLAUDE.md:22."
+    },
+    {
+      "repo": "snowdreamtech__frp",
+      "ruleId": "OBL011",
+      "severity": "info",
+      "file": "AGENTS.md",
+      "line": 27,
+      "message": "Same instruction already appears in .claude/CLAUDE.md:23."
+    },
+    {
+      "repo": "snowdreamtech__frp",
+      "ruleId": "OBL011",
+      "severity": "info",
+      "file": "AGENTS.md",
+      "line": 29,
+      "message": "Same instruction already appears in .github/copilot-instructions.md:29."
     },
     {
       "repo": "snowdreamtech__frp",
@@ -19674,7 +16770,7 @@
       "severity": "info",
       "file": "CLAUDE.md",
       "line": 13,
-      "message": "Same instruction already appears in .cursorrules:13."
+      "message": "Same instruction already appears in .github/copilot-instructions.md:13."
     },
     {
       "repo": "snowdreamtech__frp",
@@ -19682,7 +16778,7 @@
       "severity": "info",
       "file": "CLAUDE.md",
       "line": 15,
-      "message": "Same instruction already appears in .cursorrules:15."
+      "message": "Same instruction already appears in .github/copilot-instructions.md:15."
     },
     {
       "repo": "snowdreamtech__frp",
@@ -19690,7 +16786,7 @@
       "severity": "info",
       "file": "CLAUDE.md",
       "line": 17,
-      "message": "Same instruction already appears in .cursorrules:17."
+      "message": "Same instruction already appears in .github/copilot-instructions.md:17."
     },
     {
       "repo": "snowdreamtech__frp",
@@ -19698,7 +16794,7 @@
       "severity": "info",
       "file": "CLAUDE.md",
       "line": 18,
-      "message": "Same instruction already appears in .cursorrules:18."
+      "message": "Same instruction already appears in .github/copilot-instructions.md:18."
     },
     {
       "repo": "snowdreamtech__frp",
@@ -19706,7 +16802,7 @@
       "severity": "info",
       "file": "CLAUDE.md",
       "line": 19,
-      "message": "Same instruction already appears in .cursorrules:19."
+      "message": "Same instruction already appears in .github/copilot-instructions.md:19."
     },
     {
       "repo": "snowdreamtech__frp",
@@ -19754,7 +16850,7 @@
       "severity": "info",
       "file": "CLAUDE.md",
       "line": 29,
-      "message": "Same instruction already appears in .cursorrules:29."
+      "message": "Same instruction already appears in .github/copilot-instructions.md:29."
     },
     {
       "repo": "snowdreamtech__frp",
@@ -19777,8 +16873,104 @@
       "ruleId": "OBL011",
       "severity": "info",
       "file": "GEMINI.md",
-      "line": "",
-      "message": "Exact copy of .cursorrules."
+      "line": 3,
+      "message": "Same instruction already appears in .claude/CLAUDE.md:3."
+    },
+    {
+      "repo": "snowdreamtech__frp",
+      "ruleId": "OBL011",
+      "severity": "info",
+      "file": "GEMINI.md",
+      "line": 4,
+      "message": "Same instruction already appears in .claude/CLAUDE.md:4."
+    },
+    {
+      "repo": "snowdreamtech__frp",
+      "ruleId": "OBL011",
+      "severity": "info",
+      "file": "GEMINI.md",
+      "line": 13,
+      "message": "Same instruction already appears in .github/copilot-instructions.md:13."
+    },
+    {
+      "repo": "snowdreamtech__frp",
+      "ruleId": "OBL011",
+      "severity": "info",
+      "file": "GEMINI.md",
+      "line": 15,
+      "message": "Same instruction already appears in .github/copilot-instructions.md:15."
+    },
+    {
+      "repo": "snowdreamtech__frp",
+      "ruleId": "OBL011",
+      "severity": "info",
+      "file": "GEMINI.md",
+      "line": 17,
+      "message": "Same instruction already appears in .github/copilot-instructions.md:17."
+    },
+    {
+      "repo": "snowdreamtech__frp",
+      "ruleId": "OBL011",
+      "severity": "info",
+      "file": "GEMINI.md",
+      "line": 18,
+      "message": "Same instruction already appears in .github/copilot-instructions.md:18."
+    },
+    {
+      "repo": "snowdreamtech__frp",
+      "ruleId": "OBL011",
+      "severity": "info",
+      "file": "GEMINI.md",
+      "line": 19,
+      "message": "Same instruction already appears in .github/copilot-instructions.md:19."
+    },
+    {
+      "repo": "snowdreamtech__frp",
+      "ruleId": "OBL011",
+      "severity": "info",
+      "file": "GEMINI.md",
+      "line": 23,
+      "message": "Same instruction already appears in .claude/CLAUDE.md:19."
+    },
+    {
+      "repo": "snowdreamtech__frp",
+      "ruleId": "OBL011",
+      "severity": "info",
+      "file": "GEMINI.md",
+      "line": 24,
+      "message": "Same instruction already appears in .claude/CLAUDE.md:20."
+    },
+    {
+      "repo": "snowdreamtech__frp",
+      "ruleId": "OBL011",
+      "severity": "info",
+      "file": "GEMINI.md",
+      "line": 25,
+      "message": "Same instruction already appears in .claude/CLAUDE.md:21."
+    },
+    {
+      "repo": "snowdreamtech__frp",
+      "ruleId": "OBL011",
+      "severity": "info",
+      "file": "GEMINI.md",
+      "line": 26,
+      "message": "Same instruction already appears in .claude/CLAUDE.md:22."
+    },
+    {
+      "repo": "snowdreamtech__frp",
+      "ruleId": "OBL011",
+      "severity": "info",
+      "file": "GEMINI.md",
+      "line": 27,
+      "message": "Same instruction already appears in .claude/CLAUDE.md:23."
+    },
+    {
+      "repo": "snowdreamtech__frp",
+      "ruleId": "OBL011",
+      "severity": "info",
+      "file": "GEMINI.md",
+      "line": 29,
+      "message": "Same instruction already appears in .github/copilot-instructions.md:29."
     },
     {
       "repo": "supabase__pg-toolbelt",
@@ -21443,126 +18635,6 @@
       "file": "CLAUDE.md",
       "line": "",
       "message": "10 ALL-CAPS emphasis words (limit 8)."
-    },
-    {
-      "repo": "xxraincandyxx__Amadeus",
-      "ruleId": "OBL011",
-      "severity": "info",
-      "file": "CLAUDE.md",
-      "line": 10,
-      "message": "Same instruction already appears in AGENTS.md:49."
-    },
-    {
-      "repo": "xxraincandyxx__Amadeus",
-      "ruleId": "OBL011",
-      "severity": "info",
-      "file": "CLAUDE.md",
-      "line": 12,
-      "message": "Same instruction already appears in AGENTS.md:51."
-    },
-    {
-      "repo": "xxraincandyxx__Amadeus",
-      "ruleId": "OBL011",
-      "severity": "info",
-      "file": "CLAUDE.md",
-      "line": 16,
-      "message": "Same instruction already appears in AGENTS.md:55."
-    },
-    {
-      "repo": "xxraincandyxx__Amadeus",
-      "ruleId": "OBL011",
-      "severity": "info",
-      "file": "CLAUDE.md",
-      "line": 17,
-      "message": "Same instruction already appears in AGENTS.md:56."
-    },
-    {
-      "repo": "xxraincandyxx__Amadeus",
-      "ruleId": "OBL011",
-      "severity": "info",
-      "file": "CLAUDE.md",
-      "line": 18,
-      "message": "Same instruction already appears in AGENTS.md:57."
-    },
-    {
-      "repo": "xxraincandyxx__Amadeus",
-      "ruleId": "OBL011",
-      "severity": "info",
-      "file": "CLAUDE.md",
-      "line": 19,
-      "message": "Same instruction already appears in AGENTS.md:58."
-    },
-    {
-      "repo": "xxraincandyxx__Amadeus",
-      "ruleId": "OBL011",
-      "severity": "info",
-      "file": "CLAUDE.md",
-      "line": 20,
-      "message": "Same instruction already appears in AGENTS.md:59."
-    },
-    {
-      "repo": "xxraincandyxx__Amadeus",
-      "ruleId": "OBL011",
-      "severity": "info",
-      "file": "CLAUDE.md",
-      "line": 21,
-      "message": "Same instruction already appears in AGENTS.md:60."
-    },
-    {
-      "repo": "xxraincandyxx__Amadeus",
-      "ruleId": "OBL011",
-      "severity": "info",
-      "file": "CLAUDE.md",
-      "line": 22,
-      "message": "Same instruction already appears in AGENTS.md:61."
-    },
-    {
-      "repo": "xxraincandyxx__Amadeus",
-      "ruleId": "OBL011",
-      "severity": "info",
-      "file": "CLAUDE.md",
-      "line": 26,
-      "message": "Same instruction already appears in AGENTS.md:65."
-    },
-    {
-      "repo": "xxraincandyxx__Amadeus",
-      "ruleId": "OBL011",
-      "severity": "info",
-      "file": "CLAUDE.md",
-      "line": 27,
-      "message": "Same instruction already appears in AGENTS.md:66."
-    },
-    {
-      "repo": "xxraincandyxx__Amadeus",
-      "ruleId": "OBL011",
-      "severity": "info",
-      "file": "CLAUDE.md",
-      "line": 28,
-      "message": "Same instruction already appears in AGENTS.md:67."
-    },
-    {
-      "repo": "xxraincandyxx__Amadeus",
-      "ruleId": "OBL011",
-      "severity": "info",
-      "file": "CLAUDE.md",
-      "line": 29,
-      "message": "Same instruction already appears in AGENTS.md:68."
-    },
-    {
-      "repo": "xxraincandyxx__Amadeus",
-      "ruleId": "OBL011",
-      "severity": "info",
-      "file": "GEMINI.md",
-      "line": 3,
-      "message": "Same instruction already appears in CLAUDE.md:3."
-    },
-    {
-      "repo": "xxraincandyxx__Amadeus",
-      "ruleId": "OBL011",
-      "severity": "info",
-      "file": "GEMINI.md",
-      "line": 5,
-      "message": "Same instruction already appears in CLAUDE.md:5."
     },
     {
       "repo": "yahiafarghaly__PrettyOS",
