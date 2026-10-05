@@ -263,7 +263,7 @@ function report() {
     if (verdict === "BELOW TARGET") failing.push(id);
     md.push(`| ${id} | ${x.findings} | ${x.repos.size} | ${pct(x.repos.size, withFiles.length)} | ${v ? v.tp + v.fp + v.unsure : 0} | ${prec === null ? "n/a" : pct(v.tp, decided)} | ${verdict} |`);
   }
-  md.push("", `Precision = true positives / (true positives + false positives) among hand-checked findings; "unsure" is excluded. Target ${Math.round(threshold * 100)}% with at least 10 verdicts per rule (backlog CO-020). Hit rate = share of repositories with instruction files where the rule fired at least once.`, "");
+  md.push("", `Precision = true positives / (true positives + false positives) among hand-checked findings; "unsure" is excluded. Target ${Math.round(threshold * 100)}% with at least 10 verdicts per rule. Hit rate = share of repositories with instruction files where the rule fired at least once.`, "");
   md.push("## Accuracy checklist", "", `- [${crashes.length === 0 ? "x" : " "}] No crashes`, `- [${withFiles.length >= 100 ? "x" : " "}] At least 100 repositories with instruction files (have ${withFiles.length})`, `- [${reviewed >= 20 * Math.min(Object.keys(perRule).length, 10) ? "x" : " "}] Hand-checked findings recorded (${reviewed})`, `- [${failing.length === 0 && reviewed > 0 ? "x" : " "}] Every reviewed rule at or above ${Math.round(threshold * 100)}% precision${failing.length ? ` (below: ${failing.join(", ")}; demote to info or fix)` : ""}`, "", "Limits of this study: repositories were found through GitHub code search and favour popular, recently active projects; one reviewer judged the findings; instruction files change fast.", "");
   fs.writeFileSync(outFile, md.join("\n"));
   console.log(md.join("\n"));

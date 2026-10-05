@@ -1,6 +1,6 @@
 # Rule catalogue
 
-Verification status uses these labels: **doc** (stated in vendor documentation, fetched 2026-10-04), **secondary** (stated by a non-vendor source), **heuristic** (our judgement; may false-positive). Vendor behaviour is volatile; re-verify monthly (backlog CO-110).
+Verification status uses these labels: **doc** (stated in vendor documentation, fetched 2026-10-04), **secondary** (stated by a non-vendor source), **heuristic** (our judgement; may false-positive). Vendor behaviour is volatile; re-verify monthly.
 
 | ID | Name | Default | What it detects | Basis | False-positive risk |
 |---|---|---|---|---|---|
@@ -27,7 +27,7 @@ Verification status uses these labels: **doc** (stated in vendor documentation, 
 | OBL027 | emphasis-overuse | info | More than 8 ALL-CAPS absolute words (ALWAYS, NEVER, MUST, IMPORTANT, CRITICAL, ...) | heuristic; option `max` | Medium: style guides that legitimately use RFC 2119 keywords |
 | OBL900 | policy-engine | per policy | Runs configured `policies` (require, forbid, requireHeading); findings carry `POL-<ID>` | user-defined (docs/POLICY.md) | Depends on the policy |
 
-OBL013 (secret-detected) now also covers GitHub fine-grained tokens, Slack webhooks, Stripe live keys, Google API keys, npm tokens, SendGrid keys, JSON Web Tokens, Azure storage keys and URLs with embedded credentials; generic `key = value` matches must have Shannon entropy of at least 3.0 bits per character (option `minEntropy`) and not look like placeholders; `allow` (regex strings) skips known-safe lines. Patterns are standard public formats; none has been tested against a real-world corpus yet (CO-012).
+OBL013 (secret-detected) now also covers GitHub fine-grained tokens, Slack webhooks, Stripe live keys, Google API keys, npm tokens, SendGrid keys, JSON Web Tokens, Azure storage keys and URLs with embedded credentials; generic `key = value` matches must have Shannon entropy of at least 3.0 bits per character (option `minEntropy`) and not look like placeholders; `allow` (regex strings) skips known-safe lines. Patterns are standard public formats; they were checked against a 150-repository public corpus, but per-rule precision has not been hand-measured yet.
 
 ## Sources (fetched 2026-10-04)
 

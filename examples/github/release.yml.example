@@ -24,7 +24,15 @@ jobs:
       - run: npm audit --omit=dev --audit-level=high
       - run: npm pack --dry-run
       - run: npm sbom --sbom-format cyclonedx --omit dev > sbom.cdx.json
-      - run: npm publish --provenance --access public
+      - name: Publish
+        run: |
+          TAG=latest
+          case "${GITHUB_REF_NAME}" in
+            *-alpha*) TAG=alpha ;;
+            *-beta*) TAG=beta ;;
+            *-rc*) TAG=next ;;
+          esac
+          npm publish --provenance --access public --tag "$TAG"
         env:
           NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}
       - uses: softprops/action-gh-release@v2
