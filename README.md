@@ -136,24 +136,9 @@ After the `until` date the suppression lapses and is reported, so a deferred dec
 
 ## Why the name
 
-*Obelos* (ὀβελός) is the Greek word for a roasting spit, and so for any slender pointed rod; *obelisk* is its diminutive, a little spit. In the libraries of Hellenistic Alexandria it acquired a second life as a critic's mark: a stroke in the margin beside a line that the editor believed did not belong. Tradition credits Zenodotus of Ephesus, the first head of the Library, with using it in his edition of Homer in the early third century BCE. A century and a half later Aristarchus of Samothrace built it into a small system of critical signs, and the ancient commentaries on Homer still use his vocabulary, among it *athetesis*, the rejection of a line as spurious.
+The *obelos* (ὀβελός, "spit") was the mark that Alexandrian editors, from Zenodotus to Aristarchus, set in the margin beside a line of Homer they suspected was not genuine. It did not delete the line. It flagged it, left the text intact, and let the reader judge.
 
-What makes the obelos the right emblem is what it did not do. It did not delete the line. The suspect verse stayed in the text, and the editor's doubt stood beside it, so that a reader could weigh both. The mark was a claim about the text, made visible and left open to challenge.
-
-The device travelled. In the third century CE, Origen set the Greek Old Testament beside the Hebrew in the six columns of his *Hexapla* and used the obelos for passages the Greek had and the Hebrew lacked, and the asterisk for passages supplied from other Greek translations to fill what the Greek lacked. That is a diff against a source of truth, done by hand, eighteen centuries before `git`. A schoolboy now meets the same stroke as the division sign, ÷, and a scholar meets its cousin, the dagger †, in footnotes.
-
-An agent's instruction file is a text transmitted by many hands, edited under pressure and copied between tools, and it is read very literally by a reader that cannot ask what was meant. It decays in the same ways: lines that no longer correspond to anything, instructions that quietly contradict one another, additions made on the authority of nobody in particular. Obelos is the editor's habit, applied to it:
-
-| The Alexandrian editor | Obelos |
-|---|---|
-| Collates the text against its best witness | Compares every claim with the repository: paths, scripts, globs, sizes |
-| Marks the suspect line; does not erase it | Reports the finding with its reason and a fix; never rewrites your files |
-| Leaves the judgement to the reader | Suppressions with a reason and an expiry date; baselines that record doubt without resolving it |
-| Cites the authority for each sign | Each rule cites vendor documentation and carries the date it was verified |
-
-There is an older precedent still. The Orphic gold tablets, thin leaves of gold buried with the dead in Greece and southern Italy from about the fourth century BCE, are instruction files for a traveller in unfamiliar country: short, exact and practical. They name a spring on the left that must not be approached and tell the traveller what to say to the guards at the next. A wrong turn cost everything, and the text had to be right the first time. That is the situation of an agent reading `AGENTS.md`.
-
-The package uses the Greek spelling; English-language books more often write *obelus*. Obelos is built by [Episteme Research Studio](https://github.com/Episteme-Research-Studio), where the working method is the philologist's: say what the source supports, and mark what it does not.
+Obelos treats your agent instructions the same way: it checks them against the repository, marks what is broken, stale or contradictory, and never rewrites your files. The package uses the Greek spelling; English books write *obelus*. Built by [Episteme Research Studio](https://github.com/Episteme-Research-Studio).
 
 ## Development
 
