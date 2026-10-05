@@ -3,6 +3,7 @@ import { describe, expect, it } from "vitest";
 
 describe("package entry point", () => {
   it("the CLI source starts with a node shebang so the installed bin runs under node", () => {
-    expect(fs.readFileSync("src/cli.ts", "utf8").startsWith("#!/usr/bin/env node\n")).toBe(true);
+    // Accept CRLF: Git on Windows may check the file out with Windows line endings.
+    expect(/^#!\/usr\/bin\/env node\r?\n/.test(fs.readFileSync("src/cli.ts", "utf8"))).toBe(true);
   });
 });
